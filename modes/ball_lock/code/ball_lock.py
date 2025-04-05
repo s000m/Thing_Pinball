@@ -21,18 +21,15 @@ class BallLock(Mode):
         # Register for right orbit
         self.add_mode_event_handler('s_right_orbit_1_active', self._right_orbit_hit)
         
-        # Activate the VUK
-        self.machine.coils.c_mode_vuk.enable()
+        # Pulse the VUK instead of enabling it
+        self.machine.coils.c_mode_vuk.pulse()
         
         # Update display to inform player of objectives
         self.machine.events.post('mode_objectives_update', 
-                               text="HIT LEFT RAMP 4 TIMES TO ENABLE BALL LOCK!")
+                               text="BALL LOCK MODE ACTIVE!")
         
     def mode_stop(self, **kwargs):
         self.log.info("Ball Lock mode stopped")
-        
-        # Disable VUK and other mechanisms
-        self.machine.coils.c_mode_vuk.disable()
         
         # Disable orbit pulse and diverter
         self.player.ball_lock_active = False

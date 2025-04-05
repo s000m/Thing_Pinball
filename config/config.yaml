@@ -552,6 +552,7 @@ event_player:
   diverter_pattern_complete: activate_diverter
   activate_diverter: 
     - release_diverter|3s
+
   
   # Ball Lock Events
   mode_ball_lock_started: enable_ball_lock_mechanism
@@ -559,9 +560,9 @@ event_player:
   game_ending: release_locked_balls
   
   # Right orbit handling for ball lock mode
-  "s_right_orbit_1_active{device.modes.ball_lock.active}": 
-    - fire_ramp_release
-    - fire_ramp_release|2s
+  #"s_right_orbit_1_active{device.modes.ball_lock.active}": 
+  #  - fire_ramp_release
+  #  - fire_ramp_release|2s
   
   # Ball lock handling
   "balldevice_bd_ball_lock_ball_count{value==3}": ball_lock_complete
@@ -576,9 +577,10 @@ event_player:
 
   # Game state events
   game_started: setup_game_variables
-  ball_started: reset_player_shot_counters
+  ball_started: reset_player_shot_counters, pulse_upramp_on_start
   ball_ending: tally_player_score
   
+
   # Mode-specific events
   dog_hunt_objective_complete: advance_game_state
   discovery_objective_complete: advance_game_state
@@ -681,6 +683,10 @@ coil_player:
       action: enable
       enable_ms: 3000
 
+  pulse_upramp_on_start:
+    c_upramp:
+      action: pulse
+
 modes:
   - base
   - attract
@@ -696,3 +702,4 @@ modes:
   - spider_head
   - wizard
   - multiball
+  - ball_lock

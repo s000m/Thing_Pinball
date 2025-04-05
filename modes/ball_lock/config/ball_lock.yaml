@@ -11,21 +11,11 @@ slide_player:
     ball_lock_started:
       widgets:
         - type: text
-          text: INITIATE BALL LOCK
+          text: BALL LOCK MODE ACTIVE
           font_size: 50
           y: center-100
           color: blue
           expire: 2s
-          
-  left_ramp_hit_lock:
-    ball_lock_progress:
-      widgets:
-        - type: text
-          text: "LEFT RAMP HITS: (player|left_ramp_lock_hits) / 4"
-          font_size: 30
-          y: center
-          color: white
-          expire: 1s
           
   ball_locked:
     ball_locked_display:
@@ -37,7 +27,7 @@ slide_player:
           color: yellow
           expire: 2s
 
-  fire_ramp_release:
+  right_orbit_hit:
     orbit_active:
       widgets:
         - type: text
@@ -47,11 +37,8 @@ slide_player:
           color: green
           expire: 1s
 
+# Combined all variable_player entries into one section
 variable_player:
-  s_left_ramp_entry_1_active:
-    left_ramp_lock_hits: 1
-    score: 5000
-  
   ball_locked:
     locked_balls: 1
     score: 50000
@@ -63,14 +50,15 @@ variable_player:
     ball_lock_complete: 1
     game_mode_active: 0
     
-counters:
-  left_ramp_counter_lock:
-    count_events: s_left_ramp_entry_1_active
-    events_when_hit: left_ramp_hit_lock
-    starting_count: 0
-    count_complete_value: 4
-    events_when_complete: left_ramp_complete_lock
-    persist_state: False
+  set_ball_lock_active:
+    ball_lock_active:
+      action: set
+      int: 1
+  
+  clear_ball_lock_active:
+    ball_lock_active:
+      action: set
+      int: 0
     
 timers:
   ball_lock_timer:
@@ -84,42 +72,41 @@ timers:
         action: stop
     events_when_complete: ball_lock_timer_expired
     
-# Simple events first
+# Event player setup
 event_player:
-  left_ramp_complete_lock: enable_orbit_shot, pulse_coil_upramp
+  mode_ball_lock_started: 
+    - open_ramp_release  # Initial pulse when mode starts
+    - set_ball_lock_active
+  
+  mode_ball_lock_stopped: 
+    - clear_ball_lock_active
+  
   ball_lock_timer_expired: ball_lock_failed
-  mode_ball_lock_started: enable_ball_lock_mechanism
-  mode_ball_lock_stopped: disable_ball_lock_mechanism
   
-  # Orbit handling
-  s_right_orbit_1_active{device.modes.ball_lock.active}: 
-    - fire_ramp_release
-    - fire_ramp_release|2s
+  s_right_orbit_1_active: 
+    - right_orbit_hit
+    - pulse_upramp
+    - open_ramp_release|3s  # Delayed pulse for ramp release
   
-  # Conditional events with proper quotes
-  "s_right_ramp_entry_1_active{current_player.ball_lock_active}": check_for_ball_lock
-  "ball_locked{current_player.locked_balls >= 3}": ball_lock_complete
-  mode_ball_lock_complete: mode_ball_lock_ended
+  ball_lock_full: ball_lock_complete
   "balldevice_bd_ball_lock_ball_count{value==3}": ball_lock_full
+  ball_lock_complete: release_locked_balls
 
+# Coil player for device control
 coil_player:
-  enable_ball_lock_mechanism:
+  open_ramp_release:
     c_ramp_release:
       action: pulse
       
-  disable_ball_lock_mechanism:
-    c_ramp_release:
+  pulse_upramp:
+    c_upramp:
       action: pulse
-      
-  fire_ramp_release:
-    c_ramp_release:
-      action: pulse
-    
-  ball_lock_full:
-    c_up_post:
-      action: enable
-      enable_ms: 3000
       
   release_locked_balls:
     c_up_post:
       action: pulse
+      
+  ball_lock_full:
+    c_up_post:
+      action: enable
+      enable_ms: 3000
