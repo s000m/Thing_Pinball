@@ -18,6 +18,9 @@ class BallLock(Mode):
         # Register for ball capture
         self.add_mode_event_handler('balldevice_bd_ball_lock_ball_enter', self._ball_locked)
         
+        # Register for right orbit
+        self.add_mode_event_handler('s_right_orbit_1_active', self._right_orbit_hit)
+        
         # Activate the VUK
         self.machine.coils.c_mode_vuk.enable()
         
@@ -56,6 +59,11 @@ class BallLock(Mode):
             # Ball diverted to ball lock - Will trigger ball device entered event
             # Pulse the Up Ramp coil to help the ball
             self.machine.coils.c_upramp.pulse()
+    
+    def _right_orbit_hit(self, **kwargs):
+        self.log.info("Right Orbit hit - Firing ramp release")
+        # Post the event that will trigger the coil player
+        self.machine.events.post('fire_ramp_release')
             
     def _ball_locked(self, **kwargs):
         if self.player.ball_lock_active:
@@ -71,6 +79,9 @@ class BallLock(Mode):
             if self.player.locked_balls >= 3:
                 self.log.info("All 3 balls locked - Ball Lock mode complete")
                 self.machine.events.post('ball_lock_complete')
+                
+                # Release the balls using the up post
+                self.machine.events.post('release_locked_balls')
             else:
                 # Update display with locked balls count
                 self.machine.events.post('mode_objectives_update', 

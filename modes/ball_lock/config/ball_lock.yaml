@@ -2,7 +2,7 @@
 
 mode:
   start_events: mode_ball_lock_start
-  stop_events: mode_ball_lock_complete
+  stop_events: mode_ball_lock_complete, ball_ending
   priority: 350
   code: ball_lock.BallLock
   
@@ -36,6 +36,16 @@ slide_player:
           y: center
           color: yellow
           expire: 2s
+
+  fire_ramp_release:
+    orbit_active:
+      widgets:
+        - type: text
+          text: "ORBIT ACTIVE!"
+          font_size: 40
+          y: center
+          color: green
+          expire: 1s
 
 variable_player:
   s_left_ramp_entry_1_active:
@@ -78,8 +88,38 @@ timers:
 event_player:
   left_ramp_complete_lock: enable_orbit_shot, pulse_coil_upramp
   ball_lock_timer_expired: ball_lock_failed
+  mode_ball_lock_started: enable_ball_lock_mechanism
+  mode_ball_lock_stopped: disable_ball_lock_mechanism
+  
+  # Orbit handling
+  s_right_orbit_1_active{device.modes.ball_lock.active}: 
+    - fire_ramp_release
+    - fire_ramp_release|2s
   
   # Conditional events with proper quotes
   "s_right_ramp_entry_1_active{current_player.ball_lock_active}": check_for_ball_lock
   "ball_locked{current_player.locked_balls >= 3}": ball_lock_complete
   mode_ball_lock_complete: mode_ball_lock_ended
+  "balldevice_bd_ball_lock_ball_count{value==3}": ball_lock_full
+
+coil_player:
+  enable_ball_lock_mechanism:
+    c_ramp_release:
+      action: pulse
+      
+  disable_ball_lock_mechanism:
+    c_ramp_release:
+      action: pulse
+      
+  fire_ramp_release:
+    c_ramp_release:
+      action: pulse
+    
+  ball_lock_full:
+    c_up_post:
+      action: enable
+      enable_ms: 3000
+      
+  release_locked_balls:
+    c_up_post:
+      action: pulse

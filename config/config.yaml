@@ -188,7 +188,6 @@ switches:
     number: cab-15
   s_enter_button:
     number: cab-13
-
   
   # Left Ramp Entry
   s_left_ramp_entry_1:
@@ -255,6 +254,12 @@ coils:
   c_up_post:
     number: 3208-7  # Second board, sixth driver
     default_pulse_ms: 30
+    default_pulse_power: 1.0
+    default_hold_power: 0.5
+    allow_enable: True
+    platform_settings:
+      pwm_on_ms: 10
+      pwm_off_ms: 10
 
 flippers:
   left_flipper:
@@ -317,9 +322,11 @@ ball_devices:
     mechanical_eject: True
   bd_ball_lock:
     ball_switches: s_ball_lock_1, s_ball_lock_2, s_ball_lock_3
-    eject_coil: c_mode_vuk
+    eject_coil: c_up_post  # Changed from c_mode_vuk to c_up_post
     tags: ball_lock
-    eject_timeouts: 2s
+    eject_timeouts: 3s  # Increased from 2s to 3s
+    confirm_eject_type: target
+    debug: True
 
 playfields:
   playfield:
@@ -515,11 +522,23 @@ counters:
     count_events: s_left_ramp_entry_1_active
     starting_count: 0
     count_complete_value: 5
-    events_when_hit: check_divert_pattern
-    reset_on_complete: true
-    persist_state: false
+    events_when_complete: diverter_pattern_complete
+    reset_on_complete: True
+    persist_state: False
     enable_events: ball_started
+    restart_events: diverter_pattern_complete  # This resets and re-enables
 
+  left_ramp_to_start_lock:
+    count_events: s_blood_target_active
+    starting_count: 0
+    count_complete_value: 4
+    events_when_complete: mode_ball_lock_start
+    events_when_hit: blood_target_qualify_hit
+    reset_on_complete: True
+    persist_state: False
+    enable_events: ball_started
+    disable_events: mode_ball_lock_started, game_mode_active  # Disable when ANY mode is active
+    restart_events: mode_ball_lock_stopped, ball_started
 
 event_player:
   # Basic switch events - changed pulse_drop_target event
@@ -530,18 +549,31 @@ event_player:
   s_mode_opto_active: check_mode_opto
   spinner_complete: check_spinner_complete
   ball_starting: bd_trough_eject
+  diverter_pattern_complete: activate_diverter
   activate_diverter: 
     - release_diverter|3s
-  #s_left_ramp_entry_1_active: activate_diverter
+  
+  # Ball Lock Events
+  mode_ball_lock_started: enable_ball_lock_mechanism
+  mode_ball_lock_stopped: disable_ball_lock_mechanism
+  game_ending: release_locked_balls
+  
+  # Right orbit handling for ball lock mode
+  "s_right_orbit_1_active{device.modes.ball_lock.active}": 
+    - fire_ramp_release
+    - fire_ramp_release|2s
+  
+  # Ball lock handling
+  "balldevice_bd_ball_lock_ball_count{value==3}": ball_lock_complete
   
   # Conditional events with quotes
   "s_mode_opto_active{current_player.game_mode_active == False}": check_available_modes
   "check_dog_bank_complete{device.switches.s_3bank_tgt_d.state and device.switches.s_3bank_tgt_o.state and device.switches.s_3bank_tgt_g.state}": dog_bank_targets_complete
   "spinner_complete{current_player.game_mode_active == False}": enable_dog_hunt_mode
-  "s_left_ramp_entry_1_active{current_player.game_mode_active == True}": check_mode_progress
-  "s_right_ramp_entry_1_active{current_player.game_mode_active == True and current_player.game_mode == 'ball_lock'}": check_ball_lock_progress
-  "check_divert_pattern{device.counters.diverter_pattern.value == 5}": activate_diverter
-  
+  #"s_left_ramp_entry_1_active{current_player.game_mode_active == True}": check_mode_progress
+  #"s_right_ramp_entry_1_active{current_player.game_mode_active == True and current_player.current_game_mode == 'ball_lock'}": check_ball_lock_progress
+  #"s_left_ramp_entry_1_active{current_player.game_mode_active == 0}": left_ramp_to_start_lock_count_up
+
   # Game state events
   game_started: setup_game_variables
   ball_started: reset_player_shot_counters
@@ -573,10 +605,38 @@ event_player:
   "pop_bumper_hit{current_player.pop_bumper_value >= 100}": award_pop_bumper_bonus
   "dog_bank_targets_complete{current_player.dog_hunt_complete == False}": enable_dog_hunt_mode
 
+  # Ball lock events
   ball_lock_hit:
     - increment_locked_balls
     - play_ball_lock_sound
     - update_ball_lock_lights
+
+  #left_ramp_qualify_hit: show_ball_lock_progress
+
+  #Blood Ball Lock events
+  s_blood_target_active: check_blood_target  # New event
+  blood_target_qualify_hit: show_blood_lock_progress
+
+slide_player:
+  show_blood_lock_progress:
+    blood_lock_qualify:
+      widgets:
+        - type: text
+          text: "BLOOD TARGET: (device.counters.left_ramp_to_start_lock.value) / 4"
+          font_size: 30
+          y: center
+          color: red  # Changed to red for blood theme
+          expire: 2s
+  mode_ball_lock_start:
+    ball_lock_ready:
+      widgets:
+        - type: text
+          text: "BLOOD LOCK READY!"
+          font_size: 50
+          y: center
+          color: green
+          expire: 3s
+  
 
 coil_player:
   dog_bank_targets_complete:
@@ -599,6 +659,27 @@ coil_player:
   release_diverter:
     c_diverter:
       action: disable
+   
+  enable_ball_lock_mechanism:
+    c_ramp_release:
+      action: pulse
+  
+  disable_ball_lock_mechanism:
+    c_ramp_release:
+      action: pulse
+
+  release_locked_balls:
+    c_up_post:
+      action: pulse
+    
+  fire_ramp_release:
+    c_ramp_release:
+      action: pulse
+      
+  ball_lock_complete:
+    c_up_post:
+      action: enable
+      enable_ms: 3000
 
 modes:
   - base
