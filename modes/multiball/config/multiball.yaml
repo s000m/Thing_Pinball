@@ -1,0 +1,101 @@
+#config_version=6
+
+mode:
+  start_events: mode_multiball_start
+  stop_events: mode_multiball_complete
+  priority: 500  # Highest priority
+  code: multiball.Multiball
+  
+slide_player:
+  mode_multiball_started:
+    multiball_started:
+      widgets:
+        - type: text
+          text: MULTIBALL!
+          font_size: 100
+          y: center
+          color: red
+          expire: 2s
+          
+  jackpot_hit:
+    jackpot_display:
+      widgets:
+        - type: text
+          text: "JACKPOT! (player|jackpot_value)"
+          font_size: 50
+          y: center
+          color: yellow
+          expire: 2s
+          
+  super_jackpot_hit:
+    super_jackpot_display:
+      widgets:
+        - type: text
+          text: "SUPER JACKPOT! (player|super_jackpot_value)"
+          font_size: 60
+          y: center
+          color: red
+          expire: 3s
+
+variable_player:
+  jackpot_hit:
+    score: current_player.jackpot_value
+    jackpot_value: 5000  # Increase jackpot value each time
+  
+  super_jackpot_hit:
+    score: current_player.super_jackpot_value
+  
+  multiball_complete:
+    score: 250000
+  
+  # Add these to handle the player variables update
+  set_multiball_complete:
+    multiball_complete: 1
+    
+  set_game_mode_inactive:
+    game_mode_active: 0
+    
+multiballs:
+  thing_multiball:
+    ball_count: 4
+    ball_count_type: total
+    shoot_again: 30s
+    enable_events: mode_multiball_started
+    disable_events: mode_multiball_complete
+    reset_events: multiball_reset
+    start_events: multiball_start
+    ball_locks: bd_ball_lock
+    
+timers:
+  multiball_jackpot_timer:
+    start_value: 60
+    end_value: 0
+    direction: down
+    control_events:
+      - event: mode_multiball_started
+        action: start
+      - event: multiball_complete
+        action: stop
+    events_when_complete: multiball_timer_expired
+    
+  right_ramp_validity_timer:
+    start_value: 60
+    end_value: 0
+    direction: down
+    control_events:
+      - event: right_ramp_valid
+        action: start
+      - event: right_ramp_invalid
+        action: stop
+    events_when_complete: right_ramp_timeout
+    
+event_player:
+  # Simple events
+  multiball_timer_expired: multiball_failed
+  
+  # Handle mode completion with proper event posting
+  mode_multiball_complete: set_multiball_complete, set_game_mode_inactive
+  
+  # Conditional events with proper quotes
+  "right_ramp_entry_hit{current_player.current_game_mode=='multiball'}": check_jackpot_state
+  "multiball_drain{device.balls.live == 1}": multiball_complete

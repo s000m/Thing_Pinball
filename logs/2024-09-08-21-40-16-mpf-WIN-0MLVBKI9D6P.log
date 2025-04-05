@@ -1,0 +1,137 @@
+2024-09-08 21:40:16,955 : INFO : root : Loading config.
+2024-09-08 21:40:16,960 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-09-08 21:40:16,960 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\d1d13b71f03ff6cb7b42d9c6bb8e160f.mpf_cache
+2024-09-08 21:40:17,034 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 21:40:17,034 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 21:40:17,035 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\baa68abd602a2a90f66edd8e37c874c7.mpf_cache
+2024-09-08 21:40:17,036 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\game\config\game.yaml
+2024-09-08 21:40:17,037 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\f48eab4eba32ca9097b4976f8036bfbf.mpf_cache
+2024-09-08 21:40:17,037 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\base\config\base.yaml
+2024-09-08 21:40:17,038 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\20d8a08f313923c863e280a74de3cd75.mpf_cache
+2024-09-08 21:40:17,038 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 21:40:17,039 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 21:40:17,039 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\baa68abd602a2a90f66edd8e37c874c7.mpf_cache
+2024-09-08 21:40:17,040 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2024-09-08 21:40:17,040 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-09-08-21-40-16-mpf-WIN-0MLVBKI9D6P.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 10, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\Administrator\\Documents\\fast_homebrew_godot\\logs\\2024-09-08-21-40-16-mpf-WIN-0MLVBKI9D6P.log'}
+2024-09-08 21:40:17,040 : INFO : Machine : MPF path: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf
+2024-09-08 21:40:17,040 : INFO : Machine : Machine path: C:\Users\Administrator\Documents\fast_homebrew_godot
+2024-09-08 21:40:17,040 : INFO : Machine : Platform: win32
+2024-09-08 21:40:17,040 : INFO : Machine : Python executable location: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe
+2024-09-08 21:40:17,040 : INFO : Machine : Python version: 3.10.11 (64-bit)
+2024-09-08 21:40:17,042 : DEBUG : asyncio : Using proactor: IocpProactor
+2024-09-08 21:40:17,043 : INFO : Machine : Initializing MPF...
+2024-09-08 21:40:17,119 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,119 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,119 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,119 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,120 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,120 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,120 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,120 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,120 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,120 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,120 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,120 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,120 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000018794764E10>
+2024-09-08 21:40:17,120 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000018794A21080>
+2024-09-08 21:40:17,120 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000018794A20EE0>
+2024-09-08 21:40:17,120 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x0000018794A710C0>
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x0000018794A74740>
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000018794A21490>
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000018794A213C0>
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000018794A21560>
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000018794A212F0>
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000018794A21220>
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000018794A21150>
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x0000018794A71180>
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x0000018794A710C0>
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x0000018794A74740>
+2024-09-08 21:40:17,121 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x0000018794A71180>
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,122 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:40:17,124 : DEBUG : asciimatics.screen : Processing key: d
+2024-09-08 21:40:17,276 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2024-09-08 21:40:17,304 : DEBUG : FAST : Port COM3 is connected to a FAST Neuron Controller.
+2024-09-08 21:40:17,304 : DEBUG : FAST : Port COM4 is connected to a FAST Neuron Controller.
+2024-09-08 21:40:17,304 : DEBUG : FAST : Port COM5 is connected to a FAST Neuron Controller.
+2024-09-08 21:40:17,333 : INFO : FAST : Detected NET on port COM5
+2024-09-08 21:40:17,444 : INFO : FAST [NET] : Trying to connect to COM5 at 921600bps
+2024-09-08 21:40:17,455 : INFO : FAST [NET] : Connected to COM5 at 921600bps
+2024-09-08 21:40:17,471 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.13
+2024-09-08 21:40:17,489 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2024-09-08 21:40:17,490 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-09-08 21:40:17,515 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\data/machine_vars.yaml
+2024-09-08 21:40:17,515 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-09-08 21:40:17,516 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2024-09-08 21:40:17,516 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-09-08 21:40:17,516 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.11', 'prev_value': None, 'change': True}
+2024-09-08 21:40:17,539 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.22631-SP0', 'prev_value': None, 'change': True}
+2024-09-08 21:40:17,539 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-09-08 21:40:17,539 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-09-08 21:40:17,539 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.22631', 'prev_value': None, 'change': True}
+2024-09-08 21:40:17,539 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-09-08 21:40:17,539 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\Administrator\\Documents\\fast_homebrew_godot\\logs\\2024-09-08-21-40-16-mpf-WIN-0MLVBKI9D6P.log', 'prev_value': None, 'change': True}
+2024-09-08 21:40:17,539 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-09-08 21:40:17,545 : DEBUG : ModeController : Loaded mode attract
+2024-09-08 21:40:17,545 : DEBUG : ModeController : Loaded mode base
+2024-09-08 21:40:17,548 : DEBUG : ModeController : Loaded mode game
+2024-09-08 21:40:17,552 : DEBUG : stepper.right_flipper : Configuring device with settings: '{'number': '00414729', 'debug': True, 'pos_min': -10, 'pos_max': 100, 'named_positions': {80.0: 'right_full', 0.0: 'right_rest', -10.0: 'right_home'}, 'platform_settings': {'step_mode': 1, 'current_limit': 800}, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'home_events': {}, 'homing_mode': 'hardware', 'homing_switch': None, 'homing_direction': 'clockwise', 'ball_search_min': 0, 'ball_search_max': 1, 'ball_search_wait': 5000, 'include_in_ball_search': True, 'relative_positions': {}, 'reset_position': 0, 'reset_events': {'machine_reset_phase_3': 0, 'ball_starting': 0, 'ball_will_end': 0, 'service_mode_entered': 0}, 'platform': None}'
+2024-09-08 21:40:17,552 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...er_section'")>) at C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...er_section'")>) at C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\events.py:124>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\devices\stepper.py", line 88, in validate_and_parse_config
+    config['platform_settings'] = platform.validate_stepper_section(
+AttributeError: 'FastHardwarePlatform' object has no attribute 'validate_stepper_section'
+2024-09-08 21:40:17,555 : INFO : Machine : Starting the main run loop.
+2024-09-08 21:40:17,556 : INFO : Machine : Shutting down...
+2024-09-08 21:40:17,556 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-09-08 21:40:17,557 : ERROR : root : 'NoneType' object has no attribute 'stop'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\commands\game.py", line 240, in __init__
+    self.machine.run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 689, in run
+    self._run_loop()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 789, in _run_loop
+    self._crash_shutdown()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 734, in _crash_shutdown
+    self._do_stop()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 725, in _do_stop
+    self.shutdown()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 754, in shutdown
+    self.device_manager.stop_devices()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\device_manager.py", line 99, in stop_devices
+    device.stop_device()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\devices\stepper.py", line 179, in stop_device
+    self.hw_stepper.stop()
+AttributeError: 'NoneType' object has no attribute 'stop'

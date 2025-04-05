@@ -1,0 +1,32 @@
+2024-07-31 19:39:03,805 : INFO : root : Loading config.
+2024-07-31 19:39:03,807 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-07-31 19:39:03,808 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\a3df6362b16bcba4463c79dac6b0ae5c.mpf_cache
+2024-07-31 19:39:03,851 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\450f55d68e188bbe4f17466af7580967.mpf_cache
+2024-07-31 19:39:03,852 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\5cdf3f6f669e12795623fbd605d1b6a0.mpf_cache
+2024-07-31 19:39:03,852 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\adbc53240c55849f1d16102f174765f8.mpf_cache
+2024-07-31 19:39:03,852 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\450f55d68e188bbe4f17466af7580967.mpf_cache
+2024-07-31 19:39:03,853 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev1
+2024-07-31 19:39:03,853 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-07-31-19-39-03-mpf-DESKTOP-BQT92E0.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-07-31 19:39:03,853 : INFO : Machine : MPF path: c:\git\new folder (6)\mpf\mpf
+2024-07-31 19:39:03,853 : INFO : Machine : Machine path: C:\Users\octo\Documents\fast_homebrew_godot
+2024-07-31 19:39:03,853 : INFO : Machine : Platform: win32
+2024-07-31 19:39:03,853 : INFO : Machine : Python executable location: C:\Users\octo\AppData\Local\Programs\Python\Python310\python.exe
+2024-07-31 19:39:03,853 : INFO : Machine : Python version: 3.10.0 (64-bit)
+2024-07-31 19:39:03,854 : INFO : Machine : Initializing MPF...
+2024-07-31 19:39:03,988 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-07-31 19:39:03,996 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-07-31 19:39:03,996 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1', 'prev_value': None, 'change': True}
+2024-07-31 19:39:03,996 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-07-31 19:39:03,996 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.0', 'prev_value': None, 'change': True}
+2024-07-31 19:39:04,002 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2024-07-31 19:39:04,002 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-07-31 19:39:04,002 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-07-31 19:39:04,002 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2024-07-31 19:39:04,002 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-07-31 19:39:04,002 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-07-31 19:39:04,009 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-07-31 19:39:04,009 : INFO : SwitchController : Found active switch: ('3208-0', <Platform.Virtual>) <switch.s_trough_ball_1>
+2024-07-31 19:39:04,009 : INFO : SwitchController : Found active switch: ('3208-1', <Platform.Virtual>) <switch.s_trough_ball_2>
+2024-07-31 19:39:04,009 : INFO : SwitchController : Found active switch: ('3208-2', <Platform.Virtual>) <switch.s_trough_ball_3>
+2024-07-31 19:39:04,010 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-07-31 19:39:04,011 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...

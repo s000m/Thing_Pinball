@@ -1,0 +1,30 @@
+2025-03-23 16:23:20,567 : INFO : root : Loading config.
+2025-03-23 16:23:20,570 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-23 16:23:20,570 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\9c4fd671eedf0616c9c143d4588b87a8.mpf_cache
+2025-03-23 16:23:20,659 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\b9f79c86485697d9eb62ba3cdcc388bf.mpf_cache
+2025-03-23 16:23:20,659 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\3a13d33aed1669bafe3e56d7baff78a0.mpf_cache
+2025-03-23 16:23:20,659 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\194daf2908cf002f5d26e5b3c0eabc95.mpf_cache
+2025-03-23 16:23:20,659 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\b9f79c86485697d9eb62ba3cdcc388bf.mpf_cache
+2025-03-23 16:23:20,659 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-03-23 16:23:20,659 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-03-23-16-23-20-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\homebrew\\Desktop\\fast_homebrew_godot\\logs\\2025-03-23-16-23-20-mpf-mpf.log'}
+2025-03-23 16:23:20,659 : INFO : Machine : MPF path: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-03-23 16:23:20,659 : INFO : Machine : Machine path: C:\Users\homebrew\Desktop\fast_homebrew_godot
+2025-03-23 16:23:20,659 : INFO : Machine : Platform: win32
+2025-03-23 16:23:20,659 : INFO : Machine : Python executable location: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\python.exe
+2025-03-23 16:23:20,659 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2025-03-23 16:23:20,659 : INFO : Machine : Initializing MPF...
+2025-03-23 16:23:20,849 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-03-23 16:23:20,879 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-03-23 16:23:20,879 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2025-03-23 16:23:20,879 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-03-23 16:23:20,879 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2025-03-23 16:23:21,088 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-03-23 16:23:21,088 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-03-23 16:23:21,088 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-03-23 16:23:21,088 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-03-23 16:23:21,088 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-03-23 16:23:21,088 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\homebrew\\Desktop\\fast_homebrew_godot\\logs\\2025-03-23-16-23-20-mpf-mpf.log', 'prev_value': None, 'change': True}
+2025-03-23 16:23:21,088 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-03-23 16:23:21,088 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-03-23 16:23:21,103 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-03-23 16:23:21,105 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...

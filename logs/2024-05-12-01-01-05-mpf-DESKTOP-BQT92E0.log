@@ -1,0 +1,100 @@
+2024-05-12 01:01:05,154 : INFO : root : Loading config.
+2024-05-12 01:01:05,156 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-05-12 01:01:05,156 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\1d0904511285da59b68333680e0b91d2.mpf_cache
+2024-05-12 01:01:05,194 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\cd157f4be5c4430bfa418abc82c784ba.mpf_cache
+2024-05-12 01:01:05,195 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\9a6ef7720776890324b2b6aefbdb5076.mpf_cache
+2024-05-12 01:01:05,195 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\octo\Downloads\homebrew\modes\base\config\base.yaml
+2024-05-12 01:01:05,195 : INFO : ConfigProcessor : Loading config from file C:\Users\octo\Downloads\homebrew\modes\base\config\base.yaml.
+2024-05-12 01:01:05,197 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\modes\base\config\base.yaml
+2024-05-12 01:01:05,197 : INFO : ConfigProcessor : Config file cache created: C:\Users\octo\AppData\Local\Temp\e87c946bbd0a2e05a931f281fca6458e.mpf_cache
+2024-05-12 01:01:05,197 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\cd157f4be5c4430bfa418abc82c784ba.mpf_cache
+2024-05-12 01:01:05,198 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\da852937ccb56145866cf54922bc01f8.mpf_cache
+2024-05-12 01:01:05,198 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev1
+2024-05-12 01:01:05,198 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-05-12-01-01-05-mpf-DESKTOP-BQT92E0.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-05-12 01:01:05,199 : INFO : Machine : MPF path: c:\git\new folder (3)\mpf\mpf
+2024-05-12 01:01:05,199 : INFO : Machine : Machine path: C:\Users\octo\Downloads\homebrew
+2024-05-12 01:01:05,199 : INFO : Machine : Platform: win32
+2024-05-12 01:01:05,199 : INFO : Machine : Python executable location: C:\Users\octo\AppData\Local\Programs\Python\Python310\python.exe
+2024-05-12 01:01:05,199 : INFO : Machine : Python version: 3.10.0 (64-bit)
+2024-05-12 01:01:05,199 : INFO : Machine : Initializing MPF...
+2024-05-12 01:01:05,299 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-05-12 01:01:05,307 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-05-12 01:01:05,307 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1', 'prev_value': None, 'change': True}
+2024-05-12 01:01:05,307 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-05-12 01:01:05,307 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.0', 'prev_value': None, 'change': True}
+2024-05-12 01:01:05,312 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2024-05-12 01:01:05,312 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-05-12 01:01:05,312 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-05-12 01:01:05,312 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2024-05-12 01:01:05,312 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-05-12 01:01:05,312 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-05-12 01:01:05,320 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-05-12 01:01:05,322 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...load,unload')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...load,unload')>)>
+Traceback (most recent call last):
+  File "C:\Users\octo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\git\new folder (3)\mpf\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "c:\git\new folder (3)\mpf\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\git\new folder (3)\mpf\mpf\core\mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+  File "c:\git\new folder (3)\mpf\mpf\core\config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\git\new folder (3)\mpf\mpf\core\config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\git\new folder (3)\mpf\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "c:\git\new folder (3)\mpf\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "c:\git\new folder (3)\mpf\mpf\config_players\sound_player.py", line 21, in _validate_config_item
+    device_settings = self.machine.config_validator.validate_config(
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 696, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 387, in _validate_type_enum
+    raise self.validation_error(
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player play_mead_video_1:sounds with settings {'bg_music': {'action': 'pause', 'block': False}} >> Config validation error: Entry sound_player:sound_player:action = "pause" is not valid. Entry "pause" is not valid for enum. Valid values are: play,replace,stop,stop_looping,load,unload Error Code: CFE-ConfigValidator-5 (https://missionpinball.org/logs)
+2024-05-12 01:01:05,328 : INFO : Machine : Starting the main run loop.
+2024-05-12 01:01:05,331 : INFO : Machine : Shutting down...
+2024-05-12 01:01:05,331 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-05-12 01:01:06,338 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\git\new folder (3)\mpf\mpf\core\machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\octo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\git\new folder (3)\mpf\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "c:\git\new folder (3)\mpf\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\git\new folder (3)\mpf\mpf\core\mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+  File "c:\git\new folder (3)\mpf\mpf\core\config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\git\new folder (3)\mpf\mpf\core\config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\git\new folder (3)\mpf\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "c:\git\new folder (3)\mpf\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "c:\git\new folder (3)\mpf\mpf\config_players\sound_player.py", line 21, in _validate_config_item
+    device_settings = self.machine.config_validator.validate_config(
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 696, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 387, in _validate_type_enum
+    raise self.validation_error(
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player play_mead_video_1:sounds with settings {'bg_music': {'action': 'pause', 'block': False}} >> Config validation error: Entry sound_player:sound_player:action = "pause" is not valid. Entry "pause" is not valid for enum. Valid values are: play,replace,stop,stop_looping,load,unload Error Code: CFE-ConfigValidator-5 (https://missionpinball.org/logs)
+2024-05-12 01:01:33,318 : INFO : root : MPF run loop ended.

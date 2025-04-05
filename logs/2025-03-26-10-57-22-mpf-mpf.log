@@ -1,0 +1,241 @@
+2025-03-26 10:57:22,071 : INFO : root : Loading config.
+2025-03-26 10:57:22,073 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-26 10:57:22,073 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\homebrew\Desktop\thing_pinball\config\config.yaml
+2025-03-26 10:57:22,073 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-03-26 10:57:22,085 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\mpfconfig.yaml
+2025-03-26 10:57:22,085 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\Desktop\thing_pinball\config\config.yaml.
+2025-03-26 10:57:22,102 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Desktop\thing_pinball\config\config.yaml
+2025-03-26 10:57:22,102 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Desktop\thing_pinball\config\service_mode.yaml
+2025-03-26 10:57:22,112 : INFO : ConfigProcessor : Config file cache created: C:\Users\homebrew\AppData\Local\Temp\775282453bb9ae39cad69c39ab867a35.mpf_cache
+2025-03-26 10:57:22,191 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-26 10:57:22,191 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\3a13d33aed1669bafe3e56d7baff78a0.mpf_cache
+2025-03-26 10:57:22,191 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-03-26 10:57:22,191 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-03-26-10-57-22-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-26-10-57-22-mpf-mpf.log'}
+2025-03-26 10:57:22,191 : INFO : Machine : MPF path: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-03-26 10:57:22,191 : INFO : Machine : Machine path: C:\Users\homebrew\Desktop\thing_pinball
+2025-03-26 10:57:22,191 : INFO : Machine : Platform: win32
+2025-03-26 10:57:22,191 : INFO : Machine : Python executable location: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\python.exe
+2025-03-26 10:57:22,191 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2025-03-26 10:57:22,191 : INFO : Machine : Initializing MPF...
+2025-03-26 10:57:22,427 : INFO : FAST [NET] : Trying to connect to com4 at 921600bps
+2025-03-26 10:57:22,427 : INFO : FAST [NET] : Connected to com4 at 921600bps
+2025-03-26 10:57:22,443 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.21
+2025-03-26 10:57:22,475 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2025-03-26 10:57:22,475 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-03-26 10:57:22,475 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-03-26 10:57:22,491 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-03-26 10:57:22,491 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,518 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,518 : INFO : EventManager : Event: ======'machine_var_game_mode_dog_hunt_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,518 : INFO : EventManager : Event: ======'machine_var_game_mode_discovery_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,518 : INFO : EventManager : Event: ======'machine_var_game_mode_infected_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,518 : INFO : EventManager : Event: ======'machine_var_game_mode_blood_test_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,518 : INFO : EventManager : Event: ======'machine_var_game_mode_spider_head_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,518 : INFO : EventManager : Event: ======'machine_var_game_mode_wizard_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,518 : INFO : EventManager : Event: ======'machine_var_game_mode_ball_lock_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,518 : INFO : EventManager : Event: ======'machine_var_game_mode_multiball_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,518 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,518 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,518 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,619 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,619 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,619 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,619 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,619 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,619 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-26-10-57-22-mpf-mpf.log', 'prev_value': None, 'change': True}
+2025-03-26 10:57:22,619 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-03-26 10:57:22,643 : INFO : EventManager : Event: ======'drop_target_bank_dog_bank_up'====== Args={}
+2025-03-26 10:57:22,643 : INFO : EventManager : Event: ======'logicblock_spinner_value_updated'====== Args={'value': 0, 'enabled': False}
+2025-03-26 10:57:22,643 : INFO : EventManager : Event: ======'logicblock_newton_hit_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-03-26 10:57:25,054 : WARNING : Machine : Iterating device collections directly is deprecated and will be removed. Access by value(): device_collections[switches] -> device_collections['switches'].values()
+2025-03-26 10:57:25,054 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-03-26 10:57:25,054 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-03-26 10:57:25,054 : INFO : SwitchController : <<<<<<< 's_mode_opto' active >>>>>>>
+2025-03-26 10:57:25,054 : INFO : SwitchController : <<<<<<< 's_newton_opto_made' active >>>>>>>
+2025-03-26 10:57:25,054 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 10:57:25,054 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-03-26 10:57:25,057 : INFO : SwitchController : Found active switch: (52, [FAST Platform Interface]) <switch.s_trough_ball>
+2025-03-26 10:57:25,057 : INFO : SwitchController : Found active switch: (51, [FAST Platform Interface]) <switch.s_trough_ball_jam>
+2025-03-26 10:57:25,057 : INFO : SwitchController : Found active switch: (64, [FAST Platform Interface]) <switch.s_mode_opto>
+2025-03-26 10:57:25,057 : INFO : SwitchController : Found active switch: (45, [FAST Platform Interface]) <switch.s_newton_opto_made>
+2025-03-26 10:57:25,057 : INFO : SwitchController : Found active switch: (10, [FAST Platform Interface]) <switch.s_start_button>
+2025-03-26 10:57:25,061 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 10:57:25,063 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-03-26 10:57:25,065 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-03-26 11:03:18,550 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' active >>>>>>>
+2025-03-26 11:03:18,550 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:03:18,550 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:03:18,550 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:03:18,709 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' inactive >>>>>>>
+2025-03-26 11:03:19,046 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' active >>>>>>>
+2025-03-26 11:03:19,046 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:03:19,048 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:03:19,048 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:03:19,349 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' inactive >>>>>>>
+2025-03-26 11:03:19,606 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' active >>>>>>>
+2025-03-26 11:03:19,606 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:03:19,608 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:03:19,608 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:03:19,799 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' inactive >>>>>>>
+2025-03-26 11:03:20,055 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' active >>>>>>>
+2025-03-26 11:03:20,055 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:03:20,055 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:03:20,055 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:03:20,214 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' inactive >>>>>>>
+2025-03-26 11:03:20,471 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' active >>>>>>>
+2025-03-26 11:03:20,471 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:03:20,471 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:03:20,471 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:03:20,646 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' inactive >>>>>>>
+2025-03-26 11:03:23,245 : INFO : SwitchController : <<<<<<< 's_ball_lock_2' active >>>>>>>
+2025-03-26 11:03:23,247 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:03:23,247 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:03:23,247 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:03:23,502 : INFO : SwitchController : <<<<<<< 's_ball_lock_2' inactive >>>>>>>
+2025-03-26 11:03:23,774 : INFO : SwitchController : <<<<<<< 's_ball_lock_2' active >>>>>>>
+2025-03-26 11:03:23,774 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:03:23,774 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:03:23,774 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:03:23,964 : INFO : SwitchController : <<<<<<< 's_ball_lock_2' inactive >>>>>>>
+2025-03-26 11:03:24,365 : INFO : SwitchController : <<<<<<< 's_ball_lock_2' active >>>>>>>
+2025-03-26 11:03:24,365 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:03:24,365 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:03:24,365 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:03:24,605 : INFO : SwitchController : <<<<<<< 's_ball_lock_2' inactive >>>>>>>
+2025-03-26 11:03:24,879 : INFO : SwitchController : <<<<<<< 's_ball_lock_2' active >>>>>>>
+2025-03-26 11:03:24,879 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:03:24,879 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:03:24,879 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:03:25,069 : INFO : SwitchController : <<<<<<< 's_ball_lock_2' inactive >>>>>>>
+2025-03-26 11:03:27,030 : INFO : SwitchController : <<<<<<< 's_ball_lock_1' active >>>>>>>
+2025-03-26 11:03:27,030 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:03:27,032 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:03:27,032 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:03:27,274 : INFO : SwitchController : <<<<<<< 's_ball_lock_1' inactive >>>>>>>
+2025-03-26 11:03:27,638 : INFO : SwitchController : <<<<<<< 's_ball_lock_1' active >>>>>>>
+2025-03-26 11:03:27,638 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:03:27,638 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:03:27,638 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:03:27,782 : INFO : SwitchController : <<<<<<< 's_ball_lock_1' inactive >>>>>>>
+2025-03-26 11:03:34,696 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-03-26 11:03:34,696 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-03-26 11:03:34,938 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-03-26 11:03:34,959 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-03-26 11:03:35,419 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-03-26 11:03:35,439 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-03-26 11:03:35,799 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-03-26 11:03:35,820 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-03-26 11:07:45,601 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' active >>>>>>>
+2025-03-26 11:07:45,601 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:07:45,603 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:07:45,603 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:07:46,019 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' inactive >>>>>>>
+2025-03-26 11:07:46,353 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' active >>>>>>>
+2025-03-26 11:07:46,353 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:07:46,353 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:07:46,353 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:07:46,691 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' inactive >>>>>>>
+2025-03-26 11:07:47,059 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' active >>>>>>>
+2025-03-26 11:07:47,059 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:07:47,061 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:07:47,061 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:07:47,429 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' inactive >>>>>>>
+2025-03-26 11:07:49,974 : INFO : SwitchController : <<<<<<< 's_ball_lock_3' active >>>>>>>
+2025-03-26 11:07:49,974 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:07:49,976 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:07:49,976 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:07:50,375 : INFO : SwitchController : <<<<<<< 's_ball_lock_3' inactive >>>>>>>
+2025-03-26 11:07:50,696 : INFO : SwitchController : <<<<<<< 's_ball_lock_3' active >>>>>>>
+2025-03-26 11:07:50,696 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:07:50,696 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:07:50,696 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:07:51,143 : INFO : SwitchController : <<<<<<< 's_ball_lock_3' inactive >>>>>>>
+2025-03-26 11:07:51,815 : INFO : SwitchController : <<<<<<< 's_ball_lock_1' active >>>>>>>
+2025-03-26 11:07:51,815 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:07:51,817 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:07:51,817 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:07:52,294 : INFO : SwitchController : <<<<<<< 's_ball_lock_1' inactive >>>>>>>
+2025-03-26 11:07:52,647 : INFO : SwitchController : <<<<<<< 's_ball_lock_1' active >>>>>>>
+2025-03-26 11:07:52,647 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:07:52,647 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:07:52,647 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:07:53,064 : INFO : SwitchController : <<<<<<< 's_ball_lock_1' inactive >>>>>>>
+2025-03-26 11:07:53,514 : INFO : SwitchController : <<<<<<< 's_ball_lock_1' active >>>>>>>
+2025-03-26 11:07:53,514 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:07:53,514 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:07:53,514 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:07:53,833 : INFO : SwitchController : <<<<<<< 's_ball_lock_1' inactive >>>>>>>
+2025-03-26 11:07:56,427 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-03-26 11:07:56,715 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-03-26 11:07:57,066 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-03-26 11:07:57,292 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-03-26 11:09:57,386 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2025-03-26 11:09:57,386 : INFO : EventManager : Event: ======'s_spinner_active'====== Args={}
+2025-03-26 11:09:57,386 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:09:57,386 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:09:57,386 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:09:57,417 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2025-03-26 11:09:57,497 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2025-03-26 11:09:57,497 : INFO : EventManager : Event: ======'s_spinner_active'====== Args={}
+2025-03-26 11:09:57,497 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:09:57,497 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:09:57,497 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:09:57,529 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2025-03-26 11:09:57,609 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2025-03-26 11:09:57,609 : INFO : EventManager : Event: ======'s_spinner_active'====== Args={}
+2025-03-26 11:09:57,609 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:09:57,609 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:09:57,609 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:09:57,641 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2025-03-26 11:09:57,737 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2025-03-26 11:09:57,737 : INFO : EventManager : Event: ======'s_spinner_active'====== Args={}
+2025-03-26 11:09:57,737 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:09:57,737 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:09:57,737 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:09:57,768 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2025-03-26 11:09:57,863 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2025-03-26 11:09:57,863 : INFO : EventManager : Event: ======'s_spinner_active'====== Args={}
+2025-03-26 11:09:57,863 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:09:57,863 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:09:57,863 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:09:57,911 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2025-03-26 11:09:58,022 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2025-03-26 11:09:58,022 : INFO : EventManager : Event: ======'s_spinner_active'====== Args={}
+2025-03-26 11:09:58,022 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:09:58,022 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:09:58,022 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:09:58,070 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2025-03-26 11:09:58,214 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2025-03-26 11:09:58,214 : INFO : EventManager : Event: ======'s_spinner_active'====== Args={}
+2025-03-26 11:09:58,214 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:09:58,214 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:09:58,214 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:09:58,294 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2025-03-26 11:09:58,470 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2025-03-26 11:09:58,470 : INFO : EventManager : Event: ======'s_spinner_active'====== Args={}
+2025-03-26 11:09:58,470 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:09:58,470 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:09:58,470 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:09:58,614 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2025-03-26 11:10:57,566 : INFO : SwitchController : <<<<<<< 's_mode_opto' inactive >>>>>>>
+2025-03-26 11:10:58,609 : INFO : SwitchController : <<<<<<< 's_mode_opto' active >>>>>>>
+2025-03-26 11:10:58,609 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:10:58,609 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:10:58,609 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:10:59,172 : INFO : SwitchController : <<<<<<< 's_mode_opto' inactive >>>>>>>
+2025-03-26 11:10:59,734 : INFO : SwitchController : <<<<<<< 's_mode_opto' active >>>>>>>
+2025-03-26 11:10:59,734 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:10:59,737 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:10:59,737 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:11:08,695 : INFO : SwitchController : <<<<<<< 's_newton_opto_made' inactive >>>>>>>
+2025-03-26 11:11:09,207 : INFO : SwitchController : <<<<<<< 's_newton_opto_made' active >>>>>>>
+2025-03-26 11:11:09,207 : INFO : EventManager : Event: ======'s_newton_opto_made_active'====== Args={}
+2025-03-26 11:11:09,207 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:11:09,207 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:11:09,207 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 11:11:09,721 : INFO : SwitchController : <<<<<<< 's_newton_opto_made' inactive >>>>>>>
+2025-03-26 11:11:10,247 : INFO : SwitchController : <<<<<<< 's_newton_opto_made' active >>>>>>>
+2025-03-26 11:11:10,247 : INFO : EventManager : Event: ======'s_newton_opto_made_active'====== Args={}
+2025-03-26 11:11:10,247 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 11:11:10,249 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 11:11:10,249 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}

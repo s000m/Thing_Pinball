@@ -1,0 +1,62 @@
+#config_version=6
+
+mode:
+  start_events: mode_dog_hunt_start
+  stop_events: mode_dog_hunt_complete
+  priority: 300
+  code: dog_hunt.DogHunt
+  
+slide_player:
+  mode_dog_hunt_started:
+    dog_hunt_started:
+      widgets:
+        - type: text
+          text: DOG HUNT MODE
+          font_size: 50
+          y: center-100
+          color: red
+          expire: 2s
+          
+  spinner_hit:
+    dog_hunt_spinner_value:
+      widgets:
+        - type: text
+          text: "SPINNER: (player|spinner_value)"
+          font_size: 30
+          y: center
+          color: green
+          expire: 1s
+
+variable_player:
+  spinner_hit:
+    spinner_value: 1
+  
+  dog_hunt_complete:
+    score: 50000
+    
+counters:
+  spinner_counter:
+    count_events: s_spinner_active
+    events_when_hit: spinner_hit
+    starting_count: 0
+    count_complete_value: 100
+    events_when_complete: spinner_value_complete
+    persist_state: False
+    
+timers:
+  dog_hunt_timer:
+    start_value: 60
+    end_value: 0
+    direction: down
+    control_events:
+      - event: mode_dog_hunt_started
+        action: start
+      - event: mode_dog_hunt_complete
+        action: stop
+    events_when_complete: dog_hunt_timer_expired
+    
+event_player:
+  spinner_value_complete: dog_hunt_objective_complete
+  dog_hunt_objective_complete: dog_hunt_mode_complete_light
+  dog_hunt_timer_expired: dog_hunt_failed
+  mode_dog_hunt_complete: update_player_var

@@ -1,0 +1,10 @@
+2024-05-12 02:08:16,147 : INFO : root : Loading config.
+2024-05-12 02:08:16,149 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-05-12 02:08:16,149 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\1d0904511285da59b68333680e0b91d2.mpf_cache
+2024-05-12 02:08:16,150 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\octo\Downloads\homebrew\config\switches.yaml
+2024-05-12 02:08:16,150 : INFO : ConfigProcessor : Loading config from file c:\git\new folder (3)\mpf\mpf\mpfconfig.yaml.
+2024-05-12 02:08:16,155 : INFO : ConfigProcessor : Loading config: c:\git\new folder (3)\mpf\mpf\mpfconfig.yaml
+2024-05-12 02:08:16,155 : INFO : ConfigProcessor : Loading config from file C:\Users\octo\Downloads\homebrew\config\config.yaml.
+2024-05-12 02:08:16,156 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\config.yaml
+2024-05-12 02:08:16,156 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\lights.yaml
+2024-05-12 02:08:16,157 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\coils.yaml

@@ -1,0 +1,33 @@
+2024-05-14 14:46:54,573 : INFO : root : Loading config.
+2024-05-14 14:46:54,575 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-05-14 14:46:54,575 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\1d0904511285da59b68333680e0b91d2.mpf_cache
+2024-05-14 14:46:54,618 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\cd157f4be5c4430bfa418abc82c784ba.mpf_cache
+2024-05-14 14:46:54,618 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\9a6ef7720776890324b2b6aefbdb5076.mpf_cache
+2024-05-14 14:46:54,619 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\octo\Downloads\homebrew\modes\base\config\base.yaml
+2024-05-14 14:46:54,619 : INFO : ConfigProcessor : Loading config from file C:\Users\octo\Downloads\homebrew\modes\base\config\base.yaml.
+2024-05-14 14:46:54,622 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\modes\base\config\base.yaml
+2024-05-14 14:46:54,622 : INFO : ConfigProcessor : Config file cache created: C:\Users\octo\AppData\Local\Temp\e87c946bbd0a2e05a931f281fca6458e.mpf_cache
+2024-05-14 14:46:54,622 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\cd157f4be5c4430bfa418abc82c784ba.mpf_cache
+2024-05-14 14:46:54,623 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\da852937ccb56145866cf54922bc01f8.mpf_cache
+2024-05-14 14:46:54,624 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev1
+2024-05-14 14:46:54,624 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-05-14-14-46-54-mpf-DESKTOP-BQT92E0.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-05-14 14:46:54,624 : INFO : Machine : MPF path: c:\git\new folder (3)\mpf\mpf
+2024-05-14 14:46:54,624 : INFO : Machine : Machine path: C:\Users\octo\Downloads\homebrew
+2024-05-14 14:46:54,624 : INFO : Machine : Platform: win32
+2024-05-14 14:46:54,624 : INFO : Machine : Python executable location: C:\Users\octo\AppData\Local\Programs\Python\Python310\python.exe
+2024-05-14 14:46:54,624 : INFO : Machine : Python version: 3.10.0 (64-bit)
+2024-05-14 14:46:54,625 : INFO : Machine : Initializing MPF...
+2024-05-14 14:46:54,786 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-05-14 14:46:54,794 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-05-14 14:46:54,794 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1', 'prev_value': None, 'change': True}
+2024-05-14 14:46:54,795 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-05-14 14:46:54,795 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.0', 'prev_value': None, 'change': True}
+2024-05-14 14:46:54,800 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2024-05-14 14:46:54,800 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-05-14 14:46:54,800 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-05-14 14:46:54,800 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2024-05-14 14:46:54,800 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-05-14 14:46:54,800 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-05-14 14:46:54,808 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-05-14 14:46:54,811 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-05-14 14:46:54,812 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...

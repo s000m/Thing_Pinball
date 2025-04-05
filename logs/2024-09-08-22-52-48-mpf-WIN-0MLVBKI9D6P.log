@@ -1,0 +1,564 @@
+2024-09-08 22:52:48,723 : INFO : root : Loading config.
+2024-09-08 22:52:48,733 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-09-08 22:52:48,733 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml
+2024-09-08 22:52:48,733 : INFO : ConfigProcessor : Loading config from file C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\mpfconfig.yaml.
+2024-09-08 22:52:48,734 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\mpfconfig.yaml
+2024-09-08 22:52:48,831 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\mpfconfig.yaml
+2024-09-08 22:52:48,860 : INFO : ConfigProcessor : Loading config from file C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml.
+2024-09-08 22:52:48,862 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml
+2024-09-08 22:52:48,920 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml
+2024-09-08 22:52:48,921 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\lights.yaml
+2024-09-08 22:52:48,922 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\lights.yaml
+2024-09-08 22:52:48,923 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\coils.yaml
+2024-09-08 22:52:48,952 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\coils.yaml
+2024-09-08 22:52:48,966 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\switches.yaml
+2024-09-08 22:52:48,969 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\switches.yaml
+2024-09-08 22:52:48,999 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\sounds.yaml
+2024-09-08 22:52:49,000 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\images.yaml
+2024-09-08 22:52:49,013 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\images.yaml
+2024-09-08 22:52:49,014 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\videos.yaml
+2024-09-08 22:52:49,044 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\videos.yaml
+2024-09-08 22:52:49,105 : INFO : ConfigProcessor : Config file cache created: C:\Users\ADMINI~1\AppData\Local\Temp\d1d13b71f03ff6cb7b42d9c6bb8e160f.mpf_cache
+2024-09-08 22:52:50,472 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 22:52:50,473 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 22:52:50,473 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\baa68abd602a2a90f66edd8e37c874c7.mpf_cache
+2024-09-08 22:52:50,474 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\game\config\game.yaml
+2024-09-08 22:52:50,474 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\f48eab4eba32ca9097b4976f8036bfbf.mpf_cache
+2024-09-08 22:52:50,475 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\base\config\base.yaml
+2024-09-08 22:52:50,475 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\20d8a08f313923c863e280a74de3cd75.mpf_cache
+2024-09-08 22:52:50,475 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 22:52:50,476 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 22:52:50,476 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\baa68abd602a2a90f66edd8e37c874c7.mpf_cache
+2024-09-08 22:52:50,477 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2024-09-08 22:52:50,477 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-09-08-22-52-48-mpf-WIN-0MLVBKI9D6P.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 10, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\Administrator\\Documents\\fast_homebrew_godot\\logs\\2024-09-08-22-52-48-mpf-WIN-0MLVBKI9D6P.log'}
+2024-09-08 22:52:50,477 : INFO : Machine : MPF path: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf
+2024-09-08 22:52:50,477 : INFO : Machine : Machine path: C:\Users\Administrator\Documents\fast_homebrew_godot
+2024-09-08 22:52:50,478 : INFO : Machine : Platform: win32
+2024-09-08 22:52:50,478 : INFO : Machine : Python executable location: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe
+2024-09-08 22:52:50,478 : INFO : Machine : Python version: 3.10.11 (64-bit)
+2024-09-08 22:52:50,479 : DEBUG : asyncio : Using proactor: IocpProactor
+2024-09-08 22:52:50,480 : INFO : Machine : Initializing MPF...
+2024-09-08 22:52:53,409 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,410 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,410 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,410 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,410 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,410 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,410 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,411 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,411 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,412 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,412 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,412 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,412 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C8993D490>
+2024-09-08 22:52:53,413 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C894CB6B0>
+2024-09-08 22:52:53,413 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C894CB5E0>
+2024-09-08 22:52:53,413 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x0000021C89C32B00>
+2024-09-08 22:52:53,414 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x0000021C89C3CF20>
+2024-09-08 22:52:53,414 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,414 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,459 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,459 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,459 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,459 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,460 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C89B89A40>
+2024-09-08 22:52:53,460 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C89B89970>
+2024-09-08 22:52:53,460 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C89B89B10>
+2024-09-08 22:52:53,488 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C89B898A0>
+2024-09-08 22:52:53,488 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C89B89630>
+2024-09-08 22:52:53,488 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C89B897D0>
+2024-09-08 22:52:53,488 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x0000021C89C32BC0>
+2024-09-08 22:52:53,488 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x0000021C89C32B00>
+2024-09-08 22:52:53,488 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x0000021C89C3CF20>
+2024-09-08 22:52:53,488 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x0000021C89C32BC0>
+2024-09-08 22:52:53,488 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2024-09-08 22:52:53,488 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,488 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,489 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,489 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,489 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,489 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,489 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,489 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,489 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,489 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,490 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,490 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,501 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,501 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,502 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,502 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,502 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,502 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:52:53,504 : DEBUG : asciimatics.screen : Processing key: d
+2024-09-08 22:52:55,001 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2024-09-08 22:52:55,159 : DEBUG : FAST : Port COM3 is connected to a FAST Neuron Controller.
+2024-09-08 22:52:55,332 : DEBUG : FAST : Port COM4 is connected to a FAST Neuron Controller.
+2024-09-08 22:52:55,332 : DEBUG : FAST : Port COM5 is connected to a FAST Neuron Controller.
+2024-09-08 22:52:55,381 : INFO : FAST : Detected NET on port COM5
+2024-09-08 22:52:55,496 : INFO : FAST [NET] : Trying to connect to COM5 at 921600bps
+2024-09-08 22:52:55,502 : INFO : FAST [NET] : Connected to COM5 at 921600bps
+2024-09-08 22:52:55,510 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.13
+2024-09-08 22:52:55,527 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2024-09-08 22:52:55,542 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2024-09-08 22:52:55,577 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2024-09-08 22:52:55,578 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-09-08 22:52:56,052 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\data/machine_vars.yaml
+2024-09-08 22:52:56,082 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-09-08 22:52:56,094 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2024-09-08 22:52:56,095 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-09-08 22:52:56,095 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.11', 'prev_value': None, 'change': True}
+2024-09-08 22:52:56,642 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.22631-SP0', 'prev_value': None, 'change': True}
+2024-09-08 22:52:56,643 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-09-08 22:52:56,643 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-09-08 22:52:56,643 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.22631', 'prev_value': None, 'change': True}
+2024-09-08 22:52:56,643 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-09-08 22:52:56,644 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\Administrator\\Documents\\fast_homebrew_godot\\logs\\2024-09-08-22-52-48-mpf-WIN-0MLVBKI9D6P.log', 'prev_value': None, 'change': True}
+2024-09-08 22:52:56,644 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-09-08 22:52:56,959 : DEBUG : ModeController : Loaded mode game
+2024-09-08 22:52:56,962 : DEBUG : ModeController : Loaded mode attract
+2024-09-08 22:52:56,963 : DEBUG : ModeController : Loaded mode base
+2024-09-08 22:52:56,968 : DEBUG : stepper.right_flipper_stepper : Configuring device with settings: '{'number': '00414729', 'homing_mode': 'switch', 'homing_switch': <switch.s_right_home>, 'homing_direction': 'counterclockwise', 'reset_position': -10, 'reset_events': {'ball_starting': 0, 'ball_will_end': 0, 'mode_attrct_started': 0}, 'debug': True, 'pos_min': -15, 'pos_max': 100, 'named_positions': {45.0: 'right_full', -11.0: 'right_rest', -10.0: 'right_home'}, 'platform_settings': {'current_limit': 2500}, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'home_events': {}, 'ball_search_min': 0, 'ball_search_max': 1, 'ball_search_wait': 5000, 'include_in_ball_search': True, 'relative_positions': {}, 'platform': None}'
+2024-09-08 22:52:56,968 : DEBUG : stepper.right_flipper_stepper : Configuring device with settings: '{'number': '00414729', 'homing_mode': 'switch', 'homing_switch': <switch.s_right_home>, 'homing_direction': 'counterclockwise', 'reset_position': -10, 'reset_events': {'ball_starting': 0, 'ball_will_end': 0, 'mode_attrct_started': 0}, 'debug': True, 'pos_min': -15, 'pos_max': 100, 'named_positions': {45.0: 'right_full', -11.0: 'right_rest', -10.0: 'right_home'}, 'platform_settings': {'current_limit': 2500, 'max_speed': 2000000, 'starting_speed': 0, 'max_acceleration': 40000, 'max_deceleration': 40000, 'step_mode': 1, 'poll_ms': 100}, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'home_events': {}, 'ball_search_min': 0, 'ball_search_max': 1, 'ball_search_wait': 5000, 'include_in_ball_search': True, 'relative_positions': {}, 'platform': None}'
+2024-09-08 22:52:56,970 : DEBUG : TIC Stepper : Configuring Stepper Parameters.
+2024-09-08 22:52:56,972 : DEBUG : asyncio : Using proactor: IocpProactor
+2024-09-08 22:52:57,117 : DEBUG : TIC Stepper : Looking for TIC Device with serial number 00414729.
+2024-09-08 22:52:57,728 : DEBUG : TIC Stepper : get_status() received cmd_return: b'Name:                         Tic 36v4 High-Power Stepper Motor Controller\r\nSerial number:                00414729\r\nFirmware version:             1.08\r\nLast reset:                   Power-on reset\r\nUp time:                      9:52:33\r\n\r\nEncoder position:             0\r\nRC pulse width:               N/A\r\nInput state:                  Halt\r\nInput after averaging:        N/A\r\nInput after hysteresis:       N/A\r\nInput before scaling:         N/A\r\nInput after scaling:          0\r\nForward limit active:         No\r\nReverse limit active:         No\r\n\r\nVIN voltage:                  46.528 V\r\nOperation state:              De-energized\r\nEnergized:                    No\r\nHoming active:                No\r\n\r\nTarget:                       No target\r\nCurrent position:             0\r\nPosition uncertain:           Yes\r\nCurrent velocity:             0\r\nMax speed:                    2000000\r\nStarting speed:               0\r\nMax acceleration:             40000\r\nMax deceleration:             40000\r\nActing target position:       0\r\nTime since last step:         60000\r\nStep mode:                    Full step\r\nCurrent limit:                2435 mA\r\n\r\nErrors currently stopping the motor:\r\n  - Intentionally de-energized\r\n  - Command timeout\r\n  - Safe start violation\r\nErrors that occurred since last check:\r\n  - Intentionally de-energized\r\n  - Command timeout\r\n  - Safe start violation\r\nLast motor driver errors: None\r\n\r\nSCL pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nSDA pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nTX pin:\r\n  State:                      Output high\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRX pin:\r\n  State:                      Pulled up\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRC pin:\r\n  Digital reading:            0\r\n\r\n'
+2024-09-08 22:52:57,776 : DEBUG : TIC Stepper : TIC Status: 
+2024-09-08 22:52:57,776 : DEBUG : TIC Stepper : {'Name': 'Tic 36v4 High-Power Stepper Motor Controller', 'Serial number': 414729, 'Firmware version': 1.08, 'Last reset': 'Power-on reset', 'Up time': '9:52:33', 'Encoder position': 0, 'RC pulse width': 'N/A', 'Input state': 'Halt', 'Input after averaging': 'N/A', 'Input after hysteresis': 'N/A', 'Input before scaling': 'N/A', 'Input after scaling': 0, 'Forward limit active': 'No', 'Reverse limit active': 'No', 'VIN voltage': '46.528 V', 'Operation state': 'De-energized', 'Energized': 'No', 'Homing active': 'No', 'Target': 'No target', 'Current position': 0, 'Position uncertain': 'Yes', 'Current velocity': 0, 'Max speed': 2000000, 'Starting speed': 0, 'Max acceleration': 40000, 'Max deceleration': 40000, 'Acting target position': 0, 'Time since last step': 60000, 'Step mode': 'Full step', 'Current limit': '2435 mA', 'Errors currently stopping the motor': ['Intentionally de-energized', 'Command timeout', 'Safe start violation'], 'Errors that occurred since last check': ['Intentionally de-energized', 'Command timeout', 'Safe start violation'], 'Last motor driver errors': 'None', 'SCL pin': {'State': 'Output low', 'Analog reading': 'N/A', 'Digital reading': 1}, 'SDA pin': {'State': 'Output low', 'Analog reading': 'N/A', 'Digital reading': 1}, 'TX pin': {'State': 'Output high', 'Analog reading': 'N/A', 'Digital reading': 1}, 'RX pin': {'State': 'Pulled up', 'Analog reading': 'N/A', 'Digital reading': 1}, 'RC pin': {'Digital reading': 0}}
+2024-09-08 22:53:01,668 : WARNING : Machine : Iterating device collections directly is deprecated and will be removed. Access by value(): device_collections[switches] -> device_collections['switches'].values()
+2024-09-08 22:53:01,668 : INFO : SwitchController : <<<<<<< 's_right_home' active >>>>>>>
+2024-09-08 22:53:01,671 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-09-08 22:53:01,671 : INFO : SwitchController : Found active switch: (29, [FAST Platform Interface]) <switch.s_right_home>
+2024-09-08 22:53:01,673 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-09-08 22:53:01,674 : DEBUG : asciimatics.widgets.layout : Updating: message
+2024-09-08 22:53:01,675 : DEBUG : asciimatics.widgets.layout : Updating: message
+2024-09-08 22:53:01,675 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.textbox.TextBox object at 0x0000021C89713400>
+2024-09-08 22:53:01,675 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x0000021C8A5B3CA0>
+2024-09-08 22:53:01,675 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x0000021C8A5B3D60>
+2024-09-08 22:53:01,675 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x0000021C8A5B3CA0>
+2024-09-08 22:53:01,675 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x0000021C8A5B3D60>
+2024-09-08 22:53:01,675 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-09-08 22:53:02,000 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2024-09-08 22:53:02,001 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2024-09-08 22:53:02,082 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,082 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,082 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,082 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,082 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,083 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,083 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,083 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,083 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,097 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,097 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,097 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,097 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C8A5A45F0>
+2024-09-08 22:53:02,099 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C8A5A4E10>
+2024-09-08 22:53:02,099 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C8A5A4AD0>
+2024-09-08 22:53:02,100 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x0000021C8A5F1CC0>
+2024-09-08 22:53:02,100 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x0000021C8A56DE70>
+2024-09-08 22:53:02,100 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,100 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,132 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,133 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,133 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,133 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,133 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C8A5A5220>
+2024-09-08 22:53:02,134 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C8A5A5150>
+2024-09-08 22:53:02,134 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C8A5A52F0>
+2024-09-08 22:53:02,146 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C8A5A5080>
+2024-09-08 22:53:02,147 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C8A5A4FB0>
+2024-09-08 22:53:02,147 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000021C8A5A4EE0>
+2024-09-08 22:53:02,147 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x0000021C8A5F2020>
+2024-09-08 22:53:02,147 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x0000021C8A5F1CC0>
+2024-09-08 22:53:02,147 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x0000021C8A56DE70>
+2024-09-08 22:53:02,147 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x0000021C8A5F2020>
+2024-09-08 22:53:02,148 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2024-09-08 22:53:02,148 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,148 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,148 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,148 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,148 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,148 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,149 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,149 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,149 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,149 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,178 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,178 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,178 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,178 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,178 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,178 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,178 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:02,178 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:53:05,123 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2024-09-08 22:53:05,995 : INFO : ball_device.bd_plunger : State: idle
+2024-09-08 22:53:06,137 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\data/audits.yaml
+2024-09-08 22:53:06,437 : DEBUG : Machine : "info_lights:" section not found in machine configuration, so the InfoLights will not be used.
+2024-09-08 22:53:06,515 : DEBUG : Machine : "switch_player:" section not found in machine configuration, so the SwitchPlayer will not be used.
+2024-09-08 22:53:06,560 : DEBUG : Machine : "twitch_client:" section not found in machine configuration, so the TwitchBot will not be used.
+2024-09-08 22:53:06,561 : DEBUG : Machine : "virtual_segment_display_connector:" section not found in machine configuration, so the VirtualSegmentDisplayConnector will not be used.
+2024-09-08 22:53:06,561 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-09-08 22:53:06,576 : DEBUG : ShowController : Loading show: flash
+2024-09-08 22:53:06,578 : DEBUG : ShowController : Loading show: on
+2024-09-08 22:53:06,614 : DEBUG : ShowController : Loading show: off
+2024-09-08 22:53:06,615 : DEBUG : ShowController : Loading show: led_color
+2024-09-08 22:53:06,615 : DEBUG : ShowController : Loading show: bl_color
+2024-09-08 22:53:06,616 : DEBUG : ShowController : Loading show: flash_color
+2024-09-08 22:53:06,823 : INFO : stepper.right_flipper_stepper : Initializing stepper and homing.
+2024-09-08 22:53:06,824 : INFO : stepper.right_flipper_stepper : Homing stepper using switch homing with switch <switch.s_right_home>.
+2024-09-08 22:53:06,824 : DEBUG : TIC Stepper : Rotating By Velocity (velocity * max_speed): -2000000
+2024-09-08 22:53:06,825 : DEBUG : TIC Stepper : Commanded To Stop
+2024-09-08 22:53:06,826 : DEBUG : TIC Stepper : Setting Position To 0
+2024-09-08 22:53:06,827 : INFO : stepper.right_flipper_stepper : Stepper reached home.
+2024-09-08 22:53:06,855 : INFO : stepper.right_flipper_stepper : Resting position is now 0. Stepper is ready to move.
+2024-09-08 22:53:06,855 : DEBUG : stepper.right_flipper_stepper : Moving the stepper to target position -10, current position 0
+2024-09-08 22:53:06,855 : INFO : stepper.right_flipper_stepper : Stepper moving relative -10 to hit target -10 from 0
+2024-09-08 22:53:06,855 : DEBUG : TIC Stepper : Moving To Relative Position: -10 (Absolute: -10)
+2024-09-08 22:53:06,867 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-09-08 22:53:06,871 : INFO : BallController : Initial balls found: 0
+2024-09-08 22:53:06,914 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,916 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 389, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,917 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_launch'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,917 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_flipper'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,918 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_flipper_eos'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,918 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_inlane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,946 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_inner_lane'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,947 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outer_lane'====== Args={'value': 153, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,947 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outlane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,947 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_sling'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,948 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_mead'====== Args={'value': 267, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,960 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_percy'====== Args={'value': 85, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,960 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_plunger'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,960 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_1'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,961 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_2'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,962 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_3'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,962 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_flipper'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,963 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_flipper_eos'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,963 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_inlane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,964 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_inner_lane'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,992 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outer_lane'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,993 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outlane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,993 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_sling'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2024-09-08 22:53:06,994 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_scanlan'====== Args={'value': 204, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,006 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,007 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_1'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,007 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_2'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,008 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_3'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,008 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_4'====== Args={'value': 278, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,009 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_5'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,009 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_6'====== Args={'value': 95, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,145 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_jam'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,173 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,174 : INFO : EventManager : Event: ======'machine_var_audits_shots_mead_shot'====== Args={'value': 223, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,174 : INFO : EventManager : Event: ======'machine_var_audits_shots_percy_shot'====== Args={'value': 56, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,174 : INFO : EventManager : Event: ======'machine_var_audits_shots_scanlan_shot'====== Args={'value': 121, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,175 : INFO : EventManager : Event: ======'machine_var_audits_shots_video_shot_1'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,220 : INFO : EventManager : Event: ======'machine_var_audits_shots_video_shot_2'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_auto_launcher'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ball_drain'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,234 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 36, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,235 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,236 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,237 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inner_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,264 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outer_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,265 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,265 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,266 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mead'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,267 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_percy'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,279 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,280 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,281 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,282 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,311 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 131, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,312 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,312 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,313 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inner_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,325 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outer_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,326 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,327 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,327 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_scanlan'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,328 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,357 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_switch_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,358 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_1'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,358 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_2'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,370 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,371 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,372 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,373 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_6'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,374 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_jam'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,402 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_eject_coil'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,403 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,403 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_home'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-08 22:53:07,417 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2024-09-08 22:53:08,978 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2024-09-08 22:53:09,205 : DEBUG : TIC Stepper : get_status() received cmd_return: b'Name:                         Tic 36v4 High-Power Stepper Motor Controller\r\nSerial number:                00414729\r\nFirmware version:             1.08\r\nLast reset:                   Power-on reset\r\nUp time:                      9:52:42\r\n\r\nEncoder position:             0\r\nRC pulse width:               N/A\r\nInput state:                  Halt\r\nInput after averaging:        N/A\r\nInput after hysteresis:       N/A\r\nInput before scaling:         N/A\r\nInput after scaling:          0\r\nForward limit active:         No\r\nReverse limit active:         No\r\n\r\nVIN voltage:                  47.118 V\r\nOperation state:              Soft error\r\nEnergized:                    No\r\nHoming active:                No\r\n\r\nTarget:                       No target\r\nCurrent position:             0\r\nPosition uncertain:           Yes\r\nCurrent velocity:             0\r\nMax speed:                    2000000\r\nStarting speed:               0\r\nMax acceleration:             40000\r\nMax deceleration:             40000\r\nActing target position:       0\r\nTime since last step:         13785000\r\nStep mode:                    Full step\r\nCurrent limit:                2435 mA\r\n\r\nErrors currently stopping the motor:\r\n  - Safe start violation\r\nErrors that occurred since last check:\r\n  - Command timeout\r\n  - Safe start violation\r\nLast motor driver errors: None\r\n\r\nSCL pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nSDA pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nTX pin:\r\n  State:                      Output high\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRX pin:\r\n  State:                      Pulled up\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRC pin:\r\n  Digital reading:            0\r\n\r\n'
+2024-09-08 22:53:09,209 : DEBUG : TIC Stepper : Target Position: -10 Current Position: 0
+2024-09-08 22:53:09,210 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2024-09-08 22:53:09,222 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2024-09-08 22:53:09,231 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2024-09-08 22:53:09,232 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2024-09-08 22:53:09,232 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2024-09-08 22:53:09,233 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2024-09-08 22:53:09,233 : INFO : Mode.attract : Started. Priority: 10
+2024-09-08 22:53:09,234 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-09-08 22:53:09,234 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2024-09-08 22:53:09,234 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2024-09-08 22:53:09,285 : INFO : Machine : Starting the main run loop.
+2024-09-08 22:53:09,444 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2024-09-08 22:53:09,507 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2024-09-08 22:53:09,520 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2024-09-08 22:53:17,173 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:53:18,150 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:53:18,150 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:53:18,151 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:18,151 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:18,151 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:18,467 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:25,237 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:53:26,759 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:53:26,759 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:53:26,760 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:26,760 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:26,760 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:27,089 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:28,233 : DEBUG : TIC Stepper : get_status() received cmd_return: b'Name:                         Tic 36v4 High-Power Stepper Motor Controller\r\nSerial number:                00414729\r\nFirmware version:             1.08\r\nLast reset:                   Power-on reset\r\nUp time:                      9:52:59\r\n\r\nEncoder position:             0\r\nRC pulse width:               N/A\r\nInput state:                  Position\r\nInput after averaging:        N/A\r\nInput after hysteresis:       N/A\r\nInput before scaling:         N/A\r\nInput after scaling:          -10\r\nForward limit active:         No\r\nReverse limit active:         No\r\n\r\nVIN voltage:                  46.659 V\r\nOperation state:              Soft error\r\nEnergized:                    No\r\nHoming active:                No\r\n\r\nTarget:                       No target\r\nCurrent position:             0\r\nPosition uncertain:           No\r\nCurrent velocity:             0\r\nMax speed:                    2000000\r\nStarting speed:               0\r\nMax acceleration:             40000\r\nMax deceleration:             40000\r\nActing target position:       0\r\nTime since last step:         32535000\r\nStep mode:                    Full step\r\nCurrent limit:                2435 mA\r\n\r\nErrors currently stopping the motor:\r\n  - Safe start violation\r\nErrors that occurred since last check:\r\n  - Safe start violation\r\nLast motor driver errors: None\r\n\r\nSCL pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nSDA pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nTX pin:\r\n  State:                      Output high\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRX pin:\r\n  State:                      Pulled up\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRC pin:\r\n  Digital reading:            0\r\n\r\n'
+2024-09-08 22:53:28,238 : DEBUG : TIC Stepper : Target Position: -10 Current Position: 0
+2024-09-08 22:53:29,052 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:53:42,155 : DEBUG : TIC Stepper : get_status() received cmd_return: b'Name:                         Tic 36v4 High-Power Stepper Motor Controller\r\nSerial number:                00414729\r\nFirmware version:             1.08\r\nLast reset:                   Power-on reset\r\nUp time:                      9:53:14\r\n\r\nEncoder position:             0\r\nRC pulse width:               N/A\r\nInput state:                  Position\r\nInput after averaging:        N/A\r\nInput after hysteresis:       N/A\r\nInput before scaling:         N/A\r\nInput after scaling:          -10\r\nForward limit active:         No\r\nReverse limit active:         No\r\n\r\nVIN voltage:                  46.528 V\r\nOperation state:              Soft error\r\nEnergized:                    No\r\nHoming active:                No\r\n\r\nTarget:                       No target\r\nCurrent position:             0\r\nPosition uncertain:           No\r\nCurrent velocity:             0\r\nMax speed:                    2000000\r\nStarting speed:               0\r\nMax acceleration:             40000\r\nMax deceleration:             40000\r\nActing target position:       0\r\nTime since last step:         79005000\r\nStep mode:                    Full step\r\nCurrent limit:                2435 mA\r\n\r\nErrors currently stopping the motor:\r\n  - Safe start violation\r\nErrors that occurred since last check:\r\n  - Safe start violation\r\nLast motor driver errors: None\r\n\r\nSCL pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nSDA pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nTX pin:\r\n  State:                      Output high\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRX pin:\r\n  State:                      Pulled up\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRC pin:\r\n  Digital reading:            0\r\n\r\n'
+2024-09-08 22:53:42,159 : DEBUG : TIC Stepper : Target Position: -10 Current Position: 0
+2024-09-08 22:53:43,855 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:53:43,855 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:53:43,903 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:43,903 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:43,904 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:44,961 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:45,277 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:53:46,885 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:53:46,885 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:53:46,885 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:46,885 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:46,886 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:46,891 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:47,336 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:53:47,554 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:53:47,554 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:53:47,555 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:47,556 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:47,556 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:47,720 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:47,730 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:53:47,823 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:53:47,823 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:53:47,823 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:47,823 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:47,824 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:47,835 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:48,056 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:53:48,244 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:53:48,244 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:53:48,244 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:48,245 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:48,245 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:48,250 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:48,719 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:53:48,719 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:53:48,720 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:53:48,720 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:53:48,721 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:48,732 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:48,732 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:48,871 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:48,881 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:53:48,881 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:53:48,882 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:48,882 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:48,882 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:48,888 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:49,498 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:53:49,499 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:53:49,511 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:53:49,512 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:53:49,512 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:53:49,512 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:53:49,569 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:49,606 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:49,606 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:49,764 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:49,804 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:49,804 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:49,804 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:50,228 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:50,295 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:53:50,295 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:53:50,295 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:53:50,295 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:53:50,296 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:50,296 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:50,296 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:50,321 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:50,523 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:53:50,523 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:53:50,523 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:50,523 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:53:50,523 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:50,716 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:53:52,610 : DEBUG : TIC Stepper : get_status() received cmd_return: b'Name:                         Tic 36v4 High-Power Stepper Motor Controller\r\nSerial number:                00414729\r\nFirmware version:             1.08\r\nLast reset:                   Power-on reset\r\nUp time:                      9:53:25\r\n\r\nEncoder position:             0\r\nRC pulse width:               N/A\r\nInput state:                  Position\r\nInput after averaging:        N/A\r\nInput after hysteresis:       N/A\r\nInput before scaling:         N/A\r\nInput after scaling:          -10\r\nForward limit active:         No\r\nReverse limit active:         No\r\n\r\nVIN voltage:                  46.659 V\r\nOperation state:              Soft error\r\nEnergized:                    No\r\nHoming active:                No\r\n\r\nTarget:                       No target\r\nCurrent position:             0\r\nPosition uncertain:           No\r\nCurrent velocity:             0\r\nMax speed:                    2000000\r\nStarting speed:               0\r\nMax acceleration:             40000\r\nMax deceleration:             40000\r\nActing target position:       0\r\nTime since last step:         112410000\r\nStep mode:                    Full step\r\nCurrent limit:                2435 mA\r\n\r\nErrors currently stopping the motor:\r\n  - Safe start violation\r\nErrors that occurred since last check:\r\n  - Safe start violation\r\nLast motor driver errors: None\r\n\r\nSCL pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nSDA pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nTX pin:\r\n  State:                      Output high\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRX pin:\r\n  State:                      Pulled up\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRC pin:\r\n  Digital reading:            0\r\n\r\n'
+2024-09-08 22:53:52,618 : DEBUG : TIC Stepper : Target Position: -10 Current Position: 0
+2024-09-08 22:53:52,912 : INFO : SwitchController : <<<<<<< 's_right_home' inactive >>>>>>>
+2024-09-08 22:53:52,912 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-08 22:53:52,912 : INFO : BallController : Known balls: 0
+2024-09-08 22:53:52,912 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-09-08 22:53:52,913 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-08 22:53:52,913 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-08 22:53:52,913 : INFO : BallController : Triggering ball search.
+2024-09-08 22:53:54,511 : INFO : SwitchController : <<<<<<< 's_right_home' active >>>>>>>
+2024-09-08 22:53:55,263 : INFO : SwitchController : <<<<<<< 's_right_home' inactive >>>>>>>
+2024-09-08 22:53:55,266 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-08 22:53:55,266 : INFO : BallController : Known balls: 0
+2024-09-08 22:53:55,267 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-09-08 22:53:55,267 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-08 22:53:55,267 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-08 22:53:55,267 : INFO : BallController : Triggering ball search.
+2024-09-08 22:53:56,465 : INFO : SwitchController : <<<<<<< 's_right_home' active >>>>>>>
+2024-09-08 22:53:57,036 : INFO : SwitchController : <<<<<<< 's_right_home' inactive >>>>>>>
+2024-09-08 22:53:57,037 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-08 22:53:57,071 : INFO : BallController : Known balls: 0
+2024-09-08 22:53:57,071 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-09-08 22:53:57,071 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-08 22:53:57,071 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-08 22:53:57,071 : INFO : BallController : Triggering ball search.
+2024-09-08 22:53:57,591 : INFO : SwitchController : <<<<<<< 's_right_home' active >>>>>>>
+2024-09-08 22:53:58,695 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:53:59,697 : INFO : SwitchController : <<<<<<< 's_right_home' inactive >>>>>>>
+2024-09-08 22:53:59,697 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-08 22:53:59,698 : INFO : BallController : Known balls: 0
+2024-09-08 22:53:59,698 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-09-08 22:53:59,699 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-08 22:53:59,699 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-08 22:53:59,699 : INFO : BallController : Triggering ball search.
+2024-09-08 22:54:00,285 : INFO : SwitchController : <<<<<<< 's_right_home' active >>>>>>>
+2024-09-08 22:54:00,591 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:54:00,591 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:54:00,597 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:54:00,598 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:54:00,598 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:54:00,605 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:54:00,641 : INFO : SwitchController : <<<<<<< 's_right_home' inactive >>>>>>>
+2024-09-08 22:54:00,641 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-08 22:54:00,642 : INFO : BallController : Known balls: 0
+2024-09-08 22:54:00,642 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-09-08 22:54:00,642 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-08 22:54:00,642 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-08 22:54:00,644 : INFO : BallController : Triggering ball search.
+2024-09-08 22:54:00,671 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:54:01,221 : DEBUG : TIC Stepper : get_status() received cmd_return: b'Name:                         Tic 36v4 High-Power Stepper Motor Controller\r\nSerial number:                00414729\r\nFirmware version:             1.08\r\nLast reset:                   Power-on reset\r\nUp time:                      9:53:34\r\n\r\nEncoder position:             0\r\nRC pulse width:               N/A\r\nInput state:                  Position\r\nInput after averaging:        N/A\r\nInput after hysteresis:       N/A\r\nInput before scaling:         N/A\r\nInput after scaling:          -10\r\nForward limit active:         No\r\nReverse limit active:         No\r\n\r\nVIN voltage:                  47.512 V\r\nOperation state:              Soft error\r\nEnergized:                    No\r\nHoming active:                No\r\n\r\nTarget:                       No target\r\nCurrent position:             0\r\nPosition uncertain:           No\r\nCurrent velocity:             0\r\nMax speed:                    2000000\r\nStarting speed:               0\r\nMax acceleration:             40000\r\nMax deceleration:             40000\r\nActing target position:       0\r\nTime since last step:         139875000\r\nStep mode:                    Full step\r\nCurrent limit:                2435 mA\r\n\r\nErrors currently stopping the motor:\r\n  - Safe start violation\r\nErrors that occurred since last check:\r\n  - Command timeout\r\n  - Safe start violation\r\nLast motor driver errors: None\r\n\r\nSCL pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nSDA pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nTX pin:\r\n  State:                      Output high\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRX pin:\r\n  State:                      Pulled up\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRC pin:\r\n  Digital reading:            0\r\n\r\n'
+2024-09-08 22:54:01,225 : DEBUG : TIC Stepper : Target Position: -10 Current Position: 0
+2024-09-08 22:54:01,392 : INFO : SwitchController : <<<<<<< 's_right_home' active >>>>>>>
+2024-09-08 22:54:01,641 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:54:01,641 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:54:01,642 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:54:01,642 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:54:01,642 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:54:02,093 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:54:02,106 : INFO : SwitchController : <<<<<<< 's_right_home' inactive >>>>>>>
+2024-09-08 22:54:02,106 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-08 22:54:02,107 : INFO : BallController : Known balls: 0
+2024-09-08 22:54:02,107 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-09-08 22:54:02,107 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-08 22:54:02,107 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-08 22:54:02,107 : INFO : BallController : Triggering ball search.
+2024-09-08 22:54:02,128 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:54:02,943 : INFO : SwitchController : <<<<<<< 's_right_home' active >>>>>>>
+2024-09-08 22:54:02,989 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:54:02,989 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:54:02,990 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:54:02,991 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:54:02,991 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:54:02,998 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:54:03,613 : INFO : SwitchController : <<<<<<< 's_right_home' inactive >>>>>>>
+2024-09-08 22:54:03,613 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-08 22:54:03,613 : INFO : BallController : Known balls: 0
+2024-09-08 22:54:03,613 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-09-08 22:54:03,613 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-08 22:54:03,613 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-08 22:54:03,613 : INFO : BallController : Triggering ball search.
+2024-09-08 22:54:05,985 : INFO : SwitchController : <<<<<<< 's_right_home' active >>>>>>>
+2024-09-08 22:54:06,641 : INFO : SwitchController : <<<<<<< 's_right_home' inactive >>>>>>>
+2024-09-08 22:54:06,641 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-08 22:54:06,642 : INFO : BallController : Known balls: 0
+2024-09-08 22:54:06,642 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-09-08 22:54:06,642 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-08 22:54:06,642 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-08 22:54:06,642 : INFO : BallController : Triggering ball search.
+2024-09-08 22:54:07,236 : INFO : SwitchController : <<<<<<< 's_right_home' active >>>>>>>
+2024-09-08 22:54:08,011 : INFO : SwitchController : <<<<<<< 's_right_home' inactive >>>>>>>
+2024-09-08 22:54:08,011 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-08 22:54:08,012 : INFO : BallController : Known balls: 0
+2024-09-08 22:54:08,012 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-09-08 22:54:08,013 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-08 22:54:08,013 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-08 22:54:08,013 : INFO : BallController : Triggering ball search.
+2024-09-08 22:54:08,213 : INFO : SwitchController : <<<<<<< 's_right_home' active >>>>>>>
+2024-09-08 22:54:08,336 : DEBUG : TIC Stepper : get_status() received cmd_return: b'Name:                         Tic 36v4 High-Power Stepper Motor Controller\r\nSerial number:                00414729\r\nFirmware version:             1.08\r\nLast reset:                   Power-on reset\r\nUp time:                      9:53:42\r\n\r\nEncoder position:             0\r\nRC pulse width:               N/A\r\nInput state:                  Position\r\nInput after averaging:        N/A\r\nInput after hysteresis:       N/A\r\nInput before scaling:         N/A\r\nInput after scaling:          -10\r\nForward limit active:         No\r\nReverse limit active:         No\r\n\r\nVIN voltage:                  47.118 V\r\nOperation state:              Soft error\r\nEnergized:                    No\r\nHoming active:                No\r\n\r\nTarget:                       No target\r\nCurrent position:             0\r\nPosition uncertain:           No\r\nCurrent velocity:             0\r\nMax speed:                    2000000\r\nStarting speed:               0\r\nMax acceleration:             40000\r\nMax deceleration:             40000\r\nActing target position:       0\r\nTime since last step:         162390000\r\nStep mode:                    Full step\r\nCurrent limit:                2435 mA\r\n\r\nErrors currently stopping the motor:\r\n  - Safe start violation\r\nErrors that occurred since last check:\r\n  - Safe start violation\r\nLast motor driver errors: None\r\n\r\nSCL pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nSDA pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nTX pin:\r\n  State:                      Output high\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRX pin:\r\n  State:                      Pulled up\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRC pin:\r\n  Digital reading:            0\r\n\r\n'
+2024-09-08 22:54:08,344 : DEBUG : TIC Stepper : Target Position: -10 Current Position: 0
+2024-09-08 22:54:08,848 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2024-09-08 22:54:09,020 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2024-09-08 22:54:09,020 : INFO : EventManager : Event: ======'s_right_flipper_inactive'====== Args={}
+2024-09-08 22:54:09,020 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:54:09,021 : INFO : EventManager : Event: ======'right_rest'====== Args={'priority': 0}
+2024-09-08 22:54:09,021 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:54:09,027 : INFO : stepper.right_flipper_stepper : Stepper at 0 moving to absolute position -11.0
+2024-09-08 22:54:13,572 : DEBUG : TIC Stepper : get_status() received cmd_return: b'Name:                         Tic 36v4 High-Power Stepper Motor Controller\r\nSerial number:                00414729\r\nFirmware version:             1.08\r\nLast reset:                   Power-on reset\r\nUp time:                      9:53:48\r\n\r\nEncoder position:             0\r\nRC pulse width:               N/A\r\nInput state:                  Position\r\nInput after averaging:        N/A\r\nInput after hysteresis:       N/A\r\nInput before scaling:         N/A\r\nInput after scaling:          -10\r\nForward limit active:         No\r\nReverse limit active:         No\r\n\r\nVIN voltage:                  46.659 V\r\nOperation state:              Soft error\r\nEnergized:                    No\r\nHoming active:                No\r\n\r\nTarget:                       No target\r\nCurrent position:             0\r\nPosition uncertain:           No\r\nCurrent velocity:             0\r\nMax speed:                    2000000\r\nStarting speed:               0\r\nMax acceleration:             40000\r\nMax deceleration:             40000\r\nActing target position:       0\r\nTime since last step:         179895000\r\nStep mode:                    Full step\r\nCurrent limit:                2435 mA\r\n\r\nErrors currently stopping the motor:\r\n  - Safe start violation\r\nErrors that occurred since last check:\r\n  - Safe start violation\r\nLast motor driver errors: None\r\n\r\nSCL pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nSDA pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nTX pin:\r\n  State:                      Output high\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRX pin:\r\n  State:                      Pulled up\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRC pin:\r\n  Digital reading:            0\r\n\r\n'
+2024-09-08 22:54:13,579 : DEBUG : TIC Stepper : Target Position: -10 Current Position: 0
+2024-09-08 22:54:15,608 : INFO : SwitchController : <<<<<<< 's_right_home' inactive >>>>>>>
+2024-09-08 22:54:15,608 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-08 22:54:15,609 : INFO : BallController : Known balls: 0
+2024-09-08 22:54:15,610 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-09-08 22:54:15,610 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-08 22:54:15,610 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-08 22:54:15,610 : INFO : BallController : Triggering ball search.
+2024-09-08 22:54:17,089 : DEBUG : TIC Stepper : get_status() received cmd_return: b'Name:                         Tic 36v4 High-Power Stepper Motor Controller\r\nSerial number:                00414729\r\nFirmware version:             1.08\r\nLast reset:                   Power-on reset\r\nUp time:                      9:53:52\r\n\r\nEncoder position:             0\r\nRC pulse width:               N/A\r\nInput state:                  Position\r\nInput after averaging:        N/A\r\nInput after hysteresis:       N/A\r\nInput before scaling:         N/A\r\nInput after scaling:          -10\r\nForward limit active:         No\r\nReverse limit active:         No\r\n\r\nVIN voltage:                  46.659 V\r\nOperation state:              Soft error\r\nEnergized:                    No\r\nHoming active:                No\r\n\r\nTarget:                       No target\r\nCurrent position:             0\r\nPosition uncertain:           No\r\nCurrent velocity:             0\r\nMax speed:                    2000000\r\nStarting speed:               0\r\nMax acceleration:             40000\r\nMax deceleration:             40000\r\nActing target position:       0\r\nTime since last step:         191520000\r\nStep mode:                    Full step\r\nCurrent limit:                2435 mA\r\n\r\nErrors currently stopping the motor:\r\n  - Safe start violation\r\nErrors that occurred since last check:\r\n  - Safe start violation\r\nLast motor driver errors: None\r\n\r\nSCL pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nSDA pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nTX pin:\r\n  State:                      Output high\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRX pin:\r\n  State:                      Pulled up\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRC pin:\r\n  Digital reading:            0\r\n\r\n'
+2024-09-08 22:54:17,093 : DEBUG : TIC Stepper : Target Position: -10 Current Position: 0
+2024-09-08 22:54:17,144 : INFO : SwitchController : <<<<<<< 's_right_home' active >>>>>>>
+2024-09-08 22:54:21,446 : DEBUG : TIC Stepper : get_status() received cmd_return: b'Name:                         Tic 36v4 High-Power Stepper Motor Controller\r\nSerial number:                00414729\r\nFirmware version:             1.08\r\nLast reset:                   Power-on reset\r\nUp time:                      9:53:55\r\n\r\nEncoder position:             0\r\nRC pulse width:               N/A\r\nInput state:                  Position\r\nInput after averaging:        N/A\r\nInput after hysteresis:       N/A\r\nInput before scaling:         N/A\r\nInput after scaling:          -10\r\nForward limit active:         No\r\nReverse limit active:         No\r\n\r\nVIN voltage:                  46.659 V\r\nOperation state:              Soft error\r\nEnergized:                    No\r\nHoming active:                No\r\n\r\nTarget:                       No target\r\nCurrent position:             0\r\nPosition uncertain:           No\r\nCurrent velocity:             0\r\nMax speed:                    2000000\r\nStarting speed:               0\r\nMax acceleration:             40000\r\nMax deceleration:             40000\r\nActing target position:       0\r\nTime since last step:         202815000\r\nStep mode:                    Full step\r\nCurrent limit:                2435 mA\r\n\r\nErrors currently stopping the motor:\r\n  - Safe start violation\r\nErrors that occurred since last check:\r\n  - Safe start violation\r\nLast motor driver errors: None\r\n\r\nSCL pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nSDA pin:\r\n  State:                      Output low\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nTX pin:\r\n  State:                      Output high\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRX pin:\r\n  State:                      Pulled up\r\n  Analog reading:             N/A\r\n  Digital reading:            1\r\nRC pin:\r\n  Digital reading:            0\r\n\r\n'
+2024-09-08 22:54:21,534 : DEBUG : TIC Stepper : Target Position: -10 Current Position: 0
+2024-09-08 22:54:23,374 : DEBUG : asciimatics.screen : Processing mouse: 56, 17
+2024-09-08 22:54:23,374 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (56, 17) 0
+2024-09-08 22:54:24,382 : DEBUG : asciimatics.screen : Processing mouse: 56, 13
+2024-09-08 22:54:24,382 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (56, 13) 0
+2024-09-08 22:54:24,382 : DEBUG : asciimatics.screen : Processing mouse: 56, 13
+2024-09-08 22:54:24,382 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (56, 13) 1
+2024-09-08 22:54:24,383 : DEBUG : asciimatics.widgets.frame : Blurring: [<asciimatics.widgets.frame.Frame object at 0x0000021C8A5BA080>]
+2024-09-08 22:54:24,383 : DEBUG : asciimatics.screen : Processing mouse: 56, 13
+2024-09-08 22:54:24,383 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (56, 13) 0
+2024-09-08 22:54:24,383 : DEBUG : asciimatics.screen : Processing mouse: 56, 13
+2024-09-08 22:54:24,383 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (56, 13) 0
+2024-09-08 22:54:26,081 : INFO : Machine : Shutting down...
+2024-09-08 22:54:26,081 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-09-08 22:54:26,146 : DEBUG : TIC Stepper : Commanded To Stop
+2024-09-08 22:54:26,207 : DEBUG : TIC Stepper : Exception: b''
+2024-09-08 22:54:26,207 : ERROR : asyncio : Exception in callback PololuTiccmdWrapper._run_subprocess_ticcmd('--reset-command-timeout')
+handle: <Handle PololuTiccmdWrapper._run_subprocess_ticcmd('--reset-command-timeout')>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_ticcmd_wrapper.py", line 90, in _run_subprocess_ticcmd
+    output = subprocess.check_output(['ticcmd'] + args, stderr=subprocess.STDOUT)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['ticcmd', '--reset-command-timeout', '-d', '00414729']' returned non-zero exit status 3221225786.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_ticcmd_wrapper.py", line 95, in _run_subprocess_ticcmd
+    raise TicError(e.output)
+mpf.platforms.pololu.pololu_ticcmd_wrapper.TicError: b''
+2024-09-08 22:54:26,280 : DEBUG : FAST [NET] : Stop called on serial connection NET
+2024-09-08 22:54:26,608 : INFO : root : MPF run loop ended.

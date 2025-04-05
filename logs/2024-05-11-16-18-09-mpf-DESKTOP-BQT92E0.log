@@ -1,0 +1,95 @@
+2024-05-11 16:18:09,275 : INFO : root : Loading config.
+2024-05-11 16:18:09,277 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-05-11 16:18:09,277 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\octo\Downloads\homebrew\config\config.yaml
+2024-05-11 16:18:09,277 : INFO : ConfigProcessor : Loading config from file c:\git\new folder (3)\mpf\mpf\mpfconfig.yaml.
+2024-05-11 16:18:09,287 : INFO : ConfigProcessor : Loading config: c:\git\new folder (3)\mpf\mpf\mpfconfig.yaml
+2024-05-11 16:18:09,287 : INFO : ConfigProcessor : Loading config from file C:\Users\octo\Downloads\homebrew\config\config.yaml.
+2024-05-11 16:18:09,288 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\config.yaml
+2024-05-11 16:18:09,292 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\lights.yaml
+2024-05-11 16:18:09,296 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\coils.yaml
+2024-05-11 16:18:09,297 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\switches.yaml
+2024-05-11 16:18:09,300 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\sounds.yaml
+2024-05-11 16:18:09,300 : WARNING : ConfigProcessor : Config section 'sounds' is deprecated in MPF 0.80 and will be ignored.
+2024-05-11 16:18:09,303 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\images.yaml
+2024-05-11 16:18:09,306 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\videos.yaml
+2024-05-11 16:18:09,307 : INFO : ConfigProcessor : Config file cache created: C:\Users\octo\AppData\Local\Temp\1d0904511285da59b68333680e0b91d2.mpf_cache
+2024-05-11 16:18:09,346 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\cd157f4be5c4430bfa418abc82c784ba.mpf_cache
+2024-05-11 16:18:09,346 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\9a6ef7720776890324b2b6aefbdb5076.mpf_cache
+2024-05-11 16:18:09,346 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\octo\Downloads\homebrew\modes\base\config\base.yaml
+2024-05-11 16:18:09,346 : INFO : ConfigProcessor : Loading config from file C:\Users\octo\Downloads\homebrew\modes\base\config\base.yaml.
+2024-05-11 16:18:09,347 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\modes\base\config\base.yaml
+2024-05-11 16:18:09,347 : INFO : ConfigProcessor : Config file cache created: C:\Users\octo\AppData\Local\Temp\e87c946bbd0a2e05a931f281fca6458e.mpf_cache
+2024-05-11 16:18:09,348 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\cd157f4be5c4430bfa418abc82c784ba.mpf_cache
+2024-05-11 16:18:09,348 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\da852937ccb56145866cf54922bc01f8.mpf_cache
+2024-05-11 16:18:09,348 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev1
+2024-05-11 16:18:09,348 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-05-11-16-18-09-mpf-DESKTOP-BQT92E0.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-05-11 16:18:09,348 : INFO : Machine : MPF path: c:\git\new folder (3)\mpf\mpf
+2024-05-11 16:18:09,348 : INFO : Machine : Machine path: C:\Users\octo\Downloads\homebrew
+2024-05-11 16:18:09,348 : INFO : Machine : Platform: win32
+2024-05-11 16:18:09,348 : INFO : Machine : Python executable location: C:\Users\octo\AppData\Local\Programs\Python\Python310\python.exe
+2024-05-11 16:18:09,348 : INFO : Machine : Python version: 3.10.0 (64-bit)
+2024-05-11 16:18:09,349 : INFO : Machine : Initializing MPF...
+2024-05-11 16:18:09,453 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-05-11 16:18:09,461 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-05-11 16:18:09,461 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1', 'prev_value': None, 'change': True}
+2024-05-11 16:18:09,461 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-05-11 16:18:09,461 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.0', 'prev_value': None, 'change': True}
+2024-05-11 16:18:09,466 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2024-05-11 16:18:09,467 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-05-11 16:18:09,467 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-05-11 16:18:09,467 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2024-05-11 16:18:09,467 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-05-11 16:18:09,467 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-05-11 16:18:09,473 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at c:\git\new folder (3)\mpf\mpf\core\events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at c:\git\new folder (3)\mpf\mpf\core\events.py:124>
+Traceback (most recent call last):
+  File "C:\Users\octo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\git\new folder (3)\mpf\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "c:\git\new folder (3)\mpf\mpf\core\device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "c:\git\new folder (3)\mpf\mpf\core\device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "c:\git\new folder (3)\mpf\mpf\core\device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 696, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 410, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry autofire_coils:popbumper_1:switch = "s_pop_bumper_1" is not valid. Device "s_pop_bumper_1" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/logs)
+2024-05-11 16:18:09,502 : INFO : Machine : Starting the main run loop.
+2024-05-11 16:18:09,504 : INFO : Machine : Shutting down...
+2024-05-11 16:18:09,504 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-05-11 16:18:10,520 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\git\new folder (3)\mpf\mpf\core\machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\octo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\git\new folder (3)\mpf\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "c:\git\new folder (3)\mpf\mpf\core\device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "c:\git\new folder (3)\mpf\mpf\core\device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "c:\git\new folder (3)\mpf\mpf\core\device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 696, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\git\new folder (3)\mpf\mpf\core\config_validator.py", line 410, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry autofire_coils:popbumper_1:switch = "s_pop_bumper_1" is not valid. Device "s_pop_bumper_1" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/logs)
+2024-05-11 16:18:13,635 : INFO : root : MPF run loop ended.

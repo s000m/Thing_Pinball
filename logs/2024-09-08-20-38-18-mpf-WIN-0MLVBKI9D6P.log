@@ -1,0 +1,45 @@
+2024-09-08 20:38:18,347 : INFO : root : Loading config.
+2024-09-08 20:38:18,350 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-09-08 20:38:18,351 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\d1d13b71f03ff6cb7b42d9c6bb8e160f.mpf_cache
+2024-09-08 20:38:18,425 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 20:38:18,425 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 20:38:18,426 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\baa68abd602a2a90f66edd8e37c874c7.mpf_cache
+2024-09-08 20:38:18,426 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\game\config\game.yaml
+2024-09-08 20:38:18,426 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\f48eab4eba32ca9097b4976f8036bfbf.mpf_cache
+2024-09-08 20:38:18,427 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\base\config\base.yaml
+2024-09-08 20:38:18,427 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\20d8a08f313923c863e280a74de3cd75.mpf_cache
+2024-09-08 20:38:18,428 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 20:38:18,428 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 20:38:18,429 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\baa68abd602a2a90f66edd8e37c874c7.mpf_cache
+2024-09-08 20:38:18,430 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2024-09-08 20:38:18,430 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-09-08-20-38-18-mpf-WIN-0MLVBKI9D6P.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 10, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\Administrator\\Documents\\fast_homebrew_godot\\logs\\2024-09-08-20-38-18-mpf-WIN-0MLVBKI9D6P.log'}
+2024-09-08 20:38:18,431 : INFO : Machine : MPF path: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf
+2024-09-08 20:38:18,431 : INFO : Machine : Machine path: C:\Users\Administrator\Documents\fast_homebrew_godot
+2024-09-08 20:38:18,431 : INFO : Machine : Platform: win32
+2024-09-08 20:38:18,431 : INFO : Machine : Python executable location: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe
+2024-09-08 20:38:18,431 : INFO : Machine : Python version: 3.10.11 (64-bit)
+2024-09-08 20:38:18,431 : DEBUG : asyncio : Using proactor: IocpProactor
+2024-09-08 20:38:18,432 : INFO : Machine : Initializing MPF...
+2024-09-08 20:38:18,488 : ERROR : ConfigValidator : Your config contains a value for the setting "fast:controller", but this is not a valid setting name.
+2024-09-08 20:38:18,489 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 675, in initialize_mpf
+    raise init.exception()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 247, in initialize
+    await self.initialize_core_and_hardware()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 233, in initialize_core_and_hardware
+    self._load_hardware_platforms()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 479, in _load_hardware_platforms
+    self.add_platform(hardware_platform)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 609, in add_platform
+    self.hardware_platforms[name] = hardware_platform(self)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 57, in __init__
+    self.config = self.machine.config_validator.validate_config("fast", self.machine.config['fast'])
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "fast:controller", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+2024-09-08 20:38:18,492 : INFO : root : MPF run loop ended.

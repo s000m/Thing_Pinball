@@ -1,0 +1,341 @@
+2025-03-26 23:32:20,077 : INFO : root : Loading config.
+2025-03-26 23:32:20,090 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-26 23:32:20,090 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\775282453bb9ae39cad69c39ab867a35.mpf_cache
+2025-03-26 23:32:20,172 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-26 23:32:20,172 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\homebrew\Desktop\thing_pinball\modes\game\config\game.yaml
+2025-03-26 23:32:20,172 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\game\config\game.yaml.
+2025-03-26 23:32:20,172 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-03-26 23:32:20,172 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\Desktop\thing_pinball\modes\game\config\game.yaml.
+2025-03-26 23:32:20,192 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Desktop\thing_pinball\modes\game\config\game.yaml
+2025-03-26 23:32:20,192 : INFO : ConfigProcessor : Config file cache created: C:\Users\homebrew\AppData\Local\Temp\8864efb2a88f9c685592172f4fd0a6a3.mpf_cache
+2025-03-26 23:32:20,192 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\1352604168843921958881d1d8dd3c1b.mpf_cache
+2025-03-26 23:32:20,192 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-26 23:32:20,192 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8864efb2a88f9c685592172f4fd0a6a3.mpf_cache
+2025-03-26 23:32:20,203 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\82108c9d10735fbef5e8cced18b7d831.mpf_cache
+2025-03-26 23:32:20,203 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\81d0f34cbd4c6d61cd4dad95e5100b6a.mpf_cache
+2025-03-26 23:32:20,203 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\85b30d06c34a199299d858e267dca599.mpf_cache
+2025-03-26 23:32:20,203 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\b6a0c3fa509e03dd7943cf1395b72ece.mpf_cache
+2025-03-26 23:32:20,203 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\d18a920afddb781d4f34b36ac5cb2e09.mpf_cache
+2025-03-26 23:32:20,203 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\50de7258194ae9293cbe8c4fce9577e7.mpf_cache
+2025-03-26 23:32:20,203 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\2a76f107a833b8953199c5c910a26856.mpf_cache
+2025-03-26 23:32:20,203 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\529fba7289b2d9f945cd5a4488c8b5fa.mpf_cache
+2025-03-26 23:32:20,203 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8c97cf9697840e2ca000923ba54f1b48.mpf_cache
+2025-03-26 23:32:20,203 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\e8cb3f2c2e9a26851ec893c5156e3f7c.mpf_cache
+2025-03-26 23:32:20,203 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\67cfb29d96313268f86362bebab46239.mpf_cache
+2025-03-26 23:32:20,203 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-03-26 23:32:20,203 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-03-26-23-32-20-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-26-23-32-20-mpf-mpf.log'}
+2025-03-26 23:32:20,203 : INFO : Machine : MPF path: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-03-26 23:32:20,203 : INFO : Machine : Machine path: C:\Users\homebrew\Desktop\thing_pinball
+2025-03-26 23:32:20,203 : INFO : Machine : Platform: win32
+2025-03-26 23:32:20,203 : INFO : Machine : Python executable location: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\python.exe
+2025-03-26 23:32:20,203 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2025-03-26 23:32:20,203 : INFO : Machine : Initializing MPF...
+2025-03-26 23:32:21,275 : INFO : FAST [NET] : Trying to connect to com4 at 921600bps
+2025-03-26 23:32:21,275 : INFO : FAST [NET] : Connected to com4 at 921600bps
+2025-03-26 23:32:21,322 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.21
+2025-03-26 23:32:21,354 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2025-03-26 23:32:21,371 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-03-26 23:32:21,387 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-03-26 23:32:21,403 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-03-26 23:32:21,403 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,434 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,434 : INFO : EventManager : Event: ======'machine_var_game_mode_dog_hunt_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,434 : INFO : EventManager : Event: ======'machine_var_game_mode_discovery_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,434 : INFO : EventManager : Event: ======'machine_var_game_mode_infected_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,434 : INFO : EventManager : Event: ======'machine_var_game_mode_blood_test_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,434 : INFO : EventManager : Event: ======'machine_var_game_mode_spider_head_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,434 : INFO : EventManager : Event: ======'machine_var_game_mode_wizard_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,434 : INFO : EventManager : Event: ======'machine_var_game_mode_ball_lock_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,434 : INFO : EventManager : Event: ======'machine_var_game_mode_multiball_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,434 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,434 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,434 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,547 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,547 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,547 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,547 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,547 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,547 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-26-23-32-20-mpf-mpf.log', 'prev_value': None, 'change': True}
+2025-03-26 23:32:21,547 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-03-26 23:32:21,605 : WARNING : ConfigValidator : Unrecognized config setting. "mode:blood_test:timers:blood_test_timer:events_when_complete" is not a valid setting name.
+2025-03-26 23:32:21,605 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:multiball_jackpot_timer:events_when_complete" is not a valid setting name.
+2025-03-26 23:32:21,605 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:right_ramp_validity_timer:events_when_complete" is not a valid setting name.
+2025-03-26 23:32:21,605 : WARNING : ConfigValidator : Unrecognized config setting. "mode:discovery:timers:discovery_timer:events_when_complete" is not a valid setting name.
+2025-03-26 23:32:21,605 : WARNING : ConfigValidator : Unrecognized config setting. "mode:base:timers:mode_timer:events_when_complete" is not a valid setting name.
+2025-03-26 23:32:21,605 : WARNING : ConfigValidator : Unrecognized config setting. "mode:infected:timers:infected_timer:events_when_complete" is not a valid setting name.
+2025-03-26 23:32:21,605 : WARNING : ConfigValidator : Unrecognized config setting. "mode:spider_head:timers:spider_head_timer:events_when_complete" is not a valid setting name.
+2025-03-26 23:32:21,605 : WARNING : ConfigValidator : Unrecognized config setting. "mode:dog_hunt:timers:dog_hunt_timer:events_when_complete" is not a valid setting name.
+2025-03-26 23:32:21,605 : WARNING : ConfigValidator : Unrecognized config setting. "mode:wizard:timers:wizard_timer:events_when_complete" is not a valid setting name.
+2025-03-26 23:32:21,609 : INFO : EventManager : Event: ======'drop_target_bank_dog_bank_up'====== Args={}
+2025-03-26 23:32:21,609 : INFO : EventManager : Event: ======'logicblock_spinner_value_updated'====== Args={'value': 0, 'enabled': False}
+2025-03-26 23:32:21,609 : INFO : EventManager : Event: ======'logicblock_newton_hit_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-03-26 23:32:24,054 : WARNING : Machine : Iterating device collections directly is deprecated and will be removed. Access by value(): device_collections[switches] -> device_collections['switches'].values()
+2025-03-26 23:32:24,054 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-03-26 23:32:24,054 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-03-26 23:32:24,054 : INFO : SwitchController : <<<<<<< 's_mode_opto' active >>>>>>>
+2025-03-26 23:32:24,054 : INFO : SwitchController : <<<<<<< 's_newton_opto_made' active >>>>>>>
+2025-03-26 23:32:24,054 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:32:24,063 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-03-26 23:32:24,063 : INFO : SwitchController : Found active switch: (52, [FAST Platform Interface]) <switch.s_trough_ball>
+2025-03-26 23:32:24,063 : INFO : SwitchController : Found active switch: (51, [FAST Platform Interface]) <switch.s_trough_ball_jam>
+2025-03-26 23:32:24,063 : INFO : SwitchController : Found active switch: (64, [FAST Platform Interface]) <switch.s_mode_opto>
+2025-03-26 23:32:24,063 : INFO : SwitchController : Found active switch: (45, [FAST Platform Interface]) <switch.s_newton_opto_made>
+2025-03-26 23:32:24,063 : INFO : SwitchController : Found active switch: (10, [FAST Platform Interface]) <switch.s_start_button>
+2025-03-26 23:32:24,069 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,069 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,069 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,069 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,070 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 23:32:24,072 : WARNING : YAML File Interface : YAML error found in file C:\Users\homebrew\Desktop\thing_pinball\data/high_scores.yaml. Line 2, Position 3: could not determine a constructor for the tag 'tag:yaml.org,2002:python/tuple'
+  in "C:\Users\homebrew\Desktop\thing_pinball\data/high_scores.yaml", line 2, column 3
+2025-03-26 23:32:24,072 : WARNING : ConfigValidator : Unrecognized config setting. "high_score:events_when_complete" is not a valid setting name.
+2025-03-26 23:32:24,072 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'GRAND CHAMPION', 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,072 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'THING', 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,072 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 5000000, 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,072 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,072 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'MPF', 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,072 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 4000000, 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,072 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,072 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'PINBALL', 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,074 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 3000000, 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,074 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,074 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'WIZARD', 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,074 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 2000000, 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,074 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,074 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'PLAYER', 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,074 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 1000000, 'prev_value': None, 'change': True}
+2025-03-26 23:32:24,074 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-03-26 23:32:24,075 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-03-26 23:32:33,672 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:32:33,863 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:32:33,863 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:32:33,864 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:32:33,864 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:32:35,645 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-03-26 23:32:35,645 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-03-26 23:32:35,838 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-03-26 23:32:35,840 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-03-26 23:32:36,030 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-03-26 23:32:36,030 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-03-26 23:32:36,175 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-03-26 23:32:36,175 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-03-26 23:32:36,301 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-03-26 23:32:36,301 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-03-26 23:32:36,413 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-03-26 23:32:36,413 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-03-26 23:32:36,590 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-03-26 23:32:36,592 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-03-26 23:32:36,734 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-03-26 23:32:36,752 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-03-26 23:32:37,022 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-03-26 23:32:37,051 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-03-26 23:32:37,341 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-03-26 23:32:37,341 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-03-26 23:32:39,503 : INFO : SwitchController : <<<<<<< 's_right_button_2' active >>>>>>>
+2025-03-26 23:32:39,503 : INFO : SwitchController : <<<<<<< 's_right_flipper_button' active >>>>>>>
+2025-03-26 23:32:39,730 : INFO : SwitchController : <<<<<<< 's_right_flipper_button' inactive >>>>>>>
+2025-03-26 23:32:39,732 : INFO : SwitchController : <<<<<<< 's_right_button_2' inactive >>>>>>>
+2025-03-26 23:32:39,793 : INFO : SwitchController : <<<<<<< 's_right_button_2' active >>>>>>>
+2025-03-26 23:32:39,795 : INFO : SwitchController : <<<<<<< 's_right_flipper_button' active >>>>>>>
+2025-03-26 23:32:39,919 : INFO : SwitchController : <<<<<<< 's_right_flipper_button' inactive >>>>>>>
+2025-03-26 23:32:39,919 : INFO : SwitchController : <<<<<<< 's_right_button_2' inactive >>>>>>>
+2025-03-26 23:32:40,015 : INFO : SwitchController : <<<<<<< 's_right_button_2' active >>>>>>>
+2025-03-26 23:32:40,036 : INFO : SwitchController : <<<<<<< 's_right_flipper_button' active >>>>>>>
+2025-03-26 23:32:40,160 : INFO : SwitchController : <<<<<<< 's_right_flipper_button' inactive >>>>>>>
+2025-03-26 23:32:40,187 : INFO : SwitchController : <<<<<<< 's_right_button_2' inactive >>>>>>>
+2025-03-26 23:32:51,632 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:32:52,194 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:32:52,194 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:32:52,194 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:32:52,194 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:32:52,676 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:32:52,982 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:32:52,982 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:32:52,982 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:32:52,982 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:32:53,254 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:32:53,559 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:32:53,559 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:32:53,561 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:32:53,561 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:32:53,993 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:32:54,303 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:32:54,303 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:32:54,304 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:32:54,304 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:32:54,727 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:32:54,935 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:32:54,935 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:32:54,935 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:32:54,935 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:32:55,340 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:32:55,512 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:32:55,512 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:32:55,512 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:32:55,512 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:32:55,655 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:32:55,994 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:32:55,994 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:32:55,996 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:32:55,996 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:10,066 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:20,440 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:20,440 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:20,442 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:20,442 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:20,552 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:20,552 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:20,552 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:20,552 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:20,552 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:20,568 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:20,617 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:20,617 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:20,617 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:20,617 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:20,778 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:20,778 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:20,780 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:20,784 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:20,784 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:21,002 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:22,297 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:22,297 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:22,297 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:22,297 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:22,351 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:22,722 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:22,724 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:22,725 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:22,725 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:22,884 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:22,915 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:22,915 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:22,915 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:22,915 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:23,090 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:23,090 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:23,090 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:23,090 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:23,093 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:23,171 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:23,507 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:23,507 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:23,509 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:23,509 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:30,074 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:30,393 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:30,393 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:30,393 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:30,393 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:30,846 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:31,052 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:31,052 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:31,052 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:31,052 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:31,547 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:31,659 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:31,659 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:31,659 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:31,659 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:31,771 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:31,900 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:31,900 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:31,900 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:31,900 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:32,431 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:32,527 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:32,527 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:32,527 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:32,527 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:32,719 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:32,927 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:32,927 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:32,929 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:32,929 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:33,504 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:33,889 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:33,889 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:33,891 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:33,891 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:34,595 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:34,883 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:34,883 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:34,883 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:34,883 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:40,405 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:48,912 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:48,912 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:48,912 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:48,912 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:48,945 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:48,945 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:48,945 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:48,945 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:48,945 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:48,976 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:49,040 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:49,040 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:49,040 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:49,040 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:55,060 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:55,397 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:55,397 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:55,397 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:55,397 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:55,541 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:55,733 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:55,735 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:55,735 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:55,735 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:55,813 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:55,941 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:55,941 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:55,941 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:55,941 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:56,005 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:56,149 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:56,149 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:56,149 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:56,149 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:56,229 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:56,501 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:56,501 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:56,501 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:56,501 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:56,597 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:56,742 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:56,742 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:56,742 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:56,742 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:33:56,902 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 23:33:57,062 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 23:33:57,062 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 23:33:57,062 : INFO : EventManager : Event: ======'start_game'====== Args={'priority': 0}
+2025-03-26 23:33:57,062 : WARNING : Mode.game : Can only start mode game during a game. Aborting start.
+2025-03-26 23:40:13,793 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-03-26 23:40:14,369 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-03-26 23:40:14,670 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-03-26 23:40:15,454 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-03-26 23:41:16,908 : INFO : Machine : Starting the main run loop.
+2025-03-26 23:41:16,908 : INFO : Machine : Shutting down...
+2025-03-26 23:41:16,908 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-03-26 23:41:18,015 : INFO : root : MPF run loop ended.

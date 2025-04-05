@@ -1,0 +1,33 @@
+#config_version=6
+
+# Configuration for Fast Neuron Controller Node Boards
+
+io_boards:
+  0:  # Node 0
+    board_id: FP-I/O-0024-3
+    node_id: 0
+    switch_drivers_count: 18
+    coil_drivers_count: 8
+    firmware: 01.10
+    serial: 3227F4745030583250202020FF092129
+  1:  # Node 1
+    board_id: FP-I/O-3208-3
+    node_id: 1
+    switch_drivers_count: 20
+    coil_drivers_count: 8
+    firmware: 01.10
+    serial: D8210B2B5030334350202020FF183220
+  2:  # Node 2
+    board_id: FP-I/O-0804-3
+    node_id: 2
+    switch_drivers_count: 8
+    coil_drivers_count: 4
+    firmware: 01.10
+    serial: 48F89F0D51514C5752202020FF173113
+  3:  # Node 3
+    board_id: FP-I/O-0804-3
+    node_id: 3
+    switch_drivers_count: 8
+    coil_drivers_count: 4
+    firmware: 01.10
+    serial: CF585029514C505136202020FF0D1621

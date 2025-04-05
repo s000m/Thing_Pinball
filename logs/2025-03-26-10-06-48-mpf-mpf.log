@@ -1,0 +1,93 @@
+2025-03-26 10:06:48,554 : INFO : root : Loading config.
+2025-03-26 10:06:48,570 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-26 10:06:48,570 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\homebrew\Desktop\thing_pinball\config\config.yaml
+2025-03-26 10:06:48,570 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-03-26 10:06:48,602 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\mpfconfig.yaml
+2025-03-26 10:06:48,602 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\Desktop\thing_pinball\config\config.yaml.
+2025-03-26 10:06:48,624 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Desktop\thing_pinball\config\config.yaml
+2025-03-26 10:06:48,634 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Desktop\thing_pinball\config\service_mode.yaml
+2025-03-26 10:06:48,638 : INFO : ConfigProcessor : Config file cache created: C:\Users\homebrew\AppData\Local\Temp\775282453bb9ae39cad69c39ab867a35.mpf_cache
+2025-03-26 10:06:48,729 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-26 10:06:48,745 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\3a13d33aed1669bafe3e56d7baff78a0.mpf_cache
+2025-03-26 10:06:48,756 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\1352604168843921958881d1d8dd3c1b.mpf_cache
+2025-03-26 10:06:48,768 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-26 10:06:48,768 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\3a13d33aed1669bafe3e56d7baff78a0.mpf_cache
+2025-03-26 10:06:48,768 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\82108c9d10735fbef5e8cced18b7d831.mpf_cache
+2025-03-26 10:06:48,784 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\81d0f34cbd4c6d61cd4dad95e5100b6a.mpf_cache
+2025-03-26 10:06:48,796 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\85b30d06c34a199299d858e267dca599.mpf_cache
+2025-03-26 10:06:48,808 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\b6a0c3fa509e03dd7943cf1395b72ece.mpf_cache
+2025-03-26 10:06:48,821 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\d18a920afddb781d4f34b36ac5cb2e09.mpf_cache
+2025-03-26 10:06:48,831 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\50de7258194ae9293cbe8c4fce9577e7.mpf_cache
+2025-03-26 10:06:48,839 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\2a76f107a833b8953199c5c910a26856.mpf_cache
+2025-03-26 10:06:48,862 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\529fba7289b2d9f945cd5a4488c8b5fa.mpf_cache
+2025-03-26 10:06:48,871 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8c97cf9697840e2ca000923ba54f1b48.mpf_cache
+2025-03-26 10:06:48,893 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\e8cb3f2c2e9a26851ec893c5156e3f7c.mpf_cache
+2025-03-26 10:06:48,907 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\78a1fb055772b356de30948f28682ed0.mpf_cache
+2025-03-26 10:06:48,919 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\67cfb29d96313268f86362bebab46239.mpf_cache
+2025-03-26 10:06:48,935 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-03-26 10:06:48,935 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-03-26-10-06-48-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-26-10-06-48-mpf-mpf.log'}
+2025-03-26 10:06:48,935 : INFO : Machine : MPF path: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-03-26 10:06:48,935 : INFO : Machine : Machine path: C:\Users\homebrew\Desktop\thing_pinball
+2025-03-26 10:06:48,935 : INFO : Machine : Platform: win32
+2025-03-26 10:06:48,935 : INFO : Machine : Python executable location: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\python.exe
+2025-03-26 10:06:48,935 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2025-03-26 10:06:48,935 : INFO : Machine : Initializing MPF...
+2025-03-26 10:06:48,960 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine.py", line 675, in initialize_mpf
+    raise init.exception()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine.py", line 247, in initialize
+    await self.initialize_core_and_hardware()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine.py", line 233, in initialize_core_and_hardware
+    self._load_hardware_platforms()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine.py", line 479, in _load_hardware_platforms
+    self.add_platform(hardware_platform)
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine.py", line 609, in add_platform
+    self.hardware_platforms[name] = hardware_platform(self)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 57, in __init__
+    self.config = self.machine.config_validator.validate_config("fast", self.machine.config['fast'])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_validator.py", line 368, in _validate_type_subconfig
+    return self._validate_config(attribute, item, validation_failure_info=validation_failure_info,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_validator.py", line 274, in validate_config_item
+    return self._validate_dict(item_type, validation, validation_failure_info, item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_validator.py", line 303, in _validate_dict
+    self.validate_item(v, validators[1], ValidationPath(validation_failure_info, k)))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_validator.py", line 368, in _validate_type_subconfig
+    return self._validate_config(attribute, item, validation_failure_info=validation_failure_info,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_validator.py", line 390, in _validate_type_enum
+    raise self.validation_error(
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry fast:fast:net:io_loop:cab:order = "0" is not valid. Entry "0" is not valid for enum. Valid values are: 1,2,3,4,5,6,7,8,9 Error Code: CFE-ConfigValidator-5 (https://missionpinball.org/logs)
+2025-03-26 10:06:49,029 : INFO : root : MPF run loop ended.

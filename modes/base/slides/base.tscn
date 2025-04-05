@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://c2tf6o3rd55rh"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_td7l7"]
+[ext_resource type="Texture2D" uid="uid://c6scy41846kwh" path="res://images/turbotime_wallpaper_by_turbotastique_d6hfv6h-fullview.png" id="2_7djtx"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_pvtj8"]
+
+[node name="Base" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_td7l7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(960.537, 543.9)
+scale = Vector2(1.86865, 1.87922)
+texture = ExtResource("2_7djtx")
+
+[node name="MPFVariable" type="Label" parent="Sprite2D"]
+offset_left = -431.327
+offset_top = -73.4349
+offset_right = 92.673
+offset_bottom = 158.565
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_y = 7
+theme_override_constants/outline_size = 12
+theme_override_font_sizes/font_size = 150
+text = "100000"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_pvtj8")
+variable_name = "score"

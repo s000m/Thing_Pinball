@@ -1,0 +1,85 @@
+#config_version=6
+
+mode:
+  start_events: mode_ball_lock_start
+  stop_events: mode_ball_lock_complete
+  priority: 350
+  code: ball_lock.BallLock
+  
+slide_player:
+  mode_ball_lock_started:
+    ball_lock_started:
+      widgets:
+        - type: text
+          text: INITIATE BALL LOCK
+          font_size: 50
+          y: center-100
+          color: blue
+          expire: 2s
+          
+  left_ramp_hit_lock:
+    ball_lock_progress:
+      widgets:
+        - type: text
+          text: "LEFT RAMP HITS: (player|left_ramp_lock_hits) / 4"
+          font_size: 30
+          y: center
+          color: white
+          expire: 1s
+          
+  ball_locked:
+    ball_locked_display:
+      widgets:
+        - type: text
+          text: "BALL LOCKED: (player|locked_balls) / 3"
+          font_size: 40
+          y: center
+          color: yellow
+          expire: 2s
+
+variable_player:
+  s_left_ramp_entry_1_active:
+    left_ramp_lock_hits: 1
+    score: 5000
+  
+  ball_locked:
+    locked_balls: 1
+    score: 50000
+  
+  ball_lock_complete:
+    score: 100000
+    
+  mode_ball_lock_complete:
+    ball_lock_complete: 1
+    game_mode_active: 0
+    
+counters:
+  left_ramp_counter_lock:
+    count_events: s_left_ramp_entry_1_active
+    events_when_hit: left_ramp_hit_lock
+    starting_count: 0
+    count_complete_value: 4
+    events_when_complete: left_ramp_complete_lock
+    persist_state: False
+    
+timers:
+  ball_lock_timer:
+    start_value: 60
+    end_value: 0
+    direction: down
+    control_events:
+      - event: mode_ball_lock_started
+        action: start
+      - event: ball_lock_complete
+        action: stop
+    events_when_complete: ball_lock_timer_expired
+    
+# Simple events first
+event_player:
+  left_ramp_complete_lock: enable_orbit_shot, pulse_coil_upramp
+  ball_lock_timer_expired: ball_lock_failed
+  
+  # Conditional events with proper quotes
+  "s_right_ramp_entry_1_active{current_player.ball_lock_active}": check_for_ball_lock
+  "ball_locked{current_player.locked_balls >= 3}": ball_lock_complete
+  mode_ball_lock_complete: mode_ball_lock_ended

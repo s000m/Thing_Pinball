@@ -1,0 +1,10 @@
+#config_version=6
+
+# Configuration for service mode handler
+# This is an alternative approach for handling the service mode
+
+keyboard:
+  f2:
+    event: service_mode_start
+  esc:
+    event: service_mode_stop

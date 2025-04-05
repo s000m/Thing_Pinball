@@ -1,0 +1,74 @@
+#config_version=6
+
+mode:
+  start_events: mode_discovery_start
+  stop_events: mode_discovery_complete
+  priority: 300
+  code: discovery.Discovery
+  
+slide_player:
+  mode_discovery_started:
+    discovery_started:
+      widgets:
+        - type: text
+          text: DISCOVERY MODE
+          font_size: 50
+          y: center-100
+          color: blue
+          expire: 2s
+          
+  pop_bumper_hit:
+    discovery_pop_value:
+      widgets:
+        - type: text
+          text: "POP BUMPER VALUE: (player|pop_bumper_value)"
+          font_size: 30
+          y: center
+          color: green
+          expire: 1s
+
+variable_player:
+  s_pop_bumper_1_active:
+    pop_bumper_value: 1
+    score: 1000
+  s_pop_bumper_2_active:
+    pop_bumper_value: 1
+    score: 1000
+  s_pop_bumper_3_active:
+    pop_bumper_value: 1
+    score: 1000
+  
+  discovery_complete:
+    score: 100000
+    
+counters:
+  pop_bumper_counter:
+    count_events: s_pop_bumper_1_active, s_pop_bumper_2_active, s_pop_bumper_3_active
+    events_when_hit: pop_bumper_hit
+    starting_count: 0
+    count_complete_value: 100
+    events_when_complete: pop_bumper_value_complete
+    persist_state: False
+    
+timers:
+  discovery_timer:
+    start_value: 60
+    end_value: 0
+    direction: down
+    control_events:
+      - event: mode_discovery_started
+        action: start
+      - event: discovery_complete
+        action: stop
+    events_when_complete: discovery_timer_expired
+    
+event_player:
+  pop_bumper_value_complete: discovery_objective_complete
+  discovery_timer_expired: discovery_failed
+  discovery_objective_complete: mode_complete_light_discovery
+  discovery_target_hit: discovery_phase_2_advance
+  discovery_phase_2_complete: discovery_complete
+  mode_discovery_complete: update_player_var
+  
+  # Conditional event with quotes
+  "left_ramp_entry_hit{current_player.current_game_mode=='discovery' and current_player.phase1_complete==true}": discovery_target_hit

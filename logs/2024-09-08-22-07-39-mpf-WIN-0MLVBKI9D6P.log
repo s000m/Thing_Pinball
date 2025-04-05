@@ -1,0 +1,108 @@
+2024-09-08 22:07:39,816 : INFO : root : Loading config.
+2024-09-08 22:07:39,867 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-09-08 22:07:39,897 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\d1d13b71f03ff6cb7b42d9c6bb8e160f.mpf_cache
+2024-09-08 22:07:42,212 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 22:07:42,212 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 22:07:42,214 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\baa68abd602a2a90f66edd8e37c874c7.mpf_cache
+2024-09-08 22:07:42,216 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\game\config\game.yaml
+2024-09-08 22:07:42,217 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\f48eab4eba32ca9097b4976f8036bfbf.mpf_cache
+2024-09-08 22:07:42,218 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\base\config\base.yaml
+2024-09-08 22:07:42,219 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\20d8a08f313923c863e280a74de3cd75.mpf_cache
+2024-09-08 22:07:42,224 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 22:07:42,225 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 22:07:42,226 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\baa68abd602a2a90f66edd8e37c874c7.mpf_cache
+2024-09-08 22:07:42,227 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2024-09-08 22:07:42,227 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-09-08-22-07-39-mpf-WIN-0MLVBKI9D6P.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 10, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\Administrator\\Documents\\fast_homebrew_godot\\logs\\2024-09-08-22-07-39-mpf-WIN-0MLVBKI9D6P.log'}
+2024-09-08 22:07:42,228 : INFO : Machine : MPF path: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf
+2024-09-08 22:07:42,228 : INFO : Machine : Machine path: C:\Users\Administrator\Documents\fast_homebrew_godot
+2024-09-08 22:07:42,228 : INFO : Machine : Platform: win32
+2024-09-08 22:07:42,228 : INFO : Machine : Python executable location: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe
+2024-09-08 22:07:42,228 : INFO : Machine : Python version: 3.10.11 (64-bit)
+2024-09-08 22:07:42,230 : DEBUG : asyncio : Using proactor: IocpProactor
+2024-09-08 22:07:42,232 : INFO : Machine : Initializing MPF...
+2024-09-08 22:07:44,314 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,314 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,314 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,314 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,314 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,314 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,314 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,315 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,315 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,315 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,316 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,316 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,316 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001BA5E775220>
+2024-09-08 22:07:44,316 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001BA5E9D5560>
+2024-09-08 22:07:44,317 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001BA5E9D53C0>
+2024-09-08 22:07:44,317 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001BA5EA76A40>
+2024-09-08 22:07:44,317 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x000001BA5EA7CF20>
+2024-09-08 22:07:44,317 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,317 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,317 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,357 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,357 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,358 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,358 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001BA5E9D5970>
+2024-09-08 22:07:44,358 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001BA5E9D58A0>
+2024-09-08 22:07:44,358 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001BA5E9D5A40>
+2024-09-08 22:07:44,358 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001BA5E9D57D0>
+2024-09-08 22:07:44,358 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001BA5E9D5700>
+2024-09-08 22:07:44,358 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001BA5E9D5630>
+2024-09-08 22:07:44,359 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001BA5EA76B00>
+2024-09-08 22:07:44,371 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001BA5EA76A40>
+2024-09-08 22:07:44,371 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x000001BA5EA7CF20>
+2024-09-08 22:07:44,371 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001BA5EA76B00>
+2024-09-08 22:07:44,371 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2024-09-08 22:07:44,371 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,371 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,371 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,371 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,373 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,373 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,373 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,373 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,374 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,374 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,374 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,374 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,374 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,374 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,374 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,375 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,375 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,375 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:07:44,430 : DEBUG : asciimatics.screen : Processing key: d
+2024-09-08 22:07:46,796 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2024-09-08 22:07:47,089 : DEBUG : FAST : Port COM3 is connected to a FAST Neuron Controller.
+2024-09-08 22:07:47,089 : DEBUG : FAST : Port COM4 is connected to a FAST Neuron Controller.
+2024-09-08 22:07:47,090 : DEBUG : FAST : Port COM5 is connected to a FAST Neuron Controller.
+2024-09-08 22:07:48,583 : ERROR : FAST [NET] : Failed to connect to any of the specified ports.
+2024-09-08 22:07:48,586 : INFO : Machine : Shutting down...
+2024-09-08 22:07:48,587 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-09-08 22:07:48,692 : DEBUG : FAST [NET] : Stop called on serial connection NET
+2024-09-08 22:07:48,693 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 277, in _connect_to_hardware
+    await communicator.connect()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\communicators\base.py", line 114, in connect
+    raise SerialException(f"{self} could not connect to a serial port. Is it open in CoolTerm? ;)")
+serial.serialutil.SerialException: [FAST NET] could not connect to a serial port. Is it open in CoolTerm? ;)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 675, in initialize_mpf
+    raise init.exception()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 247, in initialize
+    await self.initialize_core_and_hardware()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 243, in initialize_core_and_hardware
+    await self._initialize_platforms()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 333, in _initialize_platforms
+    result.result()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 123, in initialize
+    await self._connect_to_hardware()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 284, in _connect_to_hardware
+    raise MpfRuntimeError(f"Could not open serial port {port}. Is something else connected to the port? "
+mpf.exceptions.runtime_error.MpfRuntimeError: Runtime Error in FAST: Could not open serial port net. Is something else connected to the port? Did the port number or your computer change? Do you have permissions to access the port? Error Code: RE-FAST-1 (https://missionpinball.org/logs)
+2024-09-08 22:07:48,697 : INFO : root : MPF run loop ended.

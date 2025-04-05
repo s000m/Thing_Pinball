@@ -1,0 +1,178 @@
+2024-09-08 22:57:14,171 : INFO : root : Loading config.
+2024-09-08 22:57:14,175 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-09-08 22:57:14,175 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\d1d13b71f03ff6cb7b42d9c6bb8e160f.mpf_cache
+2024-09-08 22:57:14,249 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 22:57:14,249 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 22:57:14,250 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\baa68abd602a2a90f66edd8e37c874c7.mpf_cache
+2024-09-08 22:57:14,251 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\game\config\game.yaml
+2024-09-08 22:57:14,251 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\f48eab4eba32ca9097b4976f8036bfbf.mpf_cache
+2024-09-08 22:57:14,252 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\base\config\base.yaml
+2024-09-08 22:57:14,252 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\20d8a08f313923c863e280a74de3cd75.mpf_cache
+2024-09-08 22:57:14,253 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 22:57:14,253 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 22:57:14,253 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\baa68abd602a2a90f66edd8e37c874c7.mpf_cache
+2024-09-08 22:57:14,254 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2024-09-08 22:57:14,254 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-09-08-22-57-14-mpf-WIN-0MLVBKI9D6P.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 10, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\Administrator\\Documents\\fast_homebrew_godot\\logs\\2024-09-08-22-57-14-mpf-WIN-0MLVBKI9D6P.log'}
+2024-09-08 22:57:14,254 : INFO : Machine : MPF path: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf
+2024-09-08 22:57:14,254 : INFO : Machine : Machine path: C:\Users\Administrator\Documents\fast_homebrew_godot
+2024-09-08 22:57:14,255 : INFO : Machine : Platform: win32
+2024-09-08 22:57:14,255 : INFO : Machine : Python executable location: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe
+2024-09-08 22:57:14,255 : INFO : Machine : Python version: 3.10.11 (64-bit)
+2024-09-08 22:57:14,256 : DEBUG : asyncio : Using proactor: IocpProactor
+2024-09-08 22:57:14,257 : INFO : Machine : Initializing MPF...
+2024-09-08 22:57:14,338 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,338 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,338 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,338 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,339 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,339 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,339 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,339 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,339 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,339 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,339 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,339 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,339 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000029FDD815220>
+2024-09-08 22:57:14,339 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000029FDDA65560>
+2024-09-08 22:57:14,339 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000029FDDA653C0>
+2024-09-08 22:57:14,339 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x0000029FDDB06AA0>
+2024-09-08 22:57:14,339 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x0000029FDDB0CF90>
+2024-09-08 22:57:14,339 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,340 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,340 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,340 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,340 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,340 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,340 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000029FDDA65970>
+2024-09-08 22:57:14,340 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000029FDDA658A0>
+2024-09-08 22:57:14,340 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000029FDDA65A40>
+2024-09-08 22:57:14,340 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000029FDDA657D0>
+2024-09-08 22:57:14,340 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000029FDDA65700>
+2024-09-08 22:57:14,340 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000029FDDA65630>
+2024-09-08 22:57:14,340 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x0000029FDDB06B60>
+2024-09-08 22:57:14,340 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x0000029FDDB06AA0>
+2024-09-08 22:57:14,340 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x0000029FDDB0CF90>
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x0000029FDDB06B60>
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,341 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 22:57:14,343 : DEBUG : asciimatics.screen : Processing key: d
+2024-09-08 22:57:14,508 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2024-09-08 22:57:14,519 : DEBUG : FAST : Port COM3 is connected to a FAST Neuron Controller.
+2024-09-08 22:57:14,520 : DEBUG : FAST : Port COM4 is connected to a FAST Neuron Controller.
+2024-09-08 22:57:14,520 : DEBUG : FAST : Port COM5 is connected to a FAST Neuron Controller.
+2024-09-08 22:57:14,543 : INFO : FAST : Detected NET on port COM5
+2024-09-08 22:57:14,653 : INFO : FAST [NET] : Trying to connect to COM5 at 921600bps
+2024-09-08 22:57:14,665 : INFO : FAST [NET] : Connected to COM5 at 921600bps
+2024-09-08 22:57:14,670 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.13
+2024-09-08 22:57:14,684 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2024-09-08 22:57:14,687 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2024-09-08 22:57:14,689 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2024-09-08 22:57:14,689 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-09-08 22:57:14,716 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\data/machine_vars.yaml
+2024-09-08 22:57:14,717 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-09-08 22:57:14,717 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2024-09-08 22:57:14,717 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-09-08 22:57:14,717 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.11', 'prev_value': None, 'change': True}
+2024-09-08 22:57:14,736 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.22631-SP0', 'prev_value': None, 'change': True}
+2024-09-08 22:57:14,736 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-09-08 22:57:14,736 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-09-08 22:57:14,736 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.22631', 'prev_value': None, 'change': True}
+2024-09-08 22:57:14,736 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-09-08 22:57:14,736 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\Administrator\\Documents\\fast_homebrew_godot\\logs\\2024-09-08-22-57-14-mpf-WIN-0MLVBKI9D6P.log', 'prev_value': None, 'change': True}
+2024-09-08 22:57:14,736 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-09-08 22:57:14,737 : DEBUG : ModeController : Loaded mode base
+2024-09-08 22:57:14,741 : DEBUG : ModeController : Loaded mode attract
+2024-09-08 22:57:14,745 : DEBUG : ModeController : Loaded mode game
+2024-09-08 22:57:14,748 : DEBUG : stepper.right_flipper_stepper : Configuring device with settings: '{'number': '00414729', 'homing_mode': 'switch', 'homing_switch': <switch.s_right_home>, 'homing_direction': 'counterclockwise', 'reset_position': -10, 'reset_events': {'ball_starting': 0, 'ball_will_end': 0, 'mode_attract_started': 0}, 'debug': True, 'pos_min': -15, 'pos_max': 100, 'named_positions': {45.0: 'right_full', -11.0: 'right_rest', -10.0: 'right_home'}, 'platform_settings': {'current_limit': 2500}, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'home_events': {}, 'ball_search_min': 0, 'ball_search_max': 1, 'ball_search_wait': 5000, 'include_in_ball_search': True, 'relative_positions': {}, 'platform': None}'
+2024-09-08 22:57:14,748 : DEBUG : stepper.right_flipper_stepper : Configuring device with settings: '{'number': '00414729', 'homing_mode': 'switch', 'homing_switch': <switch.s_right_home>, 'homing_direction': 'counterclockwise', 'reset_position': -10, 'reset_events': {'ball_starting': 0, 'ball_will_end': 0, 'mode_attract_started': 0}, 'debug': True, 'pos_min': -15, 'pos_max': 100, 'named_positions': {45.0: 'right_full', -11.0: 'right_rest', -10.0: 'right_home'}, 'platform_settings': {'current_limit': 2500, 'max_speed': 2000000, 'starting_speed': 0, 'max_acceleration': 40000, 'max_deceleration': 40000, 'step_mode': 1, 'poll_ms': 100}, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'home_events': {}, 'ball_search_min': 0, 'ball_search_max': 1, 'ball_search_wait': 5000, 'include_in_ball_search': True, 'relative_positions': {}, 'platform': None}'
+2024-09-08 22:57:14,750 : DEBUG : TIC Stepper : Configuring Stepper Parameters.
+2024-09-08 22:57:14,750 : DEBUG : asyncio : Using proactor: IocpProactor
+2024-09-08 22:57:14,752 : DEBUG : TIC Stepper : Looking for TIC Device with serial number 00414729.
+2024-09-08 22:57:14,774 : DEBUG : TIC Stepper : Exception: b'Error: Failed to open generic handle.  Access is denied.  Try closing all other programs that are using the device.  Windows error code 0x5.\r\n'
+2024-09-08 22:57:14,775 : ERROR : asyncio : Exception in callback Util.raise_exceptions(<Future finis...de 0x5.\r\n')>) at C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\utility_functions.py:790
+handle: <Handle Util.raise_exceptions(<Future finis...de 0x5.\r\n')>) at C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\utility_functions.py:790>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_ticcmd_wrapper.py", line 90, in _run_subprocess_ticcmd
+    output = subprocess.check_output(['ticcmd'] + args, stderr=subprocess.STDOUT)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['ticcmd', '-s', '--full', '-d', '00414729']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\utility_functions.py", line 798, in raise_exceptions
+    future.result()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_ticcmd_wrapper.py", line 78, in _ticcmd_remote
+    return self._run_subprocess_ticcmd(*args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_ticcmd_wrapper.py", line 95, in _run_subprocess_ticcmd
+    raise TicError(e.output)
+mpf.platforms.pololu.pololu_ticcmd_wrapper.TicError: b'Error: Failed to open generic handle.  Access is denied.  Try closing all other programs that are using the device.  Windows error code 0x5.\r\n'
+2024-09-08 22:57:14,779 : INFO : Machine : Starting the main run loop.
+2024-09-08 22:57:14,780 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\system_wide_device.py:15> exception=TicError(b'Error: Failed to open generic handle.  Access is denied.  Try closing all other programs that are using the device.  Windows error code 0x5.\r\n')>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_ticcmd_wrapper.py", line 90, in _run_subprocess_ticcmd
+    output = subprocess.check_output(['ticcmd'] + args, stderr=subprocess.STDOUT)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['ticcmd', '-s', '--full', '-d', '00414729']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\devices\stepper.py", line 67, in _initialize
+    self.hw_stepper = await self.platform.configure_stepper(self.config['number'],
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_tic.py", line 49, in configure_stepper
+    await stepper.initialize()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_tic.py", line 116, in initialize
+    status = await self.tic.get_status()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_ticcmd_wrapper.py", line 99, in get_status
+    cmd_return = await self._ticcmd_future('-s', '--full')
+mpf.platforms.pololu.pololu_ticcmd_wrapper.TicError: b'Error: Failed to open generic handle.  Access is denied.  Try closing all other programs that are using the device.  Windows error code 0x5.\r\n'
+2024-09-08 22:57:14,783 : INFO : Machine : Shutting down...
+2024-09-08 22:57:14,783 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-09-08 22:57:14,783 : ERROR : root : 'NoneType' object has no attribute 'stop'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\commands\game.py", line 240, in __init__
+    self.machine.run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 689, in run
+    self._run_loop()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 789, in _run_loop
+    self._crash_shutdown()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 734, in _crash_shutdown
+    self._do_stop()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 725, in _do_stop
+    self.shutdown()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 754, in shutdown
+    self.device_manager.stop_devices()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\device_manager.py", line 99, in stop_devices
+    device.stop_device()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\devices\stepper.py", line 179, in stop_device
+    self.hw_stepper.stop()
+AttributeError: 'NoneType' object has no attribute 'stop'

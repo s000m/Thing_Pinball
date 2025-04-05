@@ -1,0 +1,6 @@
+2024-07-31 19:37:06,209 : INFO : root : Loading config.
+2024-07-31 19:37:06,211 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-07-31 19:37:06,211 : INFO : ConfigProcessor : Loading config from file c:\git\new folder (6)\mpf\mpf\mpfconfig.yaml.
+2024-07-31 19:37:06,217 : INFO : ConfigProcessor : Loading config: c:\git\new folder (6)\mpf\mpf\mpfconfig.yaml
+2024-07-31 19:37:06,217 : INFO : ConfigProcessor : Loading config from file C:\Users\octo\Documents\fast_homebrew_godot\config\config.yaml.
+2024-07-31 19:37:06,218 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Documents\fast_homebrew_godot\config\config.yaml

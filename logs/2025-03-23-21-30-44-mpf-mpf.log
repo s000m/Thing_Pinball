@@ -1,0 +1,59 @@
+2025-03-23 21:30:44,002 : INFO : root : Loading config.
+2025-03-23 21:30:44,011 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-23 21:30:44,011 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\775282453bb9ae39cad69c39ab867a35.mpf_cache
+2025-03-23 21:30:44,097 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-23 21:30:44,097 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\3a13d33aed1669bafe3e56d7baff78a0.mpf_cache
+2025-03-23 21:30:44,097 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\1352604168843921958881d1d8dd3c1b.mpf_cache
+2025-03-23 21:30:44,117 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-23 21:30:44,117 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\3a13d33aed1669bafe3e56d7baff78a0.mpf_cache
+2025-03-23 21:30:44,117 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\82108c9d10735fbef5e8cced18b7d831.mpf_cache
+2025-03-23 21:30:44,135 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\81d0f34cbd4c6d61cd4dad95e5100b6a.mpf_cache
+2025-03-23 21:30:44,144 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\85b30d06c34a199299d858e267dca599.mpf_cache
+2025-03-23 21:30:44,160 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\b6a0c3fa509e03dd7943cf1395b72ece.mpf_cache
+2025-03-23 21:30:44,171 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\d18a920afddb781d4f34b36ac5cb2e09.mpf_cache
+2025-03-23 21:30:44,186 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\50de7258194ae9293cbe8c4fce9577e7.mpf_cache
+2025-03-23 21:30:44,195 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\2a76f107a833b8953199c5c910a26856.mpf_cache
+2025-03-23 21:30:44,210 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\529fba7289b2d9f945cd5a4488c8b5fa.mpf_cache
+2025-03-23 21:30:44,225 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8c97cf9697840e2ca000923ba54f1b48.mpf_cache
+2025-03-23 21:30:44,225 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\e8cb3f2c2e9a26851ec893c5156e3f7c.mpf_cache
+2025-03-23 21:30:44,242 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\78a1fb055772b356de30948f28682ed0.mpf_cache
+2025-03-23 21:30:44,255 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\67cfb29d96313268f86362bebab46239.mpf_cache
+2025-03-23 21:30:44,287 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-03-23 21:30:44,287 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-03-23-21-30-44-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-23-21-30-44-mpf-mpf.log'}
+2025-03-23 21:30:44,287 : INFO : Machine : MPF path: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-03-23 21:30:44,287 : INFO : Machine : Machine path: C:\Users\homebrew\Desktop\thing_pinball
+2025-03-23 21:30:44,287 : INFO : Machine : Platform: win32
+2025-03-23 21:30:44,287 : INFO : Machine : Python executable location: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\python.exe
+2025-03-23 21:30:44,287 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2025-03-23 21:30:44,287 : INFO : Machine : Initializing MPF...
+2025-03-23 21:30:44,477 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2025-03-23 21:30:44,523 : INFO : FAST : Detected NET on port COM4
+2025-03-23 21:30:44,635 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2025-03-23 21:30:44,635 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2025-03-23 21:30:44,651 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.21
+2025-03-23 21:30:44,683 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2025-03-23 21:30:44,683 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-03-23 21:30:44,699 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-03-23 21:30:44,699 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-03-23 21:30:44,699 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-03-23 21:30:44,717 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-03-23 21:30:44,731 : INFO : Machine : Shutting down...
+2025-03-23 21:30:44,731 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-03-23 21:30:44,827 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine.py", line 675, in initialize_mpf
+    raise init.exception()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine.py", line 253, in initialize
+    self._load_machine_vars()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine.py", line 422, in _load_machine_vars
+    self.variables.load_machine_vars(machine_var_data_manager, current_time)
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine_vars.py", line 51, in load_machine_vars
+    self._load_initial_machine_vars()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine_vars.py", line 124, in _load_initial_machine_vars
+    value=Util.convert_to_type(element['initial_value'], element['value_type']))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\utility_functions.py", line 55, in convert_to_type
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'False'
+2025-03-23 21:30:44,833 : INFO : root : MPF run loop ended.

@@ -1,0 +1,617 @@
+#config_version=6
+
+# Add machine-wide ball count
+machine:
+  balls_installed: 3  # Set this to match your actual ball count
+
+hardware:
+  platform: fast
+  
+fast:
+  net:
+    controller: neuron
+    io_loop:
+      cab:
+        model: FP-I/O-0024
+        order: 1
+      3208:
+        model: FP-I/O-3208
+        order: 2
+      "0804_1":  
+        model: FP-I/O-0804
+        order: 3
+      "0804_2":
+        model: FP-I/O-0804
+        order: 4  
+    port: com4
+    baud: 921600
+    debug: False
+    watchdog: 1s
+
+mpf:
+  paths:
+    modes: modes
+  allow_invalid_config_sections: True
+  save_machine_vars_to_disk: True
+
+# Using an old-style config to include service mode yaml
+config:
+  - service_mode.yaml  # Include the service mode configuration
+
+switches:
+  # Trough Switches
+  s_trough_1:
+    number: 3208-08
+    tags: trough, trough1
+  s_trough_2:
+    number: 3208-09
+    tags: trough, trough2
+  s_trough_3:
+    number: 3208-10
+    tags: trough, trough3
+  s_trough_4:
+    number: 3208-11
+    tags: trough, trough4
+  s_trough_5:
+    number: 3208-12
+    tags: trough, trough5
+  s_trough_6:
+    number: 3208-13
+    tags: trough, trough6
+  s_trough_7:
+    number: 3208-14
+    tags: trough, trough7
+  s_trough_ball:
+    number: 3208-28
+    tags: trough_ball
+  s_trough_ball_jam:
+    number: 3208-27
+    tags: trough_ball_jam
+  
+  # Shooter Lane
+  s_shooter_lane:
+    number: 0804_2-02
+    tags: shooter_lane
+  
+  # Outlanes and Inlanes
+  s_outlane_right:
+    number: 0804_1-04
+    tags: playfield_active
+  s_inlane_right:
+    number: 0804_1-07
+    tags: playfield_active
+  s_inlane_left:
+    number: 0804_1-06
+    tags: playfield_active
+  s_outlane_left:
+    number: 0804_1-00
+    tags: playfield_active
+  
+  # Mode Opto
+  s_mode_opto:
+    number: 0804_2-00
+    tags: playfield_active, mode_opto
+    type: nc
+  
+  # 3Bank Targets
+  s_3bank_tgt_d:
+    number: 3208-26
+    tags: dog_targets
+    type: nc
+  s_3bank_tgt_o:
+    number: 3208-25
+    type: nc
+    tags: dog_targets
+  s_3bank_tgt_g:
+    number: 3208-29
+    type: nc    
+    tags: dog_targets
+  
+  # Spinner
+  s_spinner:
+    number: 0804_2-01
+    tags: playfield_active
+  
+  # PopBumpers
+  s_pop_bumper_1:
+    number: 3208-17
+    tags: pop_bumpers
+  s_pop_bumper_2:
+    number: 3208-20
+    tags: pop_bumpers
+  s_pop_bumper_3:
+    number: 3208-19
+    tags: pop_bumpers
+  
+  # Ramps and Orbits
+  s_ramp_up_1:
+    number: 3208-16
+    tags: playfield_active
+  s_right_orbit_1:
+    number: 3208-18
+    tags: playfield_active
+  s_right_ramp_entry_1:
+    number: 3208-03
+    tags: playfield_active
+  
+  # Ball Lock Switches
+  s_ball_lock_1:
+    number: 3208-00
+    tags: ball_locks
+  s_ball_lock_2:
+    number: 3208-01
+    tags: ball_locks
+  s_ball_lock_3:
+    number: 3208-02
+    tags: ball_locks
+  
+  # Slingshots
+  s_left_slingshot:
+    number: 0804_1-05
+    tags: 
+  s_right_slingshot:
+    number: 0804_1-02
+    tags: 
+  
+  # Newton
+  s_newton_opto_made:
+    number: 3208-21
+    tags: playfield_active
+  
+  # Flipper EOS
+  s_left_flipper_eos:
+    number: 0804_1-01
+    tags: left_flipper_eos
+  s_right_flipper_eos:
+    number: 0804_1-03
+    tags: right_flipper_eos
+  
+  # Button Controls
+  s_start_button:
+    number: cab-10
+    tags: start
+  s_left_flipper_button:
+    number: cab-09
+    tags: left_flipper
+  s_left_button_2:
+    number: cab-08
+  s_right_flipper_button:
+    number: cab-17
+    tags: right_flipper
+  s_right_button_2:
+    number: cab-16
+  s_back_button:
+    number: cab-12
+  s_down_button:
+    number: cab-14
+  s_up_button:
+    number: cab-15
+  s_enter_button:
+    number: cab-13
+
+  
+  # Left Ramp Entry
+  s_left_ramp_entry_1:
+    number: 3208-04
+    tags: playfield_active
+
+  # Blood Target
+  s_blood_target:
+    number: 0804_2-03
+    tags: 
+
+coils:
+  c_trough:
+    number: 3208-4  # Second board, fifth driver
+    default_pulse_ms: 25
+  c_left_flipper_main:
+    number: 3208-1  # Second board, second driver
+    default_pulse_ms: 30
+  c_left_flipper_hold:
+    number: 3208-0  # Second board, first driver
+    allow_enable: True
+  c_right_flipper_main:
+    number: 3208-3  # Second board, fourth driver
+    default_pulse_ms: 30
+  c_right_flipper_hold:
+    number: 3208-2  # Second board, second driver
+    allow_enable: True
+  c_left_slingshot:
+    number: 3208-5  # Second board, sixth driver
+    default_pulse_ms: 30
+  c_right_slingshot:
+    number: 3208-6  # Second board, seventh driver
+    default_pulse_ms: 30
+  c_mode_vuk:
+    number: 0804_2-1  # Third board, second driver
+    default_pulse_ms: 30
+  c_upramp:
+    number: 0804_1-2  # Third board, third driver
+    default_pulse_ms: 30
+  c_ramp_release:
+    number: 0804_1-3  # Third board, second driver
+    default_pulse_ms: 30
+  c_diverter:
+    number: 0804_2-0  # Fourth board, first driver
+    default_pulse_ms: 30          # Short initial pulse
+    default_pulse_power: 1.0      # Full power for pulse
+    default_hold_power: 0.5       # 50% power for hold
+    allow_enable: True            # Critical for enabling hold
+    platform_settings:
+      pwm_on_ms: 10                # PWM timing for FAST
+      pwm_off_ms: 10               # PWM timing for FAST
+  c_pop_bumper_1:
+    number: 0804_2-3  # Fourth board, fourth driver
+    default_pulse_ms: 25
+  c_pop_bumper_2:
+    number: 0804_2-2  # Fourth board, third driver
+    default_pulse_ms: 25
+  c_pop_bumper_3:
+    number: 0804_1-1  # Third board, second driver
+    default_pulse_ms: 25
+  c_drop_target:
+    number: 0804_1-0  # Third board, first driver
+    default_pulse_ms: 30
+  c_up_post:
+    number: 3208-7  # Second board, sixth driver
+    default_pulse_ms: 30
+
+flippers:
+  left_flipper:
+    main_coil: c_left_flipper_main
+    hold_coil: c_left_flipper_hold
+    activation_switch: s_left_flipper_button
+    eos_switch: s_left_flipper_eos
+    enable_events: ball_started
+    disable_events: ball_ending, service_mode_entered
+  right_flipper:
+    main_coil: c_right_flipper_main
+    hold_coil: c_right_flipper_hold
+    activation_switch: s_right_flipper_button
+    eos_switch: s_right_flipper_eos
+    enable_events: ball_started
+    disable_events: ball_ending, service_mode_entered
+
+autofire_coils:
+  left_slingshot:
+    coil: c_left_slingshot
+    switch: s_left_slingshot
+    enable_events: ball_started
+    disable_events: ball_ending, service_mode_entered
+  right_slingshot:
+    coil: c_right_slingshot
+    switch: s_right_slingshot
+    enable_events: ball_started
+    disable_events: ball_ending, service_mode_entered
+  pop_bumper_1:
+    coil: c_pop_bumper_1
+    switch: s_pop_bumper_1
+    enable_events: ball_started
+    disable_events: ball_ending, service_mode_entered
+  pop_bumper_2:
+    coil: c_pop_bumper_2
+    switch: s_pop_bumper_2
+    enable_events: ball_started
+    disable_events: ball_ending, service_mode_entered
+  pop_bumper_3:
+    coil: c_pop_bumper_3
+    switch: s_pop_bumper_3
+    enable_events: ball_started
+    disable_events: ball_ending, service_mode_entered
+
+ball_devices:
+  bd_trough:
+    ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4, s_trough_5, s_trough_6, s_trough_7
+    eject_coil: c_trough
+    tags: trough, home, drain
+    jam_switch: s_trough_ball_jam
+    eject_timeouts: 3s
+    debug: True
+    eject_targets: bd_shooter_lane
+    confirm_eject_type: target  # Added for better ball tracking
+  bd_shooter_lane:
+    ball_switches: s_shooter_lane
+    entrance_count_delay: 300ms
+    eject_timeouts: 5s
+    tags: launcher
+    mechanical_eject: True
+  bd_ball_lock:
+    ball_switches: s_ball_lock_1, s_ball_lock_2, s_ball_lock_3
+    eject_coil: c_mode_vuk
+    tags: ball_lock
+    eject_timeouts: 2s
+
+playfields:
+  playfield:
+    default_source_device: bd_shooter_lane
+    tags: default
+
+ball_saves:
+  ball_save:
+    active_time: 10s
+    hurry_up_time: 3s
+    grace_period: 2s
+    enable_events: ball_started
+    timer_start_events: balldevice_bd_shooter_lane_ball_eject_success
+    auto_launch: True
+    balls_to_save: 1
+
+drop_targets:
+  front: 
+    switch: s_3bank_tgt_d
+  middle:
+    switch: s_3bank_tgt_o
+  back:
+    switch: s_3bank_tgt_g
+
+drop_target_banks:
+    vuk_bank:
+      drop_targets: front, middle, back
+      reset_coil: c_drop_target
+      reset_events: drop_target_bank_vuk_bank_down, game_started, ball_started
+      reset_on_complete: 1s
+
+diverters:
+  diverter:
+    activation_coil: c_diverter
+    type: hold                 # Use hold type
+    activation_time: 3s        # Hold for 3 seconds
+    debug: True
+    activate_events: activate_diverter, mode_ball_lock_started
+    
+game:
+  balls_per_game: 3
+  max_players: 4
+
+# For virtual hardware testing, add virtual ball simulation
+virtual_platform_start_active_switches:
+  s_trough_6
+  s_trough_7
+  s_trough_ball
+
+machine_vars:
+  game_mode_dog_hunt_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  game_mode_discovery_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  game_mode_infected_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  game_mode_blood_test_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  game_mode_spider_head_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  game_mode_wizard_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  game_mode_ball_lock_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  game_mode_multiball_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+
+# Complete list of player variables from all modes
+player_vars:
+  game_mode_active:
+    initial_value: 0
+    value_type: int
+  current_game_mode:
+    initial_value: "none"
+    value_type: str
+  phase1_complete:
+    initial_value: 0
+    value_type: int
+  dog_hunt_complete:
+    initial_value: 0
+    value_type: int
+  discovery_complete:
+    initial_value: 0
+    value_type: int
+  infected_complete:
+    initial_value: 0
+    value_type: int
+  blood_test_complete:
+    initial_value: 0
+    value_type: int
+  spider_head_complete:
+    initial_value: 0
+    value_type: int
+  wizard_complete:
+    initial_value: 0
+    value_type: int
+  ball_lock_complete:
+    initial_value: 0
+    value_type: int
+  multiball_complete:
+    initial_value: 0
+    value_type: int
+  spinner_value:
+    initial_value: 0
+    value_type: int
+  pop_bumper_value:
+    initial_value: 0
+    value_type: int
+  newton_shots:
+    initial_value: 0
+    value_type: int
+  locked_balls:
+    initial_value: 0
+    value_type: int
+  balls_in_play:
+    initial_value: 1
+    value_type: int
+  jackpot_value:
+    initial_value: 10000
+    value_type: int
+  left_ramp_hits:
+    initial_value: 0
+    value_type: int
+  left_ramp_lock_hits:
+    initial_value: 0
+    value_type: int
+  spinner_hits:
+    initial_value: 0
+    value_type: int
+  pop_bumper_wizard:
+    initial_value: 0
+    value_type: int
+  ball_lock_active:
+    initial_value: 0
+    value_type: int
+  super_jackpot_value:
+    initial_value: 100000
+    value_type: int
+  jackpot_state:
+    initial_value: 0
+    value_type: int
+  right_ramp_valid:
+    initial_value: 0
+    value_type: int
+
+timed_switches:
+  mode_vuk_delayed_eject:
+    switch_tags: mode_opto
+    time: 3s
+    events_when_active: fire_mode_vuk_after_delay
+    state_when_released: inactive
+
+counters:
+  spinner_value:
+    count_events: s_spinner_active
+    starting_count: 0
+    count_complete_value: 100
+    events_when_complete: spinner_complete
+    enable_events: ball_started
+    disable_events: game_mode_active
+    persist_state: False
+    reset_on_complete: False
+    restart_events: spinner_reset
+
+  newton_hit_counter:
+    count_events: s_newton_opto_made_active
+    starting_count: 0
+    count_complete_value: 3
+    events_when_complete: newton_shots_complete
+    enable_events: ball_started
+    disable_events: game_mode_active
+    persist_state: False
+    reset_on_complete: False
+    restart_events: newton_counter_reset
+
+  diverter_pattern:
+    count_events: s_left_ramp_entry_1_active
+    starting_count: 0
+    count_complete_value: 5
+    events_when_hit: check_divert_pattern
+    reset_on_complete: true
+    persist_state: false
+    enable_events: ball_started
+
+
+event_player:
+  # Basic switch events - changed pulse_drop_target event
+  s_start_button_active: game_start
+  s_3bank_tgt_d_active: check_dog_bank_complete
+  s_3bank_tgt_o_active: check_dog_bank_complete
+  s_3bank_tgt_g_active: check_dog_bank_complete
+  s_mode_opto_active: check_mode_opto
+  spinner_complete: check_spinner_complete
+  ball_starting: bd_trough_eject
+  activate_diverter: 
+    - release_diverter|3s
+  #s_left_ramp_entry_1_active: activate_diverter
+  
+  # Conditional events with quotes
+  "s_mode_opto_active{current_player.game_mode_active == False}": check_available_modes
+  "check_dog_bank_complete{device.switches.s_3bank_tgt_d.state and device.switches.s_3bank_tgt_o.state and device.switches.s_3bank_tgt_g.state}": dog_bank_targets_complete
+  "spinner_complete{current_player.game_mode_active == False}": enable_dog_hunt_mode
+  "s_left_ramp_entry_1_active{current_player.game_mode_active == True}": check_mode_progress
+  "s_right_ramp_entry_1_active{current_player.game_mode_active == True and current_player.game_mode == 'ball_lock'}": check_ball_lock_progress
+  "check_divert_pattern{device.counters.diverter_pattern.value == 5}": activate_diverter
+  
+  # Game state events
+  game_started: setup_game_variables
+  ball_started: reset_player_shot_counters
+  ball_ending: tally_player_score
+  
+  # Mode-specific events
+  dog_hunt_objective_complete: advance_game_state
+  discovery_objective_complete: advance_game_state
+  infected_objective_complete: advance_game_state
+  blood_test_objective_complete: advance_game_state
+  spider_head_objective_complete: advance_game_state
+  wizard_objective_complete: advance_game_state
+  ball_lock_complete: enable_multiball
+  
+  # Jackpot and scoring events
+  jackpot_hit: award_jackpot_score
+  super_jackpot_hit: award_super_jackpot
+  
+  # Timer events
+  timer_dog_hunt_expired: end_dog_hunt_mode
+  timer_discovery_expired: end_discovery_mode
+  timer_infected_expired: end_infected_mode
+  timer_blood_test_expired: end_blood_test_mode
+  timer_spider_head_expired: end_spider_head_mode
+  timer_wizard_expired: end_wizard_mode
+  
+  # Special shot events
+  "newton_shots_complete{current_player.newton_shots >= 3}": enable_next_mode
+  "pop_bumper_hit{current_player.pop_bumper_value >= 100}": award_pop_bumper_bonus
+  "dog_bank_targets_complete{current_player.dog_hunt_complete == False}": enable_dog_hunt_mode
+
+  ball_lock_hit:
+    - increment_locked_balls
+    - play_ball_lock_sound
+    - update_ball_lock_lights
+
+coil_player:
+  dog_bank_targets_complete:
+    c_drop_target:
+      action: pulse
+  
+  pulse_drop_target:
+    c_drop_target:
+      action: pulse
+
+  fire_mode_vuk_after_delay:
+    c_mode_vuk:
+      action: pulse
+
+  activate_diverter:
+    c_diverter:
+      action: enable
+      enable_ms: 3000
+  
+  release_diverter:
+    c_diverter:
+      action: disable
+
+modes:
+  - base
+  - attract
+  - game
+  - service
+  - tilt
+  - high_score
+  - match
+  - dog_hunt
+  - discovery
+  - infected
+  - blood_test
+  - spider_head
+  - wizard
+  - multiball

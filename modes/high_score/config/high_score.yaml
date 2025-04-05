@@ -1,0 +1,69 @@
+#config_version=6
+
+mode:
+  start_events: game_ending
+  stop_events: high_score_entry_complete
+  priority: 500
+
+high_score:
+  _overwrite: true
+  categories:
+    score:
+      - GRAND CHAMPION
+      - HIGH SCORE 1
+      - HIGH SCORE 2
+      - HIGH SCORE 3
+      - HIGH SCORE 4
+  defaults:
+    score:
+      - THING: 5000000
+      - MPF: 4000000
+      - PINBALL: 3000000
+      - WIZARD: 2000000
+      - PLAYER: 1000000
+
+  award_slide_display_time: 4s
+  enter_initials_timeout: 60s
+
+  events_when_complete: high_score_entry_complete
+
+slide_player:
+  high_score_enter_initials:
+    high_score_enter_initials:
+      widgets:
+        - type: text
+          text: ENTER YOUR INITIALS
+          font_size: 50
+          y: top-60
+          anchor_y: top
+          color: red
+        - type: text
+          text: "PLAYER (award_name)"
+          font_size: 50
+          y: top-120
+          anchor_y: top
+          color: red
+        - type: text
+          text: "(value)"
+          font_size: 30
+          y: center
+          anchor_y: center
+          color: white
+        - type: text
+          text: "(initials)"
+          font_size: 50
+          y: center+80
+          anchor_y: center
+          color: yellow
+        - type: text
+          text: USE FLIPPERS TO CHANGE LETTERS
+          font_size: 30
+          y: bottom+60
+          anchor_y: bottom
+          color: white
+        - type: text
+          text: PRESS START TO CONTINUE
+          font_size: 30
+          y: bottom+100
+          anchor_y: bottom
+          color: white

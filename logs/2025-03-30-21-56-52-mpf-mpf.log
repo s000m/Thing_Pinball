@@ -1,0 +1,139 @@
+2025-03-30 21:56:52,011 : INFO : root : Loading config.
+2025-03-30 21:56:52,015 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-30 21:56:52,015 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\775282453bb9ae39cad69c39ab867a35.mpf_cache
+2025-03-30 21:56:52,117 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-30 21:56:52,117 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8864efb2a88f9c685592172f4fd0a6a3.mpf_cache
+2025-03-30 21:56:52,117 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\1352604168843921958881d1d8dd3c1b.mpf_cache
+2025-03-30 21:56:52,117 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-30 21:56:52,117 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8864efb2a88f9c685592172f4fd0a6a3.mpf_cache
+2025-03-30 21:56:52,117 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\82108c9d10735fbef5e8cced18b7d831.mpf_cache
+2025-03-30 21:56:52,117 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\81d0f34cbd4c6d61cd4dad95e5100b6a.mpf_cache
+2025-03-30 21:56:52,117 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\85b30d06c34a199299d858e267dca599.mpf_cache
+2025-03-30 21:56:52,122 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\b6a0c3fa509e03dd7943cf1395b72ece.mpf_cache
+2025-03-30 21:56:52,122 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\d18a920afddb781d4f34b36ac5cb2e09.mpf_cache
+2025-03-30 21:56:52,122 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\50de7258194ae9293cbe8c4fce9577e7.mpf_cache
+2025-03-30 21:56:52,122 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\2a76f107a833b8953199c5c910a26856.mpf_cache
+2025-03-30 21:56:52,122 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\529fba7289b2d9f945cd5a4488c8b5fa.mpf_cache
+2025-03-30 21:56:52,122 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8c97cf9697840e2ca000923ba54f1b48.mpf_cache
+2025-03-30 21:56:52,122 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\e8cb3f2c2e9a26851ec893c5156e3f7c.mpf_cache
+2025-03-30 21:56:52,122 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\67cfb29d96313268f86362bebab46239.mpf_cache
+2025-03-30 21:56:52,122 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-03-30 21:56:52,122 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-03-30-21-56-52-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-30-21-56-52-mpf-mpf.log'}
+2025-03-30 21:56:52,122 : INFO : Machine : MPF path: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-03-30 21:56:52,122 : INFO : Machine : Machine path: C:\Users\homebrew\Desktop\thing_pinball
+2025-03-30 21:56:52,122 : INFO : Machine : Platform: win32
+2025-03-30 21:56:52,122 : INFO : Machine : Python executable location: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\python.exe
+2025-03-30 21:56:52,122 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2025-03-30 21:56:52,128 : INFO : Machine : Initializing MPF...
+2025-03-30 21:56:52,249 : INFO : FAST [NET] : Trying to connect to com4 at 921600bps
+2025-03-30 21:56:52,249 : INFO : FAST [NET] : Connected to com4 at 921600bps
+2025-03-30 21:56:52,265 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.21
+2025-03-30 21:56:52,296 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2025-03-30 21:56:52,312 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-03-30 21:56:52,314 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-03-30 21:56:52,328 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-03-30 21:56:52,328 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,360 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,360 : INFO : EventManager : Event: ======'machine_var_game_mode_dog_hunt_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,360 : INFO : EventManager : Event: ======'machine_var_game_mode_discovery_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,360 : INFO : EventManager : Event: ======'machine_var_game_mode_infected_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,363 : INFO : EventManager : Event: ======'machine_var_game_mode_blood_test_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,363 : INFO : EventManager : Event: ======'machine_var_game_mode_spider_head_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,363 : INFO : EventManager : Event: ======'machine_var_game_mode_wizard_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,363 : INFO : EventManager : Event: ======'machine_var_game_mode_ball_lock_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,363 : INFO : EventManager : Event: ======'machine_var_game_mode_multiball_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,363 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,363 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,363 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,461 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,461 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,461 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,461 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,461 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,461 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-30-21-56-52-mpf-mpf.log', 'prev_value': None, 'change': True}
+2025-03-30 21:56:52,461 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-03-30 21:56:52,501 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_diverter:pwm_on_ms" is not a valid setting name.
+2025-03-30 21:56:52,501 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_diverter:pwm_off_ms" is not a valid setting name.
+2025-03-30 21:56:52,501 : WARNING : ConfigValidator : Unrecognized config setting. "timed_switches:mode_vuk_delayed_eject:state_when_released" is not a valid setting name.
+2025-03-30 21:56:52,501 : WARNING : ConfigValidator : Unrecognized config setting. "mode:spider_head:timers:spider_head_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:52,501 : WARNING : ConfigValidator : Unrecognized config setting. "mode:base:timers:mode_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:52,501 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:multiball_jackpot_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:52,501 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:right_ramp_validity_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:52,501 : WARNING : ConfigValidator : Unrecognized config setting. "mode:discovery:timers:discovery_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:52,501 : WARNING : ConfigValidator : Unrecognized config setting. "mode:blood_test:timers:blood_test_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:52,501 : WARNING : ConfigValidator : Unrecognized config setting. "mode:wizard:timers:wizard_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:52,501 : WARNING : ConfigValidator : Unrecognized config setting. "mode:dog_hunt:timers:dog_hunt_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:52,501 : WARNING : ConfigValidator : Unrecognized config setting. "mode:infected:timers:infected_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:52,501 : INFO : EventManager : Event: ======'drop_target_bank_vuk_bank_up'====== Args={}
+2025-03-30 21:56:52,517 : INFO : EventManager : Event: ======'logicblock_spinner_value_updated'====== Args={'value': 0, 'enabled': False}
+2025-03-30 21:56:52,517 : INFO : EventManager : Event: ======'logicblock_newton_hit_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-03-30 21:56:52,517 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 0, 'enabled': False}
+2025-03-30 21:56:56,811 : WARNING : Machine : Iterating device collections directly is deprecated and will be removed. Access by value(): device_collections[switches] -> device_collections['switches'].values()
+2025-03-30 21:56:56,811 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2025-03-30 21:56:56,811 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-03-30 21:56:56,811 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-03-30 21:56:56,811 : INFO : SwitchController : <<<<<<< 's_newton_opto_made' active >>>>>>>
+2025-03-30 21:56:56,811 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-30 21:56:56,813 : WARNING : ConfigValidator : Unrecognized config setting. "coil_player:enable_ms" is not a valid setting name.
+2025-03-30 21:56:56,813 : WARNING : ConfigValidator : Unrecognized config setting. "coil_player:c_diverter" is not a valid setting name.
+2025-03-30 21:56:56,815 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe..._diverter']")>)
+handle: <Handle EventManager._queue_task_done(<Task finishe..._diverter']")>)>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_player.py", line 90, in _initialize_system_wide
+    self.validate_config(
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\device_config_player.py", line 85, in _validate_config_item
+    devices = self._expand_device(device)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\device_config_player.py", line 114, in _expand_device
+    return self.raise_config_error(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in coil_player: Failed to load config player activate_diverter:coils with settings {'c_diverter': {'action': 'enable', 'enable_ms': 3000, 'priority': 0, 'hold_power': None, 'pulse_power': None, 'pulse_ms': None, 'max_wait_ms': None}, 'release_diverter': {'c_diverter': None, 'action': 'disable', 'priority': 0, 'hold_power': None, 'pulse_power': None, 'pulse_ms': None, 'max_wait_ms': None}} >> Could not find a coils device with name or tag release_diverter, from list ['release_diverter'] Error Code: CFE-coil_player-101 (https://missionpinball.org/logs)
+2025-03-30 21:56:56,821 : INFO : Machine : Starting the main run loop.
+2025-03-30 21:56:56,821 : INFO : Machine : Shutting down...
+2025-03-30 21:56:56,821 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-03-30 21:56:57,932 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_player.py", line 90, in _initialize_system_wide
+    self.validate_config(
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\device_config_player.py", line 85, in _validate_config_item
+    devices = self._expand_device(device)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\device_config_player.py", line 114, in _expand_device
+    return self.raise_config_error(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in coil_player: Failed to load config player activate_diverter:coils with settings {'c_diverter': {'action': 'enable', 'enable_ms': 3000, 'priority': 0, 'hold_power': None, 'pulse_power': None, 'pulse_ms': None, 'max_wait_ms': None}, 'release_diverter': {'c_diverter': None, 'action': 'disable', 'priority': 0, 'hold_power': None, 'pulse_power': None, 'pulse_ms': None, 'max_wait_ms': None}} >> Could not find a coils device with name or tag release_diverter, from list ['release_diverter'] Error Code: CFE-coil_player-101 (https://missionpinball.org/logs)
+2025-03-30 21:56:57,936 : INFO : root : MPF run loop ended.

@@ -1,0 +1,29 @@
+#config_version=6
+
+mode:
+  start_events: game_ending, match_start
+  stop_events: match_complete
+  code: match.Match
+  priority: 500
+  game_mode: False
+
+event_player:
+  mode_match_started:
+    - setup_match
+
+slide_player:
+  match_display_slide:
+    match_display:
+      expire: 10s
+      widgets:
+        - type: text
+          text: MATCH
+          font_size: 60
+          y: center-50
+          color: red
+        - type: text
+          text: ""
+          font_size: 100
+          y: center+50
+          color: yellow
+          key: match_number

@@ -1,0 +1,138 @@
+2025-03-28 09:42:36,399 : INFO : root : Loading config.
+2025-03-28 09:42:36,415 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-28 09:42:36,415 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\775282453bb9ae39cad69c39ab867a35.mpf_cache
+2025-03-28 09:42:36,509 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-28 09:42:36,535 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\homebrew\Desktop\thing_pinball\modes\game\config\game.yaml
+2025-03-28 09:42:36,535 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\game\config\game.yaml.
+2025-03-28 09:42:36,548 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-03-28 09:42:36,548 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\Desktop\thing_pinball\modes\game\config\game.yaml.
+2025-03-28 09:42:36,550 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Desktop\thing_pinball\modes\game\config\game.yaml
+2025-03-28 09:42:36,553 : INFO : ConfigProcessor : Config file cache created: C:\Users\homebrew\AppData\Local\Temp\8864efb2a88f9c685592172f4fd0a6a3.mpf_cache
+2025-03-28 09:42:36,553 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\1352604168843921958881d1d8dd3c1b.mpf_cache
+2025-03-28 09:42:36,565 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-28 09:42:36,565 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8864efb2a88f9c685592172f4fd0a6a3.mpf_cache
+2025-03-28 09:42:36,580 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\82108c9d10735fbef5e8cced18b7d831.mpf_cache
+2025-03-28 09:42:36,592 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\81d0f34cbd4c6d61cd4dad95e5100b6a.mpf_cache
+2025-03-28 09:42:36,608 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\85b30d06c34a199299d858e267dca599.mpf_cache
+2025-03-28 09:42:36,624 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\b6a0c3fa509e03dd7943cf1395b72ece.mpf_cache
+2025-03-28 09:42:36,639 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\d18a920afddb781d4f34b36ac5cb2e09.mpf_cache
+2025-03-28 09:42:36,657 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\50de7258194ae9293cbe8c4fce9577e7.mpf_cache
+2025-03-28 09:42:36,667 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\2a76f107a833b8953199c5c910a26856.mpf_cache
+2025-03-28 09:42:36,687 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\529fba7289b2d9f945cd5a4488c8b5fa.mpf_cache
+2025-03-28 09:42:36,697 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8c97cf9697840e2ca000923ba54f1b48.mpf_cache
+2025-03-28 09:42:36,713 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\e8cb3f2c2e9a26851ec893c5156e3f7c.mpf_cache
+2025-03-28 09:42:36,729 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\67cfb29d96313268f86362bebab46239.mpf_cache
+2025-03-28 09:42:36,750 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-03-28 09:42:36,750 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-03-28-09-42-36-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-28-09-42-36-mpf-mpf.log'}
+2025-03-28 09:42:36,750 : INFO : Machine : MPF path: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-03-28 09:42:36,750 : INFO : Machine : Machine path: C:\Users\homebrew\Desktop\thing_pinball
+2025-03-28 09:42:36,750 : INFO : Machine : Platform: win32
+2025-03-28 09:42:36,750 : INFO : Machine : Python executable location: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\python.exe
+2025-03-28 09:42:36,750 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2025-03-28 09:42:36,753 : INFO : Machine : Initializing MPF...
+2025-03-28 09:42:37,209 : INFO : FAST [NET] : Trying to connect to com4 at 921600bps
+2025-03-28 09:42:37,218 : INFO : FAST [NET] : Connected to com4 at 921600bps
+2025-03-28 09:42:37,234 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.21
+2025-03-28 09:42:37,266 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2025-03-28 09:42:37,268 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-03-28 09:42:37,282 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-03-28 09:42:37,282 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-03-28 09:42:37,282 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,315 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,315 : INFO : EventManager : Event: ======'machine_var_game_mode_dog_hunt_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,315 : INFO : EventManager : Event: ======'machine_var_game_mode_discovery_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,315 : INFO : EventManager : Event: ======'machine_var_game_mode_infected_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,315 : INFO : EventManager : Event: ======'machine_var_game_mode_blood_test_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,315 : INFO : EventManager : Event: ======'machine_var_game_mode_spider_head_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,315 : INFO : EventManager : Event: ======'machine_var_game_mode_wizard_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,315 : INFO : EventManager : Event: ======'machine_var_game_mode_ball_lock_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,315 : INFO : EventManager : Event: ======'machine_var_game_mode_multiball_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,315 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,315 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,315 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,434 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,434 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,434 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,434 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,434 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,434 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-28-09-42-36-mpf-mpf.log', 'prev_value': None, 'change': True}
+2025-03-28 09:42:37,434 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-03-28 09:42:37,478 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...ribute 'py'")>) at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...ribute 'py'")>) at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\events.py:124>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\mode_controller.py", line 133, in _load_mode_code
+    return Util.string_to_class(code_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\utility_functions.py", line 641, in string_to_class
+    m = importlib.import_module(module)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'game'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\mode_controller.py", line 119, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+                               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\mode_controller.py", line 157, in _load_mode
+    mode_class = self._load_mode_code(mode_string, config['mode']['code'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\mode_controller.py", line 135, in _load_mode_code
+    return Util.string_to_class("modes.{}.code.{}".format(mode_string, code_path))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\utility_functions.py", line 642, in string_to_class
+    m = getattr(m, parts[-1:][0])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'modes.game.code.game' has no attribute 'py'
+2025-03-28 09:42:37,533 : INFO : Machine : Starting the main run loop.
+2025-03-28 09:42:37,533 : INFO : Machine : Shutting down...
+2025-03-28 09:42:37,533 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-03-28 09:42:38,649 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\mode_controller.py", line 133, in _load_mode_code
+    return Util.string_to_class(code_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\utility_functions.py", line 641, in string_to_class
+    m = importlib.import_module(module)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'game'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\mode_controller.py", line 119, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+                               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\mode_controller.py", line 157, in _load_mode
+    mode_class = self._load_mode_code(mode_string, config['mode']['code'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\mode_controller.py", line 135, in _load_mode_code
+    return Util.string_to_class("modes.{}.code.{}".format(mode_string, code_path))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\utility_functions.py", line 642, in string_to_class
+    m = getattr(m, parts[-1:][0])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'modes.game.code.game' has no attribute 'py'
+2025-03-28 09:42:38,685 : INFO : root : MPF run loop ended.

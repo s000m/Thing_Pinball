@@ -1,0 +1,6 @@
+2025-03-26 17:41:57,687 : INFO : root : Loading config.
+2025-03-26 17:41:57,698 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-26 17:41:57,698 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\homebrew\Desktop\thing_pinball\config\config.yaml
+2025-03-26 17:41:57,698 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-03-26 17:41:57,701 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\mpfconfig.yaml
+2025-03-26 17:41:57,701 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\Desktop\thing_pinball\config\config.yaml.

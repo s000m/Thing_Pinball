@@ -1,0 +1,80 @@
+#config_version=6
+
+machine:
+  min_balls: 7
+  balls_installed: 7
+  
+displays:
+  window:
+    width: 800
+    height: 600
+    title: Thing Pinball Machine
+    
+window:
+  width: 800
+  height: 600
+  title: Thing Pinball Machine
+  resizable: true
+  exit_on_escape: true
+  
+keyboard:
+  z:
+    switch: s_left_flipper_button
+  slash:
+    switch: s_right_flipper_button
+  s:
+    switch: s_start_button
+  1:
+    switch: s_trough_1
+  2:
+    switch: s_trough_2
+  3:
+    switch: s_trough_3
+  4:
+    switch: s_trough_4
+  5:
+    switch: s_trough_5
+  6:
+    switch: s_trough_6
+  7:
+    switch: s_trough_7
+  l:
+    switch: s_shooter_lane
+  q:
+    switch: s_mode_opto
+  d:
+    switch: s_3bank_tgt_d
+  o:
+    switch: s_3bank_tgt_o
+  g:
+    switch: s_3bank_tgt_g
+  r:
+    switch: s_right_ramp_entry_1
+  v:
+    switch: s_left_ramp_entry_1
+  n:
+    switch: s_newton_opto_made
+  p:
+    switch: s_spinner
+  b:
+    switch: s_pop_bumper_1
+  n:
+    switch: s_pop_bumper_2
+  m:
+    switch: s_pop_bumper_3
+  
+slide_player:
+  init_done:
+    welcome_slide:
+      persist: true
+  machine_reset_phase_3:
+    attract_started:
+      action: play
+      priority: 90
+  
+widget_player:
+  welcome_slide:
+    text:
+      text: THING PINBALL
+      font_size: 50
+      color: yellow

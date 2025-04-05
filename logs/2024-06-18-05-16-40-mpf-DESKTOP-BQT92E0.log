@@ -1,0 +1,264 @@
+2024-06-18 05:16:40,112 : INFO : root : Loading config.
+2024-06-18 05:16:40,114 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-06-18 05:16:40,114 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\67114de119ffda0ef143dfc9c8b88aec.mpf_cache
+2024-06-18 05:16:40,157 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from c:\git\new folder (6)\mpf\mpf\modes\attract\config\attract.yaml
+2024-06-18 05:16:40,157 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from c:\git\new folder (6)\mpf\mpf\modes\attract\config\attract.yaml
+2024-06-18 05:16:40,157 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\d4fb548c2902111733185c907c7e02f2.mpf_cache
+2024-06-18 05:16:40,158 : DEBUG : YamlMultifileConfigLoader : Loading mode game from c:\git\new folder (6)\mpf\mpf\modes\game\config\game.yaml
+2024-06-18 05:16:40,158 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\5cdf3f6f669e12795623fbd605d1b6a0.mpf_cache
+2024-06-18 05:16:40,158 : DEBUG : YamlMultifileConfigLoader : Loading mode base from c:\git\new folder (6)\mpf\mpf\modes\base\config\base.yaml
+2024-06-18 05:16:40,158 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\e87c946bbd0a2e05a931f281fca6458e.mpf_cache
+2024-06-18 05:16:40,159 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from c:\git\new folder (6)\mpf\mpf\modes\attract\config\attract.yaml
+2024-06-18 05:16:40,159 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from c:\git\new folder (6)\mpf\mpf\modes\attract\config\attract.yaml
+2024-06-18 05:16:40,159 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\d4fb548c2902111733185c907c7e02f2.mpf_cache
+2024-06-18 05:16:40,159 : DEBUG : YamlMultifileConfigLoader : Loading mode char_select from c:\git\new folder (6)\mpf\mpf\modes\char_select\config\char_select.yaml
+2024-06-18 05:16:40,159 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\da852937ccb56145866cf54922bc01f8.mpf_cache
+2024-06-18 05:16:40,160 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev1
+2024-06-18 05:16:40,160 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-06-18-05-16-40-mpf-DESKTOP-BQT92E0.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 10, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-06-18 05:16:40,160 : INFO : Machine : MPF path: c:\git\new folder (6)\mpf\mpf
+2024-06-18 05:16:40,160 : INFO : Machine : Machine path: C:\Users\octo\Downloads\homebrew
+2024-06-18 05:16:40,160 : INFO : Machine : Platform: win32
+2024-06-18 05:16:40,160 : INFO : Machine : Python executable location: C:\Users\octo\AppData\Local\Programs\Python\Python310\python.exe
+2024-06-18 05:16:40,160 : INFO : Machine : Python version: 3.10.0 (64-bit)
+2024-06-18 05:16:40,161 : DEBUG : asyncio : Using proactor: IocpProactor
+2024-06-18 05:16:40,161 : INFO : Machine : Initializing MPF...
+2024-06-18 05:16:40,164 : DEBUG : Virtual Platform : Configuring virtual hardware interface.
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607C5AA0C0>
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D162190>
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D162260>
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001607D23AC80>
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x000001607D2647B0>
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,193 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D162670>
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D1625A0>
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D162740>
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D1624D0>
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D162400>
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D162330>
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001607D23AD40>
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001607D23AC80>
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x000001607D2647B0>
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001607D23AD40>
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,194 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,195 : DEBUG : asciimatics.screen : Processing key: d
+2024-06-18 05:16:40,267 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,275 : DEBUG : YAML File Interface : Loading file: C:\Users\octo\Downloads\homebrew\data/machine_vars.yaml
+2024-06-18 05:16:40,275 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,275 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1', 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,275 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,275 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.0', 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,281 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,281 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,281 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,281 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,281 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,281 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-06-18 05:16:40,283 : DEBUG : ModeController : Loaded mode char_select
+2024-06-18 05:16:40,284 : DEBUG : ModeController : Loaded mode attract
+2024-06-18 05:16:40,285 : DEBUG : ModeController : Loaded mode game
+2024-06-18 05:16:40,286 : DEBUG : ModeController : Loaded mode base
+2024-06-18 05:16:40,290 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-06-18 05:16:40,290 : INFO : SwitchController : Found active switch: ('3208-8', <Platform.Virtual>) <switch.s_trough_ball_2>
+2024-06-18 05:16:40,290 : INFO : SwitchController : Found active switch: ('3208-9', <Platform.Virtual>) <switch.s_trough_ball_3>
+2024-06-18 05:16:40,290 : INFO : SwitchController : Found active switch: ('3208-13', <Platform.Virtual>) <switch.s_trough_ball_1>
+2024-06-18 05:16:40,292 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-06-18 05:16:40,293 : DEBUG : asciimatics.widgets.layout : Updating: message
+2024-06-18 05:16:40,293 : DEBUG : asciimatics.widgets.layout : Updating: message
+2024-06-18 05:16:40,293 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.textbox.TextBox object at 0x000001607D250EE0>
+2024-06-18 05:16:40,293 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001607D3A15A0>
+2024-06-18 05:16:40,293 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001607D3A1600>
+2024-06-18 05:16:40,293 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001607D3A15A0>
+2024-06-18 05:16:40,293 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001607D3A1600>
+2024-06-18 05:16:40,293 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-06-18 05:16:40,294 : DEBUG : asciimatics.screen : Processing key: 0
+2024-06-18 05:16:40,298 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2024-06-18 05:16:40,298 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2024-06-18 05:16:40,300 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,300 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,300 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,300 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,300 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,300 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,300 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,300 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,300 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,300 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,300 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D3AD150>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D3AD490>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D3AD560>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001607D3A1C00>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x000001607D349000>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D3AD970>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D3AD8A0>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D3ADA40>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D3AD7D0>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D3AD700>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001607D3AD630>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001607D3A1E40>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001607D3A1C00>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x000001607D349000>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001607D3A1E40>
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,301 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-18 05:16:40,367 : INFO : ball_device.bd_trough : BCH: Initial count: 3
+2024-06-18 05:16:40,367 : INFO : ball_device.bd_trough : State: idle
+2024-06-18 05:16:40,367 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2024-06-18 05:16:40,367 : INFO : ball_device.bd_plunger : State: idle
+2024-06-18 05:16:40,368 : DEBUG : YAML File Interface : Loading file: C:\Users\octo\Downloads\homebrew\data/audits.yaml
+2024-06-18 05:16:40,372 : DEBUG : Machine : "info_lights:" section not found in machine configuration, so the InfoLights will not be used.
+2024-06-18 05:16:40,372 : DEBUG : Machine : "switch_player:" section not found in machine configuration, so the SwitchPlayer will not be used.
+2024-06-18 05:16:40,374 : DEBUG : Machine : "twitch_client:" section not found in machine configuration, so the TwitchBot will not be used.
+2024-06-18 05:16:40,374 : DEBUG : Machine : "virtual_segment_display_connector:" section not found in machine configuration, so the VirtualSegmentDisplayConnector will not be used.
+2024-06-18 05:16:40,374 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-06-18 05:16:40,374 : DEBUG : ShowController : Loading show: flash
+2024-06-18 05:16:40,374 : DEBUG : ShowController : Loading show: on
+2024-06-18 05:16:40,374 : DEBUG : ShowController : Loading show: off
+2024-06-18 05:16:40,374 : DEBUG : ShowController : Loading show: led_color
+2024-06-18 05:16:40,374 : DEBUG : ShowController : Loading show: bl_color
+2024-06-18 05:16:40,374 : DEBUG : ShowController : Loading show: flash_color
+2024-06-18 05:16:40,374 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-06-18 05:16:40,375 : INFO : BallController : Initial balls found: 3
+2024-06-18 05:16:40,375 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,375 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 383, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,375 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_flipper'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,375 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_flipper_eos'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,375 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_inner_lane'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,375 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outer_lane'====== Args={'value': 153, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,375 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_sling'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,375 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_mead'====== Args={'value': 267, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,375 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_percy'====== Args={'value': 85, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,375 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_plunger'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,375 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_1'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,375 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_2'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_3'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_flipper'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_flipper_eos'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_inner_lane'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outer_lane'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_sling'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_scanlan'====== Args={'value': 204, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_1'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_2'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_3'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_4'====== Args={'value': 272, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_5'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_6'====== Args={'value': 89, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_jam'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_shots_mead_shot'====== Args={'value': 223, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_shots_percy_shot'====== Args={'value': 56, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_shots_scanlan_shot'====== Args={'value': 121, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_shots_video_shot_1'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_shots_video_shot_2'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,376 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_auto_launcher'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ball_drain'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 36, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inner_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outer_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mead'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_percy'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 131, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inner_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outer_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_scanlan'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_switch_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_1'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_2'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_6'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_jam'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_eject_coil'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-18 05:16:40,379 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2024-06-18 05:16:40,401 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2024-06-18 05:16:40,401 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2024-06-18 05:16:40,404 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2024-06-18 05:16:40,404 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2024-06-18 05:16:40,404 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2024-06-18 05:16:40,404 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2024-06-18 05:16:40,405 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2024-06-18 05:16:40,405 : INFO : Mode.attract : Started. Priority: 10
+2024-06-18 05:16:40,405 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-06-18 05:16:40,405 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2024-06-18 05:16:40,405 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2024-06-18 05:16:40,413 : INFO : Machine : Starting the main run loop.
+2024-06-18 05:16:40,443 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2024-06-18 05:16:40,457 : INFO : EventManager : Event: ======'slide_attract_mini_created'====== Args={'_from_bcp': True}
+2024-06-18 05:16:40,457 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2024-06-18 05:16:40,458 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'cmd': 'slides_play', '_from_bcp': True}
+2024-06-18 05:16:40,458 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2024-06-18 05:16:40,458 : INFO : EventManager : Event: ======'slide_attract_mini_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'cmd': 'slides_play', '_from_bcp': True}
+2024-06-18 05:16:43,406 : INFO : EventManager : Event: ======'high_score_start'====== Args={'priority': 0}
+2024-06-18 05:16:50,847 : INFO : Machine : Shutting down...
+2024-06-18 05:16:50,847 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-06-18 05:16:50,852 : INFO : root : MPF run loop ended.

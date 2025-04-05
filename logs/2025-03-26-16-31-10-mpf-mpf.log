@@ -1,0 +1,92 @@
+2025-03-26 16:31:10,922 : INFO : root : Loading config.
+2025-03-26 16:31:10,935 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-26 16:31:10,935 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\775282453bb9ae39cad69c39ab867a35.mpf_cache
+2025-03-26 16:31:11,049 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-26 16:31:11,049 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\3a13d33aed1669bafe3e56d7baff78a0.mpf_cache
+2025-03-26 16:31:11,049 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-03-26 16:31:11,049 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-03-26-16-31-10-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-26-16-31-10-mpf-mpf.log'}
+2025-03-26 16:31:11,049 : INFO : Machine : MPF path: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-03-26 16:31:11,049 : INFO : Machine : Machine path: C:\Users\homebrew\Desktop\thing_pinball
+2025-03-26 16:31:11,049 : INFO : Machine : Platform: win32
+2025-03-26 16:31:11,049 : INFO : Machine : Python executable location: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\python.exe
+2025-03-26 16:31:11,049 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2025-03-26 16:31:11,049 : INFO : Machine : Initializing MPF...
+2025-03-26 16:31:11,289 : INFO : FAST [NET] : Trying to connect to com4 at 921600bps
+2025-03-26 16:31:11,302 : INFO : FAST [NET] : Connected to com4 at 921600bps
+2025-03-26 16:31:11,317 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.21
+2025-03-26 16:31:11,349 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2025-03-26 16:31:11,349 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-03-26 16:31:11,365 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-03-26 16:31:11,381 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-03-26 16:31:11,381 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,413 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,413 : INFO : EventManager : Event: ======'machine_var_game_mode_dog_hunt_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,413 : INFO : EventManager : Event: ======'machine_var_game_mode_discovery_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,413 : INFO : EventManager : Event: ======'machine_var_game_mode_infected_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,413 : INFO : EventManager : Event: ======'machine_var_game_mode_blood_test_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,413 : INFO : EventManager : Event: ======'machine_var_game_mode_spider_head_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,413 : INFO : EventManager : Event: ======'machine_var_game_mode_wizard_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,413 : INFO : EventManager : Event: ======'machine_var_game_mode_ball_lock_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,413 : INFO : EventManager : Event: ======'machine_var_game_mode_multiball_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,413 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,413 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,413 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,633 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,633 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,633 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,633 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,633 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,633 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-26-16-31-10-mpf-mpf.log', 'prev_value': None, 'change': True}
+2025-03-26 16:31:11,633 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-03-26 16:31:11,657 : INFO : EventManager : Event: ======'drop_target_bank_dog_bank_up'====== Args={}
+2025-03-26 16:31:11,659 : INFO : EventManager : Event: ======'logicblock_spinner_value_updated'====== Args={'value': 0, 'enabled': False}
+2025-03-26 16:31:11,659 : INFO : EventManager : Event: ======'logicblock_newton_hit_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-03-26 16:31:16,008 : WARNING : Machine : Iterating device collections directly is deprecated and will be removed. Access by value(): device_collections[switches] -> device_collections['switches'].values()
+2025-03-26 16:31:16,008 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-03-26 16:31:16,008 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-03-26 16:31:16,008 : INFO : SwitchController : <<<<<<< 's_mode_opto' active >>>>>>>
+2025-03-26 16:31:16,008 : INFO : SwitchController : <<<<<<< 's_newton_opto_made' active >>>>>>>
+2025-03-26 16:31:16,008 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 16:31:16,008 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-03-26 16:31:16,008 : INFO : SwitchController : Found active switch: (52, [FAST Platform Interface]) <switch.s_trough_ball>
+2025-03-26 16:31:16,008 : INFO : SwitchController : Found active switch: (51, [FAST Platform Interface]) <switch.s_trough_ball_jam>
+2025-03-26 16:31:16,008 : INFO : SwitchController : Found active switch: (64, [FAST Platform Interface]) <switch.s_mode_opto>
+2025-03-26 16:31:16,008 : INFO : SwitchController : Found active switch: (45, [FAST Platform Interface]) <switch.s_newton_opto_made>
+2025-03-26 16:31:16,008 : INFO : SwitchController : Found active switch: (10, [FAST Platform Interface]) <switch.s_start_button>
+2025-03-26 16:31:16,008 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-03-26 16:31:16,008 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-03-26 16:31:16,008 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-03-26 16:31:40,441 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 16:31:40,649 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 16:31:40,649 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 16:31:40,651 : INFO : EventManager : Event: ======'start_button_pressed'====== Args={'priority': 0}
+2025-03-26 16:31:42,781 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-03-26 16:31:43,163 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-03-26 16:31:43,163 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-03-26 16:31:43,163 : INFO : EventManager : Event: ======'start_button_pressed'====== Args={'priority': 0}
+2025-03-26 16:31:44,510 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-03-26 16:31:44,510 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-03-26 16:31:44,687 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-03-26 16:31:44,710 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-03-26 16:31:45,022 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-03-26 16:31:45,022 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-03-26 16:31:45,376 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-03-26 16:31:45,392 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-03-26 16:31:45,615 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-03-26 16:31:45,637 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-03-26 16:31:45,939 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-03-26 16:31:45,939 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-03-26 16:37:54,017 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' active >>>>>>>
+2025-03-26 16:37:54,017 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 16:37:54,019 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 16:37:54,019 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 16:37:54,333 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' inactive >>>>>>>
+2025-03-26 16:37:54,590 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' active >>>>>>>
+2025-03-26 16:37:54,590 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-03-26 16:37:54,592 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-03-26 16:37:54,592 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-03-26 16:37:54,750 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' inactive >>>>>>>
+2025-03-26 16:44:18,427 : INFO : Machine : Starting the main run loop.
+2025-03-26 16:44:18,427 : INFO : Machine : Shutting down...
+2025-03-26 16:44:18,427 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-03-26 16:44:19,540 : INFO : root : MPF run loop ended.

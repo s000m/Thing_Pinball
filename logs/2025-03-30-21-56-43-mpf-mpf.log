@@ -1,0 +1,1695 @@
+2025-03-30 21:56:43,451 : INFO : root : Loading config.
+2025-03-30 21:56:43,459 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-30 21:56:43,460 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\775282453bb9ae39cad69c39ab867a35.mpf_cache
+2025-03-30 21:56:43,578 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-30 21:56:43,578 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8864efb2a88f9c685592172f4fd0a6a3.mpf_cache
+2025-03-30 21:56:43,578 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\1352604168843921958881d1d8dd3c1b.mpf_cache
+2025-03-30 21:56:43,578 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-30 21:56:43,578 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8864efb2a88f9c685592172f4fd0a6a3.mpf_cache
+2025-03-30 21:56:43,578 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\82108c9d10735fbef5e8cced18b7d831.mpf_cache
+2025-03-30 21:56:43,578 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\81d0f34cbd4c6d61cd4dad95e5100b6a.mpf_cache
+2025-03-30 21:56:43,578 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\85b30d06c34a199299d858e267dca599.mpf_cache
+2025-03-30 21:56:43,578 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\b6a0c3fa509e03dd7943cf1395b72ece.mpf_cache
+2025-03-30 21:56:43,585 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\d18a920afddb781d4f34b36ac5cb2e09.mpf_cache
+2025-03-30 21:56:43,585 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\50de7258194ae9293cbe8c4fce9577e7.mpf_cache
+2025-03-30 21:56:43,585 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\2a76f107a833b8953199c5c910a26856.mpf_cache
+2025-03-30 21:56:43,587 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\529fba7289b2d9f945cd5a4488c8b5fa.mpf_cache
+2025-03-30 21:56:43,587 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8c97cf9697840e2ca000923ba54f1b48.mpf_cache
+2025-03-30 21:56:43,587 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\e8cb3f2c2e9a26851ec893c5156e3f7c.mpf_cache
+2025-03-30 21:56:43,587 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\67cfb29d96313268f86362bebab46239.mpf_cache
+2025-03-30 21:56:43,587 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-03-30 21:56:43,587 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-03-30-21-56-43-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-30-21-56-43-mpf-mpf.log'}
+2025-03-30 21:56:43,587 : INFO : Machine : MPF path: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-03-30 21:56:43,587 : INFO : Machine : Machine path: C:\Users\homebrew\Desktop\thing_pinball
+2025-03-30 21:56:43,587 : INFO : Machine : Platform: win32
+2025-03-30 21:56:43,587 : INFO : Machine : Python executable location: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\python.exe
+2025-03-30 21:56:43,592 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2025-03-30 21:56:43,594 : INFO : Machine : Initializing MPF...
+2025-03-30 21:56:43,717 : INFO : FAST [NET] : Trying to connect to com4 at 921600bps
+2025-03-30 21:56:43,721 : INFO : FAST [NET] : Connected to com4 at 921600bps
+2025-03-30 21:56:43,737 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.21
+2025-03-30 21:56:43,817 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-03-30 21:56:43,837 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-03-30 21:56:43,837 : INFO : EventManager : Event: ======'machine_var_game_mode_dog_hunt_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:43,837 : INFO : EventManager : Event: ======'machine_var_game_mode_discovery_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:43,837 : INFO : EventManager : Event: ======'machine_var_game_mode_infected_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:43,837 : INFO : EventManager : Event: ======'machine_var_game_mode_blood_test_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:43,837 : INFO : EventManager : Event: ======'machine_var_game_mode_spider_head_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:43,837 : INFO : EventManager : Event: ======'machine_var_game_mode_wizard_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:43,837 : INFO : EventManager : Event: ======'machine_var_game_mode_ball_lock_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:43,837 : INFO : EventManager : Event: ======'machine_var_game_mode_multiball_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-30 21:56:43,837 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2025-03-30 21:56:43,837 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-03-30 21:56:43,837 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2025-03-30 21:56:44,024 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-03-30 21:56:44,024 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-03-30 21:56:44,024 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-03-30 21:56:44,024 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-03-30 21:56:44,024 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-03-30 21:56:44,024 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-30-21-56-43-mpf-mpf.log', 'prev_value': None, 'change': True}
+2025-03-30 21:56:44,024 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-03-30 21:56:44,072 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_diverter:pwm_on_ms" is not a valid setting name.
+2025-03-30 21:56:44,072 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_diverter:pwm_off_ms" is not a valid setting name.
+2025-03-30 21:56:44,072 : WARNING : ConfigValidator : Unrecognized config setting. "timed_switches:mode_vuk_delayed_eject:state_when_released" is not a valid setting name.
+2025-03-30 21:56:44,072 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:multiball_jackpot_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:44,072 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:right_ramp_validity_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:44,072 : WARNING : ConfigValidator : Unrecognized config setting. "mode:infected:timers:infected_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:44,072 : WARNING : ConfigValidator : Unrecognized config setting. "mode:discovery:timers:discovery_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:44,072 : WARNING : ConfigValidator : Unrecognized config setting. "mode:wizard:timers:wizard_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:44,072 : WARNING : ConfigValidator : Unrecognized config setting. "mode:spider_head:timers:spider_head_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:44,072 : WARNING : ConfigValidator : Unrecognized config setting. "mode:dog_hunt:timers:dog_hunt_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:44,072 : WARNING : ConfigValidator : Unrecognized config setting. "mode:base:timers:mode_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:44,072 : WARNING : ConfigValidator : Unrecognized config setting. "mode:blood_test:timers:blood_test_timer:events_when_complete" is not a valid setting name.
+2025-03-30 21:56:44,089 : INFO : EventManager : Event: ======'drop_target_bank_vuk_bank_up'====== Args={}
+2025-03-30 21:56:44,092 : INFO : EventManager : Event: ======'logicblock_spinner_value_updated'====== Args={'value': 0, 'enabled': False}
+2025-03-30 21:56:44,092 : INFO : EventManager : Event: ======'logicblock_newton_hit_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-03-30 21:56:44,092 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 0, 'enabled': False}
+2025-03-30 21:56:44,092 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-52' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_ball_lock_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-00
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_ball_lock_1 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,105 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-53' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_ball_lock_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-01
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_ball_lock_2 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,105 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_trough in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 3208 does not exist for driver 3208-4
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_trough in platform. See error above
+2025-03-30 21:56:44,105 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-54' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_ball_lock_3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-02
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_ball_lock_3 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,105 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_left_flipper_main in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 3208 does not exist for driver 3208-1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_left_flipper_main in platform. See error above
+2025-03-30 21:56:44,105 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-55' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_slingshot in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 0804_1 does not exist for switch 0804_1-05
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_slingshot in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,105 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_left_flipper_hold in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 3208 does not exist for driver 3208-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_left_flipper_hold in platform. See error above
+2025-03-30 21:56:44,105 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-56' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_right_slingshot in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 0804_1 does not exist for switch 0804_1-02
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_right_slingshot in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,105 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_right_flipper_main in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 3208 does not exist for driver 3208-3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_right_flipper_main in platform. See error above
+2025-03-30 21:56:44,105 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-57' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_newton_opto_made in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-21
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_newton_opto_made in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,116 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_right_flipper_hold in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 3208 does not exist for driver 3208-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_right_flipper_hold in platform. See error above
+2025-03-30 21:56:44,116 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-58' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_flipper_eos in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 0804_1 does not exist for switch 0804_1-01
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_flipper_eos in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,116 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_left_slingshot in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 3208 does not exist for driver 3208-5
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_left_slingshot in platform. See error above
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-59' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_right_flipper_eos in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 0804_1 does not exist for switch 0804_1-03
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_right_flipper_eos in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_right_slingshot in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 3208 does not exist for driver 3208-6
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_right_slingshot in platform. See error above
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-60' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_start_button in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'cab'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board cab does not exist for switch cab-10
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_start_button in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_mode_vuk in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 0804_2 does not exist for driver 0804_2-1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_mode_vuk in platform. See error above
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-61' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_flipper_button in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'cab'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board cab does not exist for switch cab-09
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_flipper_button in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_upramp in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 0804_1 does not exist for driver 0804_1-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_upramp in platform. See error above
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-62' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_button_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'cab'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board cab does not exist for switch cab-08
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_button_2 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_ramp_release in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 0804_1 does not exist for driver 0804_1-3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_ramp_release in platform. See error above
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-63' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_right_flipper_button in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'cab'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board cab does not exist for switch cab-17
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_right_flipper_button in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_diverter in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 0804_2 does not exist for driver 0804_2-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_diverter in platform. See error above
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-64' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_right_button_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'cab'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board cab does not exist for switch cab-16
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_right_button_2 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_pop_bumper_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 0804_2 does not exist for driver 0804_2-3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_pop_bumper_1 in platform. See error above
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-65' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_ramp_entry_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-04
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_ramp_entry_1 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_pop_bumper_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 0804_2 does not exist for driver 0804_2-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_pop_bumper_2 in platform. See error above
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_pop_bumper_3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 0804_1 does not exist for driver 0804_1-1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_pop_bumper_3 in platform. See error above
+2025-03-30 21:56:44,120 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_drop_target in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 0804_1 does not exist for driver 0804_1-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_drop_target in platform. See error above
+2025-03-30 21:56:44,135 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_up_post in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 338, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 387, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 340, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board 3208 does not exist for driver 3208-7
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_up_post in platform. See error above
+2025-03-30 21:56:44,135 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-08
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_1 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,135 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_shooter_lane in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 0804_2 does not exist for switch 0804_2-02
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_shooter_lane in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,135 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-09
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_2 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,135 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-10
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_3 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,135 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_4 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_4 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,135 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_5 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-12
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_5 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,135 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_6 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-13
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_6 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,135 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-33' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_7 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-14
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_7 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,135 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_ball in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-28
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_ball in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,135 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_ball_jam in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-27
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_ball_jam in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,135 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-37' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_outlane_right in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 0804_1 does not exist for switch 0804_1-04
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_outlane_right in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,135 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-38' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_inlane_right in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 0804_1 does not exist for switch 0804_1-07
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_inlane_right in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,135 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-39' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_inlane_left in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 0804_1 does not exist for switch 0804_1-06
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_inlane_left in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,148 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-40' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_outlane_left in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 0804_1 does not exist for switch 0804_1-00
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_outlane_left in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,150 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-41' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_mode_opto in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 0804_2 does not exist for switch 0804_2-00
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_mode_opto in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,150 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-42' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_3bank_tgt_d in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-26
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_3bank_tgt_d in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,152 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-43' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_3bank_tgt_o in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-25
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_3bank_tgt_o in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,152 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-44' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_3bank_tgt_g in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-29
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_3bank_tgt_g in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,152 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-45' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_spinner in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '0804_2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 0804_2 does not exist for switch 0804_2-01
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_spinner in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,152 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-46' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_pop_bumper_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-17
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_pop_bumper_1 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,152 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-47' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_pop_bumper_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-20
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_pop_bumper_2 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,152 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-48' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_pop_bumper_3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-19
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_pop_bumper_3 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,157 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-49' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_ramp_up_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-16
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_ramp_up_1 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,157 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-50' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_right_orbit_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-18
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_right_orbit_1 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,159 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-51' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_right_ramp_entry_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-03
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_right_ramp_entry_1 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:44,159 : INFO : Machine : Starting the main run loop.
+2025-03-30 21:56:44,159 : INFO : Machine : Shutting down...
+2025-03-30 21:56:44,159 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-03-30 21:56:45,276 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3208'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 3208 does not exist for switch 3208-00
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_ball_lock_1 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2025-03-30 21:56:45,281 : INFO : root : MPF run loop ended.

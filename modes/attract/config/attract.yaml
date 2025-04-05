@@ -1,0 +1,107 @@
+#config_version=6
+
+mode:
+  start_events: mc_reset_phase_3
+  game_mode: False
+  priority: 10
+  code: attract.Attract
+  stop_events: game_start
+  
+slide_player:
+  mode_attract_started:
+    attract_start:
+      widgets:
+        - type: text
+          text: THING
+          font_size: 100
+          y: top-100
+          anchor_y: top
+          color: red
+        - type: text
+          text: PINBALL
+          font_size: 100
+          y: top-200
+          anchor_y: top
+          color: red
+        - type: text
+          text: PRESS START
+          font_size: 50
+          y: center-100
+          color: green
+          animations:
+            pre_show_slide:
+              - property: opacity
+                value: 1
+                duration: 0.5s
+              - property: opacity
+                value: 0
+                duration: 0.5s
+                repeat: true
+        - type: text
+          text: HIGH SCORES
+          font_size: 50
+          y: center
+          color: yellow
+        - type: text
+          text: "1. (machine|high_score1_name|PLAYER) (machine|high_score1_value|0)"
+          font_size: 30
+          y: center+50
+          color: white
+        - type: text
+          text: "2. (machine|high_score2_name|PLAYER) (machine|high_score2_value|0)"
+          font_size: 30
+          y: center+80
+          color: white
+        - type: text
+          text: "3. (machine|high_score3_name|PLAYER) (machine|high_score3_value|0)"
+          font_size: 30
+          y: center+110
+          color: white
+        - type: text
+          text: "4. (machine|high_score4_name|PLAYER) (machine|high_score4_value|0)"
+          font_size: 30
+          y: center+140
+          color: white
+          
+show_player:
+  mode_attract_started:
+    attract_display_loop:
+      loops: -1
+      
+shows:
+  attract_display_loop:
+    - duration: 5
+      slides: attract_start
+    - duration: 5
+      slides: game_features
+      
+widgets:
+  game_features:
+    - type: text
+      text: GAME FEATURES
+      font_size: 50
+      y: top-50
+      color: blue
+    - type: text
+      text: DOG HUNT - DISCOVERY - INFECTED
+      font_size: 30
+      y: center-50
+      color: white
+    - type: text
+      text: BLOOD TEST - SPIDER HEAD - WIZARD MODE
+      font_size: 30
+      y: center
+      color: white
+    - type: text
+      text: BALL LOCK - MULTI-BALL
+      font_size: 30
+      y: center+50
+      color: white
+
+# Add this event_player section to handle the start button press
+event_player:
+  s_start_button_active:
+    - start_game
+  # Also handle the start button if it's defined with a different name
+  s_start_active:
+    - start_game

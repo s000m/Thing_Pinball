@@ -1,0 +1,296 @@
+2024-09-08 21:46:39,761 : INFO : root : Loading config.
+2024-09-08 21:46:39,765 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-09-08 21:46:39,766 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml
+2024-09-08 21:46:39,766 : INFO : ConfigProcessor : Loading config from file C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\mpfconfig.yaml.
+2024-09-08 21:46:39,766 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\mpfconfig.yaml
+2024-09-08 21:46:39,781 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\mpfconfig.yaml
+2024-09-08 21:46:39,782 : INFO : ConfigProcessor : Loading config from file C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml.
+2024-09-08 21:46:39,782 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml
+2024-09-08 21:46:39,785 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml
+2024-09-08 21:46:39,786 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\lights.yaml
+2024-09-08 21:46:39,786 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\lights.yaml
+2024-09-08 21:46:39,787 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\coils.yaml
+2024-09-08 21:46:39,787 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\coils.yaml
+2024-09-08 21:46:39,788 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\switches.yaml
+2024-09-08 21:46:39,789 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\switches.yaml
+2024-09-08 21:46:39,789 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\sounds.yaml
+2024-09-08 21:46:39,790 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\images.yaml
+2024-09-08 21:46:39,791 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\images.yaml
+2024-09-08 21:46:39,792 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\videos.yaml
+2024-09-08 21:46:39,792 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\videos.yaml
+2024-09-08 21:46:39,794 : INFO : ConfigProcessor : Config file cache created: C:\Users\ADMINI~1\AppData\Local\Temp\d1d13b71f03ff6cb7b42d9c6bb8e160f.mpf_cache
+2024-09-08 21:46:39,866 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 21:46:39,867 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 21:46:39,867 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\baa68abd602a2a90f66edd8e37c874c7.mpf_cache
+2024-09-08 21:46:39,868 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\game\config\game.yaml
+2024-09-08 21:46:39,868 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\f48eab4eba32ca9097b4976f8036bfbf.mpf_cache
+2024-09-08 21:46:39,869 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\base\config\base.yaml
+2024-09-08 21:46:39,869 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\20d8a08f313923c863e280a74de3cd75.mpf_cache
+2024-09-08 21:46:39,870 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 21:46:39,870 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 21:46:39,871 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\baa68abd602a2a90f66edd8e37c874c7.mpf_cache
+2024-09-08 21:46:39,871 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2024-09-08 21:46:39,871 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-09-08-21-46-39-mpf-WIN-0MLVBKI9D6P.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 10, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\Administrator\\Documents\\fast_homebrew_godot\\logs\\2024-09-08-21-46-39-mpf-WIN-0MLVBKI9D6P.log'}
+2024-09-08 21:46:39,872 : INFO : Machine : MPF path: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf
+2024-09-08 21:46:39,872 : INFO : Machine : Machine path: C:\Users\Administrator\Documents\fast_homebrew_godot
+2024-09-08 21:46:39,872 : INFO : Machine : Platform: win32
+2024-09-08 21:46:39,872 : INFO : Machine : Python executable location: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe
+2024-09-08 21:46:39,872 : INFO : Machine : Python version: 3.10.11 (64-bit)
+2024-09-08 21:46:39,873 : DEBUG : asyncio : Using proactor: IocpProactor
+2024-09-08 21:46:39,874 : INFO : Machine : Initializing MPF...
+2024-09-08 21:46:39,972 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,972 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,972 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,972 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,972 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,972 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,972 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,972 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,973 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,973 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,973 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,973 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,973 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000228F861D490>
+2024-09-08 21:46:39,973 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000228F81AB6B0>
+2024-09-08 21:46:39,973 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000228F81AB5E0>
+2024-09-08 21:46:39,973 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x00000228F8912AA0>
+2024-09-08 21:46:39,973 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x00000228F891CEB0>
+2024-09-08 21:46:39,973 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,973 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,973 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000228F8869A40>
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000228F8869970>
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000228F8869B10>
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000228F88698A0>
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000228F8869630>
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000228F88697D0>
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x00000228F8912B60>
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x00000228F8912AA0>
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x00000228F891CEB0>
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x00000228F8912B60>
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,974 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,975 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,975 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,975 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,975 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,975 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,975 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,975 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,975 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,975 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,975 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,975 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,975 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,975 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,975 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 21:46:39,976 : DEBUG : asciimatics.screen : Processing key: d
+2024-09-08 21:46:40,120 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2024-09-08 21:46:40,129 : DEBUG : FAST : Port COM3 is connected to a FAST Neuron Controller.
+2024-09-08 21:46:40,129 : DEBUG : FAST : Port COM4 is connected to a FAST Neuron Controller.
+2024-09-08 21:46:40,129 : DEBUG : FAST : Port COM5 is connected to a FAST Neuron Controller.
+2024-09-08 21:46:40,149 : INFO : FAST : Detected NET on port COM5
+2024-09-08 21:46:40,258 : INFO : FAST [NET] : Trying to connect to COM5 at 921600bps
+2024-09-08 21:46:40,267 : INFO : FAST [NET] : Connected to COM5 at 921600bps
+2024-09-08 21:46:40,272 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.13
+2024-09-08 21:46:40,276 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2024-09-08 21:46:40,277 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-09-08 21:46:40,298 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\data/machine_vars.yaml
+2024-09-08 21:46:40,299 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-09-08 21:46:40,299 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2024-09-08 21:46:40,299 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-09-08 21:46:40,299 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.11', 'prev_value': None, 'change': True}
+2024-09-08 21:46:40,320 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.22631-SP0', 'prev_value': None, 'change': True}
+2024-09-08 21:46:40,320 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-09-08 21:46:40,320 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-09-08 21:46:40,320 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.22631', 'prev_value': None, 'change': True}
+2024-09-08 21:46:40,321 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-09-08 21:46:40,321 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\Administrator\\Documents\\fast_homebrew_godot\\logs\\2024-09-08-21-46-39-mpf-WIN-0MLVBKI9D6P.log', 'prev_value': None, 'change': True}
+2024-09-08 21:46:40,321 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-09-08 21:46:40,326 : DEBUG : ModeController : Loaded mode attract
+2024-09-08 21:46:40,326 : DEBUG : ModeController : Loaded mode base
+2024-09-08 21:46:40,330 : DEBUG : ModeController : Loaded mode game
+2024-09-08 21:46:40,334 : DEBUG : TIC Stepper : Configuring Stepper Parameters.
+2024-09-08 21:46:40,334 : DEBUG : asyncio : Using proactor: IocpProactor
+2024-09-08 21:46:40,336 : DEBUG : TIC Stepper : Looking for TIC Device with serial number 00414729.
+2024-09-08 21:46:40,430 : DEBUG : TIC Stepper : Exception: b'Error: Failed to open generic handle.  Access is denied.  Try closing all other programs that are using the device.  Windows error code 0x5.\r\n'
+2024-09-08 21:46:40,431 : ERROR : asyncio : Exception in callback Util.raise_exceptions(<Future finis...de 0x5.\r\n')>) at C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\utility_functions.py:790
+handle: <Handle Util.raise_exceptions(<Future finis...de 0x5.\r\n')>) at C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\utility_functions.py:790>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_ticcmd_wrapper.py", line 90, in _run_subprocess_ticcmd
+    output = subprocess.check_output(['ticcmd'] + args, stderr=subprocess.STDOUT)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['ticcmd', '-s', '--full', '-d', '00414729']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\utility_functions.py", line 798, in raise_exceptions
+    future.result()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_ticcmd_wrapper.py", line 78, in _ticcmd_remote
+    return self._run_subprocess_ticcmd(*args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_ticcmd_wrapper.py", line 95, in _run_subprocess_ticcmd
+    raise TicError(e.output)
+mpf.platforms.pololu.pololu_ticcmd_wrapper.TicError: b'Error: Failed to open generic handle.  Access is denied.  Try closing all other programs that are using the device.  Windows error code 0x5.\r\n'
+2024-09-08 21:46:40,436 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_plunger_lane in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+KeyError: '8041'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 8041 does not exist for switch 8041-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_plunger_lane in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-09-08 21:46:40,437 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\system_wide_device.py:15> exception=TicError(b'Error: Failed to open generic handle.  Access is denied.  Try closing all other programs that are using the device.  Windows error code 0x5.\r\n')>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_ticcmd_wrapper.py", line 90, in _run_subprocess_ticcmd
+    output = subprocess.check_output(['ticcmd'] + args, stderr=subprocess.STDOUT)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['ticcmd', '-s', '--full', '-d', '00414729']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\devices\stepper.py", line 67, in _initialize
+    self.hw_stepper = await self.platform.configure_stepper(self.config['number'],
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_tic.py", line 49, in configure_stepper
+    await stepper.initialize()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_tic.py", line 116, in initialize
+    status = await self.tic.get_status()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\pololu\pololu_ticcmd_wrapper.py", line 99, in get_status
+    cmd_return = await self._ticcmd_future('-s', '--full')
+mpf.platforms.pololu.pololu_ticcmd_wrapper.TicError: b'Error: Failed to open generic handle.  Access is denied.  Try closing all other programs that are using the device.  Windows error code 0x5.\r\n'
+2024-09-08 21:46:40,439 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_flipper in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+KeyError: '8041'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 8041 does not exist for switch 8041-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_flipper in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-09-08 21:46:40,440 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_start in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+KeyError: '8041'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 8041 does not exist for switch 8041-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_start in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-09-08 21:46:40,440 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_right_flipper in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 447, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+KeyError: '8041'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 505, in configure_switch
+    number = self._parse_switch_number(number)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\platforms\fast\fast.py", line 449, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board 8041 does not exist for switch 8041-1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_right_flipper in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-09-08 21:46:40,441 : INFO : Machine : Starting the main run loop.
+2024-09-08 21:46:40,441 : INFO : Machine : Shutting down...
+2024-09-08 21:46:40,442 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-09-08 21:46:40,443 : ERROR : root : 'NoneType' object has no attribute 'stop'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\commands\game.py", line 240, in __init__
+    self.machine.run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 689, in run
+    self._run_loop()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 789, in _run_loop
+    self._crash_shutdown()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 734, in _crash_shutdown
+    self._do_stop()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 725, in _do_stop
+    self.shutdown()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\machine.py", line 754, in shutdown
+    self.device_manager.stop_devices()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\core\device_manager.py", line 99, in stop_devices
+    device.stop_device()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\devices\stepper.py", line 179, in stop_device
+    self.hw_stepper.stop()
+AttributeError: 'NoneType' object has no attribute 'stop'

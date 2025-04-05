@@ -1,0 +1,92 @@
+#config_version=6
+
+mode:
+  start_events: ball_starting
+  stop_events: ball_ending
+  priority: 100
+  game_mode: true
+  
+slide_player:
+  mode_base_started:
+    base_started:
+      widgets:
+        - type: text
+          text: (player_num)
+          font_size: 50
+          x: right-20
+          y: top-20
+          anchor_x: right
+          anchor_y: top
+          color: white
+        - type: text
+          text: BALL (ball)
+          font_size: 50
+          x: right-20
+          y: top-80
+          anchor_x: right
+          anchor_y: top
+          color: white
+        - type: text
+          text: SCORE (score)
+          font_size: 50
+          x: center
+          y: top-20
+          anchor_x: center
+          anchor_y: top
+          color: white
+  
+variable_player:
+  # Base scoring - now moved from game.yaml to here
+  ball_started:
+    score: 0
+  
+  # Extra points for adding players (just for fun)
+  player_added:
+    score: 1000
+  
+  # End of ball bonus
+  ball_ending:
+    score: 10000
+
+# Add mode_settings here where it's valid
+mode_settings:
+  game_mode_active: False
+
+# Moved timers section from main config to here
+timers:
+  mode_timer:
+    start_value: 60
+    end_value: 0
+    direction: down
+    control_events:
+      - event: mode_started
+        action: start
+      - event: mode_objective_complete
+        action: stop
+      - event: timer_mode_timer_complete
+        action: restart
+    events_when_complete: mode_timer_expired
+    
+# Logic for checking available modes per flow chart - FIXED SYNTAX
+event_player:
+  # Simple direct events
+  check_available_modes: check_dog_hunt_mode
+  start_mode_dog_hunt: mode_dog_hunt_start
+  start_mode_discovery: mode_discovery_start
+  start_mode_infected: mode_infected_start
+  start_mode_blood_test: mode_blood_test_start
+  start_mode_spider_head: mode_spider_head_start
+  start_mode_wizard: mode_wizard_start
+  start_mode_ball_lock: mode_ball_lock_start
+  start_mode_multiball: mode_multiball_start
+  wizard_mode_complete: reset_all_game_modes
+  
+  # Quoted conditional events - each on its own line with quotes
+  "check_dog_hunt_mode{current_player.dog_hunt_complete == False and current_player.game_mode_active == False}": start_mode_dog_hunt
+  "check_discovery_mode{current_player.discovery_complete == False and current_player.game_mode_active == False and current_player.dog_hunt_complete == True}": start_mode_discovery
+  "check_infected_mode{current_player.infected_complete == False and current_player.game_mode_active == False and current_player.discovery_complete == True}": start_mode_infected
+  "check_blood_test_mode{current_player.blood_test_complete == False and current_player.game_mode_active == False and current_player.infected_complete == True}": start_mode_blood_test
+  "check_spider_head_mode{current_player.spider_head_complete == False and current_player.game_mode_active == False and current_player.blood_test_complete == True}": start_mode_spider_head
+  "check_wizard_mode{current_player.wizard_complete == False and current_player.game_mode_active == False and current_player.spider_head_complete == True}": start_mode_wizard
+  "check_ball_lock_mode{current_player.ball_lock_complete == False and current_player.game_mode_active == False and current_player.wizard_complete == True}": start_mode_ball_lock
+  "check_multiball_mode{current_player.multiball_complete == False and current_player.game_mode_active == False and current_player.ball_lock_complete == True}": start_mode_multiball

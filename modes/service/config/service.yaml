@@ -1,0 +1,153 @@
+#config_version=6
+
+mode:
+  start_events: service_mode_start
+  stop_events: service_mode_stop, ball_starting
+  code: service.ServiceMode  # Service mode code now handled directly
+  priority: 200
+  
+slide_player:
+  mode_service_started:
+    service_menu:
+      widgets:
+        - type: text
+          text: SERVICE MENU
+          font_size: 50
+          y: top-40
+          anchor_y: top
+          color: red
+        - type: text
+          text: "1. TEST SWITCHES"
+          font_size: 30
+          y: top-100
+          anchor_y: top
+          color: white
+        - type: text
+          text: "2. TEST COILS"
+          font_size: 30
+          y: top-140
+          anchor_y: top
+          color: white
+        - type: text
+          text: "3. TEST LIGHTS"
+          font_size: 30
+          y: top-180
+          anchor_y: top
+          color: white
+        - type: text
+          text: "4. EXIT SERVICE MODE"
+          font_size: 30
+          y: top-220
+          anchor_y: top
+          color: white
+        - type: text
+          text: "PRESS START TO SELECT"
+          font_size: 30
+          y: bottom+40
+          anchor_y: bottom
+          color: yellow
+        - type: text
+          text: "USE FLIPPER BUTTONS TO NAVIGATE"
+          font_size: 30
+          y: bottom+80
+          anchor_y: bottom
+          color: yellow
+          
+  show_switch_test:
+    switch_test:
+      widgets:
+        - type: text
+          text: SWITCH TEST
+          font_size: 50
+          y: top-40
+          anchor_y: top
+          color: red
+        - type: text
+          text: "ACTIVATE ANY SWITCH TO TEST"
+          font_size: 30
+          y: top-100
+          anchor_y: top
+          color: white
+        - type: text
+          text: ""
+          font_size: 30
+          y: center
+          anchor_y: center
+          color: green
+          key: switch_name
+        - type: text
+          text: "PRESS START TO RETURN TO MENU"
+          font_size: 30
+          y: bottom+40
+          anchor_y: bottom
+          color: yellow
+          
+  show_coil_test:
+    coil_test:
+      widgets:
+        - type: text
+          text: COIL TEST
+          font_size: 50
+          y: top-40
+          anchor_y: top
+          color: red
+        - type: text
+          text: "USE FLIPPER BUTTONS TO SELECT COIL"
+          font_size: 30
+          y: top-100
+          anchor_y: top
+          color: white
+        - type: text
+          text: ""
+          font_size: 30
+          y: center
+          anchor_y: center
+          color: green
+          key: coil_name
+        - type: text
+          text: "PRESS START TO FIRE COIL"
+          font_size: 30
+          y: bottom+40
+          anchor_y: bottom
+          color: yellow
+        - type: text
+          text: "HOLD START TO RETURN TO MENU"
+          font_size: 30
+          y: bottom+80
+          anchor_y: bottom
+          color: yellow
+          
+  show_light_test:
+    light_test:
+      widgets:
+        - type: text
+          text: LIGHT TEST
+          font_size: 50
+          y: top-40
+          anchor_y: top
+          color: red
+        - type: text
+          text: "USE FLIPPER BUTTONS TO CYCLE LIGHTS"
+          font_size: 30
+          y: top-100
+          anchor_y: top
+          color: white
+        - type: text
+          text: ""
+          font_size: 30
+          y: center
+          anchor_y: center
+          color: green
+          key: light_name
+        - type: text
+          text: "PRESS START TO TOGGLE LIGHT"
+          font_size: 30
+          y: bottom+40
+          anchor_y: bottom
+          color: yellow
+        - type: text
+          text: "HOLD START TO RETURN TO MENU"
+          font_size: 30
+          y: bottom+80
+          anchor_y: bottom
+          color: yellow

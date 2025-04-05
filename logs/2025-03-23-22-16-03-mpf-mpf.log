@@ -1,0 +1,869 @@
+2025-03-23 22:16:03,555 : INFO : root : Loading config.
+2025-03-23 22:16:03,557 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-23 22:16:03,557 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\homebrew\Desktop\thing_pinball\config\config.yaml
+2025-03-23 22:16:03,557 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-03-23 22:16:03,568 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\mpfconfig.yaml
+2025-03-23 22:16:03,570 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\Desktop\thing_pinball\config\config.yaml.
+2025-03-23 22:16:03,570 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Desktop\thing_pinball\config\config.yaml
+2025-03-23 22:16:03,570 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Desktop\thing_pinball\config\service_mode.yaml
+2025-03-23 22:16:03,570 : INFO : ConfigProcessor : Config file cache created: C:\Users\homebrew\AppData\Local\Temp\775282453bb9ae39cad69c39ab867a35.mpf_cache
+2025-03-23 22:16:03,649 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\3a13d33aed1669bafe3e56d7baff78a0.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\1352604168843921958881d1d8dd3c1b.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\14eb6f99ffd433bf1b6bfef7e8b96202.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\3a13d33aed1669bafe3e56d7baff78a0.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\82108c9d10735fbef5e8cced18b7d831.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\81d0f34cbd4c6d61cd4dad95e5100b6a.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\85b30d06c34a199299d858e267dca599.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\b6a0c3fa509e03dd7943cf1395b72ece.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\d18a920afddb781d4f34b36ac5cb2e09.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\50de7258194ae9293cbe8c4fce9577e7.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\2a76f107a833b8953199c5c910a26856.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\529fba7289b2d9f945cd5a4488c8b5fa.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8c97cf9697840e2ca000923ba54f1b48.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\e8cb3f2c2e9a26851ec893c5156e3f7c.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\78a1fb055772b356de30948f28682ed0.mpf_cache
+2025-03-23 22:16:03,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\67cfb29d96313268f86362bebab46239.mpf_cache
+2025-03-23 22:16:03,665 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-03-23 22:16:03,675 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-03-23-22-16-03-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-23-22-16-03-mpf-mpf.log'}
+2025-03-23 22:16:03,675 : INFO : Machine : MPF path: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-03-23 22:16:03,675 : INFO : Machine : Machine path: C:\Users\homebrew\Desktop\thing_pinball
+2025-03-23 22:16:03,675 : INFO : Machine : Platform: win32
+2025-03-23 22:16:03,675 : INFO : Machine : Python executable location: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\python.exe
+2025-03-23 22:16:03,675 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2025-03-23 22:16:03,675 : INFO : Machine : Initializing MPF...
+2025-03-23 22:16:03,697 : WARNING : ConfigValidator : Unrecognized config setting. "fast:net_buffer" is not a valid setting name.
+2025-03-23 22:16:03,697 : WARNING : ConfigValidator : Unrecognized config setting. "fast:watchdog" is not a valid setting name.
+2025-03-23 22:16:03,697 : WARNING : ConfigValidator : Unrecognized config setting. "fast:port" is not a valid setting name.
+2025-03-23 22:16:03,697 : WARNING : ConfigValidator : Unrecognized config setting. "fast:baud" is not a valid setting name.
+2025-03-23 22:16:03,871 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-03-23 22:16:03,889 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-03-23 22:16:03,889 : INFO : EventManager : Event: ======'machine_var_game_mode_dog_hunt_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-23 22:16:03,889 : INFO : EventManager : Event: ======'machine_var_game_mode_discovery_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-23 22:16:03,889 : INFO : EventManager : Event: ======'machine_var_game_mode_infected_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-23 22:16:03,889 : INFO : EventManager : Event: ======'machine_var_game_mode_blood_test_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-23 22:16:03,889 : INFO : EventManager : Event: ======'machine_var_game_mode_spider_head_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-23 22:16:03,889 : INFO : EventManager : Event: ======'machine_var_game_mode_wizard_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-23 22:16:03,889 : INFO : EventManager : Event: ======'machine_var_game_mode_ball_lock_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-23 22:16:03,889 : INFO : EventManager : Event: ======'machine_var_game_mode_multiball_complete'====== Args={'value': 'False', 'prev_value': None, 'change': True}
+2025-03-23 22:16:03,889 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2025-03-23 22:16:03,889 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-03-23 22:16:03,889 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2025-03-23 22:16:04,105 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-03-23 22:16:04,105 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-03-23 22:16:04,105 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-03-23 22:16:04,105 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-03-23 22:16:04,105 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-03-23 22:16:04,105 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\homebrew\\Desktop\\thing_pinball\\logs\\2025-03-23-22-16-03-mpf-mpf.log', 'prev_value': None, 'change': True}
+2025-03-23 22:16:04,105 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-03-23 22:16:04,148 : WARNING : ConfigValidator : Unrecognized config setting. "mode:spider_head:timers:spider_head_timer:events_when_complete" is not a valid setting name.
+2025-03-23 22:16:04,148 : WARNING : ConfigValidator : Unrecognized config setting. "mode:infected:timers:infected_timer:events_when_complete" is not a valid setting name.
+2025-03-23 22:16:04,148 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:multiball_jackpot_timer:events_when_complete" is not a valid setting name.
+2025-03-23 22:16:04,148 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:right_ramp_validity_timer:events_when_complete" is not a valid setting name.
+2025-03-23 22:16:04,148 : WARNING : ConfigValidator : Unrecognized config setting. "mode:wizard:timers:wizard_timer:events_when_complete" is not a valid setting name.
+2025-03-23 22:16:04,148 : WARNING : ConfigValidator : Unrecognized config setting. "mode:ball_lock:timers:ball_lock_timer:events_when_complete" is not a valid setting name.
+2025-03-23 22:16:04,148 : WARNING : ConfigValidator : Unrecognized config setting. "mode:dog_hunt:timers:dog_hunt_timer:events_when_complete" is not a valid setting name.
+2025-03-23 22:16:04,148 : WARNING : ConfigValidator : Unrecognized config setting. "mode:discovery:timers:discovery_timer:events_when_complete" is not a valid setting name.
+2025-03-23 22:16:04,148 : WARNING : ConfigValidator : Unrecognized config setting. "mode:base:timers:mode_timer:events_when_complete" is not a valid setting name.
+2025-03-23 22:16:04,148 : WARNING : ConfigValidator : Unrecognized config setting. "mode:blood_test:timers:blood_test_timer:events_when_complete" is not a valid setting name.
+2025-03-23 22:16:04,156 : INFO : EventManager : Event: ======'drop_target_bank_dog_bank_up'====== Args={}
+2025-03-23 22:16:04,161 : INFO : EventManager : Event: ======'logicblock_spinner_value_updated'====== Args={'value': 0, 'enabled': False}
+2025-03-23 22:16:04,161 : INFO : EventManager : Event: ======'logicblock_newton_hit_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-03-23 22:16:04,161 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-60' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,191 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,203 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-61' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,203 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,203 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-62' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,203 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,203 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-63' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,203 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,203 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-64' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError("Autofire device 'left_slingshot' uses switch 's_left_slingshot' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch.")>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\autofire.py", line 68, in _initialize
+    self.raise_config_error(
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in autofire.left_slingshot: Autofire device 'left_slingshot' uses switch 's_left_slingshot' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-autofire-1 (https://missionpinball.org/logs)
+2025-03-23 22:16:04,219 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,219 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-65' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError("Autofire device 'right_slingshot' uses switch 's_right_slingshot' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch.")>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\autofire.py", line 68, in _initialize
+    self.raise_config_error(
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in autofire.right_slingshot: Autofire device 'right_slingshot' uses switch 's_right_slingshot' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-autofire-1 (https://missionpinball.org/logs)
+2025-03-23 22:16:04,219 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,219 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-66' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError("Autofire device 'pop_bumper_1' uses switch 's_pop_bumper_1' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch.")>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\autofire.py", line 68, in _initialize
+    self.raise_config_error(
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in autofire.pop_bumper_1: Autofire device 'pop_bumper_1' uses switch 's_pop_bumper_1' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-autofire-1 (https://missionpinball.org/logs)
+2025-03-23 22:16:04,219 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,219 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-67' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError("Autofire device 'pop_bumper_2' uses switch 's_pop_bumper_2' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch.")>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\autofire.py", line 68, in _initialize
+    self.raise_config_error(
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in autofire.pop_bumper_2: Autofire device 'pop_bumper_2' uses switch 's_pop_bumper_2' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-autofire-1 (https://missionpinball.org/logs)
+2025-03-23 22:16:04,219 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,219 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-68' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError("Autofire device 'pop_bumper_3' uses switch 's_pop_bumper_3' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch.")>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\autofire.py", line 68, in _initialize
+    self.raise_config_error(
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in autofire.pop_bumper_3: Autofire device 'pop_bumper_3' uses switch 's_pop_bumper_3' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-autofire-1 (https://missionpinball.org/logs)
+2025-03-23 22:16:04,219 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,219 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,219 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-70' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Configuration error in bd_shooter_lane ball device. Device needs an eject_coil, a hold_coil, or "mechanical_eject: True"')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\ball_device\ball_device.py", line 90, in _initialize
+    self._configure_targets()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\ball_device\ball_device.py", line 365, in _configure_targets
+    self._validate_config()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\ball_device\ball_device.py", line 310, in _validate_config
+    self.raise_config_error('Configuration error in {} ball device. '
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ball_device.bd_shooter_lane: Configuration error in bd_shooter_lane ball device. Device needs an eject_coil, a hold_coil, or "mechanical_eject: True" Error Code: CFE-ball_device-4 (https://missionpinball.org/logs)
+2025-03-23 22:16:04,235 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,235 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,235 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,235 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-73' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError("Drop target device 'd_target' uses switch 's_3bank_tgt_d' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch.")>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\drop_target.py", line 65, in _initialize
+    self.raise_config_error(
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in drop_target.d_target: Drop target device 'd_target' uses switch 's_3bank_tgt_d' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-drop_target-1 (https://missionpinball.org/logs)
+2025-03-23 22:16:04,242 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,242 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-74' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError("Drop target device 'o_target' uses switch 's_3bank_tgt_o' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch.")>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\drop_target.py", line 65, in _initialize
+    self.raise_config_error(
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in drop_target.o_target: Drop target device 'o_target' uses switch 's_3bank_tgt_o' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-drop_target-1 (https://missionpinball.org/logs)
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-75' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError("Drop target device 'g_target' uses switch 's_3bank_tgt_g' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch.")>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\drop_target.py", line 65, in _initialize
+    self.raise_config_error(
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in drop_target.g_target: Drop target device 'g_target' uses switch 's_3bank_tgt_g' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-drop_target-1 (https://missionpinball.org/logs)
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-33' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-37' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-38' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-39' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-40' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-41' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-42' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-43' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-44' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-45' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-46' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-47' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-48' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-49' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-50' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-51' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-52' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-53' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-54' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-55' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-56' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,251 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,267 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-57' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,267 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,267 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-58' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,267 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,267 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-59' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,267 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('net')>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 370, in configure_driver
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:04,267 : INFO : Machine : Starting the main run loop.
+2025-03-23 22:16:04,267 : INFO : Machine : Shutting down...
+2025-03-23 22:16:04,267 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-03-23 22:16:04,267 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...ype: 'dict'")>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...ype: 'dict'")>)>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_player.py", line 90, in _initialize_system_wide
+    self.validate_config(
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\event_player.py", line 75, in validate_config_entry
+    config = super().validate_config_entry(settings, name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\flat_config_player.py", line 17, in validate_config_entry
+    config = self._parse_config(settings, name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_player.py", line 138, in _parse_config
+    config = self.get_list_config(config)   # pylint: disable-msg=assignment-from-no-return
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\event_player.py", line 114, in get_list_config
+    result[event] = {}
+    ~~~~~~^^^^^^^
+TypeError: unhashable type: 'dict'
+2025-03-23 22:16:05,430 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in configure_switch
+    if not self.serial_connections['net']:
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'net'
+2025-03-23 22:16:05,430 : INFO : root : MPF run loop ended.

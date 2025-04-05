@@ -1,0 +1,7 @@
+2024-05-24 01:45:36,353 : INFO : root : Loading config.
+2024-05-24 01:45:36,355 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-05-24 01:45:36,355 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\67114de119ffda0ef143dfc9c8b88aec.mpf_cache
+2024-05-24 01:45:36,395 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\octo\Downloads\homebrew\modes\attract\config\attract.yaml
+2024-05-24 01:45:36,395 : INFO : ConfigProcessor : Loading config from file c:\git\new folder (6)\mpf\mpf\modes\attract\config\attract.yaml.
+2024-05-24 01:45:36,396 : INFO : ConfigProcessor : Loading config: c:\git\new folder (6)\mpf\mpf\modes\attract\config\attract.yaml
+2024-05-24 01:45:36,396 : INFO : ConfigProcessor : Loading config from file C:\Users\octo\Downloads\homebrew\modes\attract\config\attract.yaml.

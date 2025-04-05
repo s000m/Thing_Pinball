@@ -1,0 +1,5 @@
+2024-06-22 23:14:28,145 : INFO : root : Loading config.
+2024-06-22 23:14:28,147 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-06-22 23:14:28,147 : INFO : ConfigProcessor : Loading config from file c:\git\new folder (6)\mpf\mpf\mpfconfig.yaml.
+2024-06-22 23:14:28,156 : INFO : ConfigProcessor : Loading config: c:\git\new folder (6)\mpf\mpf\mpfconfig.yaml
+2024-06-22 23:14:28,157 : INFO : ConfigProcessor : Loading config from file C:\Users\octo\Downloads\homebrew\monitor\config\config.yaml.

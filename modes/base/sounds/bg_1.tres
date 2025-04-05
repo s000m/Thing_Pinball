@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MPFSoundAsset" load_steps=3 format=3 uid="uid://bdj8ijdd2ixwt"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_sound.gd" id="1_2rgqo"]
+[ext_resource type="AudioStream" uid="uid://mvh380ox6668" path="res://sounds/music/bg1.WAV" id="2_4gu41"]
+
+[resource]
+script = ExtResource("1_2rgqo")
+stream = ExtResource("2_4gu41")
+bus = "Music"
+fade_in = 0.0
+fade_out = 0.0
+start_at = 0.0
+max_queue_time = 0.0

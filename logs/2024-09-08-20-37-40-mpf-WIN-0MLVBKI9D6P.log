@@ -1,0 +1,152 @@
+2024-09-08 20:37:40,585 : INFO : root : Loading config.
+2024-09-08 20:37:40,589 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-09-08 20:37:40,590 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml
+2024-09-08 20:37:40,590 : INFO : ConfigProcessor : Loading config from file C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\mpfconfig.yaml.
+2024-09-08 20:37:40,590 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\mpfconfig.yaml
+2024-09-08 20:37:40,607 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\mpfconfig.yaml
+2024-09-08 20:37:40,608 : INFO : ConfigProcessor : Loading config from file C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml.
+2024-09-08 20:37:40,608 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml
+2024-09-08 20:37:40,611 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml
+2024-09-08 20:37:40,611 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\lights.yaml
+2024-09-08 20:37:40,612 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\lights.yaml
+2024-09-08 20:37:40,612 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\coils.yaml
+2024-09-08 20:37:40,613 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\coils.yaml
+2024-09-08 20:37:40,613 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\switches.yaml
+2024-09-08 20:37:40,614 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\switches.yaml
+2024-09-08 20:37:40,614 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\sounds.yaml
+2024-09-08 20:37:40,615 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\images.yaml
+2024-09-08 20:37:40,616 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\images.yaml
+2024-09-08 20:37:40,616 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\videos.yaml
+2024-09-08 20:37:40,617 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\videos.yaml
+2024-09-08 20:37:40,619 : INFO : ConfigProcessor : Config file cache created: C:\Users\ADMINI~1\AppData\Local\Temp\d1d13b71f03ff6cb7b42d9c6bb8e160f.mpf_cache
+2024-09-08 20:37:40,690 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 20:37:40,691 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 20:37:40,691 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\baa68abd602a2a90f66edd8e37c874c7.mpf_cache
+2024-09-08 20:37:40,691 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\game\config\game.yaml
+2024-09-08 20:37:40,693 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\f48eab4eba32ca9097b4976f8036bfbf.mpf_cache
+2024-09-08 20:37:40,693 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\base\config\base.yaml
+2024-09-08 20:37:40,694 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\20d8a08f313923c863e280a74de3cd75.mpf_cache
+2024-09-08 20:37:40,694 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 20:37:40,694 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-09-08 20:37:40,695 : INFO : ConfigProcessor : Loading config from cache: C:\Users\ADMINI~1\AppData\Local\Temp\baa68abd602a2a90f66edd8e37c874c7.mpf_cache
+2024-09-08 20:37:40,696 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2024-09-08 20:37:40,696 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-09-08-20-37-40-mpf-WIN-0MLVBKI9D6P.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 10, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\Administrator\\Documents\\fast_homebrew_godot\\logs\\2024-09-08-20-37-40-mpf-WIN-0MLVBKI9D6P.log'}
+2024-09-08 20:37:40,696 : INFO : Machine : MPF path: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf
+2024-09-08 20:37:40,697 : INFO : Machine : Machine path: C:\Users\Administrator\Documents\fast_homebrew_godot
+2024-09-08 20:37:40,697 : INFO : Machine : Platform: win32
+2024-09-08 20:37:40,697 : INFO : Machine : Python executable location: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe
+2024-09-08 20:37:40,697 : INFO : Machine : Python version: 3.10.11 (64-bit)
+2024-09-08 20:37:40,699 : DEBUG : asyncio : Using proactor: IocpProactor
+2024-09-08 20:37:40,699 : INFO : Machine : Initializing MPF...
+2024-09-08 20:37:40,706 : DEBUG : Virtual Platform : Configuring virtual hardware interface.
+2024-09-08 20:37:40,757 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,758 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,758 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,758 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,758 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,758 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,758 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,758 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,758 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,758 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,758 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,758 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,758 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002846DA92810>
+2024-09-08 20:37:40,758 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002846DC06E90>
+2024-09-08 20:37:40,759 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002846DC06CF0>
+2024-09-08 20:37:40,760 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000002846DE69F00>
+2024-09-08 20:37:40,760 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x000002846DE61070>
+2024-09-08 20:37:40,760 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,760 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,760 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,760 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,761 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,761 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,761 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002846DC072A0>
+2024-09-08 20:37:40,761 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002846DC071D0>
+2024-09-08 20:37:40,761 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002846DC07370>
+2024-09-08 20:37:40,761 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002846DC07100>
+2024-09-08 20:37:40,762 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002846DC07030>
+2024-09-08 20:37:40,762 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002846DC06F60>
+2024-09-08 20:37:40,762 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000002846DE69FC0>
+2024-09-08 20:37:40,762 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000002846DE69F00>
+2024-09-08 20:37:40,762 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x000002846DE61070>
+2024-09-08 20:37:40,762 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000002846DE69FC0>
+2024-09-08 20:37:40,762 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2024-09-08 20:37:40,763 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,763 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,763 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,763 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,763 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,763 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,763 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,763 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,763 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,763 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,764 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,764 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,764 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,764 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,764 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,764 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,764 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,764 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-09-08 20:37:40,766 : DEBUG : asciimatics.screen : Processing key: d
+2024-09-08 20:37:40,926 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-09-08 20:37:40,944 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\data/machine_vars.yaml
+2024-09-08 20:37:40,945 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-09-08 20:37:40,945 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2024-09-08 20:37:40,945 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-09-08 20:37:40,945 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.11', 'prev_value': None, 'change': True}
+2024-09-08 20:37:40,965 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.22631-SP0', 'prev_value': None, 'change': True}
+2024-09-08 20:37:40,965 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-09-08 20:37:40,965 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-09-08 20:37:40,966 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.22631', 'prev_value': None, 'change': True}
+2024-09-08 20:37:40,966 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-09-08 20:37:40,966 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\Administrator\\Documents\\fast_homebrew_godot\\logs\\2024-09-08-20-37-40-mpf-WIN-0MLVBKI9D6P.log', 'prev_value': None, 'change': True}
+2024-09-08 20:37:40,966 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-09-08 20:37:40,970 : DEBUG : ModeController : Loaded mode game
+2024-09-08 20:37:40,971 : DEBUG : ModeController : Loaded mode base
+2024-09-08 20:37:40,974 : DEBUG : ModeController : Loaded mode attract
+2024-09-08 20:37:40,977 : DEBUG : stepper.right_flipper : Configuring device with settings: '{'number': '00414729', 'debug': True, 'pos_min': -10, 'pos_max': 100, 'named_positions': {80.0: 'right_full', 0.0: 'right_rest', -10.0: 'right_home'}, 'platform_settings': {'step_mode': 1, 'current_limit': 800}, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'home_events': {}, 'homing_mode': 'hardware', 'homing_switch': None, 'homing_direction': 'clockwise', 'ball_search_min': 0, 'ball_search_max': 1, 'ball_search_wait': 5000, 'include_in_ball_search': True, 'relative_positions': {}, 'reset_position': 0, 'reset_events': {'machine_reset_phase_3': 0, 'ball_starting': 0, 'ball_will_end': 0, 'service_mode_entered': 0}, 'platform': None}'
+2024-09-08 20:37:40,977 : DEBUG : stepper.right_flipper : Configuring device with settings: '{'number': '00414729', 'debug': True, 'pos_min': -10, 'pos_max': 100, 'named_positions': {80.0: 'right_full', 0.0: 'right_rest', -10.0: 'right_home'}, 'platform_settings': {'step_mode': 1, 'current_limit': 800}, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'home_events': {}, 'homing_mode': 'hardware', 'homing_switch': None, 'homing_direction': 'clockwise', 'ball_search_min': 0, 'ball_search_max': 1, 'ball_search_wait': 5000, 'include_in_ball_search': True, 'relative_positions': {}, 'reset_position': 0, 'reset_events': {'machine_reset_phase_3': 0, 'ball_starting': 0, 'ball_will_end': 0, 'service_mode_entered': 0}, 'platform': None}'
+2024-09-08 20:37:40,980 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-09-08 20:37:40,981 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-09-08 20:37:40,984 : DEBUG : asciimatics.widgets.layout : Updating: message
+2024-09-08 20:37:40,984 : DEBUG : asciimatics.widgets.layout : Updating: message
+2024-09-08 20:37:40,984 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.textbox.TextBox object at 0x000002846D9A2E60>
+2024-09-08 20:37:40,984 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000002846DF92D40>
+2024-09-08 20:37:40,984 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000002846DF92E00>
+2024-09-08 20:37:40,984 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000002846DF92D40>
+2024-09-08 20:37:40,984 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000002846DF92E00>
+2024-09-08 20:37:40,984 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-09-08 20:37:41,772 : DEBUG : asciimatics.screen : Processing mouse: 76, 26
+2024-09-08 20:37:41,772 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (39, 8) 0
+2024-09-08 20:37:42,771 : DEBUG : asciimatics.screen : Processing mouse: 76, 26
+2024-09-08 20:37:42,771 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (39, 8) 0
+2024-09-08 20:37:56,777 : DEBUG : asciimatics.screen : Processing mouse: 2, 0
+2024-09-08 20:37:56,777 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (-35, -18) 0
+2024-09-08 20:37:57,785 : DEBUG : asciimatics.screen : Processing mouse: 48, 6
+2024-09-08 20:37:57,786 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (11, -12) 0
+2024-09-08 20:37:57,787 : DEBUG : asciimatics.screen : Processing mouse: 48, 6
+2024-09-08 20:37:57,787 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (11, -12) 1
+2024-09-08 20:37:57,787 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (48, 6) 1
+2024-09-08 20:37:57,788 : DEBUG : asciimatics.widgets.frame : Blurring: [<asciimatics.widgets.popupdialog.PopUpDialog object at 0x000002846E7E0040>, <asciimatics.widgets.frame.Frame object at 0x000002846DBF5750>]
+2024-09-08 20:37:57,788 : DEBUG : asciimatics.screen : Processing mouse: 48, 6
+2024-09-08 20:37:57,789 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (48, 6) 0
+2024-09-08 20:37:57,789 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (11, -12) 0
+2024-09-08 20:37:57,789 : DEBUG : asciimatics.screen : Processing mouse: 46, 6
+2024-09-08 20:37:57,790 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (46, 6) 0
+2024-09-08 20:37:57,790 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (9, -12) 0
+2024-09-08 20:37:58,770 : DEBUG : asciimatics.screen : Processing mouse: 46, 6
+2024-09-08 20:37:58,770 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (46, 6) 0
+2024-09-08 20:37:58,770 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (9, -12) 0
+2024-09-08 20:37:58,771 : DEBUG : asciimatics.screen : Processing key: 1b
+2024-09-08 20:37:58,771 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: -1
+2024-09-08 20:37:58,772 : DEBUG : asciimatics.screen : Processing mouse: 48, 6
+2024-09-08 20:37:58,772 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (48, 6) 0
+2024-09-08 20:37:58,772 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (11, -12) 0
+2024-09-08 20:37:58,773 : DEBUG : asciimatics.screen : Processing key: 1b
+2024-09-08 20:37:58,773 : DEBUG : asciimatics.screen : Processing mouse: 119, 0
+2024-09-08 20:37:58,773 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (119, 0) 0
+2024-09-08 20:37:58,773 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (82, -18) 0

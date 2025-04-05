@@ -1,0 +1,7 @@
+2024-05-12 00:15:15,026 : INFO : root : Loading config.
+2024-05-12 00:15:15,028 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-05-12 00:15:15,028 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\1d0904511285da59b68333680e0b91d2.mpf_cache
+2024-05-12 00:15:15,070 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\cd157f4be5c4430bfa418abc82c784ba.mpf_cache
+2024-05-12 00:15:15,070 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\9a6ef7720776890324b2b6aefbdb5076.mpf_cache
+2024-05-12 00:15:15,071 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\octo\Downloads\homebrew\modes\base\config\base.yaml
+2024-05-12 00:15:15,071 : INFO : ConfigProcessor : Loading config from file C:\Users\octo\Downloads\homebrew\modes\base\config\base.yaml.

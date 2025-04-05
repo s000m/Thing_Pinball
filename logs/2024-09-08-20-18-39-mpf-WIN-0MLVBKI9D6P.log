@@ -1,0 +1,14 @@
+2024-09-08 20:18:39,189 : INFO : root : Loading config.
+2024-09-08 20:18:39,192 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-09-08 20:18:39,193 : DEBUG : ConfigProcessor : Cache file not found: C:\Users\ADMINI~1\AppData\Local\Temp\d1d13b71f03ff6cb7b42d9c6bb8e160f.mpf_cache
+2024-09-08 20:18:39,193 : INFO : ConfigProcessor : Loading config from file C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\mpfconfig.yaml.
+2024-09-08 20:18:39,193 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\mpfconfig.yaml
+2024-09-08 20:18:39,209 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\mpfconfig.yaml
+2024-09-08 20:18:39,209 : INFO : ConfigProcessor : Loading config from file C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml.
+2024-09-08 20:18:39,210 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml
+2024-09-08 20:18:39,211 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml
+2024-09-08 20:18:39,212 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\lights.yaml
+2024-09-08 20:18:39,212 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\lights.yaml
+2024-09-08 20:18:39,213 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\coils.yaml
+2024-09-08 20:18:39,213 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\coils.yaml
+2024-09-08 20:18:39,214 : DEBUG : YAML File Interface : Loading file: C:\Users\Administrator\Documents\fast_homebrew_godot\config\switches.yaml

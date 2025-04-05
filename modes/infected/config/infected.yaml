@@ -1,0 +1,64 @@
+#config_version=6
+
+mode:
+  start_events: mode_infected_start
+  stop_events: mode_infected_complete
+  priority: 300
+  code: infected.Infected
+  
+slide_player:
+  mode_infected_started:
+    infected_started:
+      widgets:
+        - type: text
+          text: INFECTED MODE
+          font_size: 50
+          y: center-100
+          color: green
+          expire: 2s
+          
+  left_ramp_hit:
+    infected_progress:
+      widgets:
+        - type: text
+          text: "LEFT RAMP HIT: (player|left_ramp_hits) / 3"
+          font_size: 30
+          y: center
+          color: red
+          expire: 1s
+
+variable_player:
+  left_ramp_hit:
+    left_ramp_hits: 1
+    score: 5000
+  
+  infected_complete:
+    score: 150000
+    
+counters:
+  left_ramp_counter:
+    count_events: s_left_ramp_entry_1_active
+    events_when_hit: left_ramp_hit
+    starting_count: 0
+    count_complete_value: 3
+    events_when_complete: left_ramp_complete
+    persist_state: False
+    
+timers:
+  infected_timer:
+    start_value: 60
+    end_value: 0
+    direction: down
+    control_events:
+      - event: mode_infected_started
+        action: start
+      - event: infected_complete
+        action: stop
+    events_when_complete: infected_timer_expired
+    
+event_player:
+  left_ramp_complete: infected_objective_complete
+  infected_timer_expired: infected_failed
+  infected_objective_complete: mode_complete_light_infected
+  infected_failed: mode_infected_failed
+  mode_infected_complete: update_player_var

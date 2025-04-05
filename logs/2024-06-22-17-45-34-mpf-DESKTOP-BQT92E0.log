@@ -1,0 +1,290 @@
+2024-06-22 17:45:34,072 : INFO : root : Loading config.
+2024-06-22 17:45:34,080 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-06-22 17:45:34,081 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\octo\Downloads\homebrew\config\config.yaml
+2024-06-22 17:45:34,081 : INFO : ConfigProcessor : Loading config from file c:\git\new folder (6)\mpf\mpf\mpfconfig.yaml.
+2024-06-22 17:45:34,081 : DEBUG : YAML File Interface : Loading file: c:\git\new folder (6)\mpf\mpf\mpfconfig.yaml
+2024-06-22 17:45:34,091 : INFO : ConfigProcessor : Loading config: c:\git\new folder (6)\mpf\mpf\mpfconfig.yaml
+2024-06-22 17:45:34,091 : INFO : ConfigProcessor : Loading config from file C:\Users\octo\Downloads\homebrew\config\config.yaml.
+2024-06-22 17:45:34,091 : DEBUG : YAML File Interface : Loading file: C:\Users\octo\Downloads\homebrew\config\config.yaml
+2024-06-22 17:45:34,093 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\config.yaml
+2024-06-22 17:45:34,093 : DEBUG : YAML File Interface : Loading file: C:\Users\octo\Downloads\homebrew\config\lights.yaml
+2024-06-22 17:45:34,094 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\lights.yaml
+2024-06-22 17:45:34,094 : DEBUG : YAML File Interface : Loading file: C:\Users\octo\Downloads\homebrew\config\coils.yaml
+2024-06-22 17:45:34,099 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\coils.yaml
+2024-06-22 17:45:34,099 : DEBUG : YAML File Interface : Loading file: C:\Users\octo\Downloads\homebrew\config\switches.yaml
+2024-06-22 17:45:34,103 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\switches.yaml
+2024-06-22 17:45:34,103 : DEBUG : YAML File Interface : Loading file: C:\Users\octo\Downloads\homebrew\config\sounds.yaml
+2024-06-22 17:45:34,108 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\sounds.yaml
+2024-06-22 17:45:34,108 : WARNING : ConfigProcessor : Config section 'sounds' is deprecated in MPF 0.80 and will be ignored.
+2024-06-22 17:45:34,108 : DEBUG : YAML File Interface : Loading file: C:\Users\octo\Downloads\homebrew\config\images.yaml
+2024-06-22 17:45:34,111 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\images.yaml
+2024-06-22 17:45:34,112 : DEBUG : YAML File Interface : Loading file: C:\Users\octo\Downloads\homebrew\config\videos.yaml
+2024-06-22 17:45:34,115 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\videos.yaml
+2024-06-22 17:45:34,116 : INFO : ConfigProcessor : Config file cache created: C:\Users\octo\AppData\Local\Temp\67114de119ffda0ef143dfc9c8b88aec.mpf_cache
+2024-06-22 17:45:34,201 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from c:\git\new folder (6)\mpf\mpf\modes\attract\config\attract.yaml
+2024-06-22 17:45:34,201 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from c:\git\new folder (6)\mpf\mpf\modes\attract\config\attract.yaml
+2024-06-22 17:45:34,201 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\d4fb548c2902111733185c907c7e02f2.mpf_cache
+2024-06-22 17:45:34,205 : DEBUG : YamlMultifileConfigLoader : Loading mode game from c:\git\new folder (6)\mpf\mpf\modes\game\config\game.yaml
+2024-06-22 17:45:34,205 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\5cdf3f6f669e12795623fbd605d1b6a0.mpf_cache
+2024-06-22 17:45:34,208 : DEBUG : YamlMultifileConfigLoader : Loading mode base from c:\git\new folder (6)\mpf\mpf\modes\base\config\base.yaml
+2024-06-22 17:45:34,208 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\e87c946bbd0a2e05a931f281fca6458e.mpf_cache
+2024-06-22 17:45:34,213 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from c:\git\new folder (6)\mpf\mpf\modes\attract\config\attract.yaml
+2024-06-22 17:45:34,213 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from c:\git\new folder (6)\mpf\mpf\modes\attract\config\attract.yaml
+2024-06-22 17:45:34,213 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\d4fb548c2902111733185c907c7e02f2.mpf_cache
+2024-06-22 17:45:34,213 : DEBUG : YamlMultifileConfigLoader : Loading mode char_select from c:\git\new folder (6)\mpf\mpf\modes\char_select\config\char_select.yaml
+2024-06-22 17:45:34,213 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\da852937ccb56145866cf54922bc01f8.mpf_cache
+2024-06-22 17:45:34,217 : DEBUG : YamlMultifileConfigLoader : Loading mode high_score from c:\git\new folder (6)\mpf\mpf\modes\high_score\config\high_score.yaml
+2024-06-22 17:45:34,217 : DEBUG : YamlMultifileConfigLoader : Loading mode high_score from c:\git\new folder (6)\mpf\mpf\modes\high_score\config\high_score.yaml
+2024-06-22 17:45:34,217 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\928df87c66e261a283a6031425712ac6.mpf_cache
+2024-06-22 17:45:34,221 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev1
+2024-06-22 17:45:34,221 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-06-22-17-45-34-mpf-DESKTOP-BQT92E0.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 10, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-06-22 17:45:34,221 : INFO : Machine : MPF path: c:\git\new folder (6)\mpf\mpf
+2024-06-22 17:45:34,221 : INFO : Machine : Machine path: C:\Users\octo\Downloads\homebrew
+2024-06-22 17:45:34,221 : INFO : Machine : Platform: win32
+2024-06-22 17:45:34,221 : INFO : Machine : Python executable location: C:\Users\octo\AppData\Local\Programs\Python\Python310\python.exe
+2024-06-22 17:45:34,221 : INFO : Machine : Python version: 3.10.0 (64-bit)
+2024-06-22 17:45:34,222 : DEBUG : asyncio : Using proactor: IocpProactor
+2024-06-22 17:45:34,223 : INFO : Machine : Initializing MPF...
+2024-06-22 17:45:34,228 : DEBUG : Virtual Platform : Configuring virtual hardware interface.
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16A1AE190>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AD92260>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AD92330>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001A16AE5B040>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x000001A16AE909E0>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AD92740>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AD92670>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AD92810>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AD925A0>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AD924D0>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AD92400>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001A16AE5B100>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001A16AE5B040>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x000001A16AE909E0>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001A16AE5B100>
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,342 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,343 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,343 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,343 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,343 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,343 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,343 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,343 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,343 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,343 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,343 : DEBUG : asciimatics.screen : Processing key: d
+2024-06-22 17:45:34,441 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,457 : DEBUG : YAML File Interface : Loading file: C:\Users\octo\Downloads\homebrew\data/machine_vars.yaml
+2024-06-22 17:45:34,457 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,457 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,457 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,457 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.0', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,462 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,462 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,462 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,463 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,463 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,463 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-06-22 17:45:34,464 : DEBUG : ModeController : Loaded mode base
+2024-06-22 17:45:34,466 : DEBUG : ModeController : Loaded mode char_select
+2024-06-22 17:45:34,468 : DEBUG : ModeController : Loaded mode high_score
+2024-06-22 17:45:34,470 : DEBUG : ModeController : Loaded mode game
+2024-06-22 17:45:34,471 : DEBUG : ModeController : Loaded mode attract
+2024-06-22 17:45:34,478 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-06-22 17:45:34,479 : INFO : SwitchController : Found active switch: ('3208-8', <Platform.Virtual>) <switch.s_trough_ball_2>
+2024-06-22 17:45:34,479 : INFO : SwitchController : Found active switch: ('3208-9', <Platform.Virtual>) <switch.s_trough_ball_3>
+2024-06-22 17:45:34,479 : INFO : SwitchController : Found active switch: ('3208-13', <Platform.Virtual>) <switch.s_trough_ball_1>
+2024-06-22 17:45:34,481 : DEBUG : YAML File Interface : Loading file: C:\Users\octo\Downloads\homebrew\data/high_scores.yaml
+2024-06-22 17:45:34,485 : WARNING : YAML File Interface : YAML error found in file C:\Users\octo\Downloads\homebrew\data/high_scores.yaml. Line 2, Position 3: could not determine a constructor for the tag 'tag:yaml.org,2002:python/tuple'
+  in "C:\Users\octo\Downloads\homebrew\data/high_scores.yaml", line 2, column 3
+2024-06-22 17:45:34,485 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'GRAND CHAMPION', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,485 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'MPF', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,485 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 1000000, 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,485 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,485 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'BRI', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,485 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 900000, 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,485 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,485 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'JAN', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,485 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 800000, 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,485 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,485 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'QUI', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,485 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 700000, 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,485 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,485 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'MAR', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 6000, 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_score6_label'====== Args={'value': 'HIGH SCORE 5', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_score6_name'====== Args={'value': 'JOH', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_score6_value'====== Args={'value': 5000, 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_score7_label'====== Args={'value': 'HIGH SCORE 6', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_score7_name'====== Args={'value': 'ELI', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_score7_value'====== Args={'value': 4000, 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_score8_label'====== Args={'value': 'HIGH SCORE 7', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_score8_name'====== Args={'value': 'MIK', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_score8_value'====== Args={'value': 3000, 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_score9_label'====== Args={'value': 'HIGH SCORE 8', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_score9_name'====== Args={'value': 'ANT', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_score9_value'====== Args={'value': 500, 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_loops1_label'====== Args={'value': 'LOOP CHAMP', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_loops1_name'====== Args={'value': 'JAN', 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'machine_var_loops1_value'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2024-06-22 17:45:34,486 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-06-22 17:45:34,488 : DEBUG : asciimatics.widgets.layout : Updating: message
+2024-06-22 17:45:34,488 : DEBUG : asciimatics.widgets.layout : Updating: message
+2024-06-22 17:45:34,488 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.textbox.TextBox object at 0x000001A16AE75000>
+2024-06-22 17:45:34,488 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001A16AFC75E0>
+2024-06-22 17:45:34,488 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001A16AFC7640>
+2024-06-22 17:45:34,488 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001A16AFC75E0>
+2024-06-22 17:45:34,488 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001A16AFC7640>
+2024-06-22 17:45:34,488 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-06-22 17:45:34,510 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2024-06-22 17:45:34,511 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AFEF440>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AFEF850>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AFEF920>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001A16AFC4580>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x000001A16AF7D850>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AFEFD30>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AFEFC60>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AFEFE00>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AFEFB90>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AFEFAC0>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A16AFEF9F0>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001A16AFC5120>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001A16AFC4580>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x000001A16AF7D850>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001A16AFC5120>
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,513 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,514 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,514 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,514 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,514 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,514 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,514 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,514 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,514 : DEBUG : asciimatics.widgets.layout : Updating: None
+2024-06-22 17:45:34,583 : INFO : ball_device.bd_trough : BCH: Initial count: 3
+2024-06-22 17:45:34,583 : INFO : ball_device.bd_trough : State: idle
+2024-06-22 17:45:34,583 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2024-06-22 17:45:34,584 : INFO : ball_device.bd_plunger : State: idle
+2024-06-22 17:45:34,585 : DEBUG : YAML File Interface : Loading file: C:\Users\octo\Downloads\homebrew\data/audits.yaml
+2024-06-22 17:45:34,591 : DEBUG : Machine : "info_lights:" section not found in machine configuration, so the InfoLights will not be used.
+2024-06-22 17:45:34,593 : DEBUG : Machine : "switch_player:" section not found in machine configuration, so the SwitchPlayer will not be used.
+2024-06-22 17:45:34,595 : DEBUG : Machine : "twitch_client:" section not found in machine configuration, so the TwitchBot will not be used.
+2024-06-22 17:45:34,595 : DEBUG : Machine : "virtual_segment_display_connector:" section not found in machine configuration, so the VirtualSegmentDisplayConnector will not be used.
+2024-06-22 17:45:34,595 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-06-22 17:45:34,595 : DEBUG : ShowController : Loading show: flash
+2024-06-22 17:45:34,595 : DEBUG : ShowController : Loading show: on
+2024-06-22 17:45:34,595 : DEBUG : ShowController : Loading show: off
+2024-06-22 17:45:34,595 : DEBUG : ShowController : Loading show: led_color
+2024-06-22 17:45:34,596 : DEBUG : ShowController : Loading show: bl_color
+2024-06-22 17:45:34,596 : DEBUG : ShowController : Loading show: flash_color
+2024-06-22 17:45:34,596 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-06-22 17:45:34,596 : INFO : BallController : Initial balls found: 3
+2024-06-22 17:45:34,596 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...t.l_list_1>")>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...t.l_list_1>")>)>
+Traceback (most recent call last):
+  File "C:\Users\octo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\git\new folder (6)\mpf\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "c:\git\new folder (6)\mpf\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\git\new folder (6)\mpf\mpf\devices\light.py", line 136, in _check_duplicate_light_numbers
+    raise ConfigFileError(f"Duplicate number {type(driver)} {driver.number} for light {light}",
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light: Duplicate number <class 'mpf.platforms.virtual.VirtualLight'> led-led-led-playfield-1-1-r+1+1 for light <light.l_list_1> Context: (None, 'led-led-led-playfield-1-1-r+1+1', <class 'mpf.platforms.virtual.VirtualLight'>) Error Code: CFE-light-10 (https://missionpinball.org/logs)
+2024-06-22 17:45:34,615 : INFO : Machine : Starting the main run loop.
+2024-06-22 17:45:34,618 : INFO : Machine : Shutting down...
+2024-06-22 17:45:34,618 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-06-22 17:45:35,631 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\git\new folder (6)\mpf\mpf\core\machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\octo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\git\new folder (6)\mpf\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "c:\git\new folder (6)\mpf\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\git\new folder (6)\mpf\mpf\devices\light.py", line 136, in _check_duplicate_light_numbers
+    raise ConfigFileError(f"Duplicate number {type(driver)} {driver.number} for light {light}",
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light: Duplicate number <class 'mpf.platforms.virtual.VirtualLight'> led-led-led-playfield-1-1-r+1+1 for light <light.l_list_1> Context: (None, 'led-led-led-playfield-1-1-r+1+1', <class 'mpf.platforms.virtual.VirtualLight'>) Error Code: CFE-light-10 (https://missionpinball.org/logs)
+2024-06-22 17:46:07,684 : ERROR : root : 
+Traceback (most recent call last):
+  File "c:\git\new folder (6)\mpf\mpf\core\machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\octo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\git\new folder (6)\mpf\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "c:\git\new folder (6)\mpf\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\git\new folder (6)\mpf\mpf\devices\light.py", line 136, in _check_duplicate_light_numbers
+    raise ConfigFileError(f"Duplicate number {type(driver)} {driver.number} for light {light}",
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light: Duplicate number <class 'mpf.platforms.virtual.VirtualLight'> led-led-led-playfield-1-1-r+1+1 for light <light.l_list_1> Context: (None, 'led-led-led-playfield-1-1-r+1+1', <class 'mpf.platforms.virtual.VirtualLight'>) Error Code: CFE-light-10 (https://missionpinball.org/logs)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\git\new folder (6)\mpf\mpf\commands\game.py", line 240, in __init__
+    self.machine.run()
+  File "c:\git\new folder (6)\mpf\mpf\core\machine.py", line 689, in run
+    self._run_loop()
+  File "c:\git\new folder (6)\mpf\mpf\core\machine.py", line 796, in _run_loop
+    report_crash(self._exception['exception'], "exception_during_run", self.config)
+  File "c:\git\new folder (6)\mpf\mpf\core\crash_reporter.py", line 236, in report_crash
+    response = input("Do you want to report the crash to the MPF team (yes/no/show)? ")
+EOFError

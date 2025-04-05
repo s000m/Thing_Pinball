@@ -1,0 +1,76 @@
+2024-05-14 20:34:56,602 : INFO : root : Loading config.
+2024-05-14 20:34:56,604 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-05-14 20:34:56,604 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\octo\Downloads\homebrew\config\config.yaml
+2024-05-14 20:34:56,604 : INFO : ConfigProcessor : Loading config from file c:\git\new folder (6)\mpf\mpf\mpfconfig.yaml.
+2024-05-14 20:34:56,609 : INFO : ConfigProcessor : Loading config: c:\git\new folder (6)\mpf\mpf\mpfconfig.yaml
+2024-05-14 20:34:56,610 : INFO : ConfigProcessor : Loading config from file C:\Users\octo\Downloads\homebrew\config\config.yaml.
+2024-05-14 20:34:56,611 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\config.yaml
+2024-05-14 20:34:56,611 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\lights.yaml
+2024-05-14 20:34:56,612 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\coils.yaml
+2024-05-14 20:34:56,612 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\switches.yaml
+2024-05-14 20:34:56,613 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\sounds.yaml
+2024-05-14 20:34:56,613 : WARNING : ConfigProcessor : Config section 'sounds' is deprecated in MPF 0.80 and will be ignored.
+2024-05-14 20:34:56,613 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\images.yaml
+2024-05-14 20:34:56,614 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Downloads\homebrew\config\videos.yaml
+2024-05-14 20:34:56,614 : INFO : ConfigProcessor : Config file cache created: C:\Users\octo\AppData\Local\Temp\67114de119ffda0ef143dfc9c8b88aec.mpf_cache
+2024-05-14 20:34:56,653 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\d4fb548c2902111733185c907c7e02f2.mpf_cache
+2024-05-14 20:34:56,654 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\5cdf3f6f669e12795623fbd605d1b6a0.mpf_cache
+2024-05-14 20:34:56,654 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\e87c946bbd0a2e05a931f281fca6458e.mpf_cache
+2024-05-14 20:34:56,654 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\d4fb548c2902111733185c907c7e02f2.mpf_cache
+2024-05-14 20:34:56,655 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\da852937ccb56145866cf54922bc01f8.mpf_cache
+2024-05-14 20:34:56,656 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev1
+2024-05-14 20:34:56,656 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-05-14-20-34-56-mpf-DESKTOP-BQT92E0.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-05-14 20:34:56,656 : INFO : Machine : MPF path: c:\git\new folder (6)\mpf\mpf
+2024-05-14 20:34:56,656 : INFO : Machine : Machine path: C:\Users\octo\Downloads\homebrew
+2024-05-14 20:34:56,656 : INFO : Machine : Platform: win32
+2024-05-14 20:34:56,656 : INFO : Machine : Python executable location: C:\Users\octo\AppData\Local\Programs\Python\Python310\python.exe
+2024-05-14 20:34:56,656 : INFO : Machine : Python version: 3.10.0 (64-bit)
+2024-05-14 20:34:56,657 : INFO : Machine : Initializing MPF...
+2024-05-14 20:34:56,788 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-05-14 20:34:56,796 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-05-14 20:34:56,796 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1', 'prev_value': None, 'change': True}
+2024-05-14 20:34:56,796 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-05-14 20:34:56,796 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.0', 'prev_value': None, 'change': True}
+2024-05-14 20:34:56,801 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2024-05-14 20:34:56,801 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-05-14 20:34:56,801 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-05-14 20:34:56,801 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2024-05-14 20:34:56,801 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-05-14 20:34:56,801 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-05-14 20:34:56,810 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-05-14 20:34:56,810 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...es section.')>) at c:\git\new folder (6)\mpf\mpf\core\events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...es section.')>) at c:\git\new folder (6)\mpf\mpf\core\events.py:124>
+Traceback (most recent call last):
+  File "C:\Users\octo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\git\new folder (6)\mpf\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "c:\git\new folder (6)\mpf\mpf\core\switch_controller.py", line 84, in _initialize_switches
+    await self.update_switches_from_hw()
+  File "c:\git\new folder (6)\mpf\mpf\core\switch_controller.py", line 109, in update_switches_from_hw
+    switch_states = await platform.get_hw_switch_states()
+  File "c:\git\new folder (6)\mpf\mpf\platforms\virtual.py", line 115, in get_hw_switch_states
+    self.raise_config_error("Switch {} used in virtual_platform_start_active_switches was not "
+  File "c:\git\new folder (6)\mpf\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in Virtual Platform: Switch s_trough_1 used in virtual_platform_start_active_switches was not found in switches section. Error Code: CFE-Virtual_Platform-1 (https://missionpinball.org/logs)
+2024-05-14 20:34:56,811 : INFO : Machine : Starting the main run loop.
+2024-05-14 20:34:56,816 : INFO : Machine : Shutting down...
+2024-05-14 20:34:56,817 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-05-14 20:34:57,827 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\git\new folder (6)\mpf\mpf\core\machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\octo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\git\new folder (6)\mpf\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "c:\git\new folder (6)\mpf\mpf\core\switch_controller.py", line 84, in _initialize_switches
+    await self.update_switches_from_hw()
+  File "c:\git\new folder (6)\mpf\mpf\core\switch_controller.py", line 109, in update_switches_from_hw
+    switch_states = await platform.get_hw_switch_states()
+  File "c:\git\new folder (6)\mpf\mpf\platforms\virtual.py", line 115, in get_hw_switch_states
+    self.raise_config_error("Switch {} used in virtual_platform_start_active_switches was not "
+  File "c:\git\new folder (6)\mpf\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in Virtual Platform: Switch s_trough_1 used in virtual_platform_start_active_switches was not found in switches section. Error Code: CFE-Virtual_Platform-1 (https://missionpinball.org/logs)

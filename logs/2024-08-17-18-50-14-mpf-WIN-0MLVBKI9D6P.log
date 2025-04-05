@@ -1,0 +1,7 @@
+2024-08-17 18:50:14,665 : INFO : root : Loading config.
+2024-08-17 18:50:14,669 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-08-17 18:50:14,669 : INFO : ConfigProcessor : Loading config from file C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\mpfconfig.yaml.
+2024-08-17 18:50:14,685 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mpf\mpfconfig.yaml
+2024-08-17 18:50:14,686 : INFO : ConfigProcessor : Loading config from file C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml.
+2024-08-17 18:50:14,688 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\config.yaml
+2024-08-17 18:50:14,689 : INFO : ConfigProcessor : Loading config: C:\Users\Administrator\Documents\fast_homebrew_godot\config\lights.yaml

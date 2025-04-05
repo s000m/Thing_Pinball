@@ -1,0 +1,25 @@
+2024-07-31 19:38:14,382 : INFO : root : Loading config.
+2024-07-31 19:38:14,384 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-07-31 19:38:14,385 : INFO : ConfigProcessor : Loading config from file c:\git\new folder (6)\mpf\mpf\mpfconfig.yaml.
+2024-07-31 19:38:14,390 : INFO : ConfigProcessor : Loading config: c:\git\new folder (6)\mpf\mpf\mpfconfig.yaml
+2024-07-31 19:38:14,391 : INFO : ConfigProcessor : Loading config from file C:\Users\octo\Documents\fast_homebrew_godot\config\config.yaml.
+2024-07-31 19:38:14,392 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Documents\fast_homebrew_godot\config\config.yaml
+2024-07-31 19:38:14,393 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Documents\fast_homebrew_godot\config\coils.yaml
+2024-07-31 19:38:14,394 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Documents\fast_homebrew_godot\config\switches.yaml
+2024-07-31 19:38:14,394 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Documents\fast_homebrew_godot\config\sounds.yaml
+2024-07-31 19:38:14,394 : WARNING : ConfigProcessor : Config section 'sounds' is deprecated in MPF 0.80 and will be ignored.
+2024-07-31 19:38:14,395 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Documents\fast_homebrew_godot\config\images.yaml
+2024-07-31 19:38:14,395 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Documents\fast_homebrew_godot\config\videos.yaml
+2024-07-31 19:38:14,396 : INFO : ConfigProcessor : Config file cache created: C:\Users\octo\AppData\Local\Temp\a3df6362b16bcba4463c79dac6b0ae5c.mpf_cache
+2024-07-31 19:38:14,485 : INFO : ConfigProcessor : Loading config from file c:\git\new folder (6)\mpf\mpf\modes\attract\config\attract.yaml.
+2024-07-31 19:38:14,489 : INFO : ConfigProcessor : Loading config: c:\git\new folder (6)\mpf\mpf\modes\attract\config\attract.yaml
+2024-07-31 19:38:14,489 : INFO : ConfigProcessor : Loading config from file C:\Users\octo\Documents\fast_homebrew_godot\modes\attract\config\attract.yaml.
+2024-07-31 19:38:14,490 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Documents\fast_homebrew_godot\modes\attract\config\attract.yaml
+2024-07-31 19:38:14,490 : INFO : ConfigProcessor : Config file cache created: C:\Users\octo\AppData\Local\Temp\450f55d68e188bbe4f17466af7580967.mpf_cache
+2024-07-31 19:38:14,490 : INFO : ConfigProcessor : Loading config from file c:\git\new folder (6)\mpf\mpf\modes\game\config\game.yaml.
+2024-07-31 19:38:14,494 : INFO : ConfigProcessor : Loading config: c:\git\new folder (6)\mpf\mpf\modes\game\config\game.yaml
+2024-07-31 19:38:14,494 : INFO : ConfigProcessor : Config file cache created: C:\Users\octo\AppData\Local\Temp\5cdf3f6f669e12795623fbd605d1b6a0.mpf_cache
+2024-07-31 19:38:14,495 : INFO : ConfigProcessor : Loading config from file C:\Users\octo\Documents\fast_homebrew_godot\modes\base\config\base.yaml.
+2024-07-31 19:38:14,495 : INFO : ConfigProcessor : Loading config: C:\Users\octo\Documents\fast_homebrew_godot\modes\base\config\base.yaml
+2024-07-31 19:38:14,495 : INFO : ConfigProcessor : Config file cache created: C:\Users\octo\AppData\Local\Temp\adbc53240c55849f1d16102f174765f8.mpf_cache
+2024-07-31 19:38:14,496 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\450f55d68e188bbe4f17466af7580967.mpf_cache

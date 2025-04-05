@@ -1,0 +1,103 @@
+2024-06-22 23:14:16,045 : INFO : root : Loading config.
+2024-06-22 23:14:16,046 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-06-22 23:14:16,047 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\67114de119ffda0ef143dfc9c8b88aec.mpf_cache
+2024-06-22 23:14:16,088 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\d4fb548c2902111733185c907c7e02f2.mpf_cache
+2024-06-22 23:14:16,089 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\5cdf3f6f669e12795623fbd605d1b6a0.mpf_cache
+2024-06-22 23:14:16,089 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\e87c946bbd0a2e05a931f281fca6458e.mpf_cache
+2024-06-22 23:14:16,089 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\d4fb548c2902111733185c907c7e02f2.mpf_cache
+2024-06-22 23:14:16,090 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\da852937ccb56145866cf54922bc01f8.mpf_cache
+2024-06-22 23:14:16,090 : INFO : ConfigProcessor : Loading config from cache: C:\Users\octo\AppData\Local\Temp\928df87c66e261a283a6031425712ac6.mpf_cache
+2024-06-22 23:14:16,090 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev1
+2024-06-22 23:14:16,091 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-06-22-23-14-16-mpf-DESKTOP-BQT92E0.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-06-22 23:14:16,091 : INFO : Machine : MPF path: c:\git\new folder (6)\mpf\mpf
+2024-06-22 23:14:16,091 : INFO : Machine : Machine path: C:\Users\octo\Downloads\homebrew
+2024-06-22 23:14:16,091 : INFO : Machine : Platform: win32
+2024-06-22 23:14:16,091 : INFO : Machine : Python executable location: C:\Users\octo\AppData\Local\Programs\Python\Python310\python.exe
+2024-06-22 23:14:16,091 : INFO : Machine : Python version: 3.10.0 (64-bit)
+2024-06-22 23:14:16,092 : INFO : Machine : Initializing MPF...
+2024-06-22 23:14:16,216 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,225 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,225 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,225 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,225 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.0', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,230 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,230 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,230 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,230 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,230 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,230 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-06-22 23:14:16,242 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-06-22 23:14:16,242 : INFO : SwitchController : Found active switch: ('3208-8', <Platform.Virtual>) <switch.s_trough_ball_2>
+2024-06-22 23:14:16,242 : INFO : SwitchController : Found active switch: ('3208-9', <Platform.Virtual>) <switch.s_trough_ball_3>
+2024-06-22 23:14:16,242 : INFO : SwitchController : Found active switch: ('3208-13', <Platform.Virtual>) <switch.s_trough_ball_1>
+2024-06-22 23:14:16,249 : WARNING : YAML File Interface : YAML error found in file C:\Users\octo\Downloads\homebrew\data/high_scores.yaml. Line 2, Position 3: could not determine a constructor for the tag 'tag:yaml.org,2002:python/tuple'
+  in "C:\Users\octo\Downloads\homebrew\data/high_scores.yaml", line 2, column 3
+2024-06-22 23:14:16,249 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'GRAND CHAMPION', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,249 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'MPF', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,249 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 1000000, 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,249 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,249 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'BRI', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,249 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 900000, 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,249 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,249 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'JAN', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,249 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 800000, 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,249 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,249 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'QUI', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,249 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 700000, 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,249 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'MAR', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 6000, 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_score6_label'====== Args={'value': 'HIGH SCORE 5', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_score6_name'====== Args={'value': 'JOH', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_score6_value'====== Args={'value': 5000, 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_score7_label'====== Args={'value': 'HIGH SCORE 6', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_score7_name'====== Args={'value': 'ELI', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_score7_value'====== Args={'value': 4000, 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_score8_label'====== Args={'value': 'HIGH SCORE 7', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_score8_name'====== Args={'value': 'MIK', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_score8_value'====== Args={'value': 3000, 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_score9_label'====== Args={'value': 'HIGH SCORE 8', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_score9_name'====== Args={'value': 'ANT', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_score9_value'====== Args={'value': 500, 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_loops1_label'====== Args={'value': 'LOOP CHAMP', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_loops1_name'====== Args={'value': 'JAN', 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'machine_var_loops1_value'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2024-06-22 23:14:16,250 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-06-22 23:14:16,252 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-06-22 23:29:36,529 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2024-06-22 23:29:36,529 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2024-06-22 23:29:36,602 : INFO : ball_device.bd_trough : BCH: Initial count: 3
+2024-06-22 23:29:36,602 : INFO : ball_device.bd_trough : State: idle
+2024-06-22 23:29:36,602 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2024-06-22 23:29:36,602 : INFO : ball_device.bd_plunger : State: idle
+2024-06-22 23:29:36,613 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-06-22 23:29:36,613 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-06-22 23:29:36,614 : INFO : BallController : Initial balls found: 3
+2024-06-22 23:29:36,614 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...t.l_list_1>")>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...t.l_list_1>")>)>
+Traceback (most recent call last):
+  File "C:\Users\octo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\git\new folder (6)\mpf\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "c:\git\new folder (6)\mpf\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\git\new folder (6)\mpf\mpf\devices\light.py", line 136, in _check_duplicate_light_numbers
+    raise ConfigFileError(f"Duplicate number {type(driver)} {driver.number} for light {light}",
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light: Duplicate number <class 'mpf.platforms.virtual.VirtualLight'> led-led-led-playfield-1-1-r+1+1 for light <light.l_list_1> Context: (None, 'led-led-led-playfield-1-1-r+1+1', <class 'mpf.platforms.virtual.VirtualLight'>) Error Code: CFE-light-10 (https://missionpinball.org/logs)
+2024-06-22 23:29:36,632 : INFO : Machine : Starting the main run loop.
+2024-06-22 23:29:36,634 : INFO : Machine : Shutting down...
+2024-06-22 23:29:36,634 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-06-22 23:29:37,642 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\git\new folder (6)\mpf\mpf\core\machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\octo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\git\new folder (6)\mpf\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "c:\git\new folder (6)\mpf\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\git\new folder (6)\mpf\mpf\devices\light.py", line 136, in _check_duplicate_light_numbers
+    raise ConfigFileError(f"Duplicate number {type(driver)} {driver.number} for light {light}",
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light: Duplicate number <class 'mpf.platforms.virtual.VirtualLight'> led-led-led-playfield-1-1-r+1+1 for light <light.l_list_1> Context: (None, 'led-led-led-playfield-1-1-r+1+1', <class 'mpf.platforms.virtual.VirtualLight'>) Error Code: CFE-light-10 (https://missionpinball.org/logs)
