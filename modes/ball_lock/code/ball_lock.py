@@ -68,18 +68,27 @@ class BallLock(Mode):
             # Increment locked balls
             self.player.locked_balls += 1
             self.machine.events.post('ball_locked')
-            
+        
             # Auto-launch a new ball
             self.machine.playfield.add_ball()
-            
-            # Check if we've locked all balls
-            if self.player.locked_balls >= 3:
-                self.log.info("All 3 balls locked - Ball Lock mode complete")
-                self.machine.events.post('ball_lock_complete')
+        
+            try:
+                # Get the actual count of balls physically in the lock
+                lock_device = self.machine.ball_devices['bd_ball_lock']
+                physical_balls = lock_device.balls
                 
-                # Release the balls using the up post
-                self.machine.events.post('release_locked_balls')
-            else:
-                # Update display with locked balls count
+                self.log.info(f"Physical balls in lock: {physical_balls}")
+                
+                # Only post ball_lock_complete when exactly 3 balls are locked
+                if physical_balls == 3:
+                    self.log.info("All 3 balls locked - Ball Lock mode complete")
+                    self.machine.events.post('ball_lock_complete')
+                else:
+                    # Update display with locked balls count
+                    self.machine.events.post('mode_objectives_update', 
+                                        text=f"BALL LOCKED! {self.player.locked_balls}/3")
+            except Exception as e:
+                self.log.error(f"Error checking physical balls: {e}")
+                # Show current progress based on player variable
                 self.machine.events.post('mode_objectives_update', 
-                                      text=f"BALL LOCKED! {self.player.locked_balls}/3")
+                                    text=f"BALL LOCKED! {self.player.locked_balls}/3")

@@ -565,7 +565,9 @@ event_player:
   #  - fire_ramp_release|2s
   
   # Ball lock handling
-  "balldevice_bd_ball_lock_ball_count{value==3}": ball_lock_complete
+    # Change this to only trigger when count is exactly 3
+  "balldevice_bd_ball_lock_ball_count{value==3}": ball_lock_full
+  ball_lock_full: ball_lock_complete
   
   # Conditional events with quotes
   "s_mode_opto_active{current_player.game_mode_active == False}": check_available_modes
@@ -588,7 +590,7 @@ event_player:
   blood_test_objective_complete: advance_game_state
   spider_head_objective_complete: advance_game_state
   wizard_objective_complete: advance_game_state
-  ball_lock_complete: enable_multiball
+  ball_lock_complete: enable_multiball, release_locked_balls
   
   # Jackpot and scoring events
   jackpot_hit: award_jackpot_score
