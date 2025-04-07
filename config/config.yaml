@@ -306,7 +306,7 @@ autofire_coils:
 
 ball_devices:
   bd_trough:
-    ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4, s_trough_5, s_trough_6, s_trough_7
+    ball_switches: s_trough_6, s_trough_7, s_trough_ball
     eject_coil: c_trough
     tags: trough, home, drain
     jam_switch: s_trough_ball_jam
@@ -322,11 +322,19 @@ ball_devices:
     mechanical_eject: True
   bd_ball_lock:
     ball_switches: s_ball_lock_1, s_ball_lock_2, s_ball_lock_3
-    eject_coil: c_up_post  # Changed from c_mode_vuk to c_up_post
+    eject_coil: c_up_post
     tags: ball_lock
-    eject_timeouts: 3s  # Increased from 2s to 3s
+    eject_timeouts: 3s
     confirm_eject_type: target
     debug: True
+    hold_coil: c_up_post  # Add this if you have a physical hold mechanism
+    hold_balls: True
+    auto_fire_on_unexpected_ball: False
+    capture_from_devices: playfield  # Add this line
+    eject_on_ball_request: False
+    eject_targets: playfield
+    entrance_switch: s_right_ramp_entry_1
+    entrance_switch_timeout: 3s
 
 playfields:
   playfield:
@@ -340,7 +348,7 @@ ball_saves:
     grace_period: 2s
     enable_events: ball_started
     timer_start_events: balldevice_bd_shooter_lane_ball_eject_success
-    auto_launch: True
+    auto_launch: False  # Disable auto-launch during ball lock mode
     balls_to_save: 1
 
 drop_targets:
@@ -557,7 +565,7 @@ event_player:
   # Ball Lock Events
   mode_ball_lock_started: enable_ball_lock_mechanism
   mode_ball_lock_stopped: disable_ball_lock_mechanism
-  game_ending: release_locked_balls
+  game_ending: ball_lock_complete
   
   # Right orbit handling for ball lock mode
   #"s_right_orbit_1_active{device.modes.ball_lock.active}": 
@@ -565,17 +573,19 @@ event_player:
   #  - fire_ramp_release|2s
   
   # Ball lock handling
-    # Change this to only trigger when count is exactly 3
-  "balldevice_bd_ball_lock_ball_count{value==3}": ball_lock_full
-  ball_lock_full: ball_lock_complete
+  "balldevice_bd_ball_lock_ball_count{value==3}":
+    - ball_lock_complete
+    - log_ball_lock_full
+    - show_ball_lock_full_slide
   
   # Conditional events with quotes
   "s_mode_opto_active{current_player.game_mode_active == False}": check_available_modes
   "check_dog_bank_complete{device.switches.s_3bank_tgt_d.state and device.switches.s_3bank_tgt_o.state and device.switches.s_3bank_tgt_g.state}": dog_bank_targets_complete
   "spinner_complete{current_player.game_mode_active == False}": enable_dog_hunt_mode
-  #"s_left_ramp_entry_1_active{current_player.game_mode_active == True}": check_mode_progress
-  #"s_right_ramp_entry_1_active{current_player.game_mode_active == True and current_player.current_game_mode == 'ball_lock'}": check_ball_lock_progress
-  #"s_left_ramp_entry_1_active{current_player.game_mode_active == 0}": left_ramp_to_start_lock_count_up
+  "s_right_ramp_entry_1_active{current_player.ball_lock_active == True}":
+    - request_ball_lock
+
+
 
   # Game state events
   game_started: setup_game_variables
@@ -621,6 +631,22 @@ event_player:
   s_blood_target_active: check_blood_target  # New event
   blood_target_qualify_hit: show_blood_lock_progress
 
+  # New ball lock related events
+  ball_lock_eject_blocked:
+    - log_ball_lock_eject_blocked
+
+  ball_lock_requested:
+    - log_ball_lock_request
+    - update_ball_lock_request_lights
+
+  ball_lock_request_error:
+    - log_ball_lock_request_error
+    - show_ball_lock_error_slide
+
+  ball_lock_full:
+    - log_ball_lock_full
+    - show_ball_lock_full_slide  
+
 slide_player:
   show_blood_lock_progress:
     blood_lock_qualify:
@@ -629,8 +655,9 @@ slide_player:
           text: "BLOOD TARGET: (device.counters.left_ramp_to_start_lock.value) / 4"
           font_size: 30
           y: center
-          color: red  # Changed to red for blood theme
+          color: red
           expire: 2s
+
   mode_ball_lock_start:
     ball_lock_ready:
       widgets:
@@ -640,7 +667,26 @@ slide_player:
           y: center
           color: green
           expire: 3s
-  
+
+  ball_lock_request_error:
+    ball_lock_error:
+      widgets:
+        - type: text
+          text: "BALL LOCK ERROR!"
+          font_size: 40
+          y: center
+          color: red
+          expire: 2s
+
+  ball_lock_full:
+    ball_lock_full_warning:
+      widgets:
+        - type: text
+          text: "BALL LOCK IS FULL!"
+          font_size: 40
+          y: center
+          color: yellow
+          expire: 2s
 
 coil_player:
   dog_bank_targets_complete:
@@ -671,11 +717,7 @@ coil_player:
   disable_ball_lock_mechanism:
     c_ramp_release:
       action: pulse
-
-  release_locked_balls:
-    c_up_post:
-      action: pulse
-    
+  
   fire_ramp_release:
     c_ramp_release:
       action: pulse
@@ -705,3 +747,14 @@ modes:
   - wizard
   - multiball
   - ball_lock
+
+
+# Logging configuration for ball lock events
+logging:
+  ball_lock_log:
+    handlers:
+      - console
+      - file
+    level: info
+    file:
+      filename: ball_lock_events.log

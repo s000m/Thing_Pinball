@@ -2,40 +2,37 @@
 
 mode:
   start_events: mode_ball_lock_start
-  stop_events: mode_ball_lock_complete, ball_ending
+  stop_events: mode_ball_lock_complete, mode_ball_lock_timer_expired, ball_ending
   priority: 350
   code: ball_lock.BallLock
   
 slide_player:
   mode_ball_lock_started:
-    ball_lock_started:
-      widgets:
-        - type: text
-          text: BALL LOCK MODE ACTIVE
-          font_size: 50
-          y: center-100
-          color: blue
-          expire: 2s
+    slide_1:
+      type: text
+      text: BALL LOCK MODE ACTIVE
+      font_size: 50
+      y: center-100
+      color: blue
+      expire: 2s
           
   ball_locked:
-    ball_locked_display:
-      widgets:
-        - type: text
-          text: "BALL LOCKED: (player|locked_balls) / 3"
-          font_size: 40
-          y: center
-          color: yellow
-          expire: 2s
+    slide_2:
+      type: text
+      text: "BALL LOCKED: (player|locked_balls) / 3"
+      font_size: 40
+      y: center
+      color: yellow
+      expire: 2s
 
   right_orbit_hit:
-    orbit_active:
-      widgets:
-        - type: text
-          text: "ORBIT ACTIVE!"
-          font_size: 40
-          y: center
-          color: green
-          expire: 1s
+    slide_3:
+      type: text
+      text: "ORBIT ACTIVE!"
+      font_size: 40
+      y: center
+      color: green
+      expire: 1s
 
 variable_player:
   ball_locked:
@@ -69,7 +66,9 @@ timers:
         action: start
       - event: ball_lock_complete
         action: stop
-    events_when_complete: ball_lock_timer_expired
+      - event: ball_locked
+        action: reset  # Reset timer when a ball is locked
+    events_when_complete: mode_ball_lock_timer_expired
     
 # Event player setup
 event_player:
@@ -87,12 +86,15 @@ event_player:
     - pulse_upramp
     - open_ramp_release|3s  # Delayed pulse for ramp release
   
-  # Ball lock handling
-  "balldevice_bd_ball_lock_ball_count{value==3}": ball_lock_full
-  ball_lock_full: ball_lock_complete
+  # Simplified ball lock handling
+  ball_lock_full: 
+    - ball_lock_complete
+    - mode_ball_lock_complete
+
   ball_lock_complete: 
     - mode_ball_lock_ending
     - disable_up_post|3100  # Schedule disable after slightly longer than enable_ms
+    
 
 # Coil player for device control
 coil_player:
