@@ -1,0 +1,299 @@
+2025-04-07 14:58:07,708 : INFO : root : Loading config.
+2025-04-07 14:58:07,712 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-07 14:58:07,712 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\1ab83842b7c8ed7e1902272067ddcd2b.mpf_cache
+2025-04-07 14:58:07,793 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\163fd46608d3c9469758c6512b5a030d.mpf_cache
+2025-04-07 14:58:07,793 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\93e42568b1004e720dbdafbb285adaaa.mpf_cache
+2025-04-07 14:58:07,793 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\5ffb3999d6de3e1d452090655c82bf2a.mpf_cache
+2025-04-07 14:58:07,793 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\163fd46608d3c9469758c6512b5a030d.mpf_cache
+2025-04-07 14:58:07,793 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\93e42568b1004e720dbdafbb285adaaa.mpf_cache
+2025-04-07 14:58:07,793 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8c668df6a84f4edcfda2189b877084c6.mpf_cache
+2025-04-07 14:58:07,802 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\81d0f34cbd4c6d61cd4dad95e5100b6a.mpf_cache
+2025-04-07 14:58:07,802 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\a714899e94406dd1f47e6e9bddbe0fef.mpf_cache
+2025-04-07 14:58:07,802 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\fda2b21e4ff4c8a0b48d4f712bf7675f.mpf_cache
+2025-04-07 14:58:07,802 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\49c1bb27bb76c6488cf72d0e1887aaaa.mpf_cache
+2025-04-07 14:58:07,802 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\eb740da6f3772dcfe6d89e142f4972f9.mpf_cache
+2025-04-07 14:58:07,802 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8e53cff45209557b74353625b1fb9c7d.mpf_cache
+2025-04-07 14:58:07,802 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\75ead186cfb0eee4579e59d5d273b950.mpf_cache
+2025-04-07 14:58:07,802 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\46ee3106793b7c66df6b24732de735de.mpf_cache
+2025-04-07 14:58:07,802 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\a6f0737b5bca2a955dd9d538ee17b581.mpf_cache
+2025-04-07 14:58:07,802 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\72ccc58689b118af298151666e9c5198.mpf_cache
+2025-04-07 14:58:07,802 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\082c9c49689a7facf0c58e67d77b7f58.mpf_cache
+2025-04-07 14:58:07,808 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-04-07 14:58:07,808 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-04-07-14-58-07-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\homebrew\\Documents\\GitHub\\Thing_Pinball\\logs\\2025-04-07-14-58-07-mpf-mpf.log'}
+2025-04-07 14:58:07,808 : INFO : Machine : MPF path: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-04-07 14:58:07,808 : INFO : Machine : Machine path: C:\Users\homebrew\Documents\GitHub\Thing_Pinball
+2025-04-07 14:58:07,808 : INFO : Machine : Platform: win32
+2025-04-07 14:58:07,808 : INFO : Machine : Python executable location: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\python.exe
+2025-04-07 14:58:07,808 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2025-04-07 14:58:07,810 : INFO : Machine : Initializing MPF...
+2025-04-07 14:58:08,030 : INFO : FAST [NET] : Trying to connect to com4 at 921600bps
+2025-04-07 14:58:08,046 : INFO : FAST [NET] : Connected to com4 at 921600bps
+2025-04-07 14:58:08,062 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.21
+2025-04-07 14:58:08,093 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2025-04-07 14:58:08,109 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-04-07 14:58:08,125 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-04-07 14:58:08,141 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-04-07 14:58:08,141 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,177 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,177 : INFO : EventManager : Event: ======'machine_var_game_mode_dog_hunt_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,177 : INFO : EventManager : Event: ======'machine_var_game_mode_discovery_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,177 : INFO : EventManager : Event: ======'machine_var_game_mode_infected_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,177 : INFO : EventManager : Event: ======'machine_var_game_mode_blood_test_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,177 : INFO : EventManager : Event: ======'machine_var_game_mode_spider_head_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,177 : INFO : EventManager : Event: ======'machine_var_game_mode_wizard_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,177 : INFO : EventManager : Event: ======'machine_var_game_mode_ball_lock_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,177 : INFO : EventManager : Event: ======'machine_var_game_mode_multiball_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,177 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,177 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,177 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,380 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,380 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,380 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,380 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,380 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,380 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\homebrew\\Documents\\GitHub\\Thing_Pinball\\logs\\2025-04-07-14-58-07-mpf-mpf.log', 'prev_value': None, 'change': True}
+2025-04-07 14:58:08,380 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_diverter:pwm_on_ms" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_diverter:pwm_off_ms" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_up_post:pwm_on_ms" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_up_post:pwm_off_ms" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "ball_devices:bd_ball_lock:hold_balls" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "ball_devices:bd_ball_lock:capture_from_devices" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "ball_devices:bd_ball_lock:eject_on_ball_request" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "ball_devices:bd_ball_lock:entrance_switch_timeout" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "timed_switches:mode_vuk_delayed_eject:state_when_released" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "mode:discovery:timers:discovery_timer:events_when_complete" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "mode:base:timers:mode_timer:events_when_complete" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "mode:ball_lock:timers:ball_lock_timer:events_when_complete" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "mode:infected:timers:infected_timer:events_when_complete" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "mode:wizard:timers:wizard_timer:events_when_complete" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "mode:dog_hunt:timers:dog_hunt_timer:events_when_complete" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:multiball_jackpot_timer:events_when_complete" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:right_ramp_validity_timer:events_when_complete" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "mode:spider_head:timers:spider_head_timer:events_when_complete" is not a valid setting name.
+2025-04-07 14:58:08,427 : WARNING : ConfigValidator : Unrecognized config setting. "mode:blood_test:timers:blood_test_timer:events_when_complete" is not a valid setting name.
+2025-04-07 14:58:08,427 : INFO : EventManager : Event: ======'drop_target_bank_vuk_bank_up'====== Args={}
+2025-04-07 14:58:08,427 : INFO : EventManager : Event: ======'logicblock_spinner_value_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-07 14:58:08,427 : INFO : EventManager : Event: ======'logicblock_newton_hit_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-07 14:58:08,427 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-07 14:58:08,427 : INFO : EventManager : Event: ======'logicblock_right_entry_ramp_to_start_lock_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-07 14:58:11,023 : WARNING : Machine : Iterating device collections directly is deprecated and will be removed. Access by value(): device_collections[switches] -> device_collections['switches'].values()
+2025-04-07 14:58:11,023 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:11,023 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:11,023 : INFO : SwitchController : <<<<<<< 's_newton_opto_made' active >>>>>>>
+2025-04-07 14:58:11,023 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-04-07 14:58:11,023 : WARNING : ConfigValidator : Unrecognized config setting. "coil_player:enable_ms" is not a valid setting name.
+2025-04-07 14:58:11,023 : WARNING : ConfigValidator : Unrecognized config setting. "coil_player:enable_ms" is not a valid setting name.
+2025-04-07 14:58:11,023 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-04-07 14:58:11,023 : INFO : SwitchController : Found active switch: (38, [FAST Platform Interface]) <switch.s_trough_7>
+2025-04-07 14:58:11,023 : INFO : SwitchController : Found active switch: (52, [FAST Platform Interface]) <switch.s_trough_ball>
+2025-04-07 14:58:11,023 : INFO : SwitchController : Found active switch: (45, [FAST Platform Interface]) <switch.s_newton_opto_made>
+2025-04-07 14:58:11,023 : INFO : SwitchController : Found active switch: (10, [FAST Platform Interface]) <switch.s_start_button>
+2025-04-07 14:58:11,035 : WARNING : ConfigValidator : Unrecognized config setting. "coil_player:enable_ms" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:type" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:text" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:font_size" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:y" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:color" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:type" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:text" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:font_size" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:y" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:color" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:type" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:text" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:font_size" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:y" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:color" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-07 14:58:11,039 : WARNING : ConfigValidator : Unrecognized config setting. "high_score:events_when_complete" is not a valid setting name.
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'GRAND CHAMPION', 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'THING', 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 5000000, 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'MPF', 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 4000000, 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'PINBALL', 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 3000000, 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'WIZARD', 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 2000000, 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'PLAYER', 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 1000000, 'prev_value': None, 'change': True}
+2025-04-07 14:58:11,039 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-04-07 14:58:11,052 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-04-07 14:58:31,052 : INFO : SwitchController : <<<<<<< 's_ball_lock_2' active >>>>>>>
+2025-04-07 14:58:31,132 : INFO : SwitchController : <<<<<<< 's_ball_lock_2' inactive >>>>>>>
+2025-04-07 14:58:31,421 : INFO : SwitchController : <<<<<<< 's_ball_lock_3' active >>>>>>>
+2025-04-07 14:58:31,452 : INFO : SwitchController : <<<<<<< 's_ball_lock_3' inactive >>>>>>>
+2025-04-07 14:58:34,384 : INFO : SwitchController : <<<<<<< 's_trough_2' active >>>>>>>
+2025-04-07 14:58:34,416 : INFO : SwitchController : <<<<<<< 's_trough_2' inactive >>>>>>>
+2025-04-07 14:58:34,479 : INFO : SwitchController : <<<<<<< 's_trough_3' active >>>>>>>
+2025-04-07 14:58:34,511 : INFO : SwitchController : <<<<<<< 's_trough_3' inactive >>>>>>>
+2025-04-07 14:58:34,543 : INFO : SwitchController : <<<<<<< 's_trough_4' active >>>>>>>
+2025-04-07 14:58:34,575 : INFO : SwitchController : <<<<<<< 's_trough_4' inactive >>>>>>>
+2025-04-07 14:58:34,623 : INFO : SwitchController : <<<<<<< 's_trough_5' active >>>>>>>
+2025-04-07 14:58:34,655 : INFO : SwitchController : <<<<<<< 's_trough_5' inactive >>>>>>>
+2025-04-07 14:58:34,688 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2025-04-07 14:58:34,720 : INFO : SwitchController : <<<<<<< 's_trough_6' inactive >>>>>>>
+2025-04-07 14:58:34,816 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2025-04-07 14:58:43,489 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:43,522 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:43,599 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:43,599 : INFO : SwitchController : <<<<<<< 's_trough_6' inactive >>>>>>>
+2025-04-07 14:58:43,677 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-04-07 14:58:43,820 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' inactive >>>>>>>
+2025-04-07 14:58:43,964 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:44,885 : INFO : SwitchController : <<<<<<< 's_shooter_lane' active >>>>>>>
+2025-04-07 14:58:45,086 : INFO : SwitchController : <<<<<<< 's_shooter_lane' inactive >>>>>>>
+2025-04-07 14:58:45,343 : INFO : SwitchController : <<<<<<< 's_shooter_lane' active >>>>>>>
+2025-04-07 14:58:53,371 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:53,466 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:53,723 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:53,850 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-04-07 14:58:53,872 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' inactive >>>>>>>
+2025-04-07 14:58:53,872 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:54,154 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:54,202 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:54,379 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-04-07 14:58:54,404 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:54,414 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' inactive >>>>>>>
+2025-04-07 14:58:54,416 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:54,683 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:54,731 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:54,763 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:54,827 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:54,876 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-04-07 14:58:54,876 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:54,896 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' inactive >>>>>>>
+2025-04-07 14:58:54,896 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:55,036 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:55,099 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:55,147 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:55,195 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:55,244 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:55,292 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:55,452 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-04-07 14:58:55,452 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:55,484 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' inactive >>>>>>>
+2025-04-07 14:58:55,484 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:55,850 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:55,877 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:55,946 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:55,995 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:56,122 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-04-07 14:58:56,122 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:56,154 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' inactive >>>>>>>
+2025-04-07 14:58:56,177 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:56,283 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:56,380 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:56,491 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:56,523 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:56,588 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:56,714 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:56,762 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:56,762 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-04-07 14:58:56,778 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' inactive >>>>>>>
+2025-04-07 14:58:56,778 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:56,778 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:57,130 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:57,241 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:57,273 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:57,320 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:57,384 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-04-07 14:58:57,416 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:57,448 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:57,480 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' inactive >>>>>>>
+2025-04-07 14:58:57,480 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:57,496 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:57,720 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:57,752 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:57,752 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:57,848 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:57,880 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-04-07 14:58:57,943 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:57,990 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:58,037 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' inactive >>>>>>>
+2025-04-07 14:58:58,037 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:58,101 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:58,325 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:58,389 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:58,421 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:58,439 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:58,533 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-04-07 14:58:58,614 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:58,710 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:58,742 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' inactive >>>>>>>
+2025-04-07 14:58:58,742 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:58:58,790 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:59,095 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:59,159 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-07 14:58:59,191 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-07 14:58:59,335 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-04-07 14:58:59,357 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-07 14:58:59,383 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' inactive >>>>>>>
+2025-04-07 14:58:59,383 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-07 14:59:01,802 : INFO : SwitchController : <<<<<<< 's_shooter_lane' inactive >>>>>>>
+2025-04-07 14:59:01,896 : INFO : SwitchController : <<<<<<< 's_shooter_lane' active >>>>>>>
+2025-04-07 14:59:02,105 : INFO : SwitchController : <<<<<<< 's_shooter_lane' inactive >>>>>>>
+2025-04-07 14:59:02,697 : INFO : SwitchController : <<<<<<< 's_shooter_lane' active >>>>>>>
+2025-04-07 14:59:02,793 : INFO : SwitchController : <<<<<<< 's_shooter_lane' inactive >>>>>>>
+2025-04-07 14:59:05,774 : INFO : SwitchController : <<<<<<< 's_shooter_lane' active >>>>>>>
+2025-04-07 14:59:05,950 : INFO : SwitchController : <<<<<<< 's_shooter_lane' inactive >>>>>>>
+2025-04-07 14:59:12,249 : INFO : SwitchController : <<<<<<< 's_trough_3' active >>>>>>>
+2025-04-07 14:59:12,281 : INFO : SwitchController : <<<<<<< 's_trough_3' inactive >>>>>>>
+2025-04-07 14:59:12,314 : INFO : SwitchController : <<<<<<< 's_trough_4' active >>>>>>>
+2025-04-07 14:59:12,346 : INFO : SwitchController : <<<<<<< 's_trough_4' inactive >>>>>>>
+2025-04-07 14:59:12,394 : INFO : SwitchController : <<<<<<< 's_trough_5' active >>>>>>>
+2025-04-07 14:59:12,426 : INFO : SwitchController : <<<<<<< 's_trough_5' inactive >>>>>>>
+2025-04-07 14:59:12,458 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2025-04-07 14:59:12,490 : INFO : SwitchController : <<<<<<< 's_trough_6' inactive >>>>>>>
+2025-04-07 14:59:12,583 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2025-04-07 14:59:42,099 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-04-07 14:59:42,099 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-04-07 14:59:42,146 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-04-07 14:59:42,164 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-04-07 14:59:42,318 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-04-07 14:59:42,318 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-04-07 14:59:42,412 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-04-07 14:59:42,434 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-04-07 14:59:42,524 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-04-07 14:59:42,524 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-04-07 14:59:42,604 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-04-07 14:59:42,606 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-04-07 14:59:42,684 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-04-07 14:59:42,685 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-04-07 14:59:42,765 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-04-07 14:59:42,765 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-04-07 15:00:14,744 : INFO : Machine : Starting the main run loop.
+2025-04-07 15:00:14,749 : INFO : Machine : Shutting down...
+2025-04-07 15:00:14,749 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-04-07 15:00:15,861 : INFO : root : MPF run loop ended.

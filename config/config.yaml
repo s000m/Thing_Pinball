@@ -62,11 +62,13 @@ switches:
     number: 3208-14
     tags: trough, trough7
   s_trough_ball:
-    number: 3208-28
-    tags: trough_ball
-  s_trough_ball_jam:
     number: 3208-27
+    tags: trough_ball
+    type: nc # Normally closed - active when no ball is present
+  s_trough_ball_jam:
+    number: 3208-28
     tags: trough_ball_jam
+    type: nc # Normally closed - active when no ball is present
   
   # Shooter Lane
   s_shooter_lane:
@@ -306,20 +308,24 @@ autofire_coils:
 
 ball_devices:
   bd_trough:
-    ball_switches: s_trough_6, s_trough_7, s_trough_ball
+    ball_switches: s_trough_ball, s_trough_7, s_trough_6
     eject_coil: c_trough
     tags: trough, home, drain
     jam_switch: s_trough_ball_jam
     eject_timeouts: 3s
     debug: True
     eject_targets: bd_shooter_lane
-    confirm_eject_type: target  # Added for better ball tracking
+    confirm_eject_type: target
+    # Removed ball_capacity as it conflicts with ball_switches
+    
   bd_shooter_lane:
     ball_switches: s_shooter_lane
     entrance_count_delay: 300ms
     eject_timeouts: 5s
     tags: launcher
     mechanical_eject: True
+    # Removed ball_capacity as it conflicts with ball_switches
+    
   bd_ball_lock:
     ball_switches: s_ball_lock_1, s_ball_lock_2, s_ball_lock_3
     eject_coil: c_up_post
@@ -327,14 +333,11 @@ ball_devices:
     eject_timeouts: 3s
     confirm_eject_type: target
     debug: True
-    hold_coil: c_up_post  # Add this if you have a physical hold mechanism
-    hold_balls: True
+    # Removed ball_capacity as it conflicts with ball_switches
     auto_fire_on_unexpected_ball: False
-    capture_from_devices: playfield  # Add this line
-    eject_on_ball_request: False
     eject_targets: playfield
     entrance_switch: s_right_ramp_entry_1
-    entrance_switch_timeout: 3s
+    entrance_switch_full_timeout: 3s
 
 playfields:
   playfield:
@@ -536,7 +539,7 @@ counters:
     enable_events: ball_started
     restart_events: diverter_pattern_complete  # This resets and re-enables
 
-  right_entry_ramp_to_start_lock:
+  blood_target_counter:
     count_events: s_blood_target_active
     starting_count: 0
     count_complete_value: 4
@@ -565,16 +568,11 @@ event_player:
   # Ball Lock Events
   mode_ball_lock_started: enable_ball_lock_mechanism
   mode_ball_lock_stopped: disable_ball_lock_mechanism
-  game_ending: ball_lock_complete
-  
-  # Right orbit handling for ball lock mode
-  #"s_right_orbit_1_active{device.modes.ball_lock.active}": 
-  #  - fire_ramp_release
-  #  - fire_ramp_release|2s
+  game_ending: multiball_lock_ball_lock_full
   
   # Ball lock handling
   "balldevice_bd_ball_lock_ball_count{value==3}":
-    - ball_lock_complete
+    - multiball_lock_ball_lock_full
     - log_ball_lock_full
     - show_ball_lock_full_slide
   
@@ -585,14 +583,11 @@ event_player:
   "s_right_ramp_entry_1_active{current_player.ball_lock_active == True}":
     - request_ball_lock
 
-
-
   # Game state events
   game_started: setup_game_variables
   ball_started: reset_player_shot_counters, pulse_upramp_on_start
   ball_ending: tally_player_score
   
-
   # Mode-specific events
   dog_hunt_objective_complete: advance_game_state
   discovery_objective_complete: advance_game_state
@@ -600,7 +595,9 @@ event_player:
   blood_test_objective_complete: advance_game_state
   spider_head_objective_complete: advance_game_state
   wizard_objective_complete: advance_game_state
-  ball_lock_complete: enable_multiball, release_locked_balls
+  multiball_lock_ball_lock_full: 
+    - enable_multiball
+    - release_locked_balls
   
   # Jackpot and scoring events
   jackpot_hit: award_jackpot_score
@@ -625,7 +622,6 @@ event_player:
     - play_ball_lock_sound
     - update_ball_lock_lights
 
-  
   #Blood Ball Lock events
   s_blood_target_active: check_blood_target  # New event
   blood_target_qualify_hit: show_blood_lock_progress
@@ -651,7 +647,7 @@ slide_player:
     blood_lock_qualify:
       widgets:
         - type: text
-          text: "BLOOD TARGET: (device.counters.left_ramp_to_start_lock.value) / 4"
+          text: "BLOOD TARGET: (device.counters.blood_target_counter.value) / 4"
           font_size: 30
           y: center
           color: red
@@ -721,7 +717,7 @@ coil_player:
     c_ramp_release:
       action: pulse
       
-  ball_lock_complete:
+  multiball_lock_ball_lock_full:
     c_up_post:
       action: enable
       enable_ms: 3000

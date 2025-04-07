@@ -2,60 +2,27 @@
 
 mode:
   start_events: mode_ball_lock_start
-  stop_events: mode_ball_lock_complete, mode_ball_lock_timer_expired, ball_ending
+  stop_events: mode_ball_lock_complete, ball_ending
   priority: 350
   code: ball_lock.BallLock
-  
-slide_player:
-  mode_ball_lock_started:
-    slide_1:
-      type: text
-      text: BALL LOCK MODE ACTIVE
-      font_size: 50
-      y: center-100
-      color: blue
-      expire: 2s
-          
-  ball_locked:
-    slide_2:
-      type: text
-      text: "BALL LOCKED: (player|locked_balls) / 3"
-      font_size: 40
-      y: center
-      color: yellow
-      expire: 2s
 
-  right_orbit_hit:
-    slide_3:
-      type: text
-      text: "ORBIT ACTIVE!"
-      font_size: 40
-      y: center
-      color: green
-      expire: 1s
-
-variable_player:
-  ball_locked:
-    locked_balls: 1
-    score: 50000
-  
-  ball_lock_complete:
-    score: 100000
+# This section configures the multiball lock behavior
+multiball_locks:
+  ball_lock:
+    lock_devices: bd_ball_lock
+    balls_to_lock: 3
+    reset_count_for_current_player_events: mode_ball_lock_started
+    disable_events: mode_ball_lock_complete, ball_ending
+    locked_ball_counting_strategy: virtual_only
+    source_playfield: playfield
+    enable_events: mode_ball_lock_started
+    reset_all_counts_events: mode_ball_lock_stopped
+    # When lock is full, trigger this event which calls _on_lock_full in our code
+    full_event: multiball_lock_ball_lock_full
+    # Add ball replacement behavior - critical for proper ball management
+    replace_balls_in_play: True  # When a ball is locked, a new one is added to play
     
-  mode_ball_lock_complete:
-    ball_lock_complete: 1
-    game_mode_active: 0
-    
-  set_ball_lock_active:
-    ball_lock_active:
-      action: set
-      int: 1
-  
-  clear_ball_lock_active:
-    ball_lock_active:
-      action: set
-      int: 0
-    
+# Timer configuration
 timers:
   ball_lock_timer:
     start_value: 60
@@ -66,9 +33,8 @@ timers:
         action: start
       - event: ball_lock_complete
         action: stop
-      - event: ball_locked
-        action: reset  # Reset timer when a ball is locked
-    events_when_complete: mode_ball_lock_timer_expired
+      - event: multiball_lock_ball_lock_full
+        action: stop
     
 # Event player setup
 event_player:
@@ -85,16 +51,58 @@ event_player:
     - right_orbit_hit
     - pulse_upramp
     - open_ramp_release|3s  # Delayed pulse for ramp release
-  
-  # Simplified ball lock handling
-  ball_lock_full: 
-    - ball_lock_complete
-    - mode_ball_lock_complete
-
-  ball_lock_complete: 
-    - mode_ball_lock_ending
-    - disable_up_post|3100  # Schedule disable after slightly longer than enable_ms
     
+  # Handle what happens after the up post is disabled (in 3 seconds)
+  ball_lock_up_post_disabled:
+    - mode_ball_lock_complete
+  
+  # Ball lock complete handling
+  multiball_lock_ball_lock_full: 
+    - ball_lock_full_celebration
+    # Note: We're now handling the coil in _on_lock_full method
+    # and we don't want to end the mode until after the post is disabled
+
+# Slide player for UI
+slide_player:
+  mode_ball_lock_started:
+    slide_1:
+      widgets:
+        - type: text
+          text: BALL LOCK MODE ACTIVE
+          font_size: 50
+          y: center-100
+          color: blue
+          expire: 2s
+          
+  multiball_lock_ball_lock_locked_ball:
+    slide_2:
+      widgets:
+        - type: text
+          text: "BALL LOCKED: (player|locked_balls) / 3"
+          font_size: 40
+          y: center
+          color: yellow
+          expire: 2s
+
+  right_orbit_hit:
+    slide_3:
+      widgets:
+        - type: text
+          text: "ORBIT ACTIVE!"
+          font_size: 40
+          y: center
+          color: green
+          expire: 1s
+          
+  multiball_lock_ball_lock_full:
+    slide_4:
+      widgets:
+        - type: text
+          text: "LOCK FULL! MULTIBALL READY!"
+          font_size: 50
+          y: center
+          color: red
+          expire: 3s
 
 # Coil player for device control
 coil_player:
@@ -102,19 +110,29 @@ coil_player:
     c_ramp_release:
       action: pulse
       
-  pulse_upramp:
-    c_upramp:
+#  pulse_upramp:
+#    c_upramp:
+#      action: pulse
+      
+  fire_ramp_release:
+    c_ramp_release:
       action: pulse
-      
-  release_locked_balls:
-    c_up_post:
-      action: pulse
-      
-  ball_lock_complete:
-    c_up_post:
-      action: enable
-      enable_ms: 3000
-      
-  disable_up_post:
-    c_up_post:
-      action: disable
+
+# Variable player for scoring and tracking
+variable_player:
+  multiball_lock_ball_lock_locked_ball:
+    score: 50000
+  
+  multiball_lock_ball_lock_full:
+    score: 100000
+    ball_lock_complete: 1
+    
+  set_ball_lock_active:
+    ball_lock_active:
+      action: set
+      int: 1
+  
+  clear_ball_lock_active:
+    ball_lock_active:
+      action: set
+      int: 0
