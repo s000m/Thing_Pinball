@@ -536,7 +536,7 @@ counters:
     enable_events: ball_started
     restart_events: diverter_pattern_complete  # This resets and re-enables
 
-  left_ramp_to_start_lock:
+  right_entry_ramp_to_start_lock:
     count_events: s_blood_target_active
     starting_count: 0
     count_complete_value: 4
@@ -625,8 +625,7 @@ event_player:
     - play_ball_lock_sound
     - update_ball_lock_lights
 
-  #left_ramp_qualify_hit: show_ball_lock_progress
-
+  
   #Blood Ball Lock events
   s_blood_target_active: check_blood_target  # New event
   blood_target_qualify_hit: show_blood_lock_progress
