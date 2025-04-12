@@ -23,3 +23,9 @@ theme_override_font_sizes/font_size = 80
 text = "Welcome to The Thing Pinball"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="MPFSlide" type="Control" parent="ColorRect"]
+anchors_preset = 0
+offset_right = 1913.0
+offset_bottom = 1083.0
+script = ExtResource("1_wpbl6")

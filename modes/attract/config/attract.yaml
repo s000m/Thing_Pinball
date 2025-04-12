@@ -7,75 +7,17 @@ mode:
   code: attract.Attract
   stop_events: game_start
 
-# Use BCP events to trigger Godot scenes
-event_player:
-  mode_attract_started: godot_show_attract_scene
-  mode_attract_stopped: godot_hide_attract_scene
-  s_start_button_active: game_start  # This is the start button handling
-
-# Keep original slide player for compatibility
-slide_player:
-  mode_attract_started:
-    attract:
-      widgets:
-        - type: text
-          text: THING
-          font_size: 100
-          y: top-100
-          anchor_y: top
-          color: red
-        - type: text
-          text: PINBALL
-          font_size: 100
-          y: top-200
-          anchor_y: top
-          color: red
-        - type: text
-          text: PRESS START
-          font_size: 50
-          y: center-100
-          color: green
-          animations:
-            pre_show_slide:
-              - property: opacity
-                value: 1
-                duration: 0.5s
-              - property: opacity
-                value: 0
-                duration: 0.5s
-                repeat: true
-        - type: text
-          text: HIGH SCORES
-          font_size: 50
-          y: center
-          color: yellow
-        - type: text
-          text: "1. (machine|high_score1_name|PLAYER) (machine|high_score1_value|0)"
-          font_size: 30
-          y: center+50
-          color: white
-        - type: text
-          text: "2. (machine|high_score2_name|PLAYER) (machine|high_score2_value|0)"
-          font_size: 30
-          y: center+80
-          color: white
-        - type: text
-          text: "3. (machine|high_score3_name|PLAYER) (machine|high_score3_value|0)"
-          font_size: 30
-          y: center+110
-          color: white
-        - type: text
-          text: "4. (machine|high_score4_name|PLAYER) (machine|high_score4_value|0)"
-          font_size: 30
-          y: center+140
-          color: white
-
 sound_player:
   mode_attract_started:
     main_song: 
       bus: music
 
-#show_player:
+#slide_player:
 #  mode_attract_started:
-#    attract_display_loop:
-#      loops: -1
+#    attract:
+#        target: main_screen
+
+#  mode_attract_stopping:
+#    attract:
+#        action: remove
+
