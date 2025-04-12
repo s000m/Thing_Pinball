@@ -7,7 +7,7 @@ class Attract(Mode):
         
     def _start_button_pressed(self, **kwargs):
         # Check if there are enough balls available to play
-        if not self.machine.ball_controller.is_playable():
+        if self.machine.ball_controller.num_balls_known < 1:
             self.log.warning("Machine not playable, cannot start game.")
             self.machine.events.post('cannot_start_game_ball_count')
             return
