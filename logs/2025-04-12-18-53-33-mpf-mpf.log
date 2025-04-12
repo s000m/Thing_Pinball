@@ -1,0 +1,1394 @@
+2025-04-12 18:53:33,915 : INFO : root : Loading config.
+2025-04-12 18:53:33,918 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-12 18:53:33,919 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\1ab83842b7c8ed7e1902272067ddcd2b.mpf_cache
+2025-04-12 18:53:34,027 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-04-12 18:53:34,027 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-04-12 18:53:34,027 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\163fd46608d3c9469758c6512b5a030d.mpf_cache
+2025-04-12 18:53:34,028 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-04-12 18:53:34,029 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-04-12 18:53:34,029 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\93e42568b1004e720dbdafbb285adaaa.mpf_cache
+2025-04-12 18:53:34,030 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\base\config\base.yaml
+2025-04-12 18:53:34,030 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\5ffb3999d6de3e1d452090655c82bf2a.mpf_cache
+2025-04-12 18:53:34,031 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-04-12 18:53:34,031 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-04-12 18:53:34,031 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\163fd46608d3c9469758c6512b5a030d.mpf_cache
+2025-04-12 18:53:34,031 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-04-12 18:53:34,031 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-04-12 18:53:34,033 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\93e42568b1004e720dbdafbb285adaaa.mpf_cache
+2025-04-12 18:53:34,033 : DEBUG : YamlMultifileConfigLoader : Loading mode service from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\service\config\service.yaml
+2025-04-12 18:53:34,033 : DEBUG : YamlMultifileConfigLoader : Loading mode service from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\service\config\service.yaml
+2025-04-12 18:53:34,033 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8c668df6a84f4edcfda2189b877084c6.mpf_cache
+2025-04-12 18:53:34,033 : DEBUG : YamlMultifileConfigLoader : Loading mode tilt from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\tilt\config\tilt.yaml
+2025-04-12 18:53:34,033 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\81d0f34cbd4c6d61cd4dad95e5100b6a.mpf_cache
+2025-04-12 18:53:34,035 : DEBUG : YamlMultifileConfigLoader : Loading mode high_score from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\high_score\config\high_score.yaml
+2025-04-12 18:53:34,035 : DEBUG : YamlMultifileConfigLoader : Loading mode high_score from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\high_score\config\high_score.yaml
+2025-04-12 18:53:34,035 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\a714899e94406dd1f47e6e9bddbe0fef.mpf_cache
+2025-04-12 18:53:34,036 : DEBUG : YamlMultifileConfigLoader : Loading mode match from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\match\config\match.yaml
+2025-04-12 18:53:34,036 : DEBUG : YamlMultifileConfigLoader : Loading mode match from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\match\config\match.yaml
+2025-04-12 18:53:34,037 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\fda2b21e4ff4c8a0b48d4f712bf7675f.mpf_cache
+2025-04-12 18:53:34,037 : DEBUG : YamlMultifileConfigLoader : Loading mode mode_switcher from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\mode_switcher\config\mode_switcher.yaml
+2025-04-12 18:53:34,037 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\9cbbeec60769b6bc8d00b63a89255fac.mpf_cache
+2025-04-12 18:53:34,038 : DEBUG : YamlMultifileConfigLoader : Loading mode dog_hunt from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\dog_hunt\config\dog_hunt.yaml
+2025-04-12 18:53:34,038 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\49c1bb27bb76c6488cf72d0e1887aaaa.mpf_cache
+2025-04-12 18:53:34,039 : DEBUG : YamlMultifileConfigLoader : Loading mode discovery from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\discovery\config\discovery.yaml
+2025-04-12 18:53:34,039 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\eb740da6f3772dcfe6d89e142f4972f9.mpf_cache
+2025-04-12 18:53:34,039 : DEBUG : YamlMultifileConfigLoader : Loading mode infected from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\infected\config\infected.yaml
+2025-04-12 18:53:34,039 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8e53cff45209557b74353625b1fb9c7d.mpf_cache
+2025-04-12 18:53:34,040 : DEBUG : YamlMultifileConfigLoader : Loading mode blood_test from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\blood_test\config\blood_test.yaml
+2025-04-12 18:53:34,040 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\75ead186cfb0eee4579e59d5d273b950.mpf_cache
+2025-04-12 18:53:34,040 : DEBUG : YamlMultifileConfigLoader : Loading mode spider_head from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\spider_head\config\spider_head.yaml
+2025-04-12 18:53:34,040 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\46ee3106793b7c66df6b24732de735de.mpf_cache
+2025-04-12 18:53:34,041 : DEBUG : YamlMultifileConfigLoader : Loading mode wizard from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\wizard\config\wizard.yaml
+2025-04-12 18:53:34,041 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\a6f0737b5bca2a955dd9d538ee17b581.mpf_cache
+2025-04-12 18:53:34,041 : DEBUG : YamlMultifileConfigLoader : Loading mode multiball from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\multiball\config\multiball.yaml
+2025-04-12 18:53:34,041 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\72ccc58689b118af298151666e9c5198.mpf_cache
+2025-04-12 18:53:34,043 : DEBUG : YamlMultifileConfigLoader : Loading mode ball_lock from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\ball_lock\config\ball_lock.yaml
+2025-04-12 18:53:34,045 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\082c9c49689a7facf0c58e67d77b7f58.mpf_cache
+2025-04-12 18:53:34,047 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-04-12 18:53:34,048 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-04-12-18-53-33-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\homebrew\\Documents\\GitHub\\Thing_Pinball\\logs\\2025-04-12-18-53-33-mpf-mpf.log'}
+2025-04-12 18:53:34,048 : INFO : Machine : MPF path: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-04-12 18:53:34,048 : INFO : Machine : Machine path: C:\Users\homebrew\Documents\GitHub\Thing_Pinball
+2025-04-12 18:53:34,048 : INFO : Machine : Platform: win32
+2025-04-12 18:53:34,048 : INFO : Machine : Python executable location: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\python.exe
+2025-04-12 18:53:34,048 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2025-04-12 18:53:34,050 : DEBUG : asyncio : Using proactor: IocpProactor
+2025-04-12 18:53:34,051 : INFO : Machine : Initializing MPF...
+2025-04-12 18:53:34,139 : DEBUG : TextUi : Text UI is disabled. TUI option setting: False, Asciimatics loaded: <class 'asciimatics.scene.Scene'>
+2025-04-12 18:53:34,151 : INFO : FAST [NET] : Trying to connect to com4 at 921600bps
+2025-04-12 18:53:34,157 : INFO : FAST [NET] : Connected to com4 at 921600bps
+2025-04-12 18:53:34,168 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.21
+2025-04-12 18:53:34,200 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2025-04-12 18:53:34,216 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-04-12 18:53:34,231 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-04-12 18:53:34,247 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-04-12 18:53:34,249 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,276 : DEBUG : YAML File Interface : Loading file: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\data/machine_vars.yaml
+2025-04-12 18:53:34,282 : INFO : EventManager : Event: ======'machine_var_game_mode_ball_lock_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,282 : INFO : EventManager : Event: ======'machine_var_game_mode_blood_test_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,282 : INFO : EventManager : Event: ======'machine_var_game_mode_discovery_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,282 : INFO : EventManager : Event: ======'machine_var_game_mode_dog_hunt_complete'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,282 : INFO : EventManager : Event: ======'machine_var_game_mode_infected_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,282 : INFO : EventManager : Event: ======'machine_var_game_mode_multiball_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,282 : INFO : EventManager : Event: ======'machine_var_game_mode_spider_head_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,282 : INFO : EventManager : Event: ======'machine_var_game_mode_wizard_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,283 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,283 : INFO : EventManager : Event: ======'machine_var_qualified_mode'====== Args={'value': 'None', 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,283 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,283 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,283 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,381 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,381 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,381 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,381 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,381 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,381 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\homebrew\\Documents\\GitHub\\Thing_Pinball\\logs\\2025-04-12-18-53-33-mpf-mpf.log', 'prev_value': None, 'change': True}
+2025-04-12 18:53:34,381 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-04-12 18:53:34,387 : DEBUG : ModeController : Loaded mode discovery
+2025-04-12 18:53:34,392 : DEBUG : ModeController : Loaded mode game
+2025-04-12 18:53:34,395 : DEBUG : ModeController : Loaded mode infected
+2025-04-12 18:53:34,398 : DEBUG : ModeController : Loaded mode match
+2025-04-12 18:53:34,402 : DEBUG : ModeController : Loaded mode high_score
+2025-04-12 18:53:34,405 : DEBUG : ModeController : Loaded mode blood_test
+2025-04-12 18:53:34,407 : DEBUG : ModeController : Loaded mode wizard
+2025-04-12 18:53:34,410 : DEBUG : ModeController : Loaded mode ball_lock
+2025-04-12 18:53:34,412 : DEBUG : ModeController : Loaded mode mode_switcher
+2025-04-12 18:53:34,412 : DEBUG : ModeController : Loaded mode base
+2025-04-12 18:53:34,416 : DEBUG : ModeController : Loaded mode dog_hunt
+2025-04-12 18:53:34,419 : DEBUG : ModeController : Loaded mode spider_head
+2025-04-12 18:53:34,422 : DEBUG : ModeController : Loaded mode tilt
+2025-04-12 18:53:34,424 : DEBUG : ModeController : Loaded mode service
+2025-04-12 18:53:34,426 : DEBUG : ModeController : Loaded mode multiball
+2025-04-12 18:53:34,429 : DEBUG : ModeController : Loaded mode attract
+2025-04-12 18:53:34,434 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_diverter:pwm_on_ms" is not a valid setting name.
+2025-04-12 18:53:34,434 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_diverter:pwm_off_ms" is not a valid setting name.
+2025-04-12 18:53:34,434 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_up_post:pwm_on_ms" is not a valid setting name.
+2025-04-12 18:53:34,434 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_up_post:pwm_off_ms" is not a valid setting name.
+2025-04-12 18:53:34,438 : DEBUG : ball_device.bd_trough : Configuring device with settings: '{'ball_switches': 's_trough_ball, s_trough_7, s_trough_6', 'eject_coil': 'c_trough', 'tags': ['trough', 'home', 'drain'], 'jam_switch': 's_trough_ball_jam', 'eject_timeouts': [3000], 'debug': True, 'eject_targets': [<ball_device.bd_shooter_lane>], 'confirm_eject_type': 'target', 'label': '%', 'console_log': 'full', 'file_log': 'full', 'entrance_events': {}, 'idle_missing_ball_timeout': 5.0, 'captures_from': <playfield.playfield>, 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'request_ball_events': {}, 'eject_events': {}, 'eject_all_events': {}, 'mechanical_eject': False, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2025-04-12 18:53:34,438 : DEBUG : ball_device.bd_ball_lock : Configuring device with settings: '{'ball_switches': 's_ball_lock_1, s_ball_lock_2, s_ball_lock_3', 'eject_coil': 'c_up_post', 'tags': ['ball_lock'], 'eject_timeouts': [3000], 'confirm_eject_type': 'target', 'debug': True, 'auto_fire_on_unexpected_ball': False, 'eject_targets': [<playfield.playfield>], 'entrance_switch': 's_right_ramp_entry_1', 'entrance_switch_full_timeout': '3s', 'label': '%', 'console_log': 'full', 'file_log': 'full', 'entrance_events': {}, 'idle_missing_ball_timeout': 5.0, 'captures_from': <playfield.playfield>, 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'request_ball_events': {}, 'eject_events': {}, 'eject_all_events': {}, 'mechanical_eject': False, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'target_on_unexpected_ball': None}'
+2025-04-12 18:53:34,438 : DEBUG : ball_device.bd_mode : Configuring device with settings: '{'ball_switches': 's_mode_opto', 'eject_coil': 'c_mode_vuk', 'eject_timeouts': [3000], 'confirm_eject_type': 'target', 'tags': ['captures_from_playfield'], 'debug': True, 'eject_targets': [<playfield.playfield>], 'entrance_events': {'mode_vuk_entrance': 0}, 'entrance_count_delay': '100ms', 'label': '%', 'console_log': 'full', 'file_log': 'full', 'idle_missing_ball_timeout': 5.0, 'captures_from': <playfield.playfield>, 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'request_ball_events': {}, 'eject_events': {}, 'eject_all_events': {}, 'mechanical_eject': False, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2025-04-12 18:53:34,439 : DEBUG : diverter.diverter : Configuring device with settings: '{'activation_coil': <coil.c_diverter>, 'type': 'hold', 'activation_time': 3000, 'debug': True, 'activate_events': {'activate_diverter': 0, 'mode_ball_lock_started': 0}, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'activation_switches': [], 'allow_multiple_concurrent_ejects_to_same_side': True, 'cool_down_time': 0, 'deactivate_events': {}, 'deactivation_switches': [], 'deactivation_coil': None, 'disable_events': {}, 'disable_switches': [], 'enable_events': {}, 'feeder_devices': [<playfield.playfield>], 'reset_events': {'machine_reset_phase_3': 0}, 'targets_when_active': [<playfield.playfield>], 'targets_when_inactive': [<playfield.playfield>], 'ball_search_order': 100, 'ball_search_hold_time': 1000, 'playfield': <playfield.playfield>}'
+2025-04-12 18:53:34,440 : WARNING : ConfigValidator : Unrecognized config setting. "ball_holds:mode_vuk_hold:auto_release_after" is not a valid setting name.
+2025-04-12 18:53:34,440 : WARNING : ConfigValidator : Unrecognized config setting. "timed_switches:mode_vuk_delayed_eject:state_when_released" is not a valid setting name.
+2025-04-12 18:53:34,441 : WARNING : ConfigValidator : Unrecognized config setting. "mode:discovery:timers:discovery_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:53:34,441 : WARNING : ConfigValidator : Unrecognized config setting. "mode:infected:timers:infected_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:53:34,441 : WARNING : ConfigValidator : Unrecognized config setting. "mode:blood_test:timers:blood_test_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:53:34,442 : WARNING : ConfigValidator : Unrecognized config setting. "mode:wizard:timers:wizard_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:53:34,442 : WARNING : ConfigValidator : Unrecognized config setting. "mode:ball_lock:multiball_locks:ball_lock:full_event" is not a valid setting name.
+2025-04-12 18:53:34,442 : WARNING : ConfigValidator : Unrecognized config setting. "mode:ball_lock:multiball_locks:ball_lock:replace_balls_in_play" is not a valid setting name.
+2025-04-12 18:53:34,442 : WARNING : ConfigValidator : Unrecognized config setting. "mode:base:timers:mode_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:53:34,443 : WARNING : ConfigValidator : Unrecognized config setting. "mode:dog_hunt:timers:dog_hunt_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:53:34,443 : WARNING : ConfigValidator : Unrecognized config setting. "mode:spider_head:timers:spider_head_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:53:34,444 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:multiball_jackpot_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:53:34,444 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:right_ramp_validity_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:53:34,452 : INFO : EventManager : Event: ======'drop_target_bank_vuk_bank_up'====== Args={}
+2025-04-12 18:53:34,452 : INFO : EventManager : Event: ======'logicblock_spinner_value_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-12 18:53:34,452 : INFO : EventManager : Event: ======'logicblock_newton_hit_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-12 18:53:34,452 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-12 18:53:34,452 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-12 18:53:36,741 : WARNING : Machine : Iterating device collections directly is deprecated and will be removed. Access by value(): device_collections[switches] -> device_collections['switches'].values()
+2025-04-12 18:53:36,741 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2025-04-12 18:53:36,742 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-12 18:53:36,742 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-12 18:53:36,742 : INFO : SwitchController : <<<<<<< 's_newton_opto_made' active >>>>>>>
+2025-04-12 18:53:36,742 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-04-12 18:53:36,744 : WARNING : ConfigValidator : Unrecognized config setting. "coil_player:enable_ms" is not a valid setting name.
+2025-04-12 18:53:36,745 : WARNING : ConfigValidator : Unrecognized config setting. "coil_player:enable_ms" is not a valid setting name.
+2025-04-12 18:53:36,753 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-04-12 18:53:36,754 : INFO : SwitchController : Found active switch: (37, [FAST Platform Interface]) <switch.s_trough_6>
+2025-04-12 18:53:36,754 : INFO : SwitchController : Found active switch: (38, [FAST Platform Interface]) <switch.s_trough_7>
+2025-04-12 18:53:36,754 : INFO : SwitchController : Found active switch: (51, [FAST Platform Interface]) <switch.s_trough_ball>
+2025-04-12 18:53:36,754 : INFO : SwitchController : Found active switch: (45, [FAST Platform Interface]) <switch.s_newton_opto_made>
+2025-04-12 18:53:36,754 : INFO : SwitchController : Found active switch: (10, [FAST Platform Interface]) <switch.s_start_button>
+2025-04-12 18:53:36,760 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,760 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,760 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,760 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,761 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,761 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,761 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,761 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,761 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,761 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,761 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,761 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,762 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,762 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,762 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,762 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,762 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,762 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,762 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,762 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,762 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,762 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,762 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,762 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,762 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,763 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,763 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,763 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,763 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,763 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,763 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,763 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:36,766 : DEBUG : YAML File Interface : Loading file: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\data/high_scores.yaml
+2025-04-12 18:53:36,769 : WARNING : ConfigValidator : Unrecognized config setting. "high_score:events_when_complete" is not a valid setting name.
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'GRAND CHAMPION', 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'THING', 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 5000000, 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'MPF', 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 4000000, 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'PINBALL', 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 3000000, 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'WIZARD', 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 2000000, 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'PLAYER', 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,769 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 1000000, 'prev_value': None, 'change': True}
+2025-04-12 18:53:36,770 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-04-12 18:53:36,773 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-04-12 18:53:47,169 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-04-12 18:53:47,170 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-04-12 18:53:47,171 : DEBUG : ball_device.bd_trough : SC: Counted 3 balls. Active switches: [<switch.s_trough_ball>, <switch.s_trough_7>, <switch.s_trough_6>]. Old: None
+2025-04-12 18:53:47,171 : DEBUG : ball_device.bd_trough : SC: New count 3 last: None
+2025-04-12 18:53:47,173 : INFO : ball_device.bd_trough : BCH: Initial count: 3
+2025-04-12 18:53:47,173 : DEBUG : ball_device.bd_trough : SC: Counted 3 balls. Active switches: [<switch.s_trough_ball>, <switch.s_trough_7>, <switch.s_trough_6>]. Old: 3
+2025-04-12 18:53:47,173 : DEBUG : ball_device.bd_trough : SC: New count 3 last: 3
+2025-04-12 18:53:47,173 : INFO : ball_device.bd_trough : State: idle
+2025-04-12 18:53:47,173 : DEBUG : ball_device.bd_trough : Waiting for eject request.
+2025-04-12 18:53:47,174 : INFO : ball_device.bd_shooter_lane : BCH: Initial count: 0
+2025-04-12 18:53:47,174 : INFO : ball_device.bd_shooter_lane : State: idle
+2025-04-12 18:53:47,175 : DEBUG : ball_device.bd_ball_lock : SC: Counted 0 balls. Active switches: []. Old: None
+2025-04-12 18:53:47,175 : DEBUG : ball_device.bd_ball_lock : SC: New count 0 last: None
+2025-04-12 18:53:47,175 : INFO : ball_device.bd_ball_lock : BCH: Initial count: 0
+2025-04-12 18:53:47,175 : INFO : ball_device.bd_ball_lock : State: idle
+2025-04-12 18:53:47,176 : DEBUG : ball_device.bd_ball_lock : Waiting for eject request.
+2025-04-12 18:53:47,176 : DEBUG : ball_device.bd_mode : SC: Counted 0 balls. Active switches: []. Old: None
+2025-04-12 18:53:47,176 : DEBUG : ball_device.bd_mode : SC: New count 0 last: None
+2025-04-12 18:53:47,177 : INFO : ball_device.bd_mode : BCH: Initial count: 0
+2025-04-12 18:53:47,177 : INFO : ball_device.bd_mode : State: idle
+2025-04-12 18:53:47,178 : DEBUG : ball_device.bd_mode : Waiting for eject request.
+2025-04-12 18:53:47,184 : DEBUG : YAML File Interface : Loading file: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\data/audits.yaml
+2025-04-12 18:53:47,195 : DEBUG : Machine : "info_lights:" section not found in machine configuration, so the InfoLights will not be used.
+2025-04-12 18:53:47,199 : DEBUG : Machine : "switch_player:" section not found in machine configuration, so the SwitchPlayer will not be used.
+2025-04-12 18:53:47,204 : DEBUG : Machine : "twitch_client:" section not found in machine configuration, so the TwitchBot will not be used.
+2025-04-12 18:53:47,204 : DEBUG : Machine : "virtual_segment_display_connector:" section not found in machine configuration, so the VirtualSegmentDisplayConnector will not be used.
+2025-04-12 18:53:47,204 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-04-12 18:53:47,205 : DEBUG : ShowController : Loading show: flash
+2025-04-12 18:53:47,205 : DEBUG : ShowController : Loading show: on
+2025-04-12 18:53:47,206 : DEBUG : ShowController : Loading show: off
+2025-04-12 18:53:47,206 : DEBUG : ShowController : Loading show: led_color
+2025-04-12 18:53:47,206 : DEBUG : ShowController : Loading show: bl_color
+2025-04-12 18:53:47,207 : DEBUG : ShowController : Loading show: flash_color
+2025-04-12 18:53:47,207 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:47,207 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:47,207 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:47,207 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:47,208 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:47,208 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:53:47,209 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-04-12 18:53:47,210 : DEBUG : ball_device.bd_trough : SC: Counted 3 balls. Active switches: [<switch.s_trough_ball>, <switch.s_trough_7>, <switch.s_trough_6>]. Old: 3
+2025-04-12 18:53:47,210 : DEBUG : ball_device.bd_ball_lock : SC: Counted 0 balls. Active switches: []. Old: 0
+2025-04-12 18:53:47,210 : DEBUG : ball_device.bd_mode : SC: Counted 0 balls. Active switches: []. Old: 0
+2025-04-12 18:53:47,210 : INFO : BallController : Initial balls found: 3
+2025-04-12 18:53:47,213 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,214 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 525, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,214 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_3bank_tgt_d'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,215 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_3bank_tgt_g'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,215 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_3bank_tgt_o'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,215 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_back_button'====== Args={'value': 89, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,215 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_down_button'====== Args={'value': 89, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,216 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_enter_button'====== Args={'value': 89, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,216 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlane_left'====== Args={'value': 90, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,216 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlane_right'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,216 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_launch'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,216 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_flipper'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,216 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_inlane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,216 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_inner_lane'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,216 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outer_lane'====== Args={'value': 153, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,216 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outlane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,216 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_ramp_entry_1'====== Args={'value': 58, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,217 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_sling'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,217 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_slingshot'====== Args={'value': 90, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,217 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_mead'====== Args={'value': 267, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,217 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_newton_opto_made'====== Args={'value': 133, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,217 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outlane_left'====== Args={'value': 121, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,217 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outlane_right'====== Args={'value': 90, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,217 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_percy'====== Args={'value': 85, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,217 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_plunger'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,217 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_1'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,218 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_2'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,218 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_3'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,218 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_flipper'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,218 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_inlane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,218 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_inner_lane'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,218 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_orbit_1'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,218 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outer_lane'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,219 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outlane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,219 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_sling'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,219 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_slingshot'====== Args={'value': 33, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,219 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_scanlan'====== Args={'value': 204, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,219 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_spinner'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,219 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,219 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start_button'====== Args={'value': 90, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,219 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_1'====== Args={'value': 61, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,219 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_2'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,219 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_3'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,220 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_4'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,220 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_5'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,220 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_6'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,220 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_1'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,220 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_2'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,220 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_3'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,220 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_4'====== Args={'value': 278, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,220 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_5'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,220 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_6'====== Args={'value': 95, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,220 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_up_button'====== Args={'value': 89, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,221 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,221 : INFO : EventManager : Event: ======'machine_var_audits_shots_mead_shot'====== Args={'value': 223, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,221 : INFO : EventManager : Event: ======'machine_var_audits_shots_percy_shot'====== Args={'value': 56, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,221 : INFO : EventManager : Event: ======'machine_var_audits_shots_scanlan_shot'====== Args={'value': 121, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,221 : INFO : EventManager : Event: ======'machine_var_audits_shots_video_shot_1'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,221 : INFO : EventManager : Event: ======'machine_var_audits_shots_video_shot_2'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3bank_tgt_d'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3bank_tgt_g'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3bank_tgt_o'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_auto_launcher'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ball_drain'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ball_lock_1'====== Args={'value': 145, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ball_lock_2'====== Args={'value': 124, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ball_lock_3'====== Args={'value': 125, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_blood_target'====== Args={'value': 356, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_down_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_enter_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_left'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_right'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_button_2'====== Args={'value': 227, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 36, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_button'====== Args={'value': 219, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_eos'====== Args={'value': 198, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,223 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,223 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inner_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,223 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outer_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,223 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,223 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_ramp_entry_1'====== Args={'value': 1028, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,223 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_slingshot'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mead'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mode_opto'====== Args={'value': 107, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_newton_opto_made'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_left'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_right'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_percy'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_1'====== Args={'value': 58, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_2'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_3'====== Args={'value': 44, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp_up_1'====== Args={'value': 157, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_button_2'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,225 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 131, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,225 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_button'====== Args={'value': 56, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,225 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_eos'====== Args={'value': 53, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,225 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,225 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inner_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,225 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_orbit_1'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,225 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outer_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,225 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,225 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_ramp_entry_1'====== Args={'value': 103, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,225 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,225 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_slingshot'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,225 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_scanlan'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_shooter_lane'====== Args={'value': 216, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 475, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_switch_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 96, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 103, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 91, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 88, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 123, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_7'====== Args={'value': 202, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball'====== Args={'value': 241, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_1'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_2'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_6'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_jam'====== Args={'value': 270, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_eject_coil'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_up_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:53:47,227 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-04-12 18:53:47,229 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-04-12 18:53:47,230 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-04-12 18:53:47,243 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-04-12 18:53:47,244 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-04-12 18:53:47,244 : INFO : EventManager : Event: ======'mode_tilt_will_start'====== Args={'queue': <QueuedEvent>}
+2025-04-12 18:53:47,245 : INFO : EventManager : Event: ======'mode_tilt_starting'====== Args={'queue': <QueuedEvent>}
+2025-04-12 18:53:47,245 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={'queue': <QueuedEvent>}
+2025-04-12 18:53:47,245 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={'queue': <QueuedEvent>}
+2025-04-12 18:53:47,245 : DEBUG : diverter.diverter : Deactivating Diverter
+2025-04-12 18:53:47,245 : INFO : EventManager : Event: ======'diverter_diverter_deactivating'====== Args={}
+2025-04-12 18:53:47,245 : DEBUG : diverter.diverter : Disabling coil to activate diverter
+2025-04-12 18:53:47,245 : INFO : coil.c_diverter : Disabling Driver
+2025-04-12 18:53:47,247 : DEBUG : FAST Driver : Disabling driver 20
+2025-04-12 18:53:47,247 : INFO : Mode.attract : Started. Priority: 10
+2025-04-12 18:53:47,247 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-12 18:53:47,247 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={'queue': <QueuedEvent>}
+2025-04-12 18:53:47,247 : INFO : Mode.tilt : Started. Priority: 1000000
+2025-04-12 18:53:47,247 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-12 18:53:47,247 : INFO : EventManager : Event: ======'mode_tilt_started'====== Args={'queue': <QueuedEvent>}
+2025-04-12 18:53:47,249 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-04-12 18:53:47,251 : INFO : Machine : Starting the main run loop.
+2025-04-12 18:53:47,304 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-12 18:53:47,304 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-04-12 18:53:47,304 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'queue': '<QueuedEvent>', 'cmd': 'slides_play', '_from_bcp': True}
+2025-04-12 18:54:52,364 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-04-12 18:54:52,458 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-04-12 18:54:52,458 : INFO : EventManager : Event: ======'s_start_button_active'====== Args={}
+2025-04-12 18:54:52,459 : INFO : Mode.attract : Start button pressed. Starting game...
+2025-04-12 18:54:52,459 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-04-12 18:54:52,459 : INFO : EventManager : Event: ======'game_start'====== Args={'priority': 0}
+2025-04-12 18:54:52,460 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'priority': 0}
+2025-04-12 18:54:52,462 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'priority': 0}
+2025-04-12 18:54:52,462 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2025-04-12 18:54:52,462 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2025-04-12 18:54:52,462 : INFO : Mode.attract : Stopped.
+2025-04-12 18:54:52,462 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-12 18:54:52,464 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2025-04-12 18:54:52,464 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2025-04-12 18:54:52,464 : INFO : Mode.game : Started. Priority: 20
+2025-04-12 18:54:52,464 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-12 18:54:52,464 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'priority': 0}
+2025-04-12 18:54:52,467 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2025-04-12 18:54:52,468 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2025-04-12 18:54:52,469 : DEBUG : Auditor : Enabling the Auditor
+2025-04-12 18:54:52,470 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('bd6f2506-d3f6-4fba-8d26-cd9373e41425'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('ea9e92f4-6fad-49da-b2fa-9683c3d80ae5'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-04-12 18:54:52,472 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2025-04-12 18:54:52,472 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2025-04-12 18:54:52,472 : DEBUG : Player : Creating new player: Player 1. (player index '0')
+2025-04-12 18:54:52,472 : DEBUG : Player : Setting 'game_mode_active' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,472 : DEBUG : Player : Setting 'current_game_mode' to: None, (prior: 0, change: True)
+2025-04-12 18:54:52,473 : DEBUG : Player : Setting 'phase1_complete' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,473 : DEBUG : Player : Setting 'dog_hunt_complete' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,473 : DEBUG : Player : Setting 'discovery_complete' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,473 : DEBUG : Player : Setting 'infected_complete' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,473 : DEBUG : Player : Setting 'blood_test_complete' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,474 : DEBUG : Player : Setting 'spider_head_complete' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,474 : DEBUG : Player : Setting 'wizard_complete' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,474 : DEBUG : Player : Setting 'ball_lock_complete' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,474 : DEBUG : Player : Setting 'multiball_complete' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,474 : DEBUG : Player : Setting 'spinner_value' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,474 : DEBUG : Player : Setting 'pop_bumper_value' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,474 : DEBUG : Player : Setting 'newton_shots' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,474 : DEBUG : Player : Setting 'locked_balls' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,475 : DEBUG : Player : Setting 'balls_in_play' to: 1, (prior: 0, change: 1)
+2025-04-12 18:54:52,475 : DEBUG : Player : Setting 'jackpot_value' to: 10000, (prior: 0, change: 10000)
+2025-04-12 18:54:52,475 : DEBUG : Player : Setting 'left_ramp_hits' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,475 : DEBUG : Player : Setting 'left_ramp_lock_hits' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,475 : DEBUG : Player : Setting 'spinner_hits' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,475 : DEBUG : Player : Setting 'pop_bumper_wizard' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,475 : DEBUG : Player : Setting 'ball_lock_active' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,475 : DEBUG : Player : Setting 'super_jackpot_value' to: 100000, (prior: 0, change: 100000)
+2025-04-12 18:54:52,476 : DEBUG : Player : Setting 'jackpot_state' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,476 : DEBUG : Player : Setting 'right_ramp_valid' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,476 : DEBUG : Player : Setting 'score' to: 0, (prior: 0, change: 0)
+2025-04-12 18:54:52,476 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-12 18:54:52,476 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2025-04-12 18:54:52,476 : INFO : Mode.game : Player added successfully. Total players: 1
+2025-04-12 18:54:52,478 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,479 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,479 : INFO : EventManager : Event: ======'player_game_mode_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,479 : INFO : EventManager : Event: ======'player_current_game_mode'====== Args={'value': 'None', 'prev_value': 'None', 'change': False, 'player_num': 1}
+2025-04-12 18:54:52,479 : INFO : EventManager : Event: ======'player_phase1_complete'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,479 : INFO : EventManager : Event: ======'player_dog_hunt_complete'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,479 : INFO : EventManager : Event: ======'player_discovery_complete'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,480 : INFO : EventManager : Event: ======'player_infected_complete'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,480 : INFO : EventManager : Event: ======'player_blood_test_complete'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,480 : INFO : EventManager : Event: ======'player_spider_head_complete'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,480 : INFO : EventManager : Event: ======'player_wizard_complete'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,480 : INFO : EventManager : Event: ======'player_ball_lock_complete'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,480 : INFO : EventManager : Event: ======'player_multiball_complete'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,480 : INFO : EventManager : Event: ======'player_spinner_value'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,481 : INFO : EventManager : Event: ======'player_pop_bumper_value'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,481 : INFO : EventManager : Event: ======'player_newton_shots'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,481 : INFO : EventManager : Event: ======'player_locked_balls'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,481 : INFO : EventManager : Event: ======'player_balls_in_play'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,481 : INFO : EventManager : Event: ======'player_jackpot_value'====== Args={'value': 10000, 'prev_value': 10000, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,481 : INFO : EventManager : Event: ======'player_left_ramp_hits'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,482 : INFO : EventManager : Event: ======'player_left_ramp_lock_hits'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,482 : INFO : EventManager : Event: ======'player_spinner_hits'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,482 : INFO : EventManager : Event: ======'player_pop_bumper_wizard'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,482 : INFO : EventManager : Event: ======'player_ball_lock_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,482 : INFO : EventManager : Event: ======'player_super_jackpot_value'====== Args={'value': 100000, 'prev_value': 100000, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,482 : INFO : EventManager : Event: ======'player_jackpot_state'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,482 : INFO : EventManager : Event: ======'player_right_ramp_valid'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,483 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:54:52,484 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2025-04-12 18:54:52,485 : INFO : drop_target_bank.vuk_bank : All targets are already up. Will not reset bank.
+2025-04-12 18:54:52,485 : INFO : EventManager : Event: ======'setup_game_variables'====== Args={'priority': 0}
+2025-04-12 18:54:52,486 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-12 18:54:52,486 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-12 18:54:52,487 : DEBUG : Player : Setting 'ball' to: 1, (prior: 0, change: 1)
+2025-04-12 18:54:52,487 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-12 18:54:52,488 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-12 18:54:52,503 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-12 18:54:52,504 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-12 18:54:52,505 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-12 18:54:52,505 : DEBUG : Player : Setting 'base_mode_timer_tick' to: 60, (prior: 0, change: 60)
+2025-04-12 18:54:52,505 : INFO : EventManager : Event: ======'player_base_mode_timer_tick'====== Args={'value': 60, 'prev_value': 0, 'change': 60, 'player_num': 1}
+2025-04-12 18:54:52,510 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-12 18:54:52,510 : INFO : EventManager : Event: ======'bd_trough_eject'====== Args={'priority': 0}
+2025-04-12 18:54:52,511 : INFO : Mode.base : Started. Priority: 100
+2025-04-12 18:54:52,511 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-12 18:54:52,511 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-12 18:54:52,512 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-04-12 18:54:52,512 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-12 18:54:52,514 : INFO : EventManager : Event: ======'mode_mode_switcher_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-12 18:54:52,515 : INFO : EventManager : Event: ======'mode_mode_switcher_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-12 18:54:52,515 : INFO : EventManager : Event: ======'ball_save_ball_save_enabled'====== Args={}
+2025-04-12 18:54:52,515 : INFO : EventManager : Event: ======'logicblock_spinner_value_updated'====== Args={'value': 0, 'enabled': True}
+2025-04-12 18:54:52,515 : INFO : EventManager : Event: ======'logicblock_newton_hit_counter_updated'====== Args={'value': 0, 'enabled': True}
+2025-04-12 18:54:52,515 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 0, 'enabled': True}
+2025-04-12 18:54:52,515 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 0, 'enabled': True}
+2025-04-12 18:54:52,516 : INFO : drop_target_bank.vuk_bank : All targets are already up. Will not reset bank.
+2025-04-12 18:54:52,516 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 0, 'enabled': True}
+2025-04-12 18:54:52,516 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 0, 'enabled': True}
+2025-04-12 18:54:52,516 : DEBUG : FAST Driver : Setting hardware rule for driver 13. Mode: None. Switch: 3D. coil_settings: DriverSettings(hw_driver=<mpf.platforms.fast.fast_driver.FASTDriver object at 0x000002476DA012A0>, pulse_settings=PulseSettings(power=1.0, duration=30), hold_settings=None, recycle=True). kwargs: {}.
+2025-04-12 18:54:52,516 : DEBUG : FAST Driver : Setting hardware rule for driver 14. Mode: None. Switch: 3A. coil_settings: DriverSettings(hw_driver=<mpf.platforms.fast.fast_driver.FASTDriver object at 0x000002476DA01310>, pulse_settings=PulseSettings(power=1.0, duration=30), hold_settings=None, recycle=True). kwargs: {}.
+2025-04-12 18:54:52,517 : DEBUG : FAST Driver : Setting hardware rule for driver 23. Mode: None. Switch: 29. coil_settings: DriverSettings(hw_driver=<mpf.platforms.fast.fast_driver.FASTDriver object at 0x000002476DA017E0>, pulse_settings=PulseSettings(power=1.0, duration=25), hold_settings=None, recycle=True). kwargs: {}.
+2025-04-12 18:54:52,517 : DEBUG : FAST Driver : Setting hardware rule for driver 22. Mode: None. Switch: 2C. coil_settings: DriverSettings(hw_driver=<mpf.platforms.fast.fast_driver.FASTDriver object at 0x000002476DA01770>, pulse_settings=PulseSettings(power=1.0, duration=25), hold_settings=None, recycle=True). kwargs: {}.
+2025-04-12 18:54:52,517 : DEBUG : FAST Driver : Setting hardware rule for driver 17. Mode: None. Switch: 2B. coil_settings: DriverSettings(hw_driver=<mpf.platforms.fast.fast_driver.FASTDriver object at 0x000002476DA01460>, pulse_settings=PulseSettings(power=1.0, duration=25), hold_settings=None, recycle=True). kwargs: {}.
+2025-04-12 18:54:52,517 : DEBUG : FAST Driver : Setting hardware rule for driver 9. Mode: 18. Switch: 09. coil_settings: DriverSettings(hw_driver=<mpf.platforms.fast.fast_driver.FASTDriver object at 0x000002476DA010E0>, pulse_settings=PulseSettings(power=1.0, duration=30), hold_settings=None, recycle=False). kwargs: {}.
+2025-04-12 18:54:52,517 : DEBUG : FAST Driver : Sending config to driver 9 (0x09). one_shot: False. wait_to_confirm: False
+2025-04-12 18:54:52,518 : DEBUG : FAST Driver : Setting hardware rule for driver 8. Mode: 18. Switch: 09. coil_settings: DriverSettings(hw_driver=<mpf.platforms.fast.fast_driver.FASTDriver object at 0x000002476DA01070>, pulse_settings=PulseSettings(power=1.0, duration=10), hold_settings=HoldSettings(power=1.0, duration=None), recycle=False). kwargs: {}.
+2025-04-12 18:54:52,518 : DEBUG : FAST Driver : Sending config to driver 8 (0x08). one_shot: False. wait_to_confirm: False
+2025-04-12 18:54:52,518 : DEBUG : FAST Driver : Setting hardware rule for driver 11. Mode: 18. Switch: 11. coil_settings: DriverSettings(hw_driver=<mpf.platforms.fast.fast_driver.FASTDriver object at 0x000002476DA011C0>, pulse_settings=PulseSettings(power=1.0, duration=30), hold_settings=None, recycle=False). kwargs: {}.
+2025-04-12 18:54:52,518 : DEBUG : FAST Driver : Sending config to driver 11 (0x0B). one_shot: False. wait_to_confirm: False
+2025-04-12 18:54:52,518 : DEBUG : FAST Driver : Setting hardware rule for driver 10. Mode: 18. Switch: 11. coil_settings: DriverSettings(hw_driver=<mpf.platforms.fast.fast_driver.FASTDriver object at 0x000002476DA01150>, pulse_settings=PulseSettings(power=1.0, duration=10), hold_settings=HoldSettings(power=1.0, duration=None), recycle=False). kwargs: {}.
+2025-04-12 18:54:52,518 : DEBUG : FAST Driver : Sending config to driver 10 (0x0A). one_shot: False. wait_to_confirm: False
+2025-04-12 18:54:52,518 : INFO : EventManager : Event: ======'reset_player_shot_counters'====== Args={'priority': 0}
+2025-04-12 18:54:52,518 : INFO : EventManager : Event: ======'pulse_upramp_on_start'====== Args={'priority': 0}
+2025-04-12 18:54:52,519 : INFO : coil.c_upramp : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:54:52,519 : DEBUG : FAST Driver : Pulsing driver 18 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:54:52,519 : INFO : Mode.mode_switcher : Started. Priority: 500
+2025-04-12 18:54:52,519 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-12 18:54:52,519 : INFO : EventManager : Event: ======'mode_mode_switcher_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-12 18:54:52,519 : INFO : Mode.mode_switcher : Mode Switcher started
+2025-04-12 18:54:52,519 : INFO : EventManager : Event: ======'machine_var_qualified_mode'====== Args={'value': 'none', 'prev_value': 'None', 'change': True}
+2025-04-12 18:54:52,521 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2025-04-12 18:54:52,522 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2025-04-12 18:54:52,522 : INFO : ball_device.bd_shooter_lane : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2025-04-12 18:54:52,522 : DEBUG : ball_device.bd_trough : Adding eject chain
+2025-04-12 18:54:52,522 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-04-12 18:54:52,524 : DEBUG : ball_device.bd_trough : Got eject request
+2025-04-12 18:54:52,525 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 3 Old count: 3
+2025-04-12 18:54:52,525 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-12 18:54:52,526 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_shooter_lane>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2025-04-12 18:54:52,527 : INFO : ball_device.bd_shooter_lane : State: waiting_for_ball
+2025-04-12 18:54:52,529 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-12 18:54:52,529 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_shooter_lane>
+2025-04-12 18:54:52,529 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_shooter_lane>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2025-04-12 18:54:52,531 : DEBUG : ball_device.bd_trough : Entered eject mode.
+2025-04-12 18:54:52,534 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-12 18:54:52,535 : DEBUG : ball_device.bd_trough : Firing eject coil. Current balls: 3.
+2025-04-12 18:54:52,553 : INFO : coil.c_trough : Pulsing Driver for 25ms (1.0 pulse_power)
+2025-04-12 18:54:52,553 : DEBUG : FAST Driver : Pulsing driver 12 with pulse_settings: PulseSettings(power=1.0, duration=25).
+2025-04-12 18:54:52,570 : INFO : SwitchController : <<<<<<< 's_ramp_up_1' active >>>>>>>
+2025-04-12 18:54:52,572 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-04-12 18:54:52,572 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp_up_1'====== Args={'value': 158, 'prev_value': 157, 'change': 1}
+2025-04-12 18:54:52,574 : INFO : SwitchController : <<<<<<< 's_ramp_up_1' inactive >>>>>>>
+2025-04-12 18:54:52,574 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-04-12 18:54:52,574 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-04-12 18:54:52,585 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-04-12 18:54:52,585 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_jam'====== Args={'value': 271, 'prev_value': 270, 'change': 1}
+2025-04-12 18:54:52,600 : INFO : SwitchController : <<<<<<< 's_ramp_up_1' active >>>>>>>
+2025-04-12 18:54:52,601 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-04-12 18:54:52,601 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp_up_1'====== Args={'value': 159, 'prev_value': 158, 'change': 1}
+2025-04-12 18:54:52,601 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' inactive >>>>>>>
+2025-04-12 18:54:52,601 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-04-12 18:54:52,601 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-04-12 18:54:52,663 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-12 18:54:52,664 : DEBUG : ball_device.bd_trough : SC: Ball left. Old count: 3
+2025-04-12 18:54:52,664 : DEBUG : ball_device.bd_trough : Got ball left during eject
+2025-04-12 18:54:52,664 : DEBUG : ball_device.bd_trough : SC: Switch 's_trough_ball' changed too recently. Aborting count!
+2025-04-12 18:54:52,665 : INFO : ball_device.bd_trough : State: ball_left
+2025-04-12 18:54:52,665 : INFO : ball_device.bd_trough : Ball left
+2025-04-12 18:54:52,665 : INFO : ball_device.bd_trough : Wait for confirm with timeout 3.0
+2025-04-12 18:54:52,694 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-12 18:54:52,694 : INFO : SwitchController : <<<<<<< 's_trough_6' inactive >>>>>>>
+2025-04-12 18:54:52,756 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-12 18:54:52,756 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball'====== Args={'value': 242, 'prev_value': 241, 'change': 1}
+2025-04-12 18:54:52,804 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-12 18:54:52,804 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_7'====== Args={'value': 203, 'prev_value': 202, 'change': 1}
+2025-04-12 18:54:53,099 : DEBUG : ball_device.bd_trough : SC: Switch 's_trough_ball' changed too recently. Aborting count!
+2025-04-12 18:54:53,193 : DEBUG : ball_device.bd_trough : SC: Switch 's_trough_ball' changed too recently. Aborting count!
+2025-04-12 18:54:53,256 : DEBUG : ball_device.bd_trough : SC: Switch 's_trough_7' changed too recently. Aborting count!
+2025-04-12 18:54:53,303 : DEBUG : ball_device.bd_trough : SC: Counted 2 balls. Active switches: [<switch.s_trough_ball>, <switch.s_trough_7>]. Old: 2
+2025-04-12 18:54:53,303 : DEBUG : ball_device.bd_trough : SC: New count 2 last: 2
+2025-04-12 18:54:53,447 : INFO : SwitchController : <<<<<<< 's_shooter_lane' active >>>>>>>
+2025-04-12 18:54:53,448 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_shooter_lane'====== Args={'value': 217, 'prev_value': 216, 'change': 1}
+2025-04-12 18:54:53,761 : INFO : ball_device.bd_shooter_lane : Received ball from <ball_device.bd_trough>
+2025-04-12 18:54:53,762 : INFO : EventManager : Event: ======'balldevice_bd_shooter_lane_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_shooter_lane>}
+2025-04-12 18:54:53,763 : INFO : EventManager : Event: ======'balldevice_bd_shooter_lane_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_shooter_lane>}
+2025-04-12 18:54:53,764 : INFO : EventManager : Event: ======'balldevice_bd_shooter_lane_ball_count_changed'====== Args={'balls': 1}
+2025-04-12 18:54:53,764 : INFO : ball_device.bd_trough : Got eject confirm
+2025-04-12 18:54:53,764 : INFO : ball_device.bd_trough : Eject successful
+2025-04-12 18:54:53,764 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_shooter_lane>}
+2025-04-12 18:54:53,766 : INFO : ball_device.bd_shooter_lane : State: waiting_for_target_ready
+2025-04-12 18:54:53,766 : INFO : EventManager : Event: ======'balldevice_bd_shooter_lane_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_shooter_lane>, 'mechanical_eject': True, 'num_attempts': 0}
+2025-04-12 18:54:53,766 : DEBUG : ball_device.bd_trough : Exited eject mode. Eject success: True
+2025-04-12 18:54:53,766 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 2}
+2025-04-12 18:54:53,767 : INFO : ball_device.bd_trough : State: idle
+2025-04-12 18:54:53,767 : DEBUG : ball_device.bd_trough : Waiting for eject request.
+2025-04-12 18:54:53,767 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 2 Old count: 2
+2025-04-12 18:54:53,767 : INFO : ball_device.bd_shooter_lane : State: ejecting
+2025-04-12 18:54:53,767 : INFO : ball_device.bd_shooter_lane : Ejecting ball to <playfield.playfield>
+2025-04-12 18:54:53,768 : INFO : EventManager : Event: ======'balldevice_bd_shooter_lane_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_shooter_lane>, 'mechanical_eject': True, 'num_attempts': 0}
+2025-04-12 18:54:53,769 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 2 Old count: 2
+2025-04-12 18:54:53,770 : INFO : ball_device.bd_shooter_lane : Wait for ball to leave device
+2025-04-12 18:54:57,124 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-04-12 18:54:57,125 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_button_2'====== Args={'value': 228, 'prev_value': 227, 'change': 1}
+2025-04-12 18:54:57,155 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-04-12 18:54:57,233 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-04-12 18:54:57,234 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_button_2'====== Args={'value': 229, 'prev_value': 228, 'change': 1}
+2025-04-12 18:54:57,234 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-04-12 18:54:57,236 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_button'====== Args={'value': 220, 'prev_value': 219, 'change': 1}
+2025-04-12 18:54:57,264 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-04-12 18:54:57,265 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_eos'====== Args={'value': 199, 'prev_value': 198, 'change': 1}
+2025-04-12 18:54:57,328 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-04-12 18:54:57,329 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-04-12 18:54:57,405 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-04-12 18:54:57,468 : INFO : SwitchController : <<<<<<< 's_left_button_2' active >>>>>>>
+2025-04-12 18:54:57,468 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_button_2'====== Args={'value': 230, 'prev_value': 229, 'change': 1}
+2025-04-12 18:54:57,469 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' active >>>>>>>
+2025-04-12 18:54:57,469 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_button'====== Args={'value': 221, 'prev_value': 220, 'change': 1}
+2025-04-12 18:54:57,497 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-04-12 18:54:57,498 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_eos'====== Args={'value': 200, 'prev_value': 199, 'change': 1}
+2025-04-12 18:54:57,544 : INFO : SwitchController : <<<<<<< 's_left_flipper_button' inactive >>>>>>>
+2025-04-12 18:54:57,559 : INFO : SwitchController : <<<<<<< 's_left_button_2' inactive >>>>>>>
+2025-04-12 18:54:57,636 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-04-12 18:54:58,574 : INFO : SwitchController : <<<<<<< 's_right_button_2' active >>>>>>>
+2025-04-12 18:54:58,574 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_button_2'====== Args={'value': 58, 'prev_value': 57, 'change': 1}
+2025-04-12 18:54:58,604 : INFO : SwitchController : <<<<<<< 's_right_flipper_button' active >>>>>>>
+2025-04-12 18:54:58,604 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_button'====== Args={'value': 57, 'prev_value': 56, 'change': 1}
+2025-04-12 18:54:58,620 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-04-12 18:54:58,620 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_eos'====== Args={'value': 54, 'prev_value': 53, 'change': 1}
+2025-04-12 18:54:58,716 : INFO : SwitchController : <<<<<<< 's_right_flipper_button' inactive >>>>>>>
+2025-04-12 18:54:58,731 : INFO : SwitchController : <<<<<<< 's_right_button_2' inactive >>>>>>>
+2025-04-12 18:54:58,809 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-04-12 18:55:01,976 : INFO : SwitchController : <<<<<<< 's_shooter_lane' inactive >>>>>>>
+2025-04-12 18:55:01,977 : INFO : ball_device.bd_shooter_lane : State: ball_left
+2025-04-12 18:55:01,977 : INFO : ball_device.bd_shooter_lane : Ball left
+2025-04-12 18:55:01,978 : INFO : ball_device.bd_shooter_lane : Wait for confirm with timeout 5.0
+2025-04-12 18:55:06,966 : INFO : ball_device.bd_shooter_lane : State: failed_confirm
+2025-04-12 18:55:06,967 : INFO : ball_device.bd_shooter_lane : Got timeout (5.0s) before confirm from <playfield.playfield>
+2025-04-12 18:55:07,059 : INFO : ball_device.bd_shooter_lane : Confirming eject because target is playfield and ball did not return.
+2025-04-12 18:55:07,060 : INFO : ball_device.bd_shooter_lane : Eject successful
+2025-04-12 18:55:07,060 : INFO : EventManager : Event: ======'balldevice_bd_shooter_lane_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2025-04-12 18:55:07,061 : INFO : EventManager : Event: ======'ball_save_ball_save_timer_start'====== Args={}
+2025-04-12 18:55:07,061 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-04-12 18:55:07,061 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2025-04-12 18:55:07,062 : INFO : EventManager : Event: ======'balldevice_bd_shooter_lane_ball_count_changed'====== Args={'balls': 0}
+2025-04-12 18:55:07,064 : INFO : ball_device.bd_shooter_lane : State: idle
+2025-04-12 18:55:14,044 : INFO : EventManager : Event: ======'ball_save_ball_save_hurry_up'====== Args={}
+2025-04-12 18:55:17,043 : INFO : EventManager : Event: ======'ball_save_ball_save_grace_period'====== Args={}
+2025-04-12 18:55:19,044 : INFO : EventManager : Event: ======'ball_save_ball_save_disabled'====== Args={}
+2025-04-12 18:55:19,091 : INFO : SwitchController : <<<<<<< 's_right_orbit_1' active >>>>>>>
+2025-04-12 18:55:19,092 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-04-12 18:55:19,092 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_orbit_1'====== Args={'value': 63, 'prev_value': 62, 'change': 1}
+2025-04-12 18:55:19,136 : INFO : SwitchController : <<<<<<< 's_right_orbit_1' inactive >>>>>>>
+2025-04-12 18:55:34,579 : INFO : SwitchController : <<<<<<< 's_blood_target' active >>>>>>>
+2025-04-12 18:55:34,579 : INFO : EventManager : Event: ======'s_blood_target_active'====== Args={}
+2025-04-12 18:55:34,579 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_blood_target'====== Args={'value': 357, 'prev_value': 356, 'change': 1}
+2025-04-12 18:55:34,583 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 1, 'enabled': True}
+2025-04-12 18:55:34,583 : INFO : EventManager : Event: ======'blood_target_qualify_hit'====== Args={'count': 1, 'hits': 1, 'remaining': 3}
+2025-04-12 18:55:34,583 : INFO : EventManager : Event: ======'check_blood_target'====== Args={'priority': 0}
+2025-04-12 18:55:34,583 : INFO : EventManager : Event: ======'show_blood_lock_progress'====== Args={'priority': 0}
+2025-04-12 18:55:34,687 : INFO : SwitchController : <<<<<<< 's_blood_target' inactive >>>>>>>
+2025-04-12 18:55:34,922 : INFO : SwitchController : <<<<<<< 's_blood_target' active >>>>>>>
+2025-04-12 18:55:34,922 : INFO : EventManager : Event: ======'s_blood_target_active'====== Args={}
+2025-04-12 18:55:34,922 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_blood_target'====== Args={'value': 358, 'prev_value': 357, 'change': 1}
+2025-04-12 18:55:34,924 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 2, 'enabled': True}
+2025-04-12 18:55:34,924 : INFO : EventManager : Event: ======'blood_target_qualify_hit'====== Args={'count': 2, 'hits': 2, 'remaining': 2}
+2025-04-12 18:55:34,924 : INFO : EventManager : Event: ======'check_blood_target'====== Args={'priority': 0}
+2025-04-12 18:55:34,924 : INFO : EventManager : Event: ======'show_blood_lock_progress'====== Args={'priority': 0}
+2025-04-12 18:55:35,017 : INFO : SwitchController : <<<<<<< 's_blood_target' inactive >>>>>>>
+2025-04-12 18:55:35,252 : INFO : SwitchController : <<<<<<< 's_blood_target' active >>>>>>>
+2025-04-12 18:55:35,252 : INFO : EventManager : Event: ======'s_blood_target_active'====== Args={}
+2025-04-12 18:55:35,252 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_blood_target'====== Args={'value': 359, 'prev_value': 358, 'change': 1}
+2025-04-12 18:55:35,255 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 3, 'enabled': True}
+2025-04-12 18:55:35,256 : INFO : EventManager : Event: ======'blood_target_qualify_hit'====== Args={'count': 3, 'hits': 3, 'remaining': 1}
+2025-04-12 18:55:35,256 : INFO : EventManager : Event: ======'check_blood_target'====== Args={'priority': 0}
+2025-04-12 18:55:35,256 : INFO : EventManager : Event: ======'show_blood_lock_progress'====== Args={'priority': 0}
+2025-04-12 18:55:35,331 : INFO : SwitchController : <<<<<<< 's_blood_target' inactive >>>>>>>
+2025-04-12 18:55:36,472 : INFO : SwitchController : <<<<<<< 's_blood_target' active >>>>>>>
+2025-04-12 18:55:36,472 : INFO : EventManager : Event: ======'s_blood_target_active'====== Args={}
+2025-04-12 18:55:36,472 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_blood_target'====== Args={'value': 360, 'prev_value': 359, 'change': 1}
+2025-04-12 18:55:36,473 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 4, 'enabled': True}
+2025-04-12 18:55:36,474 : INFO : EventManager : Event: ======'blood_target_qualify_hit'====== Args={'count': 4, 'hits': 4, 'remaining': 0}
+2025-04-12 18:55:36,474 : INFO : EventManager : Event: ======'mode_ball_lock_start'====== Args={}
+2025-04-12 18:55:36,474 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 0, 'enabled': True}
+2025-04-12 18:55:36,474 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-12 18:55:36,474 : INFO : EventManager : Event: ======'check_blood_target'====== Args={'priority': 0}
+2025-04-12 18:55:36,475 : INFO : EventManager : Event: ======'show_blood_lock_progress'====== Args={'priority': 0}
+2025-04-12 18:55:36,475 : INFO : EventManager : Event: ======'mode_ball_lock_will_start'====== Args={}
+2025-04-12 18:55:36,475 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 60, (prior: 0, change: 60)
+2025-04-12 18:55:36,475 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 60, 'prev_value': 0, 'change': 60, 'player_num': 1}
+2025-04-12 18:55:36,478 : INFO : EventManager : Event: ======'mode_ball_lock_starting'====== Args={}
+2025-04-12 18:55:36,479 : INFO : Mode.ball_lock : Started. Priority: 350
+2025-04-12 18:55:36,479 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-12 18:55:36,479 : INFO : EventManager : Event: ======'mode_ball_lock_started'====== Args={}
+2025-04-12 18:55:36,480 : DEBUG : Player : Setting 'ball_lock_locked_balls' to: 0, (prior: 0, change: 0)
+2025-04-12 18:55:36,480 : INFO : EventManager : Event: ======'player_ball_lock_locked_balls'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:55:36,480 : INFO : EventManager : Event: ======'open_ramp_release'====== Args={'priority': 0}
+2025-04-12 18:55:36,480 : INFO : EventManager : Event: ======'set_ball_lock_active'====== Args={'priority': 0}
+2025-04-12 18:55:36,480 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-12 18:55:36,480 : INFO : Timer.ball_lock_timer : Starting Timer.
+2025-04-12 18:55:36,480 : INFO : EventManager : Event: ======'timer_ball_lock_timer_started'====== Args={'ticks': 60, 'ticks_remaining': 60}
+2025-04-12 18:55:36,480 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 60, 'ticks_remaining': 60}
+2025-04-12 18:55:36,480 : INFO : EventManager : Event: ======'enable_ball_lock_mechanism'====== Args={'priority': 0}
+2025-04-12 18:55:36,480 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:55:36,480 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:55:36,481 : DEBUG : Player : Setting 'ball_lock_active' to: 1, (prior: 0, change: 1)
+2025-04-12 18:55:36,481 : INFO : EventManager : Event: ======'player_ball_lock_active'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'ball_lock'}
+2025-04-12 18:55:36,481 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:55:36,481 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:55:36,481 : INFO : Mode.ball_lock : Ball Lock mode started
+2025-04-12 18:55:36,481 : DEBUG : Player : Setting 'game_mode_active' to: True, (prior: 0, change: 1)
+2025-04-12 18:55:36,481 : INFO : EventManager : Event: ======'player_game_mode_active'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-12 18:55:36,481 : DEBUG : Player : Setting 'current_game_mode' to: ball_lock, (prior: None, change: True)
+2025-04-12 18:55:36,481 : INFO : EventManager : Event: ======'player_current_game_mode'====== Args={'value': 'ball_lock', 'prev_value': 'None', 'change': True, 'player_num': 1}
+2025-04-12 18:55:36,482 : INFO : coil.c_mode_vuk : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:55:36,482 : DEBUG : FAST Driver : Pulsing driver 21 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:55:36,482 : INFO : EventManager : Event: ======'mode_objectives_update'====== Args={'text': 'BALL LOCK MODE ACTIVE!'}
+2025-04-12 18:55:36,503 : INFO : SwitchController : <<<<<<< 's_mode_opto' active >>>>>>>
+2025-04-12 18:55:36,503 : INFO : EventManager : Event: ======'s_mode_opto_active'====== Args={}
+2025-04-12 18:55:36,503 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mode_opto'====== Args={'value': 108, 'prev_value': 107, 'change': 1}
+2025-04-12 18:55:36,503 : INFO : EventManager : Event: ======'check_mode_opto'====== Args={'priority': 0}
+2025-04-12 18:55:36,551 : INFO : SwitchController : <<<<<<< 's_ramp_up_1' inactive >>>>>>>
+2025-04-12 18:55:36,582 : INFO : SwitchController : <<<<<<< 's_blood_target' inactive >>>>>>>
+2025-04-12 18:55:36,597 : INFO : SwitchController : <<<<<<< 's_mode_opto' inactive >>>>>>>
+2025-04-12 18:55:37,097 : DEBUG : ball_device.bd_mode : SC: Counted 0 balls. Active switches: []. Old: 0
+2025-04-12 18:55:37,098 : DEBUG : ball_device.bd_mode : SC: New count 0 last: 0
+2025-04-12 18:55:37,472 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 59, (prior: 60, change: -1)
+2025-04-12 18:55:37,473 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 59, 'prev_value': 60, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:37,474 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 59, 'ticks_remaining': 59}
+2025-04-12 18:55:38,468 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 58, (prior: 59, change: -1)
+2025-04-12 18:55:38,468 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 58, 'prev_value': 59, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:38,469 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 58, 'ticks_remaining': 58}
+2025-04-12 18:55:39,468 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 57, (prior: 58, change: -1)
+2025-04-12 18:55:39,468 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 57, 'prev_value': 58, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:39,469 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 57, 'ticks_remaining': 57}
+2025-04-12 18:55:40,464 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 56, (prior: 57, change: -1)
+2025-04-12 18:55:40,464 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 56, 'prev_value': 57, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:40,464 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 56, 'ticks_remaining': 56}
+2025-04-12 18:55:41,466 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 55, (prior: 56, change: -1)
+2025-04-12 18:55:41,466 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 55, 'prev_value': 56, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:41,468 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 55, 'ticks_remaining': 55}
+2025-04-12 18:55:42,462 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 54, (prior: 55, change: -1)
+2025-04-12 18:55:42,463 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 54, 'prev_value': 55, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:42,465 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 54, 'ticks_remaining': 54}
+2025-04-12 18:55:43,462 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 53, (prior: 54, change: -1)
+2025-04-12 18:55:43,464 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 53, 'prev_value': 54, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:43,465 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 53, 'ticks_remaining': 53}
+2025-04-12 18:55:44,463 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 52, (prior: 53, change: -1)
+2025-04-12 18:55:44,463 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 52, 'prev_value': 53, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:44,464 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 52, 'ticks_remaining': 52}
+2025-04-12 18:55:45,466 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 51, (prior: 52, change: -1)
+2025-04-12 18:55:45,466 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 51, 'prev_value': 52, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:45,468 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 51, 'ticks_remaining': 51}
+2025-04-12 18:55:46,465 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 50, (prior: 51, change: -1)
+2025-04-12 18:55:46,465 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 50, 'prev_value': 51, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:46,466 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 50, 'ticks_remaining': 50}
+2025-04-12 18:55:47,467 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 49, (prior: 50, change: -1)
+2025-04-12 18:55:47,467 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 49, 'prev_value': 50, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:47,469 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 49, 'ticks_remaining': 49}
+2025-04-12 18:55:48,469 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 48, (prior: 49, change: -1)
+2025-04-12 18:55:48,469 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 48, 'prev_value': 49, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:48,469 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 48, 'ticks_remaining': 48}
+2025-04-12 18:55:49,467 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 47, (prior: 48, change: -1)
+2025-04-12 18:55:49,468 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 47, 'prev_value': 48, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:49,469 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 47, 'ticks_remaining': 47}
+2025-04-12 18:55:50,466 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 46, (prior: 47, change: -1)
+2025-04-12 18:55:50,466 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 46, 'prev_value': 47, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:50,467 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 46, 'ticks_remaining': 46}
+2025-04-12 18:55:51,463 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 45, (prior: 46, change: -1)
+2025-04-12 18:55:51,463 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 45, 'prev_value': 46, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:51,465 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 45, 'ticks_remaining': 45}
+2025-04-12 18:55:52,461 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 44, (prior: 45, change: -1)
+2025-04-12 18:55:52,462 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 44, 'prev_value': 45, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:52,464 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 44, 'ticks_remaining': 44}
+2025-04-12 18:55:53,474 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 43, (prior: 44, change: -1)
+2025-04-12 18:55:53,475 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 43, 'prev_value': 44, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:53,475 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 43, 'ticks_remaining': 43}
+2025-04-12 18:55:54,474 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 42, (prior: 43, change: -1)
+2025-04-12 18:55:54,475 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 42, 'prev_value': 43, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:54,476 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 42, 'ticks_remaining': 42}
+2025-04-12 18:55:55,470 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 41, (prior: 42, change: -1)
+2025-04-12 18:55:55,471 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 41, 'prev_value': 42, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:55,472 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 41, 'ticks_remaining': 41}
+2025-04-12 18:55:56,466 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 40, (prior: 41, change: -1)
+2025-04-12 18:55:56,466 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 40, 'prev_value': 41, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:56,468 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 40, 'ticks_remaining': 40}
+2025-04-12 18:55:57,471 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 39, (prior: 40, change: -1)
+2025-04-12 18:55:57,472 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 39, 'prev_value': 40, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:57,472 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 39, 'ticks_remaining': 39}
+2025-04-12 18:55:58,469 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 38, (prior: 39, change: -1)
+2025-04-12 18:55:58,470 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 38, 'prev_value': 39, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:58,470 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 38, 'ticks_remaining': 38}
+2025-04-12 18:55:59,468 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 37, (prior: 38, change: -1)
+2025-04-12 18:55:59,468 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 37, 'prev_value': 38, 'change': -1, 'player_num': 1}
+2025-04-12 18:55:59,468 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 37, 'ticks_remaining': 37}
+2025-04-12 18:56:00,467 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 36, (prior: 37, change: -1)
+2025-04-12 18:56:00,467 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 36, 'prev_value': 37, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:00,467 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 36, 'ticks_remaining': 36}
+2025-04-12 18:56:01,464 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 35, (prior: 36, change: -1)
+2025-04-12 18:56:01,464 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 35, 'prev_value': 36, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:01,465 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 35, 'ticks_remaining': 35}
+2025-04-12 18:56:02,464 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 34, (prior: 35, change: -1)
+2025-04-12 18:56:02,464 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 34, 'prev_value': 35, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:02,465 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 34, 'ticks_remaining': 34}
+2025-04-12 18:56:03,475 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 33, (prior: 34, change: -1)
+2025-04-12 18:56:03,476 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 33, 'prev_value': 34, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:03,479 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 33, 'ticks_remaining': 33}
+2025-04-12 18:56:04,462 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 32, (prior: 33, change: -1)
+2025-04-12 18:56:04,463 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 32, 'prev_value': 33, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:04,464 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 32, 'ticks_remaining': 32}
+2025-04-12 18:56:05,350 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' active >>>>>>>
+2025-04-12 18:56:05,350 : INFO : EventManager : Event: ======'s_right_ramp_entry_1_active'====== Args={}
+2025-04-12 18:56:05,350 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-04-12 18:56:05,350 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_ramp_entry_1'====== Args={'value': 104, 'prev_value': 103, 'change': 1}
+2025-04-12 18:56:05,352 : INFO : EventManager : Event: ======'request_ball_lock'====== Args={'priority': 0}
+2025-04-12 18:56:05,398 : INFO : SwitchController : <<<<<<< 's_right_ramp_entry_1' inactive >>>>>>>
+2025-04-12 18:56:05,476 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 31, (prior: 32, change: -1)
+2025-04-12 18:56:05,477 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 31, 'prev_value': 32, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:05,478 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 31, 'ticks_remaining': 31}
+2025-04-12 18:56:06,178 : INFO : SwitchController : <<<<<<< 's_ball_lock_3' active >>>>>>>
+2025-04-12 18:56:06,179 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ball_lock_3'====== Args={'value': 126, 'prev_value': 125, 'change': 1}
+2025-04-12 18:56:06,209 : INFO : SwitchController : <<<<<<< 's_ball_lock_3' inactive >>>>>>>
+2025-04-12 18:56:06,210 : INFO : SwitchController : <<<<<<< 's_ball_lock_2' active >>>>>>>
+2025-04-12 18:56:06,210 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ball_lock_2'====== Args={'value': 125, 'prev_value': 124, 'change': 1}
+2025-04-12 18:56:06,287 : INFO : SwitchController : <<<<<<< 's_ball_lock_2' inactive >>>>>>>
+2025-04-12 18:56:06,350 : INFO : SwitchController : <<<<<<< 's_ball_lock_1' active >>>>>>>
+2025-04-12 18:56:06,351 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ball_lock_1'====== Args={'value': 146, 'prev_value': 145, 'change': 1}
+2025-04-12 18:56:06,475 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 30, (prior: 31, change: -1)
+2025-04-12 18:56:06,475 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 30, 'prev_value': 31, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:06,476 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 30, 'ticks_remaining': 30}
+2025-04-12 18:56:06,706 : DEBUG : ball_device.bd_ball_lock : SC: Switch 's_ball_lock_1' changed too recently. Aborting count!
+2025-04-12 18:56:06,783 : DEBUG : ball_device.bd_ball_lock : SC: Switch 's_ball_lock_1' changed too recently. Aborting count!
+2025-04-12 18:56:06,846 : DEBUG : ball_device.bd_ball_lock : SC: Counted 1 balls. Active switches: [<switch.s_ball_lock_1>]. Old: 0
+2025-04-12 18:56:06,847 : DEBUG : ball_device.bd_ball_lock : SC: New count 1 last: 0
+2025-04-12 18:56:06,847 : DEBUG : ball_device.bd_ball_lock : SC: Updating count to 1
+2025-04-12 18:56:06,848 : DEBUG : ball_device.bd_ball_lock : BCH: Counting. New count: 1 Old count: 0
+2025-04-12 18:56:06,848 : DEBUG : ball_device.bd_ball_lock : BCH: Found 1 new balls
+2025-04-12 18:56:06,849 : INFO : EventManager : Event: ======'balldevice_bd_ball_lock_ball_count_changed'====== Args={'balls': 1}
+2025-04-12 18:56:06,849 : INFO : ball_device.bd_ball_lock : Received unexpected ball
+2025-04-12 18:56:06,849 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-04-12 18:56:06,850 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-04-12 18:56:06,850 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2025-04-12 18:56:06,851 : DEBUG : ball_device.bd_trough : SC: Counted 2 balls. Active switches: [<switch.s_trough_ball>, <switch.s_trough_7>]. Old: 2
+2025-04-12 18:56:06,851 : DEBUG : ball_device.bd_ball_lock : SC: Counted 1 balls. Active switches: [<switch.s_ball_lock_1>]. Old: 1
+2025-04-12 18:56:06,851 : DEBUG : ball_device.bd_mode : SC: Counted 0 balls. Active switches: []. Old: 0
+2025-04-12 18:56:06,851 : DEBUG : ball_device.bd_ball_lock : Processing new ball
+2025-04-12 18:56:06,851 : INFO : EventManager : Event: ======'balldevice_bd_ball_lock_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_ball_lock>}
+2025-04-12 18:56:06,853 : DEBUG : Player : Setting 'ball_lock_locked_balls' to: 1, (prior: 0, change: 1)
+2025-04-12 18:56:06,853 : INFO : EventManager : Event: ======'player_ball_lock_locked_balls'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-12 18:56:06,853 : INFO : multiball_lock.ball_lock : 1 locked balls and -1 to replace, requesting 1 new balls
+2025-04-12 18:56:06,853 : INFO : ball_device.bd_shooter_lane : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2025-04-12 18:56:06,854 : DEBUG : ball_device.bd_trough : Adding eject chain
+2025-04-12 18:56:06,854 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-04-12 18:56:06,854 : INFO : multiball_lock.ball_lock : Locked 1 balls virtually and 1 balls physically
+2025-04-12 18:56:06,854 : DEBUG : ball_device.bd_ball_lock : Adding ball
+2025-04-12 18:56:06,854 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-04-12 18:56:06,854 : INFO : EventManager : Event: ======'balldevice_bd_ball_lock_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_ball_lock>}
+2025-04-12 18:56:06,855 : INFO : EventManager : Event: ======'multiball_lock_ball_lock_locked_ball'====== Args={'total_balls_locked': 1}
+2025-04-12 18:56:06,855 : DEBUG : Player : Setting 'score' to: 50000, (prior: 0, change: 50000)
+2025-04-12 18:56:06,855 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 50000, 'prev_value': 0, 'change': 50000, 'player_num': 1, 'source': 'ball_lock'}
+2025-04-12 18:56:06,856 : WARNING : Machine : Accessing devices by attribute is deprecated and will be removed. Access by value instead: multiball_locks.ball_lock -> multiball_locks['ball_lock']
+2025-04-12 18:56:06,856 : INFO : Mode.ball_lock : Ball locked! Current locked balls: 1
+2025-04-12 18:56:06,856 : DEBUG : Player : Setting 'locked_balls' to: 1, (prior: 0, change: 1)
+2025-04-12 18:56:06,856 : INFO : EventManager : Event: ======'player_locked_balls'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-12 18:56:06,856 : INFO : EventManager : Event: ======'mode_objectives_update'====== Args={'text': 'BALL LOCKED! 1/3'}
+2025-04-12 18:56:06,856 : DEBUG : ball_device.bd_trough : Got eject request
+2025-04-12 18:56:06,857 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 2 Old count: 2
+2025-04-12 18:56:06,857 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-12 18:56:06,857 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_shooter_lane>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-04-12 18:56:06,858 : INFO : ball_device.bd_shooter_lane : State: waiting_for_ball
+2025-04-12 18:56:06,858 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-12 18:56:06,858 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_shooter_lane>
+2025-04-12 18:56:06,858 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_shooter_lane>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-04-12 18:56:06,859 : DEBUG : ball_device.bd_trough : Entered eject mode.
+2025-04-12 18:56:06,859 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-12 18:56:06,859 : INFO : coil.c_trough : Pulsing Driver for 25ms (1.0 pulse_power)
+2025-04-12 18:56:06,859 : DEBUG : FAST Driver : Pulsing driver 12 with pulse_settings: PulseSettings(power=1.0, duration=25).
+2025-04-12 18:56:06,859 : DEBUG : ball_device.bd_trough : Firing eject coil. Current balls: 2.
+2025-04-12 18:56:06,891 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' active >>>>>>>
+2025-04-12 18:56:06,891 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_jam'====== Args={'value': 272, 'prev_value': 271, 'change': 1}
+2025-04-12 18:56:06,906 : INFO : SwitchController : <<<<<<< 's_trough_ball_jam' inactive >>>>>>>
+2025-04-12 18:56:06,968 : INFO : SwitchController : <<<<<<< 's_trough_ball' inactive >>>>>>>
+2025-04-12 18:56:06,969 : DEBUG : ball_device.bd_trough : SC: Ball left. Old count: 2
+2025-04-12 18:56:06,969 : DEBUG : ball_device.bd_trough : Got ball left during eject
+2025-04-12 18:56:06,970 : DEBUG : ball_device.bd_trough : SC: Switch 's_trough_ball' changed too recently. Aborting count!
+2025-04-12 18:56:06,970 : INFO : ball_device.bd_trough : State: ball_left
+2025-04-12 18:56:06,970 : INFO : ball_device.bd_trough : Ball left
+2025-04-12 18:56:06,970 : INFO : ball_device.bd_trough : Wait for confirm with timeout 3.0
+2025-04-12 18:56:07,015 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-12 18:56:07,061 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-12 18:56:07,062 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball'====== Args={'value': 243, 'prev_value': 242, 'change': 1}
+2025-04-12 18:56:07,406 : DEBUG : ball_device.bd_trough : SC: Switch 's_trough_ball' changed too recently. Aborting count!
+2025-04-12 18:56:07,470 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 29, (prior: 30, change: -1)
+2025-04-12 18:56:07,471 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 29, 'prev_value': 30, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:07,472 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 29, 'ticks_remaining': 29}
+2025-04-12 18:56:07,516 : DEBUG : ball_device.bd_trough : SC: Switch 's_trough_ball' changed too recently. Aborting count!
+2025-04-12 18:56:07,564 : DEBUG : ball_device.bd_trough : SC: Counted 1 balls. Active switches: [<switch.s_trough_ball>]. Old: 1
+2025-04-12 18:56:07,564 : DEBUG : ball_device.bd_trough : SC: New count 1 last: 1
+2025-04-12 18:56:08,472 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 28, (prior: 29, change: -1)
+2025-04-12 18:56:08,472 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 28, 'prev_value': 29, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:08,474 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 28, 'ticks_remaining': 28}
+2025-04-12 18:56:08,534 : INFO : SwitchController : <<<<<<< 's_shooter_lane' active >>>>>>>
+2025-04-12 18:56:08,535 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_shooter_lane'====== Args={'value': 218, 'prev_value': 217, 'change': 1}
+2025-04-12 18:56:08,849 : INFO : ball_device.bd_shooter_lane : Received ball from <ball_device.bd_trough>
+2025-04-12 18:56:08,849 : INFO : EventManager : Event: ======'balldevice_bd_shooter_lane_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_shooter_lane>}
+2025-04-12 18:56:08,851 : INFO : EventManager : Event: ======'balldevice_bd_shooter_lane_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_shooter_lane>}
+2025-04-12 18:56:08,852 : INFO : EventManager : Event: ======'balldevice_bd_shooter_lane_ball_count_changed'====== Args={'balls': 1}
+2025-04-12 18:56:08,852 : INFO : ball_device.bd_trough : Got eject confirm
+2025-04-12 18:56:08,852 : INFO : ball_device.bd_trough : Eject successful
+2025-04-12 18:56:08,852 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_shooter_lane>}
+2025-04-12 18:56:08,853 : INFO : ball_device.bd_shooter_lane : State: waiting_for_target_ready
+2025-04-12 18:56:08,853 : INFO : EventManager : Event: ======'balldevice_bd_shooter_lane_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_shooter_lane>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-04-12 18:56:08,853 : DEBUG : ball_device.bd_trough : Exited eject mode. Eject success: True
+2025-04-12 18:56:08,853 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2025-04-12 18:56:08,853 : INFO : ball_device.bd_trough : State: idle
+2025-04-12 18:56:08,853 : DEBUG : ball_device.bd_trough : Waiting for eject request.
+2025-04-12 18:56:08,855 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 1 Old count: 1
+2025-04-12 18:56:08,855 : INFO : ball_device.bd_shooter_lane : State: ejecting
+2025-04-12 18:56:08,855 : INFO : ball_device.bd_shooter_lane : Ejecting ball to <playfield.playfield>
+2025-04-12 18:56:08,855 : INFO : EventManager : Event: ======'balldevice_bd_shooter_lane_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_shooter_lane>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-04-12 18:56:08,857 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 1 Old count: 1
+2025-04-12 18:56:08,857 : INFO : ball_device.bd_shooter_lane : Wait for ball to leave device
+2025-04-12 18:56:08,910 : INFO : SwitchController : <<<<<<< 's_shooter_lane' inactive >>>>>>>
+2025-04-12 18:56:08,912 : INFO : ball_device.bd_shooter_lane : State: ball_left
+2025-04-12 18:56:08,912 : INFO : ball_device.bd_shooter_lane : Ball left
+2025-04-12 18:56:08,912 : INFO : ball_device.bd_shooter_lane : Wait for confirm with timeout 5.0
+2025-04-12 18:56:09,466 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 27, (prior: 28, change: -1)
+2025-04-12 18:56:09,466 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 27, 'prev_value': 28, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:09,467 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 27, 'ticks_remaining': 27}
+2025-04-12 18:56:10,468 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 26, (prior: 27, change: -1)
+2025-04-12 18:56:10,468 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 26, 'prev_value': 27, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:10,469 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 26, 'ticks_remaining': 26}
+2025-04-12 18:56:11,467 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 25, (prior: 26, change: -1)
+2025-04-12 18:56:11,467 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 25, 'prev_value': 26, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:11,469 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 25, 'ticks_remaining': 25}
+2025-04-12 18:56:12,465 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 24, (prior: 25, change: -1)
+2025-04-12 18:56:12,465 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 24, 'prev_value': 25, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:12,466 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 24, 'ticks_remaining': 24}
+2025-04-12 18:56:13,466 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 23, (prior: 24, change: -1)
+2025-04-12 18:56:13,467 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 23, 'prev_value': 24, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:13,468 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 23, 'ticks_remaining': 23}
+2025-04-12 18:56:13,907 : INFO : ball_device.bd_shooter_lane : State: failed_confirm
+2025-04-12 18:56:13,907 : INFO : ball_device.bd_shooter_lane : Got timeout (5.0s) before confirm from <playfield.playfield>
+2025-04-12 18:56:14,001 : INFO : ball_device.bd_shooter_lane : Confirming eject because target is playfield and ball did not return.
+2025-04-12 18:56:14,002 : INFO : ball_device.bd_shooter_lane : Eject successful
+2025-04-12 18:56:14,002 : INFO : EventManager : Event: ======'balldevice_bd_shooter_lane_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2025-04-12 18:56:14,002 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-04-12 18:56:14,002 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2025-04-12 18:56:14,004 : INFO : EventManager : Event: ======'balldevice_bd_shooter_lane_ball_count_changed'====== Args={'balls': 0}
+2025-04-12 18:56:14,004 : INFO : ball_device.bd_shooter_lane : State: idle
+2025-04-12 18:56:14,470 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 22, (prior: 23, change: -1)
+2025-04-12 18:56:14,471 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 22, 'prev_value': 23, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:14,472 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 22, 'ticks_remaining': 22}
+2025-04-12 18:56:15,466 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 21, (prior: 22, change: -1)
+2025-04-12 18:56:15,467 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 21, 'prev_value': 22, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:15,468 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 21, 'ticks_remaining': 21}
+2025-04-12 18:56:16,464 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 20, (prior: 21, change: -1)
+2025-04-12 18:56:16,464 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 20, 'prev_value': 21, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:16,465 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 20, 'ticks_remaining': 20}
+2025-04-12 18:56:17,476 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 19, (prior: 20, change: -1)
+2025-04-12 18:56:17,477 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 19, 'prev_value': 20, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:17,477 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 19, 'ticks_remaining': 19}
+2025-04-12 18:56:18,476 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 18, (prior: 19, change: -1)
+2025-04-12 18:56:18,477 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 18, 'prev_value': 19, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:18,479 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 18, 'ticks_remaining': 18}
+2025-04-12 18:56:19,131 : INFO : SwitchController : <<<<<<< 's_right_orbit_1' active >>>>>>>
+2025-04-12 18:56:19,132 : INFO : EventManager : Event: ======'s_right_orbit_1_active'====== Args={}
+2025-04-12 18:56:19,132 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-04-12 18:56:19,132 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_orbit_1'====== Args={'value': 64, 'prev_value': 63, 'change': 1}
+2025-04-12 18:56:19,133 : INFO : EventManager : Event: ======'right_orbit_hit'====== Args={'priority': 0}
+2025-04-12 18:56:19,133 : INFO : EventManager : Event: ======'pulse_upramp'====== Args={'priority': 0}
+2025-04-12 18:56:19,133 : INFO : Mode.ball_lock : Right Orbit hit - Firing ramp release
+2025-04-12 18:56:19,134 : INFO : EventManager : Event: ======'fire_ramp_release'====== Args={}
+2025-04-12 18:56:19,134 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:56:19,134 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:56:19,134 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:56:19,134 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:56:19,194 : INFO : SwitchController : <<<<<<< 's_right_orbit_1' inactive >>>>>>>
+2025-04-12 18:56:19,475 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 17, (prior: 18, change: -1)
+2025-04-12 18:56:19,476 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 17, 'prev_value': 18, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:19,477 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 17, 'ticks_remaining': 17}
+2025-04-12 18:56:20,054 : INFO : SwitchController : <<<<<<< 's_ball_lock_1' inactive >>>>>>>
+2025-04-12 18:56:20,462 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 16, (prior: 17, change: -1)
+2025-04-12 18:56:20,462 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 16, 'prev_value': 17, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:20,463 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 16, 'ticks_remaining': 16}
+2025-04-12 18:56:20,554 : DEBUG : ball_device.bd_ball_lock : SC: Counted 0 balls. Active switches: []. Old: 1
+2025-04-12 18:56:20,554 : DEBUG : ball_device.bd_ball_lock : SC: New count 0 last: 1
+2025-04-12 18:56:20,555 : DEBUG : ball_device.bd_ball_lock : SC: Updating count to 0
+2025-04-12 18:56:20,556 : DEBUG : ball_device.bd_ball_lock : BCH: Counting. New count: 0 Old count: 1
+2025-04-12 18:56:21,462 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 15, (prior: 16, change: -1)
+2025-04-12 18:56:21,463 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 15, 'prev_value': 16, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:21,464 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 15, 'ticks_remaining': 15}
+2025-04-12 18:56:22,120 : INFO : EventManager : Event: ======'open_ramp_release'====== Args={'priority': 0}
+2025-04-12 18:56:22,120 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:56:22,120 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:56:22,463 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 14, (prior: 15, change: -1)
+2025-04-12 18:56:22,463 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 14, 'prev_value': 15, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:22,464 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 14, 'ticks_remaining': 14}
+2025-04-12 18:56:22,684 : INFO : SwitchController : <<<<<<< 's_right_orbit_1' active >>>>>>>
+2025-04-12 18:56:22,685 : INFO : EventManager : Event: ======'s_right_orbit_1_active'====== Args={}
+2025-04-12 18:56:22,685 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-04-12 18:56:22,685 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_orbit_1'====== Args={'value': 65, 'prev_value': 64, 'change': 1}
+2025-04-12 18:56:22,686 : INFO : EventManager : Event: ======'right_orbit_hit'====== Args={'priority': 0}
+2025-04-12 18:56:22,686 : INFO : EventManager : Event: ======'pulse_upramp'====== Args={'priority': 0}
+2025-04-12 18:56:22,687 : INFO : Mode.ball_lock : Right Orbit hit - Firing ramp release
+2025-04-12 18:56:22,687 : INFO : EventManager : Event: ======'fire_ramp_release'====== Args={}
+2025-04-12 18:56:22,687 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:56:22,687 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:56:22,688 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:56:22,688 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:56:22,978 : INFO : SwitchController : <<<<<<< 's_right_orbit_1' inactive >>>>>>>
+2025-04-12 18:56:23,475 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 13, (prior: 14, change: -1)
+2025-04-12 18:56:23,475 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 13, 'prev_value': 14, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:23,476 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 13, 'ticks_remaining': 13}
+2025-04-12 18:56:24,474 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 12, (prior: 13, change: -1)
+2025-04-12 18:56:24,474 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 12, 'prev_value': 13, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:24,475 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 12, 'ticks_remaining': 12}
+2025-04-12 18:56:24,976 : INFO : SwitchController : <<<<<<< 's_right_orbit_1' active >>>>>>>
+2025-04-12 18:56:24,977 : INFO : EventManager : Event: ======'s_right_orbit_1_active'====== Args={}
+2025-04-12 18:56:24,977 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-04-12 18:56:24,977 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_orbit_1'====== Args={'value': 66, 'prev_value': 65, 'change': 1}
+2025-04-12 18:56:24,980 : INFO : EventManager : Event: ======'right_orbit_hit'====== Args={'priority': 0}
+2025-04-12 18:56:24,981 : INFO : EventManager : Event: ======'pulse_upramp'====== Args={'priority': 0}
+2025-04-12 18:56:24,981 : INFO : Mode.ball_lock : Right Orbit hit - Firing ramp release
+2025-04-12 18:56:24,981 : INFO : EventManager : Event: ======'fire_ramp_release'====== Args={}
+2025-04-12 18:56:24,981 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:56:24,981 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:56:24,982 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:56:24,982 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:56:25,288 : INFO : SwitchController : <<<<<<< 's_right_orbit_1' inactive >>>>>>>
+2025-04-12 18:56:25,477 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 11, (prior: 12, change: -1)
+2025-04-12 18:56:25,477 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 11, 'prev_value': 12, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:25,479 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 11, 'ticks_remaining': 11}
+2025-04-12 18:56:25,540 : DEBUG : ball_device.bd_ball_lock : BCH: Lost 1 balls
+2025-04-12 18:56:25,541 : INFO : EventManager : Event: ======'balldevice_bd_ball_lock_ball_count_changed'====== Args={'balls': 0}
+2025-04-12 18:56:25,541 : WARNING : ball_device.bd_ball_lock : Ball disappeared while idle. This should not normally happen.
+2025-04-12 18:56:25,541 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-04-12 18:56:25,541 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 2, 'change': 1}
+2025-04-12 18:56:25,542 : INFO : ball_device.bd_ball_lock : 1 ball(s) missing from device. Mechanical eject? False
+2025-04-12 18:56:25,542 : INFO : EventManager : Event: ======'balldevice_bd_ball_lock_ball_missing'====== Args={'balls': 1}
+2025-04-12 18:56:25,544 : INFO : multiball_lock.ball_lock : Ball device bd_ball_lock lost 1 balls, ball_lock has 1 locked balls and action None
+2025-04-12 18:56:25,545 : INFO : EventManager : Event: ======'balldevice_ball_missing'====== Args={'balls': 1, 'name': 'bd_ball_lock'}
+2025-04-12 18:56:25,665 : INFO : EventManager : Event: ======'open_ramp_release'====== Args={'priority': 0}
+2025-04-12 18:56:25,666 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:56:25,666 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:56:26,465 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 10, (prior: 11, change: -1)
+2025-04-12 18:56:26,465 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 10, 'prev_value': 11, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:26,465 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 10, 'ticks_remaining': 10}
+2025-04-12 18:56:27,466 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 9, (prior: 10, change: -1)
+2025-04-12 18:56:27,466 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 9, 'prev_value': 10, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:27,467 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 9, 'ticks_remaining': 9}
+2025-04-12 18:56:27,965 : INFO : EventManager : Event: ======'open_ramp_release'====== Args={'priority': 0}
+2025-04-12 18:56:27,965 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:56:27,966 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:56:28,464 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 8, (prior: 9, change: -1)
+2025-04-12 18:56:28,464 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 8, 'prev_value': 9, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:28,464 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 8, 'ticks_remaining': 8}
+2025-04-12 18:56:29,464 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 7, (prior: 8, change: -1)
+2025-04-12 18:56:29,464 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 7, 'prev_value': 8, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:29,465 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 7, 'ticks_remaining': 7}
+2025-04-12 18:56:30,182 : INFO : SwitchController : <<<<<<< 's_right_orbit_1' active >>>>>>>
+2025-04-12 18:56:30,182 : INFO : EventManager : Event: ======'s_right_orbit_1_active'====== Args={}
+2025-04-12 18:56:30,182 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-04-12 18:56:30,182 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_orbit_1'====== Args={'value': 67, 'prev_value': 66, 'change': 1}
+2025-04-12 18:56:30,182 : INFO : EventManager : Event: ======'right_orbit_hit'====== Args={'priority': 0}
+2025-04-12 18:56:30,183 : INFO : EventManager : Event: ======'pulse_upramp'====== Args={'priority': 0}
+2025-04-12 18:56:30,183 : INFO : Mode.ball_lock : Right Orbit hit - Firing ramp release
+2025-04-12 18:56:30,183 : INFO : EventManager : Event: ======'fire_ramp_release'====== Args={}
+2025-04-12 18:56:30,184 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:56:30,184 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:56:30,184 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:56:30,184 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:56:30,414 : INFO : SwitchController : <<<<<<< 's_right_orbit_1' inactive >>>>>>>
+2025-04-12 18:56:30,462 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 6, (prior: 7, change: -1)
+2025-04-12 18:56:30,464 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 6, 'prev_value': 7, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:30,465 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 6, 'ticks_remaining': 6}
+2025-04-12 18:56:31,476 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 5, (prior: 6, change: -1)
+2025-04-12 18:56:31,477 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 5, 'prev_value': 6, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:31,478 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 5, 'ticks_remaining': 5}
+2025-04-12 18:56:32,476 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 4, (prior: 5, change: -1)
+2025-04-12 18:56:32,476 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 4, 'prev_value': 5, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:32,478 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 4, 'ticks_remaining': 4}
+2025-04-12 18:56:33,179 : INFO : EventManager : Event: ======'open_ramp_release'====== Args={'priority': 0}
+2025-04-12 18:56:33,180 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:56:33,180 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:56:33,477 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 3, (prior: 4, change: -1)
+2025-04-12 18:56:33,478 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 3, 'prev_value': 4, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:33,480 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 3, 'ticks_remaining': 3}
+2025-04-12 18:56:34,464 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 2, (prior: 3, change: -1)
+2025-04-12 18:56:34,464 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 2, 'prev_value': 3, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:34,465 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 2, 'ticks_remaining': 2}
+2025-04-12 18:56:35,466 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 1, (prior: 2, change: -1)
+2025-04-12 18:56:35,467 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 1, 'prev_value': 2, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:35,467 : INFO : EventManager : Event: ======'timer_ball_lock_timer_tick'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-04-12 18:56:36,469 : DEBUG : Player : Setting 'ball_lock_ball_lock_timer_tick' to: 0, (prior: 1, change: -1)
+2025-04-12 18:56:36,469 : INFO : EventManager : Event: ======'player_ball_lock_ball_lock_timer_tick'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2025-04-12 18:56:36,470 : INFO : Timer.ball_lock_timer : Timer Complete
+2025-04-12 18:56:36,470 : INFO : Timer.ball_lock_timer : Stopping Timer
+2025-04-12 18:56:36,471 : INFO : EventManager : Event: ======'timer_ball_lock_timer_stopped'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-12 18:56:36,471 : INFO : EventManager : Event: ======'timer_ball_lock_timer_complete'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-12 18:56:57,136 : INFO : SwitchController : <<<<<<< 's_3bank_tgt_d' active >>>>>>>
+2025-04-12 18:56:57,137 : INFO : EventManager : Event: ======'s_3bank_tgt_d_active'====== Args={}
+2025-04-12 18:56:57,137 : INFO : EventManager : Event: ======'drop_target_front_down'====== Args={'device': <drop_target.front>}
+2025-04-12 18:56:57,137 : INFO : EventManager : Event: ======'drop_target_bank_vuk_bank_mixed'====== Args={'prev_value': <DropTargetBankState.UP: 'up'>, 'down': 1}
+2025-04-12 18:56:57,138 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3bank_tgt_d'====== Args={'value': 28, 'prev_value': 27, 'change': 1}
+2025-04-12 18:56:57,140 : INFO : EventManager : Event: ======'check_dog_bank_complete'====== Args={'priority': 0}
+2025-04-12 18:56:58,103 : INFO : SwitchController : <<<<<<< 's_3bank_tgt_o' active >>>>>>>
+2025-04-12 18:56:58,103 : INFO : EventManager : Event: ======'s_3bank_tgt_o_active'====== Args={}
+2025-04-12 18:56:58,103 : INFO : EventManager : Event: ======'drop_target_middle_down'====== Args={'device': <drop_target.middle>}
+2025-04-12 18:56:58,104 : INFO : EventManager : Event: ======'drop_target_bank_vuk_bank_mixed'====== Args={'prev_value': <DropTargetBankState.MIXED: 'mixed'>, 'down': 2}
+2025-04-12 18:56:58,104 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3bank_tgt_o'====== Args={'value': 33, 'prev_value': 32, 'change': 1}
+2025-04-12 18:56:58,105 : INFO : EventManager : Event: ======'check_dog_bank_complete'====== Args={'priority': 0}
+2025-04-12 18:56:59,276 : INFO : SwitchController : <<<<<<< 's_3bank_tgt_g' active >>>>>>>
+2025-04-12 18:56:59,276 : INFO : EventManager : Event: ======'s_3bank_tgt_g_active'====== Args={}
+2025-04-12 18:56:59,276 : INFO : EventManager : Event: ======'drop_target_back_down'====== Args={'device': <drop_target.back>}
+2025-04-12 18:56:59,277 : INFO : EventManager : Event: ======'drop_target_bank_vuk_bank_down'====== Args={}
+2025-04-12 18:56:59,277 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3bank_tgt_g'====== Args={'value': 39, 'prev_value': 38, 'change': 1}
+2025-04-12 18:56:59,280 : INFO : EventManager : Event: ======'check_dog_bank_complete'====== Args={'priority': 0}
+2025-04-12 18:56:59,280 : INFO : EventManager : Event: ======'dog_bank_targets_complete'====== Args={'priority': 0}
+2025-04-12 18:56:59,280 : INFO : Mode.mode_switcher : Qualifying Dog Hunt mode
+2025-04-12 18:56:59,281 : INFO : EventManager : Event: ======'machine_var_qualified_mode'====== Args={'value': 'dog_hunt', 'prev_value': 'none', 'change': True}
+2025-04-12 18:56:59,281 : INFO : EventManager : Event: ======'mode_qualification_achieved'====== Args={}
+2025-04-12 18:56:59,281 : INFO : EventManager : Event: ======'qualify_dog_hunt_mode'====== Args={}
+2025-04-12 18:56:59,281 : INFO : coil.c_drop_target : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:56:59,281 : DEBUG : FAST Driver : Pulsing driver 16 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:56:59,282 : INFO : EventManager : Event: ======'disable_all_mode_qualifications'====== Args={'priority': 0}
+2025-04-12 18:56:59,282 : INFO : drop_target_bank.vuk_bank : 3 targets are down. Will reset those.
+2025-04-12 18:56:59,306 : INFO : coil.c_drop_target : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:56:59,306 : DEBUG : FAST Driver : Pulsing driver 16 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:56:59,321 : INFO : SwitchController : <<<<<<< 's_3bank_tgt_g' inactive (muted) >>>>>>>
+2025-04-12 18:56:59,321 : INFO : SwitchController : <<<<<<< 's_3bank_tgt_o' inactive (muted) >>>>>>>
+2025-04-12 18:56:59,321 : INFO : SwitchController : <<<<<<< 's_3bank_tgt_d' inactive (muted) >>>>>>>
+2025-04-12 18:56:59,807 : INFO : EventManager : Event: ======'drop_target_front_up'====== Args={'device': <drop_target.front>}
+2025-04-12 18:56:59,808 : INFO : EventManager : Event: ======'drop_target_middle_up'====== Args={'device': <drop_target.middle>}
+2025-04-12 18:56:59,808 : INFO : EventManager : Event: ======'drop_target_back_up'====== Args={'device': <drop_target.back>}
+2025-04-12 18:56:59,808 : INFO : EventManager : Event: ======'drop_target_bank_vuk_bank_up'====== Args={}
+2025-04-12 18:57:00,278 : INFO : drop_target_bank.vuk_bank : All targets are already up. Will not reset bank.
+2025-04-12 18:57:19,799 : INFO : SwitchController : <<<<<<< 's_left_ramp_entry_1' active >>>>>>>
+2025-04-12 18:57:19,800 : INFO : EventManager : Event: ======'s_left_ramp_entry_1_active'====== Args={}
+2025-04-12 18:57:19,800 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-04-12 18:57:19,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_ramp_entry_1'====== Args={'value': 1029, 'prev_value': 1028, 'change': 1}
+2025-04-12 18:57:19,803 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 1, 'enabled': True}
+2025-04-12 18:57:19,804 : INFO : EventManager : Event: ======'counter_diverter_pattern_hit'====== Args={'count': 1, 'hits': 1, 'remaining': 4}
+2025-04-12 18:57:19,804 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_hit'====== Args={'count': 1, 'hits': 1, 'remaining': 4}
+2025-04-12 18:57:19,954 : INFO : SwitchController : <<<<<<< 's_left_ramp_entry_1' inactive >>>>>>>
+2025-04-12 18:57:20,344 : INFO : SwitchController : <<<<<<< 's_left_ramp_entry_1' active >>>>>>>
+2025-04-12 18:57:20,346 : INFO : EventManager : Event: ======'s_left_ramp_entry_1_active'====== Args={}
+2025-04-12 18:57:20,347 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-04-12 18:57:20,347 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_ramp_entry_1'====== Args={'value': 1030, 'prev_value': 1029, 'change': 1}
+2025-04-12 18:57:20,349 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 2, 'enabled': True}
+2025-04-12 18:57:20,349 : INFO : EventManager : Event: ======'counter_diverter_pattern_hit'====== Args={'count': 2, 'hits': 2, 'remaining': 3}
+2025-04-12 18:57:20,349 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_hit'====== Args={'count': 2, 'hits': 2, 'remaining': 3}
+2025-04-12 18:57:20,470 : INFO : SwitchController : <<<<<<< 's_left_ramp_entry_1' inactive >>>>>>>
+2025-04-12 18:57:20,796 : INFO : SwitchController : <<<<<<< 's_left_ramp_entry_1' active >>>>>>>
+2025-04-12 18:57:20,797 : INFO : EventManager : Event: ======'s_left_ramp_entry_1_active'====== Args={}
+2025-04-12 18:57:20,797 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-04-12 18:57:20,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_ramp_entry_1'====== Args={'value': 1031, 'prev_value': 1030, 'change': 1}
+2025-04-12 18:57:20,798 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 3, 'enabled': True}
+2025-04-12 18:57:20,798 : INFO : EventManager : Event: ======'counter_diverter_pattern_hit'====== Args={'count': 3, 'hits': 3, 'remaining': 2}
+2025-04-12 18:57:20,798 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_hit'====== Args={'count': 3, 'hits': 3, 'remaining': 2}
+2025-04-12 18:57:20,889 : INFO : SwitchController : <<<<<<< 's_left_ramp_entry_1' inactive >>>>>>>
+2025-04-12 18:57:21,189 : INFO : SwitchController : <<<<<<< 's_left_ramp_entry_1' active >>>>>>>
+2025-04-12 18:57:21,189 : INFO : EventManager : Event: ======'s_left_ramp_entry_1_active'====== Args={}
+2025-04-12 18:57:21,189 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-04-12 18:57:21,190 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_ramp_entry_1'====== Args={'value': 1032, 'prev_value': 1031, 'change': 1}
+2025-04-12 18:57:21,192 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 4, 'enabled': True}
+2025-04-12 18:57:21,192 : INFO : EventManager : Event: ======'counter_diverter_pattern_hit'====== Args={'count': 4, 'hits': 4, 'remaining': 1}
+2025-04-12 18:57:21,192 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_hit'====== Args={'count': 4, 'hits': 4, 'remaining': 1}
+2025-04-12 18:57:21,281 : INFO : SwitchController : <<<<<<< 's_left_ramp_entry_1' inactive >>>>>>>
+2025-04-12 18:57:21,748 : INFO : SwitchController : <<<<<<< 's_left_ramp_entry_1' active >>>>>>>
+2025-04-12 18:57:21,749 : INFO : EventManager : Event: ======'s_left_ramp_entry_1_active'====== Args={}
+2025-04-12 18:57:21,749 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-04-12 18:57:21,749 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_ramp_entry_1'====== Args={'value': 1033, 'prev_value': 1032, 'change': 1}
+2025-04-12 18:57:21,750 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 5, 'enabled': True}
+2025-04-12 18:57:21,750 : INFO : EventManager : Event: ======'counter_diverter_pattern_hit'====== Args={'count': 5, 'hits': 5, 'remaining': 0}
+2025-04-12 18:57:21,750 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_hit'====== Args={'count': 5, 'hits': 5, 'remaining': 0}
+2025-04-12 18:57:21,750 : INFO : EventManager : Event: ======'diverter_pattern_complete'====== Args={}
+2025-04-12 18:57:21,750 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 0, 'enabled': True}
+2025-04-12 18:57:21,752 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-12 18:57:21,752 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-12 18:57:21,752 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 0, 'enabled': True}
+2025-04-12 18:57:21,752 : INFO : EventManager : Event: ======'activate_diverter'====== Args={'priority': 0}
+2025-04-12 18:57:21,752 : INFO : coil.c_diverter : Enabling Driver with power 0.5 (pulse_ms 30ms and pulse_power 1.0)
+2025-04-12 18:57:21,752 : DEBUG : FAST Driver : Enabling (turning on) driver 20 (0x14) mode 10 with pulse_settings: PulseSettings(power=1.0, duration=30) and hold_settings: HoldSettings(power=0.5, duration=None).
+2025-04-12 18:57:21,753 : DEBUG : FAST Driver : Sending config to driver 20 (0x14). one_shot: False. wait_to_confirm: False
+2025-04-12 18:57:21,874 : INFO : SwitchController : <<<<<<< 's_left_ramp_entry_1' inactive >>>>>>>
+2025-04-12 18:57:24,744 : INFO : EventManager : Event: ======'release_diverter'====== Args={'priority': 0}
+2025-04-12 18:57:24,744 : INFO : coil.c_diverter : Disabling Driver
+2025-04-12 18:57:24,744 : DEBUG : FAST Driver : Disabling driver 20
+2025-04-12 18:58:06,419 : INFO : SwitchController : <<<<<<< 's_trough_2' active >>>>>>>
+2025-04-12 18:58:06,419 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 97, 'prev_value': 96, 'change': 1}
+2025-04-12 18:58:06,481 : INFO : SwitchController : <<<<<<< 's_trough_2' inactive >>>>>>>
+2025-04-12 18:58:06,544 : INFO : SwitchController : <<<<<<< 's_trough_3' active >>>>>>>
+2025-04-12 18:58:06,544 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 104, 'prev_value': 103, 'change': 1}
+2025-04-12 18:58:06,591 : INFO : SwitchController : <<<<<<< 's_trough_3' inactive >>>>>>>
+2025-04-12 18:58:06,638 : INFO : SwitchController : <<<<<<< 's_trough_4' active >>>>>>>
+2025-04-12 18:58:06,639 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 92, 'prev_value': 91, 'change': 1}
+2025-04-12 18:58:06,685 : INFO : SwitchController : <<<<<<< 's_trough_4' inactive >>>>>>>
+2025-04-12 18:58:06,731 : INFO : SwitchController : <<<<<<< 's_trough_5' active >>>>>>>
+2025-04-12 18:58:06,732 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 89, 'prev_value': 88, 'change': 1}
+2025-04-12 18:58:06,762 : INFO : SwitchController : <<<<<<< 's_trough_5' inactive >>>>>>>
+2025-04-12 18:58:06,794 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2025-04-12 18:58:06,795 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 124, 'prev_value': 123, 'change': 1}
+2025-04-12 18:58:06,825 : INFO : SwitchController : <<<<<<< 's_trough_6' inactive >>>>>>>
+2025-04-12 18:58:06,871 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-12 18:58:06,872 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_7'====== Args={'value': 204, 'prev_value': 203, 'change': 1}
+2025-04-12 18:58:06,901 : INFO : SwitchController : <<<<<<< 's_trough_7' inactive >>>>>>>
+2025-04-12 18:58:06,996 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-12 18:58:06,996 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_7'====== Args={'value': 205, 'prev_value': 204, 'change': 1}
+2025-04-12 18:58:07,325 : DEBUG : ball_device.bd_trough : SC: Switch 's_trough_7' changed too recently. Aborting count!
+2025-04-12 18:58:07,494 : DEBUG : ball_device.bd_trough : SC: Counted 2 balls. Active switches: [<switch.s_trough_ball>, <switch.s_trough_7>]. Old: 1
+2025-04-12 18:58:07,495 : DEBUG : ball_device.bd_trough : SC: New count 2 last: 1
+2025-04-12 18:58:07,495 : DEBUG : ball_device.bd_trough : SC: Updating count to 2
+2025-04-12 18:58:07,497 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 2 Old count: 1
+2025-04-12 18:58:07,497 : DEBUG : ball_device.bd_trough : BCH: Found 1 new balls
+2025-04-12 18:58:07,497 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 2}
+2025-04-12 18:58:07,497 : INFO : ball_device.bd_trough : Received unexpected ball
+2025-04-12 18:58:07,497 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-04-12 18:58:07,499 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-04-12 18:58:07,499 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': -1}
+2025-04-12 18:58:07,500 : DEBUG : ball_device.bd_trough : SC: Counted 2 balls. Active switches: [<switch.s_trough_ball>, <switch.s_trough_7>]. Old: 2
+2025-04-12 18:58:07,500 : DEBUG : ball_device.bd_ball_lock : SC: Counted 0 balls. Active switches: []. Old: 0
+2025-04-12 18:58:07,500 : DEBUG : ball_device.bd_mode : SC: Counted 0 balls. Active switches: []. Old: 0
+2025-04-12 18:58:07,501 : DEBUG : ball_device.bd_trough : Processing new ball
+2025-04-12 18:58:07,501 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2025-04-12 18:58:07,501 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2025-04-12 18:58:07,502 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2025-04-12 18:58:07,502 : DEBUG : ball_device.bd_trough : Adding ball
+2025-04-12 18:58:07,502 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-04-12 18:58:07,502 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2025-04-12 18:58:07,502 : DEBUG : Player : Setting 'tilt_warnings' to: 0, (prior: 0, change: 0)
+2025-04-12 18:58:07,502 : INFO : EventManager : Event: ======'player_tilt_warnings'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-12 18:58:07,505 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2025-04-12 18:58:07,505 : INFO : EventManager : Event: ======'mode_mode_switcher_will_stop'====== Args={}
+2025-04-12 18:58:07,505 : INFO : EventManager : Event: ======'mode_mode_switcher_stopping'====== Args={}
+2025-04-12 18:58:07,505 : INFO : EventManager : Event: ======'mode_ball_lock_will_stop'====== Args={}
+2025-04-12 18:58:07,505 : INFO : EventManager : Event: ======'mode_ball_lock_stopping'====== Args={}
+2025-04-12 18:58:07,506 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-04-12 18:58:07,506 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-04-12 18:58:07,506 : DEBUG : Player : Setting 'score' to: 60000, (prior: 50000, change: 10000)
+2025-04-12 18:58:07,506 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 60000, 'prev_value': 50000, 'change': 10000, 'player_num': 1, 'source': 'base'}
+2025-04-12 18:58:07,507 : DEBUG : FAST Driver : Clearing autofire mode for driver 13
+2025-04-12 18:58:07,507 : DEBUG : FAST Driver : Clearing autofire mode for driver 14
+2025-04-12 18:58:07,507 : DEBUG : FAST Driver : Clearing autofire mode for driver 23
+2025-04-12 18:58:07,507 : DEBUG : FAST Driver : Clearing autofire mode for driver 22
+2025-04-12 18:58:07,508 : DEBUG : FAST Driver : Clearing autofire mode for driver 17
+2025-04-12 18:58:07,508 : DEBUG : FAST Driver : Clearing autofire mode for driver 9
+2025-04-12 18:58:07,508 : DEBUG : FAST Driver : Clearing autofire mode for driver 8
+2025-04-12 18:58:07,508 : DEBUG : FAST Driver : Clearing autofire mode for driver 11
+2025-04-12 18:58:07,508 : DEBUG : FAST Driver : Clearing autofire mode for driver 10
+2025-04-12 18:58:07,509 : INFO : Mode.base : Stopped.
+2025-04-12 18:58:07,509 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-12 18:58:07,509 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-04-12 18:58:07,509 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-04-12 18:58:07,509 : INFO : Timer.mode_timer : Stopping Timer
+2025-04-12 18:58:07,509 : INFO : EventManager : Event: ======'timer_mode_timer_stopped'====== Args={'ticks': 60, 'ticks_remaining': 0}
+2025-04-12 18:58:07,509 : INFO : Mode.ball_lock : Stopped.
+2025-04-12 18:58:07,509 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-12 18:58:07,509 : INFO : EventManager : Event: ======'mode_ball_lock_stopped'====== Args={}
+2025-04-12 18:58:07,509 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'ball_lock'}
+2025-04-12 18:58:07,509 : DEBUG : Player : Setting 'ball_lock_locked_balls' to: 0, (prior: 1, change: -1)
+2025-04-12 18:58:07,510 : INFO : EventManager : Event: ======'player_ball_lock_locked_balls'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2025-04-12 18:58:07,510 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-12 18:58:07,510 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 0, 'enabled': True}
+2025-04-12 18:58:07,510 : INFO : EventManager : Event: ======'disable_ball_lock_mechanism'====== Args={'priority': 0}
+2025-04-12 18:58:07,510 : INFO : coil.c_ramp_release : Pulsing Driver for 30ms (1.0 pulse_power)
+2025-04-12 18:58:07,510 : DEBUG : FAST Driver : Pulsing driver 19 with pulse_settings: PulseSettings(power=1.0, duration=30).
+2025-04-12 18:58:07,510 : INFO : Mode.ball_lock : Ball Lock mode stopped
+2025-04-12 18:58:07,510 : DEBUG : Player : Setting 'ball_lock_active' to: False, (prior: True, change: -1)
+2025-04-12 18:58:07,510 : INFO : EventManager : Event: ======'player_ball_lock_active'====== Args={'value': False, 'prev_value': True, 'change': -1, 'player_num': 1}
+2025-04-12 18:58:07,510 : INFO : coil.c_diverter : Disabling Driver
+2025-04-12 18:58:07,510 : DEBUG : FAST Driver : Disabling driver 20
+2025-04-12 18:58:07,510 : INFO : coil.c_up_post : Disabling Driver
+2025-04-12 18:58:07,510 : DEBUG : FAST Driver : Disabling driver 15
+2025-04-12 18:58:07,511 : INFO : EventManager : Event: ======'ball_lock_mode_ended'====== Args={}
+2025-04-12 18:58:07,511 : INFO : Timer.ball_lock_timer : Stopping Timer
+2025-04-12 18:58:07,511 : INFO : EventManager : Event: ======'timer_ball_lock_timer_stopped'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-12 18:58:07,511 : INFO : Mode.mode_switcher : Stopped.
+2025-04-12 18:58:07,511 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-12 18:58:07,511 : INFO : EventManager : Event: ======'mode_mode_switcher_stopped'====== Args={}
+2025-04-12 18:58:07,511 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'mode_switcher'}
+2025-04-12 18:58:07,511 : INFO : EventManager : Event: ======'tally_player_score'====== Args={'priority': 0}
+2025-04-12 18:58:07,511 : INFO : EventManager : Event: ======'enable_all_mode_qualifications'====== Args={'priority': 0}
+2025-04-12 18:58:07,513 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2025-04-12 18:58:07,514 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-12 18:58:07,514 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-12 18:58:07,514 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-12 18:58:07,514 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-12 18:58:07,515 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-12 18:58:07,515 : DEBUG : Player : Setting 'ball' to: 2, (prior: 1, change: 1)
+2025-04-12 18:58:07,515 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2025-04-12 18:58:07,516 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-12 18:58:07,518 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-04-12 18:58:07,518 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:07,518 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:08,507 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:08,507 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:09,508 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:09,508 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:10,496 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:10,497 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:11,495 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:11,496 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:12,507 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:12,508 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:13,506 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:13,507 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:14,507 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:14,507 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:15,508 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:15,508 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:16,507 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:16,508 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:17,496 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:17,497 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:18,505 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:18,505 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:19,503 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:19,503 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:20,494 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:20,495 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:21,507 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:21,507 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:22,505 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:22,505 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:23,502 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:23,502 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:24,502 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:24,503 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:25,506 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:25,507 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:26,499 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:26,500 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:27,499 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:27,500 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:28,504 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:28,504 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:29,501 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:29,501 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:30,521 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:30,667 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:31,695 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:31,695 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:32,669 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:32,669 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:33,666 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:33,666 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:34,667 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:34,679 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:35,674 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:35,674 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:36,667 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:36,667 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:37,675 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:37,675 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:38,669 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:38,669 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:39,667 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:39,667 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:40,676 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:40,676 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:41,680 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:41,680 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:42,668 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:42,668 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:43,678 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:43,678 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:44,678 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:44,678 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:45,670 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:45,670 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:46,679 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:46,679 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:47,675 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:47,675 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:48,671 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:48,671 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:49,680 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:49,680 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:50,677 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:50,677 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:51,672 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:51,672 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:52,665 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:52,665 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:53,676 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-12 18:58:53,676 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-12 18:58:53,915 : INFO : Machine : Shutting down...
+2025-04-12 18:58:53,915 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-04-12 18:58:53,916 : DEBUG : ball_device.bd_trough : Stopping ball device
+2025-04-12 18:58:53,917 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2025-04-12 18:58:53,917 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2025-04-12 18:58:53,918 : INFO : Mode.game : Stopped.
+2025-04-12 18:58:53,918 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-12 18:58:53,918 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2025-04-12 18:58:53,918 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2025-04-12 18:58:53,919 : DEBUG : ball_device.bd_ball_lock : Stopping ball device
+2025-04-12 18:58:53,921 : DEBUG : ball_device.bd_mode : Stopping ball device
+2025-04-12 18:58:54,017 : DEBUG : FAST [NET] : Stop called on serial connection NET
+2025-04-12 18:58:54,019 : INFO : root : MPF run loop ended.

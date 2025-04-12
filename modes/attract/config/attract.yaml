@@ -7,17 +7,12 @@ mode:
   code: attract.Attract
   stop_events: game_start
 
-sound_player:
-  mode_attract_started:
-    main_song: 
-      bus: music
-
-#slide_player:
+#No Longer used but kept as a code referance
+#sound_player:
 #  mode_attract_started:
-#    attract:
-#        target: main_screen
+#    main_song: 
+#      bus: music
 
-#  mode_attract_stopping:
-#    attract:
-#        action: remove
-
+slide_player:
+  mode_attract_started:
+    attract:

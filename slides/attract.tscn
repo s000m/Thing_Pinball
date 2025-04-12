@@ -1,31 +1,21 @@
-[gd_scene load_steps=2 format=3 uid="uid://cueromb4cy2ku"]
+[gd_scene load_steps=4 format=3 uid="uid://cueromb4cy2ku"]
 
 [ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_wpbl6"]
+[ext_resource type="VideoStream" path="res://videos/thing.ogv" id="2_ls28b"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="3_l4h0b"]
 
 [node name="Attract" type="Control"]
 layout_mode = 3
-anchors_preset = 0
+anchor_right = 0.548
+anchor_bottom = 0.463
+offset_right = -1052.16
+offset_bottom = -500.04
 script = ExtResource("1_wpbl6")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="MPFVideoPlayer" type="VideoStreamPlayer" parent="."]
 layout_mode = 0
 offset_right = 1920.0
-offset_bottom = 1080.0
-color = Color(0.12549, 1, 1, 1)
-
-[node name="Label" type="Label" parent="ColorRect"]
-layout_mode = 0
-offset_left = 422.0
-offset_top = 269.0
-offset_right = 1472.0
-offset_bottom = 629.0
-theme_override_font_sizes/font_size = 80
-text = "Welcome to The Thing Pinball"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="MPFSlide" type="Control" parent="ColorRect"]
-anchors_preset = 0
-offset_right = 1913.0
-offset_bottom = 1083.0
-script = ExtResource("1_wpbl6")
+offset_bottom = 1088.0
+stream = ExtResource("2_ls28b")
+autoplay = true
+script = ExtResource("3_l4h0b")

@@ -110,9 +110,9 @@ coil_player:
     c_ramp_release:
       action: pulse
       
-#  pulse_upramp:
-#    c_upramp:
-#      action: pulse
+  pulse_upramp:
+    c_upramp:
+      action: pulse
       
   fire_ramp_release:
     c_ramp_release:

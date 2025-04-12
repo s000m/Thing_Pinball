@@ -1,0 +1,406 @@
+2025-04-12 18:45:40,243 : INFO : root : Loading config.
+2025-04-12 18:45:40,250 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-12 18:45:40,250 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\1ab83842b7c8ed7e1902272067ddcd2b.mpf_cache
+2025-04-12 18:45:40,380 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-04-12 18:45:40,380 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-04-12 18:45:40,380 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\163fd46608d3c9469758c6512b5a030d.mpf_cache
+2025-04-12 18:45:40,381 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-04-12 18:45:40,381 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-04-12 18:45:40,382 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\93e42568b1004e720dbdafbb285adaaa.mpf_cache
+2025-04-12 18:45:40,383 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\base\config\base.yaml
+2025-04-12 18:45:40,383 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\5ffb3999d6de3e1d452090655c82bf2a.mpf_cache
+2025-04-12 18:45:40,383 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-04-12 18:45:40,383 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-04-12 18:45:40,384 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\163fd46608d3c9469758c6512b5a030d.mpf_cache
+2025-04-12 18:45:40,384 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-04-12 18:45:40,384 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-04-12 18:45:40,386 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\93e42568b1004e720dbdafbb285adaaa.mpf_cache
+2025-04-12 18:45:40,386 : DEBUG : YamlMultifileConfigLoader : Loading mode service from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\service\config\service.yaml
+2025-04-12 18:45:40,386 : DEBUG : YamlMultifileConfigLoader : Loading mode service from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\service\config\service.yaml
+2025-04-12 18:45:40,387 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8c668df6a84f4edcfda2189b877084c6.mpf_cache
+2025-04-12 18:45:40,387 : DEBUG : YamlMultifileConfigLoader : Loading mode tilt from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\tilt\config\tilt.yaml
+2025-04-12 18:45:40,387 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\81d0f34cbd4c6d61cd4dad95e5100b6a.mpf_cache
+2025-04-12 18:45:40,388 : DEBUG : YamlMultifileConfigLoader : Loading mode high_score from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\high_score\config\high_score.yaml
+2025-04-12 18:45:40,388 : DEBUG : YamlMultifileConfigLoader : Loading mode high_score from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\high_score\config\high_score.yaml
+2025-04-12 18:45:40,388 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\a714899e94406dd1f47e6e9bddbe0fef.mpf_cache
+2025-04-12 18:45:40,389 : DEBUG : YamlMultifileConfigLoader : Loading mode match from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\match\config\match.yaml
+2025-04-12 18:45:40,389 : DEBUG : YamlMultifileConfigLoader : Loading mode match from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\match\config\match.yaml
+2025-04-12 18:45:40,390 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\fda2b21e4ff4c8a0b48d4f712bf7675f.mpf_cache
+2025-04-12 18:45:40,390 : DEBUG : YamlMultifileConfigLoader : Loading mode mode_switcher from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\mode_switcher\config\mode_switcher.yaml
+2025-04-12 18:45:40,391 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\9cbbeec60769b6bc8d00b63a89255fac.mpf_cache
+2025-04-12 18:45:40,391 : DEBUG : YamlMultifileConfigLoader : Loading mode dog_hunt from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\dog_hunt\config\dog_hunt.yaml
+2025-04-12 18:45:40,391 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\49c1bb27bb76c6488cf72d0e1887aaaa.mpf_cache
+2025-04-12 18:45:40,392 : DEBUG : YamlMultifileConfigLoader : Loading mode discovery from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\discovery\config\discovery.yaml
+2025-04-12 18:45:40,392 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\eb740da6f3772dcfe6d89e142f4972f9.mpf_cache
+2025-04-12 18:45:40,392 : DEBUG : YamlMultifileConfigLoader : Loading mode infected from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\infected\config\infected.yaml
+2025-04-12 18:45:40,392 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8e53cff45209557b74353625b1fb9c7d.mpf_cache
+2025-04-12 18:45:40,394 : DEBUG : YamlMultifileConfigLoader : Loading mode blood_test from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\blood_test\config\blood_test.yaml
+2025-04-12 18:45:40,394 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\75ead186cfb0eee4579e59d5d273b950.mpf_cache
+2025-04-12 18:45:40,395 : DEBUG : YamlMultifileConfigLoader : Loading mode spider_head from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\spider_head\config\spider_head.yaml
+2025-04-12 18:45:40,396 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\46ee3106793b7c66df6b24732de735de.mpf_cache
+2025-04-12 18:45:40,396 : DEBUG : YamlMultifileConfigLoader : Loading mode wizard from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\wizard\config\wizard.yaml
+2025-04-12 18:45:40,397 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\a6f0737b5bca2a955dd9d538ee17b581.mpf_cache
+2025-04-12 18:45:40,398 : DEBUG : YamlMultifileConfigLoader : Loading mode multiball from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\multiball\config\multiball.yaml
+2025-04-12 18:45:40,398 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\72ccc58689b118af298151666e9c5198.mpf_cache
+2025-04-12 18:45:40,399 : DEBUG : YamlMultifileConfigLoader : Loading mode ball_lock from C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\ball_lock\config\ball_lock.yaml
+2025-04-12 18:45:40,400 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\082c9c49689a7facf0c58e67d77b7f58.mpf_cache
+2025-04-12 18:45:40,402 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-04-12 18:45:40,402 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-04-12-18-45-40-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': 'C:\\Users\\homebrew\\Documents\\GitHub\\Thing_Pinball\\logs\\2025-04-12-18-45-40-mpf-mpf.log'}
+2025-04-12 18:45:40,402 : INFO : Machine : MPF path: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-04-12 18:45:40,402 : INFO : Machine : Machine path: C:\Users\homebrew\Documents\GitHub\Thing_Pinball
+2025-04-12 18:45:40,402 : INFO : Machine : Platform: win32
+2025-04-12 18:45:40,402 : INFO : Machine : Python executable location: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\python.exe
+2025-04-12 18:45:40,402 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2025-04-12 18:45:40,403 : DEBUG : asyncio : Using proactor: IocpProactor
+2025-04-12 18:45:40,404 : INFO : Machine : Initializing MPF...
+2025-04-12 18:45:40,518 : DEBUG : TextUi : Text UI is disabled. TUI option setting: False, Asciimatics loaded: <class 'asciimatics.scene.Scene'>
+2025-04-12 18:45:40,535 : INFO : FAST [NET] : Trying to connect to com4 at 921600bps
+2025-04-12 18:45:40,539 : INFO : FAST [NET] : Connected to com4 at 921600bps
+2025-04-12 18:45:40,542 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.21
+2025-04-12 18:45:40,574 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2025-04-12 18:45:40,590 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-04-12 18:45:40,605 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-04-12 18:45:40,621 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-04-12 18:45:40,622 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,655 : DEBUG : YAML File Interface : Loading file: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\data/machine_vars.yaml
+2025-04-12 18:45:40,661 : INFO : EventManager : Event: ======'machine_var_game_mode_ball_lock_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,661 : INFO : EventManager : Event: ======'machine_var_game_mode_blood_test_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,661 : INFO : EventManager : Event: ======'machine_var_game_mode_discovery_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,661 : INFO : EventManager : Event: ======'machine_var_game_mode_dog_hunt_complete'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,661 : INFO : EventManager : Event: ======'machine_var_game_mode_infected_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,661 : INFO : EventManager : Event: ======'machine_var_game_mode_multiball_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,661 : INFO : EventManager : Event: ======'machine_var_game_mode_spider_head_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,661 : INFO : EventManager : Event: ======'machine_var_game_mode_wizard_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,661 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,661 : INFO : EventManager : Event: ======'machine_var_qualified_mode'====== Args={'value': 'None', 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,661 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,661 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,662 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,904 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,904 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,905 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,905 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,905 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,905 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\homebrew\\Documents\\GitHub\\Thing_Pinball\\logs\\2025-04-12-18-45-40-mpf-mpf.log', 'prev_value': None, 'change': True}
+2025-04-12 18:45:40,905 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-04-12 18:45:40,917 : DEBUG : ModeController : Loaded mode high_score
+2025-04-12 18:45:40,921 : DEBUG : ModeController : Loaded mode mode_switcher
+2025-04-12 18:45:40,925 : DEBUG : ModeController : Loaded mode dog_hunt
+2025-04-12 18:45:40,927 : DEBUG : ModeController : Loaded mode wizard
+2025-04-12 18:45:40,931 : DEBUG : ModeController : Loaded mode match
+2025-04-12 18:45:40,933 : DEBUG : ModeController : Loaded mode blood_test
+2025-04-12 18:45:40,937 : DEBUG : ModeController : Loaded mode multiball
+2025-04-12 18:45:40,940 : DEBUG : ModeController : Loaded mode service
+2025-04-12 18:45:40,942 : DEBUG : ModeController : Loaded mode attract
+2025-04-12 18:45:40,945 : DEBUG : ModeController : Loaded mode discovery
+2025-04-12 18:45:40,950 : DEBUG : ModeController : Loaded mode game
+2025-04-12 18:45:40,953 : DEBUG : ModeController : Loaded mode ball_lock
+2025-04-12 18:45:40,958 : DEBUG : ModeController : Loaded mode tilt
+2025-04-12 18:45:40,961 : DEBUG : ModeController : Loaded mode spider_head
+2025-04-12 18:45:40,961 : DEBUG : ModeController : Loaded mode base
+2025-04-12 18:45:40,963 : DEBUG : ModeController : Loaded mode infected
+2025-04-12 18:45:40,967 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_diverter:pwm_on_ms" is not a valid setting name.
+2025-04-12 18:45:40,968 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_diverter:pwm_off_ms" is not a valid setting name.
+2025-04-12 18:45:40,968 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_up_post:pwm_on_ms" is not a valid setting name.
+2025-04-12 18:45:40,968 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_up_post:pwm_off_ms" is not a valid setting name.
+2025-04-12 18:45:40,972 : DEBUG : ball_device.bd_trough : Configuring device with settings: '{'ball_switches': 's_trough_ball, s_trough_7, s_trough_6', 'eject_coil': 'c_trough', 'tags': ['trough', 'home', 'drain'], 'jam_switch': 's_trough_ball_jam', 'eject_timeouts': [3000], 'debug': True, 'eject_targets': [<ball_device.bd_shooter_lane>], 'confirm_eject_type': 'target', 'label': '%', 'console_log': 'full', 'file_log': 'full', 'entrance_events': {}, 'idle_missing_ball_timeout': 5.0, 'captures_from': <playfield.playfield>, 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'request_ball_events': {}, 'eject_events': {}, 'eject_all_events': {}, 'mechanical_eject': False, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2025-04-12 18:45:40,972 : DEBUG : ball_device.bd_ball_lock : Configuring device with settings: '{'ball_switches': 's_ball_lock_1, s_ball_lock_2, s_ball_lock_3', 'eject_coil': 'c_up_post', 'tags': ['ball_lock'], 'eject_timeouts': [3000], 'confirm_eject_type': 'target', 'debug': True, 'auto_fire_on_unexpected_ball': False, 'eject_targets': [<playfield.playfield>], 'entrance_switch': 's_right_ramp_entry_1', 'entrance_switch_full_timeout': '3s', 'label': '%', 'console_log': 'full', 'file_log': 'full', 'entrance_events': {}, 'idle_missing_ball_timeout': 5.0, 'captures_from': <playfield.playfield>, 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'request_ball_events': {}, 'eject_events': {}, 'eject_all_events': {}, 'mechanical_eject': False, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'target_on_unexpected_ball': None}'
+2025-04-12 18:45:40,972 : DEBUG : ball_device.bd_mode : Configuring device with settings: '{'ball_switches': 's_mode_opto', 'eject_coil': 'c_mode_vuk', 'eject_timeouts': [3000], 'confirm_eject_type': 'target', 'tags': ['captures_from_playfield'], 'debug': True, 'eject_targets': [<playfield.playfield>], 'entrance_events': {'mode_vuk_entrance': 0}, 'entrance_count_delay': '100ms', 'label': '%', 'console_log': 'full', 'file_log': 'full', 'idle_missing_ball_timeout': 5.0, 'captures_from': <playfield.playfield>, 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'request_ball_events': {}, 'eject_events': {}, 'eject_all_events': {}, 'mechanical_eject': False, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2025-04-12 18:45:40,974 : DEBUG : diverter.diverter : Configuring device with settings: '{'activation_coil': <coil.c_diverter>, 'type': 'hold', 'activation_time': 3000, 'debug': True, 'activate_events': {'activate_diverter': 0, 'mode_ball_lock_started': 0}, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'activation_switches': [], 'allow_multiple_concurrent_ejects_to_same_side': True, 'cool_down_time': 0, 'deactivate_events': {}, 'deactivation_switches': [], 'deactivation_coil': None, 'disable_events': {}, 'disable_switches': [], 'enable_events': {}, 'feeder_devices': [<playfield.playfield>], 'reset_events': {'machine_reset_phase_3': 0}, 'targets_when_active': [<playfield.playfield>], 'targets_when_inactive': [<playfield.playfield>], 'ball_search_order': 100, 'ball_search_hold_time': 1000, 'playfield': <playfield.playfield>}'
+2025-04-12 18:45:40,974 : WARNING : ConfigValidator : Unrecognized config setting. "ball_holds:mode_vuk_hold:auto_release_after" is not a valid setting name.
+2025-04-12 18:45:40,974 : WARNING : ConfigValidator : Unrecognized config setting. "timed_switches:mode_vuk_delayed_eject:state_when_released" is not a valid setting name.
+2025-04-12 18:45:40,975 : WARNING : ConfigValidator : Unrecognized config setting. "mode:dog_hunt:timers:dog_hunt_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:45:40,976 : WARNING : ConfigValidator : Unrecognized config setting. "mode:wizard:timers:wizard_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:45:40,976 : WARNING : ConfigValidator : Unrecognized config setting. "mode:blood_test:timers:blood_test_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:45:40,976 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:multiball_jackpot_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:45:40,976 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:right_ramp_validity_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:45:40,977 : WARNING : ConfigValidator : Unrecognized config setting. "mode:discovery:timers:discovery_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:45:40,977 : WARNING : ConfigValidator : Unrecognized config setting. "mode:ball_lock:multiball_locks:ball_lock:full_event" is not a valid setting name.
+2025-04-12 18:45:40,977 : WARNING : ConfigValidator : Unrecognized config setting. "mode:ball_lock:multiball_locks:ball_lock:replace_balls_in_play" is not a valid setting name.
+2025-04-12 18:45:40,977 : WARNING : ConfigValidator : Unrecognized config setting. "mode:spider_head:timers:spider_head_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:45:40,978 : WARNING : ConfigValidator : Unrecognized config setting. "mode:base:timers:mode_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:45:40,978 : WARNING : ConfigValidator : Unrecognized config setting. "mode:infected:timers:infected_timer:events_when_complete" is not a valid setting name.
+2025-04-12 18:45:40,987 : INFO : EventManager : Event: ======'drop_target_bank_vuk_bank_up'====== Args={}
+2025-04-12 18:45:40,987 : INFO : EventManager : Event: ======'logicblock_spinner_value_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-12 18:45:40,987 : INFO : EventManager : Event: ======'logicblock_newton_hit_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-12 18:45:40,987 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-12 18:45:40,988 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-12 18:45:43,313 : WARNING : Machine : Iterating device collections directly is deprecated and will be removed. Access by value(): device_collections[switches] -> device_collections['switches'].values()
+2025-04-12 18:45:43,313 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2025-04-12 18:45:43,313 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-12 18:45:43,313 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-12 18:45:43,313 : INFO : SwitchController : <<<<<<< 's_ramp_up_1' active >>>>>>>
+2025-04-12 18:45:43,313 : INFO : SwitchController : <<<<<<< 's_newton_opto_made' active >>>>>>>
+2025-04-12 18:45:43,315 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-04-12 18:45:43,317 : WARNING : ConfigValidator : Unrecognized config setting. "coil_player:enable_ms" is not a valid setting name.
+2025-04-12 18:45:43,318 : WARNING : ConfigValidator : Unrecognized config setting. "coil_player:enable_ms" is not a valid setting name.
+2025-04-12 18:45:43,323 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-04-12 18:45:43,325 : INFO : SwitchController : Found active switch: (37, [FAST Platform Interface]) <switch.s_trough_6>
+2025-04-12 18:45:43,325 : INFO : SwitchController : Found active switch: (38, [FAST Platform Interface]) <switch.s_trough_7>
+2025-04-12 18:45:43,325 : INFO : SwitchController : Found active switch: (51, [FAST Platform Interface]) <switch.s_trough_ball>
+2025-04-12 18:45:43,325 : INFO : SwitchController : Found active switch: (40, [FAST Platform Interface]) <switch.s_ramp_up_1>
+2025-04-12 18:45:43,325 : INFO : SwitchController : Found active switch: (45, [FAST Platform Interface]) <switch.s_newton_opto_made>
+2025-04-12 18:45:43,325 : INFO : SwitchController : Found active switch: (10, [FAST Platform Interface]) <switch.s_start_button>
+2025-04-12 18:45:43,331 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,331 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,331 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,331 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,332 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,332 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,332 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,332 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,332 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,332 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,332 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,332 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,332 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,333 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,333 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,333 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,333 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,333 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,333 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,333 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,334 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,334 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,334 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,334 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,334 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,334 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,334 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,334 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,334 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,334 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,334 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,334 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,335 : DEBUG : YAML File Interface : Loading file: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\data/high_scores.yaml
+2025-04-12 18:45:43,338 : WARNING : ConfigValidator : Unrecognized config setting. "high_score:events_when_complete" is not a valid setting name.
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'GRAND CHAMPION', 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'THING', 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 5000000, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'MPF', 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 4000000, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'PINBALL', 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 3000000, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'WIZARD', 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 2000000, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'PLAYER', 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,338 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 1000000, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,339 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-04-12 18:45:43,342 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-04-12 18:45:43,353 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-04-12 18:45:43,354 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-04-12 18:45:43,355 : DEBUG : ball_device.bd_trough : SC: Switch 's_trough_ball' changed too recently. Aborting count!
+2025-04-12 18:45:43,814 : DEBUG : ball_device.bd_trough : SC: Counted 3 balls. Active switches: [<switch.s_trough_ball>, <switch.s_trough_7>, <switch.s_trough_6>]. Old: None
+2025-04-12 18:45:43,815 : DEBUG : ball_device.bd_trough : SC: New count 3 last: None
+2025-04-12 18:45:43,816 : INFO : ball_device.bd_trough : BCH: Initial count: 3
+2025-04-12 18:45:43,817 : INFO : ball_device.bd_trough : State: idle
+2025-04-12 18:45:43,817 : DEBUG : ball_device.bd_trough : Waiting for eject request.
+2025-04-12 18:45:43,818 : INFO : ball_device.bd_shooter_lane : BCH: Initial count: 0
+2025-04-12 18:45:43,818 : INFO : ball_device.bd_shooter_lane : State: idle
+2025-04-12 18:45:43,819 : DEBUG : ball_device.bd_ball_lock : SC: Counted 0 balls. Active switches: []. Old: None
+2025-04-12 18:45:43,819 : DEBUG : ball_device.bd_ball_lock : SC: New count 0 last: None
+2025-04-12 18:45:43,819 : INFO : ball_device.bd_ball_lock : BCH: Initial count: 0
+2025-04-12 18:45:43,819 : INFO : ball_device.bd_ball_lock : State: idle
+2025-04-12 18:45:43,819 : DEBUG : ball_device.bd_ball_lock : Waiting for eject request.
+2025-04-12 18:45:43,820 : DEBUG : ball_device.bd_mode : SC: Counted 0 balls. Active switches: []. Old: None
+2025-04-12 18:45:43,820 : DEBUG : ball_device.bd_mode : SC: New count 0 last: None
+2025-04-12 18:45:43,820 : INFO : ball_device.bd_mode : BCH: Initial count: 0
+2025-04-12 18:45:43,820 : INFO : ball_device.bd_mode : State: idle
+2025-04-12 18:45:43,821 : DEBUG : ball_device.bd_mode : Waiting for eject request.
+2025-04-12 18:45:43,824 : DEBUG : YAML File Interface : Loading file: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\data/audits.yaml
+2025-04-12 18:45:43,832 : DEBUG : Machine : "info_lights:" section not found in machine configuration, so the InfoLights will not be used.
+2025-04-12 18:45:43,835 : DEBUG : Machine : "switch_player:" section not found in machine configuration, so the SwitchPlayer will not be used.
+2025-04-12 18:45:43,838 : DEBUG : Machine : "twitch_client:" section not found in machine configuration, so the TwitchBot will not be used.
+2025-04-12 18:45:43,838 : DEBUG : Machine : "virtual_segment_display_connector:" section not found in machine configuration, so the VirtualSegmentDisplayConnector will not be used.
+2025-04-12 18:45:43,838 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-04-12 18:45:43,838 : DEBUG : ShowController : Loading show: flash
+2025-04-12 18:45:43,839 : DEBUG : ShowController : Loading show: on
+2025-04-12 18:45:43,839 : DEBUG : ShowController : Loading show: off
+2025-04-12 18:45:43,839 : DEBUG : ShowController : Loading show: led_color
+2025-04-12 18:45:43,839 : DEBUG : ShowController : Loading show: bl_color
+2025-04-12 18:45:43,840 : DEBUG : ShowController : Loading show: flash_color
+2025-04-12 18:45:43,840 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,840 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,840 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,840 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,840 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,840 : WARNING : ConfigValidator : Unrecognized config setting. "slide_player:widgets" is not a valid setting name.
+2025-04-12 18:45:43,841 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-04-12 18:45:43,843 : DEBUG : ball_device.bd_trough : SC: Counted 3 balls. Active switches: [<switch.s_trough_ball>, <switch.s_trough_7>, <switch.s_trough_6>]. Old: 3
+2025-04-12 18:45:43,843 : DEBUG : ball_device.bd_ball_lock : SC: Counted 0 balls. Active switches: []. Old: 0
+2025-04-12 18:45:43,843 : DEBUG : ball_device.bd_mode : SC: Counted 0 balls. Active switches: []. Old: 0
+2025-04-12 18:45:43,843 : INFO : BallController : Initial balls found: 3
+2025-04-12 18:45:43,844 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,844 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 524, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,844 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_3bank_tgt_d'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,844 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_3bank_tgt_g'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,845 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_3bank_tgt_o'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,845 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_back_button'====== Args={'value': 88, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,845 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_ball_lock_1'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,845 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_ball_lock_2'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,845 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_ball_lock_3'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,845 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_blood_target'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,845 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_down_button'====== Args={'value': 88, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,845 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_enter_button'====== Args={'value': 88, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,846 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlane_left'====== Args={'value': 89, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,846 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlane_right'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,846 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_launch'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,846 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_flipper'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,846 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_inlane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,846 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_inner_lane'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,846 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outer_lane'====== Args={'value': 153, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,846 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outlane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,846 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_ramp_entry_1'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,846 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_sling'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,846 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_slingshot'====== Args={'value': 89, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_mead'====== Args={'value': 267, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_mode_opto'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_newton_opto_made'====== Args={'value': 132, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outlane_left'====== Args={'value': 120, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outlane_right'====== Args={'value': 89, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_percy'====== Args={'value': 85, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_plunger'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_1'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_2'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_3'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_flipper'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_inlane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_inner_lane'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_orbit_1'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outer_lane'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outlane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,847 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_ramp_entry_1'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_sling'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_slingshot'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_scanlan'====== Args={'value': 204, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_spinner'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start_button'====== Args={'value': 89, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_1'====== Args={'value': 60, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_2'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_4'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_5'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_6'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_1'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_2'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_3'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_4'====== Args={'value': 278, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_5'====== Args={'value': 363, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_6'====== Args={'value': 95, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_up_button'====== Args={'value': 88, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,848 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_shots_mead_shot'====== Args={'value': 223, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_shots_percy_shot'====== Args={'value': 56, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_shots_scanlan_shot'====== Args={'value': 121, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_shots_video_shot_1'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_shots_video_shot_2'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3bank_tgt_d'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3bank_tgt_g'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3bank_tgt_o'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_auto_launcher'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ball_drain'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ball_lock_1'====== Args={'value': 142, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ball_lock_2'====== Args={'value': 119, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ball_lock_3'====== Args={'value': 121, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_blood_target'====== Args={'value': 352, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_down_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_enter_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_left'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_right'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_button_2'====== Args={'value': 223, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 36, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_button'====== Args={'value': 216, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_eos'====== Args={'value': 196, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inner_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outer_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_ramp_entry_1'====== Args={'value': 1028, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_slingshot'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mead'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mode_opto'====== Args={'value': 106, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_newton_opto_made'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_left'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_right'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_percy'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_1'====== Args={'value': 58, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_2'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_3'====== Args={'value': 44, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp_up_1'====== Args={'value': 156, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_button_2'====== Args={'value': 56, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 131, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_button'====== Args={'value': 55, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_eos'====== Args={'value': 52, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inner_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_orbit_1'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outer_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_ramp_entry_1'====== Args={'value': 101, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_slingshot'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_scanlan'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_shooter_lane'====== Args={'value': 212, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 475, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_switch_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 96, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 103, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 91, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 88, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 123, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_7'====== Args={'value': 201, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball'====== Args={'value': 239, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_1'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_2'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_6'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_jam'====== Args={'value': 267, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_eject_coil'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_up_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-12 18:45:43,853 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-04-12 18:45:43,854 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-04-12 18:45:43,854 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-04-12 18:45:43,860 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-04-12 18:45:43,862 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-04-12 18:45:43,862 : INFO : EventManager : Event: ======'mode_tilt_will_start'====== Args={'queue': <QueuedEvent>}
+2025-04-12 18:45:43,862 : INFO : EventManager : Event: ======'mode_tilt_starting'====== Args={'queue': <QueuedEvent>}
+2025-04-12 18:45:43,862 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={'queue': <QueuedEvent>}
+2025-04-12 18:45:43,862 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={'queue': <QueuedEvent>}
+2025-04-12 18:45:43,863 : DEBUG : diverter.diverter : Deactivating Diverter
+2025-04-12 18:45:43,863 : INFO : EventManager : Event: ======'diverter_diverter_deactivating'====== Args={}
+2025-04-12 18:45:43,863 : DEBUG : diverter.diverter : Disabling coil to activate diverter
+2025-04-12 18:45:43,863 : INFO : coil.c_diverter : Disabling Driver
+2025-04-12 18:45:43,863 : DEBUG : FAST Driver : Disabling driver 20
+2025-04-12 18:45:43,863 : INFO : Mode.attract : Started. Priority: 10
+2025-04-12 18:45:43,863 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-12 18:45:43,863 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={'queue': <QueuedEvent>}
+2025-04-12 18:45:43,864 : INFO : Mode.tilt : Started. Priority: 1000000
+2025-04-12 18:45:43,864 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-12 18:45:43,864 : INFO : EventManager : Event: ======'mode_tilt_started'====== Args={'queue': <QueuedEvent>}
+2025-04-12 18:45:43,864 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-04-12 18:45:43,866 : INFO : Machine : Starting the main run loop.
+2025-04-12 18:45:43,921 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-12 18:45:43,922 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-04-12 18:45:43,922 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'queue': '<QueuedEvent>', 'cmd': 'slides_play', '_from_bcp': True}
+2025-04-12 18:47:08,736 : INFO : Machine : Shutting down...
+2025-04-12 18:47:08,736 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-04-12 18:47:08,736 : DEBUG : ball_device.bd_trough : Stopping ball device
+2025-04-12 18:47:08,740 : DEBUG : ball_device.bd_ball_lock : Stopping ball device
+2025-04-12 18:47:08,741 : DEBUG : ball_device.bd_mode : Stopping ball device
+2025-04-12 18:47:08,841 : DEBUG : FAST [NET] : Stop called on serial connection NET
+2025-04-12 18:47:08,842 : INFO : root : MPF run loop ended.
