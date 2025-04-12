@@ -7,11 +7,11 @@ mode:
   code: dog_hunt.DogHunt
   
 slide_player:
-  mode_dog_hunt_started:
+  mode_dog_hunt_started:  # CHANGED from mode_dog_hunt_start to mode_dog_hunt_started
     dog_hunt_started:
       widgets:
         - type: text
-          text: DOG HUNT MODE
+          text: "DOG HUNT MODE"
           font_size: 50
           y: center-100
           color: red
@@ -49,7 +49,7 @@ timers:
     end_value: 0
     direction: down
     control_events:
-      - event: mode_dog_hunt_started
+      - event: mode_dog_hunt_started  # This should also be changed to mode_dog_hunt_started
         action: start
       - event: mode_dog_hunt_complete
         action: stop

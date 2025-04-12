@@ -1,5 +1,15 @@
 #config_version=6
 
+# BCP Server configuration for Godot
+bcp:
+  connections:
+    godot:
+      host: localhost
+      port: 5050
+      type: mpf.core.bcp.bcp_socket_client.BCPClientSocket
+      required: False
+      exit_on_close: False
+
 # Add machine-wide ball count
 machine:
   balls_installed: 3  # Set this to match your actual ball count
@@ -92,7 +102,7 @@ switches:
   # Mode Opto
   s_mode_opto:
     number: 0804_2-00
-    tags: playfield_active, mode_opto
+    tags: mode_opto
     type: nc
   
   # 3Bank Targets
@@ -338,6 +348,27 @@ ball_devices:
     eject_targets: playfield
     entrance_switch: s_right_ramp_entry_1
     entrance_switch_full_timeout: 3s
+    
+  bd_mode:
+    ball_switches: s_mode_opto
+    eject_coil: c_mode_vuk
+    eject_timeouts: 3s
+    confirm_eject_type: target
+    tags: captures_from_playfield
+    debug: True
+    eject_targets: playfield
+    entrance_events: mode_vuk_entrance
+    entrance_count_delay: 100ms
+
+# Add ball hold for the mode vuk
+ball_holds:
+  mode_vuk_hold:
+    balls_to_hold: 1
+    hold_devices: bd_mode
+    release_one_events: release_mode_vuk_ball
+    enable_events: mode_qualification_achieved
+    disable_events: mode_started, ball_ending
+    auto_release_after: 3s  # Changed from 20s to 3s for a better game flow
 
 playfields:
   playfield:
@@ -383,9 +414,7 @@ game:
 
 # For virtual hardware testing, add virtual ball simulation
 virtual_platform_start_active_switches:
-  s_trough_6
-  s_trough_7
-  s_trough_ball
+  s_trough_6, s_trough_7, s_trough_ball
 
 machine_vars:
   game_mode_dog_hunt_complete:
@@ -420,6 +449,10 @@ machine_vars:
     initial_value: 0
     persist: True
     value_type: int
+  qualified_mode:
+    initial_value: "none"
+    persist: False
+    value_type: str
 
 # Complete list of player variables from all modes
 player_vars:
@@ -563,7 +596,6 @@ event_player:
   diverter_pattern_complete: activate_diverter
   activate_diverter: 
     - release_diverter|3s
-
   
   # Ball Lock Events
   mode_ball_lock_started: enable_ball_lock_mechanism
@@ -582,11 +614,16 @@ event_player:
   "spinner_complete{current_player.game_mode_active == False}": enable_dog_hunt_mode
   "s_right_ramp_entry_1_active{current_player.ball_lock_active == True}":
     - request_ball_lock
-
+  
+  # REMOVED - This conditional event is now handled by the Python mode
+  # "s_mode_opto_active{device.machine_vars.qualified_mode == 'dog_hunt'}":
+  #   - mode_dog_hunt_start
+  #   - set_qualified_mode_none
+  
   # Game state events
   game_started: setup_game_variables
   ball_started: reset_player_shot_counters, pulse_upramp_on_start
-  ball_ending: tally_player_score
+  ball_ending: tally_player_score, enable_all_mode_qualifications
   
   # Mode-specific events
   dog_hunt_objective_complete: advance_game_state
@@ -614,7 +651,27 @@ event_player:
   # Special shot events
   "newton_shots_complete{current_player.newton_shots >= 3}": enable_next_mode
   "pop_bumper_hit{current_player.pop_bumper_value >= 100}": award_pop_bumper_bonus
-  "dog_bank_targets_complete{current_player.dog_hunt_complete == False}": enable_dog_hunt_mode
+  
+  # REMOVED - These events are now handled by the Python mode_switcher
+  # "dog_bank_targets_complete{current_player.dog_hunt_complete == False}": qualify_dog_hunt_mode
+  # qualify_dog_hunt_mode:
+  #   - mode_qualification_achieved
+  #   - set_qualified_mode_dog_hunt
+  # set_qualified_mode_dog_hunt: 
+  #   - set_machine_var
+  # set_qualified_mode_none:
+  #   - reset_machine_var
+  # set_machine_var:
+  #   machine_var_qualified_mode_set{value="dog_hunt"}
+  # reset_machine_var:
+  #   machine_var_qualified_mode_set{value="none"}
+  
+  # Prevent multiple qualifications from stacking - kept for compatibility with Python mode
+  mode_qualification_achieved:
+    - disable_all_mode_qualifications
+    
+  # Reset qualifications when mode completes
+  mode_dog_hunt_complete: enable_all_mode_qualifications
 
   # Ball lock events
   ball_lock_hit:
@@ -640,7 +697,7 @@ event_player:
 
   ball_lock_full:
     - log_ball_lock_full
-    - show_ball_lock_full_slide  
+    - show_ball_lock_full_slide
 
 slide_player:
   show_blood_lock_progress:
@@ -682,6 +739,27 @@ slide_player:
           y: center
           color: yellow
           expire: 2s
+          
+  # New slides for mode qualification
+  qualify_dog_hunt_mode:
+    mode_qualification:
+      widgets:
+        - type: text
+          text: "DOG HUNT QUALIFIED! SHOOT THE VUK TO START!"
+          font_size: 40
+          y: center
+          color: orange
+          expire: 5s
+  
+  mode_qualification_achieved:
+    qualification_instruction:
+      widgets:
+        - type: text
+          text: "SHOOT THE CENTER VUK!"
+          font_size: 45
+          y: center-50
+          color: red
+          expire: 15s
 
 coil_player:
   dog_bank_targets_complete:
@@ -734,6 +812,7 @@ modes:
   - tilt
   - high_score
   - match
+  - mode_switcher  # Add the new mode_switcher mode
   - dog_hunt
   - discovery
   - infected

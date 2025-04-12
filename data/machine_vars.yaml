@@ -1,0 +1,36 @@
+game_mode_ball_lock_complete:
+  expire: null
+  expire_secs: null
+  value: 0
+game_mode_blood_test_complete:
+  expire: null
+  expire_secs: null
+  value: 0
+game_mode_discovery_complete:
+  expire: null
+  expire_secs: null
+  value: 0
+game_mode_dog_hunt_complete:
+  expire: null
+  expire_secs: null
+  value: 1
+game_mode_infected_complete:
+  expire: null
+  expire_secs: null
+  value: 0
+game_mode_multiball_complete:
+  expire: null
+  expire_secs: null
+  value: 0
+game_mode_spider_head_complete:
+  expire: null
+  expire_secs: null
+  value: 0
+game_mode_wizard_complete:
+  expire: null
+  expire_secs: null
+  value: 0
+master_volume:
+  expire: null
+  expire_secs: null
+  value: 0.5

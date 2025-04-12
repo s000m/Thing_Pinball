@@ -1,15 +1,22 @@
 #config_version=6
 
 mode:
-  start_events: mc_reset_phase_3
+  start_events: mc_reset_phase_3, machine_reset_phase_3
   game_mode: False
   priority: 10
   code: attract.Attract
   stop_events: game_start
-  
+
+# Use BCP events to trigger Godot scenes
+event_player:
+  mode_attract_started: godot_show_attract_scene
+  mode_attract_stopped: godot_hide_attract_scene
+  s_start_button_active: game_start  # This is the start button handling
+
+# Keep original slide player for compatibility
 slide_player:
   mode_attract_started:
-    attract_start:
+    attract:
       widgets:
         - type: text
           text: THING
@@ -62,46 +69,13 @@ slide_player:
           font_size: 30
           y: center+140
           color: white
-          
-show_player:
-  mode_attract_started:
-    attract_display_loop:
-      loops: -1
-      
-shows:
-  attract_display_loop:
-    - duration: 5
-      slides: attract_start
-    - duration: 5
-      slides: game_features
-      
-widgets:
-  game_features:
-    - type: text
-      text: GAME FEATURES
-      font_size: 50
-      y: top-50
-      color: blue
-    - type: text
-      text: DOG HUNT - DISCOVERY - INFECTED
-      font_size: 30
-      y: center-50
-      color: white
-    - type: text
-      text: BLOOD TEST - SPIDER HEAD - WIZARD MODE
-      font_size: 30
-      y: center
-      color: white
-    - type: text
-      text: BALL LOCK - MULTI-BALL
-      font_size: 30
-      y: center+50
-      color: white
 
-# Add this event_player section to handle the start button press
-event_player:
-  s_start_button_active:
-    - start_game
-  # Also handle the start button if it's defined with a different name
-  s_start_active:
-    - start_game
+sound_player:
+  mode_attract_started:
+    main_song: 
+      bus: music
+
+#show_player:
+#  mode_attract_started:
+#    attract_display_loop:
+#      loops: -1

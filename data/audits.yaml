@@ -1,58 +1,55 @@
 events:
   game_ended: 0
-  game_started: 517
+  game_started: 520
 missing_switches:
-  s_3bank_tgt_d: 53
-  s_3bank_tgt_g: 34
-  s_3bank_tgt_o: 53
-  s_back_button: 81
-  s_down_button: 81
-  s_enter_button: 81
-  s_inlane_left: 82
+  s_back_button: 84
+  s_down_button: 84
+  s_enter_button: 84
+  s_inlane_left: 85
   s_launch: 6
-  s_left_button_2: 52
+  s_left_button_2: 55
   s_left_flipper: 363
-  s_left_flipper_button: 52
-  s_left_flipper_eos: 52
+  s_left_flipper_button: 55
+  s_left_flipper_eos: 55
   s_left_inlane: 6
   s_left_inner_lane: 357
   s_left_outer_lane: 153
   s_left_outlane: 6
-  s_left_ramp_entry_1: 50
+  s_left_ramp_entry_1: 53
   s_left_sling: 363
-  s_left_slingshot: 82
+  s_left_slingshot: 85
   s_mead: 267
-  s_newton_opto_made: 125
-  s_outlane_left: 113
-  s_outlane_right: 82
+  s_newton_opto_made: 128
+  s_outlane_left: 116
+  s_outlane_right: 85
   s_percy: 85
   s_plunger: 363
-  s_pop_bumper_1: 80
-  s_pop_bumper_2: 82
-  s_pop_bumper_3: 52
-  s_right_button_2: 83
+  s_pop_bumper_1: 1
+  s_pop_bumper_2: 1
+  s_pop_bumper_3: 1
+  s_right_button_2: 86
   s_right_flipper: 363
-  s_right_flipper_button: 83
-  s_right_flipper_eos: 83
+  s_right_flipper_button: 86
+  s_right_flipper_eos: 86
   s_right_inlane: 6
   s_right_inner_lane: 357
-  s_right_orbit_1: 52
+  s_right_orbit_1: 1
   s_right_outer_lane: 357
   s_right_outlane: 6
   s_right_sling: 363
-  s_right_slingshot: 25
+  s_right_slingshot: 28
   s_scanlan: 204
-  s_spinner: 49
+  s_spinner: 1
   s_start: 6
-  s_start_button: 82
-  s_trough_1: 53
+  s_start_button: 85
+  s_trough_1: 56
   s_trough_ball_1: 363
   s_trough_ball_2: 363
   s_trough_ball_3: 363
   s_trough_ball_4: 278
   s_trough_ball_5: 363
   s_trough_ball_6: 95
-  s_up_button: 81
+  s_up_button: 84
 player:
   score:
     average: 0
@@ -65,20 +62,20 @@ shots:
   video_shot_1: 24
   video_shot_2: 20
 switches:
-  s_3bank_tgt_d: 21
-  s_3bank_tgt_g: 32
-  s_3bank_tgt_o: 26
+  s_3bank_tgt_d: 26
+  s_3bank_tgt_g: 37
+  s_3bank_tgt_o: 31
   s_auto_launcher: 0
   s_back_button: 0
   s_ball_drain: 0
-  s_ball_lock_1: 137
-  s_ball_lock_2: 115
-  s_ball_lock_3: 117
-  s_blood_target: 348
+  s_ball_lock_1: 142
+  s_ball_lock_2: 119
+  s_ball_lock_3: 121
+  s_blood_target: 352
   s_down_button: 0
   s_enter_button: 0
   s_inlane_left: 9
-  s_inlane_right: 20
+  s_inlane_right: 22
   s_launch: 0
   s_left_button_2: 212
   s_left_flipper: 36
@@ -92,48 +89,48 @@ switches:
   s_left_sling: 7
   s_left_slingshot: 8
   s_mead: 0
-  s_mode_opto: 102
+  s_mode_opto: 106
   s_newton_opto_made: 2
   s_outlane_left: 3
   s_outlane_right: 6
   s_percy: 0
   s_plunger: 9
-  s_pop_bumper_1: 55
-  s_pop_bumper_2: 26
-  s_pop_bumper_3: 43
-  s_ramp_up_1: 150
+  s_pop_bumper_1: 58
+  s_pop_bumper_2: 29
+  s_pop_bumper_3: 44
+  s_ramp_up_1: 154
   s_right_button_2: 53
   s_right_flipper: 131
   s_right_flipper_button: 53
   s_right_flipper_eos: 50
   s_right_inlane: 0
   s_right_inner_lane: 0
-  s_right_orbit_1: 53
+  s_right_orbit_1: 62
   s_right_outer_lane: 0
   s_right_outlane: 0
-  s_right_ramp_entry_1: 98
+  s_right_ramp_entry_1: 101
   s_right_sling: 3
   s_right_slingshot: 16
   s_scanlan: 0
-  s_shooter_lane: 196
-  s_spinner: 301
+  s_shooter_lane: 206
+  s_spinner: 475
   s_start: 38
   s_start_button: 4
   s_switch_2: 0
   s_trough_1: 3
-  s_trough_2: 85
-  s_trough_3: 88
-  s_trough_4: 76
-  s_trough_5: 73
-  s_trough_6: 101
-  s_trough_7: 178
-  s_trough_ball: 213
+  s_trough_2: 94
+  s_trough_3: 101
+  s_trough_4: 89
+  s_trough_5: 86
+  s_trough_6: 119
+  s_trough_7: 195
+  s_trough_ball: 233
   s_trough_ball_1: 4
   s_trough_ball_2: 4
   s_trough_ball_3: 1
   s_trough_ball_4: 0
   s_trough_ball_5: 0
   s_trough_ball_6: 1
-  s_trough_ball_jam: 246
+  s_trough_ball_jam: 261
   s_trough_eject_coil: 0
   s_up_button: 0
