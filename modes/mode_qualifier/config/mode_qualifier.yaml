@@ -17,24 +17,8 @@ event_player:
   # Prevent multiple qualifications from stacking
   mode_qualification_achieved: disable_all_mode_qualifications
 
-slide_player:
+#slide_player:
   # Slides for mode qualification
-  qualify_dog_hunt_mode:
-    mode_qualification:
-      widgets:
-        - type: text
-          text: "DOG HUNT QUALIFIED! SHOOT THE VUK TO START!"
-          font_size: 40
-          y: center
-          color: orange
-          expire: 5s
-  
-  mode_qualification_achieved:
-    qualification_instruction:
-      widgets:
-        - type: text
-          text: "SHOOT THE CENTER VUK!"
-          font_size: 45
-          y: center-50
-          color: red
-          expire: 15s
+#  mode_dog_hunt_started:
+#    mode_qualification:
+

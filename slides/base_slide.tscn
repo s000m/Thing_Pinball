@@ -1,0 +1,76 @@
+[gd_scene load_steps=4 format=3 uid="uid://c67un4agl17us"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_n7gmo"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="2_c6yxi"]
+[ext_resource type="Texture2D" uid="uid://dic833a0y4271" path="res://images/thing_base.png" id="2_du705"]
+
+[node name="base_slide" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+script = ExtResource("1_n7gmo")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="TextureRect" type="TextureRect" parent="ColorRect"]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_du705")
+
+[node name="player_score" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -23.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_shadow_color = Color(0.0949868, 0.485748, 0.887702, 1)
+theme_override_constants/shadow_offset_y = 9
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 120
+text = "1,234567"
+horizontal_alignment = 1
+script = ExtResource("2_c6yxi")
+variable_name = "score"
+comma_separate = true
+min_digits = 2
+
+[node name="HFlowContainer" type="HFlowContainer" parent="."]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 985.0
+offset_right = 453.0
+offset_bottom = 1068.0
+theme_override_constants/h_separation = 30
+
+[node name="player_number" type="Label" parent="HFlowContainer"]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0.313726, 0.815686, 1)
+theme_override_constants/shadow_offset_y = 5
+theme_override_font_sizes/font_size = 60
+text = "Player 1"
+script = ExtResource("2_c6yxi")
+variable_name = "number"
+template_string = "Player %s"
+min_players = 1
+
+[node name="player_ball" type="Label" parent="HFlowContainer"]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0.313726, 0.815686, 1)
+theme_override_constants/shadow_offset_y = 5
+theme_override_font_sizes/font_size = 60
+text = "Ball 1"
+script = ExtResource("2_c6yxi")
+variable_name = "ball"
+template_string = "Ball %s"

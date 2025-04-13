@@ -1,0 +1,58 @@
+[gd_scene load_steps=5 format=3 uid="uid://db5nmb2hjllob"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_vxbpo"]
+[ext_resource type="VideoStream" path="res://videos/dog_hunt.ogv" id="2_d0p1f"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="3_6djv5"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="4_0ablk"]
+
+[node name="DogHunt" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+script = ExtResource("1_vxbpo")
+
+[node name="dog_hunt" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+stream = ExtResource("2_d0p1f")
+autoplay = true
+loop = true
+script = ExtResource("3_6djv5")
+
+[node name="spinner_hit" type="Label" parent="dog_hunt"]
+layout_mode = 0
+offset_left = 528.0
+offset_top = 290.0
+offset_right = 568.0
+offset_bottom = 313.0
+theme_override_font_sizes/font_size = 60
+text = "SPINNER HIT"
+script = ExtResource("4_0ablk")
+variable_name = "spinner_value"
+update_event = "spinner_value_value"
+
+[node name="dog_hunt_complete" type="Label" parent="dog_hunt"]
+layout_mode = 0
+offset_left = 528.0
+offset_top = 394.0
+offset_right = 1035.0
+offset_bottom = 477.0
+theme_override_font_sizes/font_size = 60
+text = "MODE COMPLETE"
+script = ExtResource("4_0ablk")
+variable_name = "dog_hunt_complete"
+update_event = "mode_dog_hunt_complete"
+
+[node name="dog_hunt_dog_hunt_timer_tick" type="Label" parent="dog_hunt"]
+layout_mode = 0
+offset_left = 882.0
+offset_top = 809.0
+offset_right = 1061.0
+offset_bottom = 892.0
+theme_override_font_sizes/font_size = 60
+text = "TIMER"
+script = ExtResource("4_0ablk")
+variable_name = "dog_hunt_dog_hunt_timer_tick"
+update_event = "dog_hunt_dog_hunt_timer_tick_remaining"

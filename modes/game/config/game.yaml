@@ -6,47 +6,47 @@ mode:
   priority: 20
   code: 
 
-slide_player:
-  mode_game_started:
-    game_started:
-      priority: 10
-      widgets:
-        - type: text
-          text: GAME START
-          font_size: 70
-          color: yellow
-          y: center
-          expire: 2s
+#slide_player:
+#  mode_game_started:
+#   game_started:
+#     priority: 10
+#      widgets:
+#        - type: text
+#          text: GAME START
+#          font_size: 70
+#          color: yellow
+#          y: center
+#          expire: 2s
   
-  player_added:
-    player_added:
-      widgets:
-        - type: text
-          text: "PLAYER (player_num) ADDED"
-          font_size: 50
-          color: green
-          y: center
-          expire: 1s
+#  player_added:
+#    player_added:
+#      widgets:
+#        - type: text
+#          text: "PLAYER (player_num) ADDED"
+#          font_size: 50
+#          color: green
+#          y: center
+#          expire: 1s
   
-  ball_started:
-    ball_started:
-      widgets:
-        - type: text
-          text: "BALL (ball)"
-          color: white
-          font_size: 50
-          y: center
-          expire: 1s
+#  ball_started:
+#    ball_started:
+#      widgets:
+#        - type: text
+#          text: "BALL (ball)"
+#          color: white
+#          font_size: 50
+#          y: center
+#          expire: 1s
   
-  game_ended:
-    game_over:
-      widgets:
-        - type: text
-          text: GAME OVER
-          font_size: 80
-          color: red
-          y: center
-          expire: 2s
+#  game_ended:
+#    game_over:
+#      widgets:
+#        - type: text
+#          text: GAME OVER
+#          font_size: 80
+#          color: red
+#          y: center
+#          expire: 2s
 
 # Remove variable_player section from here
 # In MPF 0.80, this needs to be in a different location

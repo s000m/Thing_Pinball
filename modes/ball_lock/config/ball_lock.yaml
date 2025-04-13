@@ -63,46 +63,46 @@ event_player:
     # and we don't want to end the mode until after the post is disabled
 
 # Slide player for UI
-slide_player:
-  mode_ball_lock_started:
-    slide_1:
-      widgets:
-        - type: text
-          text: BALL LOCK MODE ACTIVE
-          font_size: 50
-          y: center-100
-          color: blue
-          expire: 2s
+#slide_player:
+#  mode_ball_lock_started:
+#    slide_1:
+#      widgets:
+#        - type: text
+#          text: BALL LOCK MODE ACTIVE
+#          font_size: 50
+#          y: center-100
+#          color: blue
+#          expire: 2s
           
-  multiball_lock_ball_lock_locked_ball:
-    slide_2:
-      widgets:
-        - type: text
-          text: "BALL LOCKED: (player|locked_balls) / 3"
-          font_size: 40
-          y: center
-          color: yellow
-          expire: 2s
+#  multiball_lock_ball_lock_locked_ball:
+#    slide_2:
+#      widgets:
+#        - type: text
+#          text: "BALL LOCKED: (player|locked_balls) / 3"
+#          font_size: 40
+#          y: center
+#          color: yellow
+#          expire: 2s
 
-  right_orbit_hit:
-    slide_3:
-      widgets:
-        - type: text
-          text: "ORBIT ACTIVE!"
-          font_size: 40
-          y: center
-          color: green
-          expire: 1s
+#  right_orbit_hit:
+#    slide_3:
+#      widgets:
+#        - type: text
+#          text: "ORBIT ACTIVE!"
+#          font_size: 40
+#          y: center
+#          color: green
+#          expire: 1s
           
-  multiball_lock_ball_lock_full:
-    slide_4:
-      widgets:
-        - type: text
-          text: "LOCK FULL! MULTIBALL READY!"
-          font_size: 50
-          y: center
-          color: red
-          expire: 3s
+#  multiball_lock_ball_lock_full:
+#    slide_4:
+#      widgets:
+#        - type: text
+#          text: "LOCK FULL! MULTIBALL READY!"
+#          font_size: 50
+#          y: center
+#          color: red
+#          expire: 3s
 
 # Coil player for device control
 coil_player:

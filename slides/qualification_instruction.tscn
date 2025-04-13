@@ -1,0 +1,67 @@
+[gd_scene load_steps=4 format=3 uid="uid://b4j3vhb1s28lp"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_6ti54"]
+[ext_resource type="Texture2D" uid="uid://dic833a0y4271" path="res://images/thing_base.png" id="2_awgri"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_4kxxj"]
+
+[node name="ModeQualifier" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+script = ExtResource("1_6ti54")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_awgri")
+
+[node name="qualify_dog_hunt_mode" type="Label" parent="TextureRect"]
+layout_mode = 0
+offset_left = 490.0
+offset_top = 2.0
+offset_right = 1551.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 60
+text = "MODE QUALIFIED"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_4kxxj")
+variable_name = "qualify_dog_hunt_mode"
+
+[node name="mode_qualification_achieved" type="Label" parent="TextureRect"]
+offset_left = 492.0
+offset_top = 89.0
+offset_right = 1553.0
+offset_bottom = 226.0
+theme_override_font_sizes/font_size = 60
+text = "Shot the Mode VUK!"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_4kxxj")
+variable_name = "mode_qualification_achieved"
+
+[node name="qualification_instruction" type="Label" parent="TextureRect"]
+offset_left = 484.0
+offset_top = 221.0
+offset_right = 1545.0
+offset_bottom = 358.0
+theme_override_font_sizes/font_size = 60
+text = "Shot the Mode VUK!"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_4kxxj")
+variable_name = "qualification_instruction"
+
+[node name="mode_qualification" type="Label" parent="TextureRect"]
+offset_left = 484.0
+offset_top = 221.0
+offset_right = 1545.0
+offset_bottom = 358.0
+theme_override_font_sizes/font_size = 60
+text = "Shot the Mode VUK!"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_4kxxj")
+variable_name = "mode_qualification"

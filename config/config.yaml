@@ -1,12 +1,12 @@
 #config_version=6
 
 # BCP Server configuration for Godot
-bcp:
-  servers:
-    local_server:
-      ip: 127.0.0.1
-      port: 5050
-      type: mpf.core.bcp.bcp_socket_server.BCPServer
+#bcp:
+#  servers:
+#    local_server:
+#      ip: 127.0.0.1
+#      port: 5050
+#      type: mpf.core.bcp.bcp_socket_server.BCPServer
 
 
 # Add machine-wide ball count
@@ -698,67 +698,67 @@ event_player:
     - log_ball_lock_full
     - show_ball_lock_full_slide
 
-slide_player:
-  show_blood_lock_progress:
-    blood_lock_qualify:
-      widgets:
-        - type: text
-          text: "BLOOD TARGET: (device.counters.blood_target_counter.value) / 4"
-          font_size: 30
-          y: center
-          color: red
-          expire: 2s
+#slide_player:
+#  show_blood_lock_progress:
+#    blood_lock_qualify:
+#      widgets:
+#        - type: text
+#          text: "BLOOD TARGET: (device.counters.blood_target_counter.value) / 4"
+#          font_size: 30
+#          y: center
+#          color: red
+#          expire: 2s
 
-  mode_ball_lock_start:
-    ball_lock_ready:
-      widgets:
-        - type: text
-          text: "BLOOD LOCK READY!"
-          font_size: 50
-          y: center
-          color: green
-          expire: 3s
+#  mode_ball_lock_start:
+#    ball_lock_ready:
+#      widgets:
+#        - type: text
+#          text: "BLOOD LOCK READY!"
+#          font_size: 50
+#          y: center
+#          color: green
+#          expire: 3s
 
-  ball_lock_request_error:
-    ball_lock_error:
-      widgets:
-        - type: text
-          text: "BALL LOCK ERROR!"
-          font_size: 40
-          y: center
-          color: red
-          expire: 2s
+#  ball_lock_request_error:
+#    ball_lock_error:
+#      widgets:
+#        - type: text
+#          text: "BALL LOCK ERROR!"
+#          font_size: 40
+#          y: center
+#          color: red
+#          expire: 2s
 
-  ball_lock_full:
-    ball_lock_full_warning:
-      widgets:
-        - type: text
-          text: "BALL LOCK IS FULL!"
-          font_size: 40
-          y: center
-          color: yellow
-          expire: 2s
+#  ball_lock_full:
+#    ball_lock_full_warning:
+#      widgets:
+#        - type: text
+#          text: "BALL LOCK IS FULL!"
+#          font_size: 40
+#          y: center
+#          color: yellow
+#          expire: 2s
           
   # New slides for mode qualification
-  qualify_dog_hunt_mode:
-    mode_qualification:
-      widgets:
-        - type: text
-          text: "DOG HUNT QUALIFIED! SHOOT THE VUK TO START!"
-          font_size: 40
-          y: center
-          color: orange
-          expire: 5s
+#  qualify_dog_hunt_mode:
+#    mode_qualification:
+#      widgets:
+#        - type: text
+#          text: "DOG HUNT QUALIFIED! SHOOT THE VUK TO START!"
+#          font_size: 40
+#          y: center
+#          color: orange
+#          expire: 5s
   
-  mode_qualification_achieved:
-    qualification_instruction:
-      widgets:
-        - type: text
-          text: "SHOOT THE CENTER VUK!"
-          font_size: 45
-          y: center-50
-          color: red
-          expire: 15s
+#  mode_qualification_achieved:
+#    qualification_instruction:
+#      widgets:
+#        - type: text
+#          text: "SHOOT THE CENTER VUK!"
+#          font_size: 45
+#          y: center-50
+#          color: red
+#          expire: 15s
 
 coil_player:
   dog_bank_targets_complete:

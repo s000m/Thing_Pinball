@@ -5,36 +5,19 @@ mode:
   stop_events: ball_ending
   priority: 100
   game_mode: true
-  
+
+#Song playing while in base
+sound_player:
+  mode_base_started:
+    main_song: 
+      bus: music
+
 slide_player:
   mode_base_started:
-    base_started:
-      widgets:
-        - type: text
-          text: (player_num)
-          font_size: 50
-          x: right-20
-          y: top-20
-          anchor_x: right
-          anchor_y: top
-          color: white
-        - type: text
-          text: BALL (ball)
-          font_size: 50
-          x: right-20
-          y: top-80
-          anchor_x: right
-          anchor_y: top
-          color: white
-        - type: text
-          text: SCORE (score)
-          font_size: 50
-          x: center
-          y: top-20
-          anchor_x: center
-          anchor_y: top
-          color: white
-  
+    attract:
+      action: remove
+    base_slide:
+
 variable_player:
   # Base scoring - now moved from game.yaml to here
   ball_started:

@@ -6,23 +6,5 @@ mode:
   priority: 500
   code: mode_switcher.ModeSwitcher
 
-slide_player:
-  qualify_dog_hunt_mode:
-    mode_qualification:
-      widgets:
-        - type: text
-          text: "DOG HUNT QUALIFIED! SHOOT THE VUK TO START!"
-          font_size: 40
-          y: center
-          color: orange
-          expire: 5s
-  
-  mode_qualification_achieved:
-    qualification_instruction:
-      widgets:
-        - type: text
-          text: "SHOOT THE CENTER VUK!"
-          font_size: 45
-          y: center-50
-          color: red
-          expire: 15s
+#slide_player:
+ 
