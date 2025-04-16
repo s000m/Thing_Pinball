@@ -1,0 +1,45 @@
+#config_version=6
+
+ball_devices:
+  bd_trough:
+    ball_switches: s_trough_ball, s_trough_7, s_trough_6
+    eject_coil: c_trough
+    tags: trough, home, drain
+    jam_switch: s_trough_ball_jam
+    eject_timeouts: 3s
+    debug: True
+    eject_targets: bd_shooter_lane
+    confirm_eject_type: target
+    # Removed ball_capacity as it conflicts with ball_switches
+    
+  bd_shooter_lane:
+    ball_switches: s_shooter_lane
+    entrance_count_delay: 300ms
+    eject_timeouts: 5s
+    tags: launcher
+    mechanical_eject: True
+    # Removed ball_capacity as it conflicts with ball_switches
+    
+  bd_ball_lock:
+    ball_switches: s_ball_lock_1, s_ball_lock_2, s_ball_lock_3
+    eject_coil: c_up_post
+    tags: ball_lock
+    eject_timeouts: 3s
+    confirm_eject_type: target
+    debug: True
+    # Removed ball_capacity as it conflicts with ball_switches
+    auto_fire_on_unexpected_ball: False
+    eject_targets: playfield
+    entrance_switch: s_right_ramp_entry_1
+    entrance_switch_full_timeout: 3s
+    
+  bd_mode:
+    ball_switches: s_mode_opto
+    eject_coil: c_mode_vuk
+    eject_timeouts: 3s
+    confirm_eject_type: target
+    tags: captures_from_playfield
+    debug: True
+    eject_targets: playfield
+    entrance_events: mode_vuk_entrance
+    entrance_count_delay: 100ms

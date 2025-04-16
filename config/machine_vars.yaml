@@ -1,0 +1,39 @@
+#config_version=6
+
+machine_vars:
+  game_mode_dog_hunt_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  game_mode_discovery_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  game_mode_infected_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  game_mode_blood_test_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  game_mode_spider_head_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  game_mode_wizard_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  game_mode_ball_lock_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  game_mode_multiball_complete:
+    initial_value: 0
+    persist: True
+    value_type: int
+  qualified_mode:
+    initial_value: "none"
+    persist: False
+    value_type: str

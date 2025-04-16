@@ -1,0 +1,28 @@
+#config_version=6
+
+autofire_coils:
+  left_slingshot:
+    coil: c_left_slingshot
+    switch: s_left_slingshot
+    enable_events: ball_started
+    disable_events: ball_ending, service_mode_entered
+  right_slingshot:
+    coil: c_right_slingshot
+    switch: s_right_slingshot
+    enable_events: ball_started
+    disable_events: ball_ending, service_mode_entered
+  pop_bumper_1:
+    coil: c_pop_bumper_1
+    switch: s_pop_bumper_1
+    enable_events: ball_started
+    disable_events: ball_ending, service_mode_entered
+  pop_bumper_2:
+    coil: c_pop_bumper_2
+    switch: s_pop_bumper_2
+    enable_events: ball_started
+    disable_events: ball_ending, service_mode_entered
+  pop_bumper_3:
+    coil: c_pop_bumper_3
+    switch: s_pop_bumper_3
+    enable_events: ball_started
+    disable_events: ball_ending, service_mode_entered

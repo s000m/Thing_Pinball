@@ -1,0 +1,79 @@
+#config_version=6
+
+# Complete list of player variables from all modes
+player_vars:
+  game_mode_active:
+    initial_value: 0
+    value_type: int
+  current_game_mode:
+    initial_value: "none"
+    value_type: str
+  phase1_complete:
+    initial_value: 0
+    value_type: int
+  dog_hunt_complete:
+    initial_value: 0
+    value_type: int
+  discovery_complete:
+    initial_value: 0
+    value_type: int
+  infected_complete:
+    initial_value: 0
+    value_type: int
+  blood_test_complete:
+    initial_value: 0
+    value_type: int
+  spider_head_complete:
+    initial_value: 0
+    value_type: int
+  wizard_complete:
+    initial_value: 0
+    value_type: int
+  ball_lock_complete:
+    initial_value: 0
+    value_type: int
+  multiball_complete:
+    initial_value: 0
+    value_type: int
+  spinner_value:
+    initial_value: 0
+    value_type: int
+  pop_bumper_value:
+    initial_value: 0
+    value_type: int
+  newton_shots:
+    initial_value: 0
+    value_type: int
+  locked_balls:
+    initial_value: 0
+    value_type: int
+  balls_in_play:
+    initial_value: 1
+    value_type: int
+  jackpot_value:
+    initial_value: 10000
+    value_type: int
+  left_ramp_hits:
+    initial_value: 0
+    value_type: int
+  left_ramp_lock_hits:
+    initial_value: 0
+    value_type: int
+  spinner_hits:
+    initial_value: 0
+    value_type: int
+  pop_bumper_wizard:
+    initial_value: 0
+    value_type: int
+  ball_lock_active:
+    initial_value: 0
+    value_type: int
+  super_jackpot_value:
+    initial_value: 100000
+    value_type: int
+  jackpot_state:
+    initial_value: 0
+    value_type: int
+  right_ramp_valid:
+    initial_value: 0
+    value_type: int

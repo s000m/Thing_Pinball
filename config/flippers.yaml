@@ -1,0 +1,17 @@
+#config_version=6
+
+flippers:
+  left_flipper:
+    main_coil: c_left_flipper_main
+    hold_coil: c_left_flipper_hold
+    activation_switch: s_left_flipper_button
+    eos_switch: s_left_flipper_eos
+    enable_events: ball_started
+    disable_events: ball_ending, service_mode_entered
+  right_flipper:
+    main_coil: c_right_flipper_main
+    hold_coil: c_right_flipper_hold
+    activation_switch: s_right_flipper_button
+    eos_switch: s_right_flipper_eos
+    enable_events: ball_started
+    disable_events: ball_ending, service_mode_entered

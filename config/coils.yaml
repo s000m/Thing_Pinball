@@ -1,0 +1,63 @@
+#config_version=6
+
+coils:
+  c_trough:
+    number: 3208-4  # Second board, fifth driver
+    default_pulse_ms: 25
+  c_left_flipper_main:
+    number: 3208-1  # Second board, second driver
+    default_pulse_ms: 30
+  c_left_flipper_hold:
+    number: 3208-0  # Second board, first driver
+    allow_enable: True
+  c_right_flipper_main:
+    number: 3208-3  # Second board, fourth driver
+    default_pulse_ms: 30
+  c_right_flipper_hold:
+    number: 3208-2  # Second board, second driver
+    allow_enable: True
+  c_left_slingshot:
+    number: 3208-5  # Second board, sixth driver
+    default_pulse_ms: 30
+  c_right_slingshot:
+    number: 3208-6  # Second board, seventh driver
+    default_pulse_ms: 30
+  c_mode_vuk:
+    number: 0804_2-1  # Third board, second driver
+    default_pulse_ms: 30
+  c_upramp:
+    number: 0804_1-2  # Third board, third driver
+    default_pulse_ms: 30
+  c_ramp_release:
+    number: 0804_1-3  # Third board, second driver
+    default_pulse_ms: 30
+  c_diverter:
+    number: 0804_2-0  # Fourth board, first driver
+    default_pulse_ms: 30          # Short initial pulse
+    default_pulse_power: 1.0      # Full power for pulse
+    default_hold_power: 0.5       # 50% power for hold
+    allow_enable: True            # Critical for enabling hold
+    platform_settings:
+      pwm_on_ms: 10                # PWM timing for FAST
+      pwm_off_ms: 10               # PWM timing for FAST
+  c_pop_bumper_1:
+    number: 0804_2-3  # Fourth board, fourth driver
+    default_pulse_ms: 25
+  c_pop_bumper_2:
+    number: 0804_2-2  # Fourth board, third driver
+    default_pulse_ms: 25
+  c_pop_bumper_3:
+    number: 0804_1-1  # Third board, second driver
+    default_pulse_ms: 25
+  c_drop_target:
+    number: 0804_1-0  # Third board, first driver
+    default_pulse_ms: 30
+  c_up_post:
+    number: 3208-7  # Second board, sixth driver
+    default_pulse_ms: 30
+    default_pulse_power: 1.0
+    default_hold_power: 0.5
+    allow_enable: True
+    platform_settings:
+      pwm_on_ms: 10
+      pwm_off_ms: 10

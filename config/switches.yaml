@@ -4,3 +4,164 @@
 #Will be used in any modes where the switches are activated, etc.
 
 switches:
+  # Trough Switches
+  s_trough_1:
+    number: 3208-08
+    tags: trough, trough1
+  s_trough_2:
+    number: 3208-09
+    tags: trough, trough2
+  s_trough_3:
+    number: 3208-10
+    tags: trough, trough3
+  s_trough_4:
+    number: 3208-11
+    tags: trough, trough4
+  s_trough_5:
+    number: 3208-12
+    tags: trough, trough5
+  s_trough_6:
+    number: 3208-13
+    tags: trough, trough6
+  s_trough_7:
+    number: 3208-14
+    tags: trough, trough7
+  s_trough_ball:
+    number: 3208-27
+    tags: trough_ball
+    type: nc # Normally closed - active when no ball is present
+  s_trough_ball_jam:
+    number: 3208-28
+    tags: trough_ball_jam
+    type: nc # Normally closed - active when no ball is present
+  
+  # Shooter Lane
+  s_shooter_lane:
+    number: 0804_2-02
+    tags: shooter_lane
+  
+  # Outlanes and Inlanes
+  s_outlane_right:
+    number: 0804_1-04
+    tags: playfield_active
+  s_inlane_right:
+    number: 0804_1-07
+    tags: playfield_active
+  s_inlane_left:
+    number: 0804_1-06
+    tags: playfield_active
+  s_outlane_left:
+    number: 0804_1-00
+    tags: playfield_active
+  
+  # Mode Opto
+  s_mode_opto:
+    number: 0804_2-00
+    tags: mode_opto
+    type: nc
+  
+  # 3Bank Targets
+  s_3bank_tgt_d:
+    number: 3208-26
+    tags: dog_targets
+    type: nc
+  s_3bank_tgt_o:
+    number: 3208-25
+    type: nc
+    tags: dog_targets
+  s_3bank_tgt_g:
+    number: 3208-29
+    type: nc    
+    tags: dog_targets
+  
+  # Spinner
+  s_spinner:
+    number: 0804_2-01
+    tags: playfield_active
+  
+  # PopBumpers
+  s_pop_bumper_1:
+    number: 3208-17
+    tags: pop_bumpers
+  s_pop_bumper_2:
+    number: 3208-20
+    tags: pop_bumpers
+  s_pop_bumper_3:
+    number: 3208-19
+    tags: pop_bumpers
+  
+  # Ramps and Orbits
+  s_ramp_up_1:
+    number: 3208-16
+    tags: playfield_active
+  s_right_orbit_1:
+    number: 3208-18
+    tags: playfield_active
+  s_right_ramp_entry_1:
+    number: 3208-03
+    tags: playfield_active
+  
+  # Ball Lock Switches
+  s_ball_lock_1:
+    number: 3208-00
+    tags: ball_locks
+  s_ball_lock_2:
+    number: 3208-01
+    tags: ball_locks
+  s_ball_lock_3:
+    number: 3208-02
+    tags: ball_locks
+  
+  # Slingshots
+  s_left_slingshot:
+    number: 0804_1-05
+    tags: 
+  s_right_slingshot:
+    number: 0804_1-02
+    tags: 
+  
+  # Newton
+  s_newton_opto_made:
+    number: 3208-21
+    tags: playfield_active
+  
+  # Flipper EOS
+  s_left_flipper_eos:
+    number: 0804_1-01
+    tags: left_flipper_eos
+  s_right_flipper_eos:
+    number: 0804_1-03
+    tags: right_flipper_eos
+  
+  # Button Controls
+  s_start_button:
+    number: cab-10
+    tags: start
+  s_left_flipper_button:
+    number: cab-09
+    tags: left_flipper
+  s_left_button_2:
+    number: cab-08
+  s_right_flipper_button:
+    number: cab-17
+    tags: right_flipper
+  s_right_button_2:
+    number: cab-16
+  s_back_button:
+    number: cab-12
+  s_down_button:
+    number: cab-14
+  s_up_button:
+    number: cab-15
+  s_enter_button:
+    number: cab-13
+  
+  # Left Ramp Entry
+  s_left_ramp_entry_1:
+    number: 3208-04
+    tags: playfield_active
+
+  # Blood Target
+  s_blood_target:
+    number: 0804_2-03
+    tags: 
