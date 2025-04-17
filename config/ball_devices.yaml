@@ -32,14 +32,14 @@ ball_devices:
     eject_targets: playfield
     entrance_switch: s_right_ramp_entry_1
     entrance_switch_full_timeout: 3s
-    
+
   bd_mode:
     ball_switches: s_mode_opto
     eject_coil: c_mode_vuk
     eject_timeouts: 3s
     confirm_eject_type: target
-    tags: captures_from_playfield
     debug: True
     eject_targets: playfield
-    entrance_events: mode_vuk_entrance
     entrance_count_delay: 100ms
+    expected_ball_events:
+      - enable_bd_mode

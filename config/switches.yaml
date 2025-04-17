@@ -123,7 +123,7 @@ switches:
   # Newton
   s_newton_opto_made:
     number: 3208-21
-    tags: playfield_active
+    type: nc
   
   # Flipper EOS
   s_left_flipper_eos:

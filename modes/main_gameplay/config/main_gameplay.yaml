@@ -1,0 +1,118 @@
+#config_version=6
+
+mode:
+  start_events: ball_starting
+  priority: 100
+
+
+event_player:
+
+  
+   # Enable the ball hold when any mode is started
+  start_blood_test:
+    - enable_ball_hold_mode_vuk_hold
+  start_spider_head:
+    - enable_ball_hold_mode_vuk_hold
+  start_infected:
+    - enable_ball_hold_mode_vuk_hold
+  start_discovery:
+    - enable_ball_hold_mode_vuk_hold
+  start_dog_hunt:
+    - enable_ball_hold_mode_vuk_hold
+
+  # Enable bd_mode ball device BEFORE ball enters it
+  dog_hunt_qualified: enable_bd_mode
+  discovery_qualified: enable_bd_mode
+  infected_qualified: enable_bd_mode
+  blood_test_qualified: enable_bd_mode
+  spider_head_qualified: enable_bd_mode
+
+  # Existing events to start modes when qualified
+  "s_mode_opto{device.variables['blood_test_qualified'] == 1}": start_blood_test
+  "s_mode_opto{device.variables['spider_head_qualified'] == 1}": start_spider_head
+  "s_mode_opto{device.variables['infected_qualified'] == 1}": start_infected
+  "s_mode_opto{device.variables['discovery_qualified'] == 1}": start_discovery
+  "s_mode_opto{device.variables['dog_hunt_qualified'] == 1}": start_dog_hunt
+
+variable_player:
+  spider_head_qualified:
+    spider_head_qualified: 1
+
+  dog_hunt_qualified:
+    dog_hunt_qualified: 1
+
+  discovery_qualified:
+    discovery_qualified: 1
+
+  infected_qualified:
+    infected_qualified: 1
+
+  blood_test_qualified:
+    blood_test_qualified: 1
+
+  wizard_qualified:
+    wizard_qualified: 1
+
+shots:
+  dog_hunt_qualify:
+    switches:
+      - s_3bank_tgt_d
+      - s_3bank_tgt_o
+      - s_3bank_tgt_g
+    sequence:
+      in_order: true
+    profile: default
+    show_tokens: {}
+    events_when_hit: dog_hunt_qualified
+
+  spider_head_qualify:
+    switches:
+      - s_pop_bumper_1
+      - s_pop_bumper_2
+      - s_pop_bumper_3
+    sequence:
+      any_order: true
+      hit_count: 30
+    profile: default
+    show_tokens: {}
+    events_when_hit: spider_head_qualified
+
+  infected_qualify:
+    switches:
+      - s_left_ramp_entry_1
+    sequence:
+      any_order: true
+      hit_count: 3
+    profile: default
+    show_tokens: {}
+    events_when_hit: infected_qualified
+
+  blood_test_qualify:
+    switches:
+      - s_newton_opto_made
+    sequence:
+      any_order: true
+      hit_count: 3
+    profile: default
+    show_tokens: {}
+    events_when_hit: blood_test_qualified
+
+  discovery_qualify:
+    switches:
+      - s_spinner
+    sequence:
+      any_order: true
+      hit_count: 50
+    profile: default
+    show_tokens: {}
+    events_when_hit: discovery_qualified
+
+  wizard_qualify:
+    switches:
+      - s_right_orbit_1
+    sequence:
+      any_order: true
+      hit_count: 3
+    profile: default
+    show_tokens: {}
+    events_when_hit: wizard_qualified

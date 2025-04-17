@@ -43,17 +43,14 @@ config:
   - ball_devices.yaml #All Ball devices
   - autofire_coils.yaml #All Auto-Fire Coils
   - flippers.yaml #Flipper config
-  - variable_player.yaml #Mode logic here
   
 # Add ball hold for the mode vuk
 ball_holds:
   mode_vuk_hold:
+    hold_devices: 
+      - bd_mode
     balls_to_hold: 1
-    hold_devices: bd_mode
-    release_one_events: release_mode_vuk_ball
-    enable_events: mode_qualification_achieved
-    disable_events: mode_started, ball_ending
-    auto_release_after: 3s  # Changed from 20s to 3s for a better game flow
+    release_all_on_stop: true
 
 playfields:
   playfield:
@@ -368,7 +365,7 @@ modes:
   - wizard
   - multiball
   - ball_lock
-  - gameplay
+  - main_gameplay
 
 
 # Logging configuration for ball lock events
