@@ -1,0 +1,15 @@
+2025-04-17 14:03:51,618 : INFO : root : Loading config.
+2025-04-17 14:03:51,630 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-17 14:03:51,634 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\config.yaml
+2025-04-17 14:03:51,634 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-04-17 14:03:51,650 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\mpfconfig.yaml
+2025-04-17 14:03:51,650 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\config.yaml.
+2025-04-17 14:03:51,669 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\config.yaml
+2025-04-17 14:03:51,693 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\service_mode.yaml
+2025-04-17 14:03:51,697 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\switches.yaml
+2025-04-17 14:03:51,702 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\coils.yaml
+2025-04-17 14:03:51,724 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\lights.yaml
+2025-04-17 14:03:51,731 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\ball_devices.yaml
+2025-04-17 14:03:51,749 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\autofire_coils.yaml
+2025-04-17 14:03:51,759 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\flippers.yaml
+2025-04-17 14:03:51,777 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\shots.yaml

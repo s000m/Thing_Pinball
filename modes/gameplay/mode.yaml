@@ -1,5 +1,13 @@
 #config_version=6
 
+mode:
+  start_events: ball_starting
+  priority: 100
+  use_default_config: false
+
+config:
+  - config/shots.yaml #Qualification shots for modes hosted here
+
 event_player:
   s_mode_opto: try_enter_mode_vuk
 
@@ -15,4 +23,5 @@ event_rules:
       events: start_blood_test
     - condition: "device.variables['discovery_qualified'] == 1"
       events: start_discovery
-    
+    - condition: "device.variables['dog_hunt_qualified'] == 1"
+      events: start_dog_hunt

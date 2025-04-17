@@ -1,0 +1,15 @@
+2025-04-17 14:14:14,809 : INFO : root : Loading config.
+2025-04-17 14:14:14,811 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-17 14:14:14,811 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\config.yaml
+2025-04-17 14:14:14,811 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-04-17 14:14:14,823 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\mpfconfig.yaml
+2025-04-17 14:14:14,823 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\config.yaml.
+2025-04-17 14:14:14,845 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\config.yaml
+2025-04-17 14:14:14,845 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\service_mode.yaml
+2025-04-17 14:14:14,856 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\switches.yaml
+2025-04-17 14:14:14,862 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\coils.yaml
+2025-04-17 14:14:14,862 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\lights.yaml
+2025-04-17 14:14:14,862 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\ball_devices.yaml
+2025-04-17 14:14:14,862 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\autofire_coils.yaml
+2025-04-17 14:14:14,868 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\flippers.yaml
+2025-04-17 14:14:14,871 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\config\variable_player.yaml

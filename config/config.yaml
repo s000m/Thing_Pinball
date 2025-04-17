@@ -43,8 +43,6 @@ config:
   - ball_devices.yaml #All Ball devices
   - autofire_coils.yaml #All Auto-Fire Coils
   - flippers.yaml #Flipper config
-  - shots.yaml #Global shots for qualification here
-  - events.yaml #Global events for qualifying modes here
   - variable_player.yaml #Mode logic here
   
 # Add ball hold for the mode vuk
@@ -158,11 +156,8 @@ counters:
 event_player:
   # Basic switch events - changed pulse_drop_target event
   s_start_button_active: game_start
-  s_3bank_tgt_d_active: check_dog_bank_complete
-  s_3bank_tgt_o_active: check_dog_bank_complete
-  s_3bank_tgt_g_active: check_dog_bank_complete
-  s_mode_opto_active: check_mode_opto
-  spinner_complete: check_spinner_complete
+  #s_mode_opto_active: check_mode_opto
+  #spinner_complete: check_spinner_complete
   ball_starting: bd_trough_eject
   diverter_pattern_complete: activate_diverter
   activate_diverter: 
@@ -180,9 +175,9 @@ event_player:
     - show_ball_lock_full_slide
   
   # Conditional events with quotes
-  "s_mode_opto_active{current_player.game_mode_active == False}": check_available_modes
-  "check_dog_bank_complete{device.switches.s_3bank_tgt_d.state and device.switches.s_3bank_tgt_o.state and device.switches.s_3bank_tgt_g.state}": dog_bank_targets_complete
-  "spinner_complete{current_player.game_mode_active == False}": enable_dog_hunt_mode
+  #"s_mode_opto_active{current_player.game_mode_active == False}": check_available_modes
+  #"check_dog_bank_complete{device.switches.s_3bank_tgt_d.state and device.switches.s_3bank_tgt_o.state and device.switches.s_3bank_tgt_g.state}": dog_bank_targets_complete
+  #"spinner_complete{current_player.game_mode_active == False}": enable_dog_hunt_mode
   "s_right_ramp_entry_1_active{current_player.ball_lock_active == True}":
     - request_ball_lock
     
@@ -364,7 +359,7 @@ modes:
   - tilt
   - high_score
   - match
-  - mode_switcher  # Add the new mode_switcher mode
+  #- mode_switcher  # Add the new mode_switcher mode
   - dog_hunt
   - discovery
   - infected
@@ -373,6 +368,7 @@ modes:
   - wizard
   - multiball
   - ball_lock
+  - gameplay
 
 
 # Logging configuration for ball lock events

@@ -3,6 +3,16 @@
 
 shots:
 
+  dog_hunt_qualify:
+    switch_sequence:
+      - s_3bank_tgt_d_active
+      - s_3bank_tgt_o_active
+      - s_3bank_tgt_g_active
+    sequence_type: in_order
+    profile: default    
+    show_tokens: {}
+    events_when_complete: dog_hunt_qualified  
+  
   spider_head_qualify:
     switch_sequence:
       - s_pop_bumper_1
