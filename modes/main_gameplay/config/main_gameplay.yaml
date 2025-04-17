@@ -4,69 +4,79 @@ mode:
   start_events: ball_starting
   priority: 100
 
-
+# Handle events that happen when shots are completed or when modes should start
 event_player:
 
-   
-   # Enable the ball hold when any mode is started
-  start_blood_test:
-    - enable_ball_hold_mode_vuk_hold
-  start_spider_head:
-    - enable_ball_hold_mode_vuk_hold
-  start_infected:
-    - enable_ball_hold_mode_vuk_hold
-  start_discovery:
-    - enable_ball_hold_mode_vuk_hold
-  start_dog_hunt:
-    - enable_ball_hold_mode_vuk_hold
-
-  # Enable bd_mode ball device BEFORE ball enters it
+# Enable the ball hold when any mode is started
   dog_hunt_qualify_lit_hit:
     - enable_bd_mode
     - balldevice_bd_mode_expected_ball
+    - enable_ball_hold_mode_vuk_hold
 
   discovery_qualify_lit_hit:
     - enable_bd_mode
     - balldevice_bd_mode_expected_ball
+    - enable_ball_hold_mode_vuk_hold
 
   infected_qualify_lit_hit:
     - enable_bd_mode
     - balldevice_bd_mode_expected_ball
+    - enable_ball_hold_mode_vuk_hold
 
   blood_test_qualify_lit_hit:
     - enable_bd_mode
     - balldevice_bd_mode_expected_ball
+    - enable_ball_hold_mode_vuk_hold
 
   spider_head_qualify_lit_hit:
     - enable_bd_mode
-    - balldevice_bd_mode_expected_ball  
+    - balldevice_bd_mode_expected_ball
+    - enable_ball_hold_mode_vuk_hold
 
-  # Existing events to start modes when qualified
-  "s_mode_opto_active{player.blood_test_complete == 0}": start_blood_test
-  "s_mode_opto_active{player.spider_head_complete == 0}": start_spider_head
-  "s_mode_opto_active{player.infected_complete == 0}": start_infected
-  "s_mode_opto_active{player.discovery_complete == 0}": start_discovery
-  "s_mode_opto_active{player.dog_hunt_complete == 0}": start_dog_hunt
+  # Only start modes that are qualified!
+  "balldevice_bd_mode_ball_entered{player.dog_hunt_qualified > 0 and player.dog_hunt_complete == 0}":
+    - log.info("Ball entered mode VUK with dog hunt qualified")
+    - start_dog_hunt
 
+
+  #"s_mode_opto_active{player.spider_head_qualified > 0 and player.spider_head_complete == 0}": start_spider_head
+  #"s_mode_opto_active{player.infected_qualified > 0 and player.infected_complete == 0}": start_infected
+  #"s_mode_opto_active{player.discovery_qualified > 0 and player.discovery_complete == 0}": start_discovery
+  #"s_mode_opto_active{player.blood_test_qualified > 0 and player.blood_test_complete == 0}": start_blood_test
+
+# Update player variables when shots are completed
 variable_player:
-  spider_head_qualified:
-    spider_head_qualified: 1
+  dog_hunt_qualify_lit_hit:
+    dog_hunt_qualified:
+      int: 1
+      action: set  # Use 'set' instead of incrementing
 
-  dog_hunt_qualified:
-    dog_hunt_qualified: 1
+  spider_head_qualify_lit_hit:
+    spider_head_qualified:
+      int: 1
+      action: set
 
-  discovery_qualified:
-    discovery_qualified: 1
+  discovery_qualify_lit_hit:
+    discovery_qualified:
+      int: 1
+      action: set
 
-  infected_qualified:
-    infected_qualified: 1
+  infected_qualify_lit_hit:
+    infected_qualified:
+      int: 1
+      action: set
 
-  blood_test_qualified:
-    blood_test_qualified: 1
+  blood_test_qualify_lit_hit:
+    blood_test_qualified:
+      int: 1
+      action: set
 
-  wizard_qualified:
-    wizard_qualified: 1
+  wizard_qualify_lit_hit:
+    wizard_qualified:
+      int: 1
+      action: set
 
+# Define the shots needed to qualify each mode
 shots:
   dog_hunt_qualify:
     switches:
@@ -77,7 +87,7 @@ shots:
       in_order: true
     profile: default
     show_tokens: {}
-    events_when_hit: dog_hunt_qualified
+    events_when_hit: dog_hunt_qualify_lit_hit
 
   spider_head_qualify:
     switches:
@@ -89,7 +99,7 @@ shots:
       hit_count: 30
     profile: default
     show_tokens: {}
-    events_when_hit: spider_head_qualified
+    events_when_hit: spider_head_qualify_lit_hit
 
   infected_qualify:
     switches:
@@ -99,7 +109,7 @@ shots:
       hit_count: 3
     profile: default
     show_tokens: {}
-    events_when_hit: infected_qualified
+    events_when_hit: infected_qualify_lit_hit
 
   blood_test_qualify:
     switches:
@@ -109,7 +119,7 @@ shots:
       hit_count: 3
     profile: default
     show_tokens: {}
-    events_when_hit: blood_test_qualified
+    events_when_hit: blood_test_qualify_lit_hit
 
   discovery_qualify:
     switches:
@@ -119,7 +129,7 @@ shots:
       hit_count: 50
     profile: default
     show_tokens: {}
-    events_when_hit: discovery_qualified
+    events_when_hit: discovery_qualify_lit_hit
 
   wizard_qualify:
     switches:
@@ -129,4 +139,4 @@ shots:
       hit_count: 3
     profile: default
     show_tokens: {}
-    events_when_hit: wizard_qualified
+    events_when_hit: wizard_qualify_lit_hit

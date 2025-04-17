@@ -538,3 +538,24 @@
 2025-04-17 22:10:01,485 : INFO : ball_hold.mode_vuk_hold : Ball device <ball_device.bd_mode> lost 1 balls, hold now has 0 balls held
 2025-04-17 22:10:01,485 : INFO : EventManager : Event: ======'balldevice_ball_missing'====== Args={'balls': 1, 'name': 'bd_mode'}
 2025-04-17 22:10:02,615 : INFO : EventManager : Event: ======'ball_save_ball_save_disabled'====== Args={}
+2025-04-17 22:23:08,315 : INFO : Machine : Shutting down...
+2025-04-17 22:23:08,315 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'mode_main_gameplay_will_stop'====== Args={}
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'mode_main_gameplay_stopping'====== Args={}
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-04-17 22:23:08,317 : INFO : Mode.base : Stopped.
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-04-17 22:23:08,317 : INFO : Mode.main_gameplay : Stopped.
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'mode_main_gameplay_stopped'====== Args={}
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'main_gameplay'}
+2025-04-17 22:23:08,317 : INFO : Mode.game : Stopped.
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2025-04-17 22:23:08,317 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2025-04-17 22:23:08,413 : INFO : root : MPF run loop ended.

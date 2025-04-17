@@ -356,7 +356,6 @@ modes:
   - tilt
   - high_score
   - match
-  #- mode_switcher  # Add the new mode_switcher mode
   - dog_hunt
   - discovery
   - infected
