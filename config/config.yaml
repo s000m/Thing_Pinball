@@ -43,6 +43,7 @@ config:
   - ball_devices.yaml #All Ball devices
   - autofire_coils.yaml #All Auto-Fire Coils
   - flippers.yaml #Flipper config
+  - shots.yaml #Global shots for qualification here
   
 # Add ball hold for the mode vuk
 ball_holds:

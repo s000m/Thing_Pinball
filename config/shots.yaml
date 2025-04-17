@@ -1,0 +1,49 @@
+#config_version=6
+
+
+shots:
+
+  pop_bumper_hits:
+    switch_sequence:
+      - s_pop_bumper_1
+      - s_pop_bumper_2
+      - s_pop_bumper_3
+    sequence_type: any
+    repeat:
+      count: 30
+    show_tokens: {}
+    events_when_complete: pop_bumpers_complete
+
+  left_ramp:
+    switch_sequence:
+      - s_left_ramp_enter
+    sequence_type: any
+    repeat:
+      count: 3
+    events_when_complete: left_ramp_complete
+
+  Newton_ball:
+    switch_sequence:
+      - s_newton_opto_made
+    sequence_type: any
+    repeat:
+      count: 3
+    events_when_complete: newton_ball_complete
+
+  Spinner:
+    switch_sequence:
+      - s_spinner
+    sequence_type: any
+    repeat:
+      count: 50
+    events_when_complete: spinner_complete
+
+  Right Orbit:
+    switch_sequence:
+      - s_right_orbit_1
+    sequence_type: any
+    repeat:
+      count: 3
+    events_when_complete: right_orbit_complete
+
+
