@@ -44,6 +44,8 @@ config:
   - autofire_coils.yaml #All Auto-Fire Coils
   - flippers.yaml #Flipper config
   - shots.yaml #Global shots for qualification here
+  - events.yaml #Global events for qualifying modes here
+  - variable_player.yaml #Mode logic here
   
 # Add ball hold for the mode vuk
 ball_holds:
@@ -183,12 +185,7 @@ event_player:
   "spinner_complete{current_player.game_mode_active == False}": enable_dog_hunt_mode
   "s_right_ramp_entry_1_active{current_player.ball_lock_active == True}":
     - request_ball_lock
-  
-  # REMOVED - This conditional event is now handled by the Python mode
-  # "s_mode_opto_active{device.machine_vars.qualified_mode == 'dog_hunt'}":
-  #   - mode_dog_hunt_start
-  #   - set_qualified_mode_none
-  
+    
   # Game state events
   game_started: setup_game_variables
   ball_started: reset_player_shot_counters, pulse_upramp_on_start

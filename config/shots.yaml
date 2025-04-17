@@ -3,47 +3,48 @@
 
 shots:
 
-  pop_bumper_hits:
+  spider_head_qualify:
     switch_sequence:
       - s_pop_bumper_1
       - s_pop_bumper_2
       - s_pop_bumper_3
     sequence_type: any
+    profile: default
     repeat:
       count: 30
     show_tokens: {}
-    events_when_complete: pop_bumpers_complete
+    events_when_complete: spider_head_qualified
 
-  left_ramp:
+  infected_qualify:
     switch_sequence:
       - s_left_ramp_enter
     sequence_type: any
     repeat:
       count: 3
-    events_when_complete: left_ramp_complete
+    events_when_complete: infected_qualified
 
-  Newton_ball:
+  blood_test_qualify:
     switch_sequence:
       - s_newton_opto_made
     sequence_type: any
     repeat:
       count: 3
-    events_when_complete: newton_ball_complete
+    events_when_complete: blood_test_qualified
 
-  Spinner:
+  discovery_qualify:
     switch_sequence:
       - s_spinner
     sequence_type: any
     repeat:
       count: 50
-    events_when_complete: spinner_complete
+    events_when_complete: discovery_qualified
 
-  Right Orbit:
+  wizard_qualify:
     switch_sequence:
       - s_right_orbit_1
     sequence_type: any
     repeat:
       count: 3
-    events_when_complete: right_orbit_complete
+    events_when_complete: wizard_qualified
 
 
