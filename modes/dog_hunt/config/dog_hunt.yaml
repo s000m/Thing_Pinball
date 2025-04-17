@@ -1,8 +1,8 @@
 #config_version=6
 
 mode:
-  start_events: mode_dog_hunt_start
-  stop_events: mode_dog_hunt_complete
+  start_events: start_dog_hunt
+  stop_events: dog_hunt_complete
   priority: 300
   code: dog_hunt.DogHunt
   

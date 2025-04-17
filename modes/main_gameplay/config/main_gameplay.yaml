@@ -7,7 +7,7 @@ mode:
 
 event_player:
 
-  
+   
    # Enable the ball hold when any mode is started
   start_blood_test:
     - enable_ball_hold_mode_vuk_hold
@@ -21,18 +21,32 @@ event_player:
     - enable_ball_hold_mode_vuk_hold
 
   # Enable bd_mode ball device BEFORE ball enters it
-  dog_hunt_qualified: enable_bd_mode
-  discovery_qualified: enable_bd_mode
-  infected_qualified: enable_bd_mode
-  blood_test_qualified: enable_bd_mode
-  spider_head_qualified: enable_bd_mode
+  dog_hunt_qualify_lit_hit:
+    - enable_bd_mode
+    - balldevice_bd_mode_expected_ball
+
+  discovery_qualify_lit_hit:
+    - enable_bd_mode
+    - balldevice_bd_mode_expected_ball
+
+  infected_qualify_lit_hit:
+    - enable_bd_mode
+    - balldevice_bd_mode_expected_ball
+
+  blood_test_qualify_lit_hit:
+    - enable_bd_mode
+    - balldevice_bd_mode_expected_ball
+
+  spider_head_qualify_lit_hit:
+    - enable_bd_mode
+    - balldevice_bd_mode_expected_ball  
 
   # Existing events to start modes when qualified
-  "s_mode_opto{device.variables['blood_test_qualified'] == 1}": start_blood_test
-  "s_mode_opto{device.variables['spider_head_qualified'] == 1}": start_spider_head
-  "s_mode_opto{device.variables['infected_qualified'] == 1}": start_infected
-  "s_mode_opto{device.variables['discovery_qualified'] == 1}": start_discovery
-  "s_mode_opto{device.variables['dog_hunt_qualified'] == 1}": start_dog_hunt
+  "s_mode_opto_active{player.blood_test_complete == 0}": start_blood_test
+  "s_mode_opto_active{player.spider_head_complete == 0}": start_spider_head
+  "s_mode_opto_active{player.infected_complete == 0}": start_infected
+  "s_mode_opto_active{player.discovery_complete == 0}": start_discovery
+  "s_mode_opto_active{player.dog_hunt_complete == 0}": start_dog_hunt
 
 variable_player:
   spider_head_qualified:

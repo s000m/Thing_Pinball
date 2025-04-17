@@ -36,10 +36,9 @@ ball_devices:
   bd_mode:
     ball_switches: s_mode_opto
     eject_coil: c_mode_vuk
-    eject_timeouts: 3s
-    confirm_eject_type: target
-    debug: True
     eject_targets: playfield
+    entrance_switch: s_mode_opto
     entrance_count_delay: 100ms
-    expected_ball_events:
-      - enable_bd_mode
+    confirm_eject_type: target
+    eject_timeouts: 3s
+    debug: True
