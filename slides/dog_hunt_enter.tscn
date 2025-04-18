@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=3 uid="uid://b4dj6eypcgl00"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_i4xw2"]
+[ext_resource type="VideoStream" path="res://videos/dog_hunt_enter.ogv" id="2_p4sii"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="3_g7i35"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="4_s7w66"]
+
+[node name="DogHunt" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+script = ExtResource("1_i4xw2")
+
+[node name="dog_hunt" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+stream = ExtResource("2_p4sii")
+autoplay = true
+loop = true
+script = ExtResource("3_g7i35")
+
+[node name="dog_hunt_dog_hunt_timer_tick" type="Label" parent="dog_hunt"]
+layout_mode = 0
+offset_left = 792.0
+offset_top = 130.0
+offset_right = 971.0
+offset_bottom = 213.0
+theme_override_font_sizes/font_size = 60
+text = "TIMER"
+script = ExtResource("4_s7w66")
+variable_name = "dog_hunt_dog_hunt_timer_tick"
+update_event = "dog_hunt_dog_hunt_timer_tick_remaining"

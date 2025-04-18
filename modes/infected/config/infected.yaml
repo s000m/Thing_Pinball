@@ -1,8 +1,8 @@
 #config_version=6
 
 mode:
-  start_events: mode_infected_start
-  stop_events: mode_infected_complete
+  start_events: start_infected
+  stop_events: infected_complete
   priority: 300
   code: infected.Infected
   
@@ -32,6 +32,10 @@ variable_player:
     left_ramp_hits: 1
     score: 5000
   
+  newton_hit:
+    newton_hits: 1
+    score: 5000      
+
   infected_complete:
     score: 150000
     
@@ -43,7 +47,15 @@ counters:
     count_complete_value: 3
     events_when_complete: left_ramp_complete
     persist_state: False
-    
+
+  newton_counter:
+    count_events: s_newton_opto_made
+    events_when_hit: newton_hit
+    starting_count: 0
+    count_complete_value: 3
+    events_when_complete: newton_complete
+    persist_state: False
+
 timers:
   infected_timer:
     start_value: 60
@@ -54,11 +66,10 @@ timers:
         action: start
       - event: infected_complete
         action: stop
-    events_when_complete: infected_timer_expired
+    events_when_complete: infected_complete
     
 event_player:
-  left_ramp_complete: infected_objective_complete
-  infected_timer_expired: infected_failed
-  infected_objective_complete: mode_complete_light_infected
-  infected_failed: mode_infected_failed
-  mode_infected_complete: update_player_var
+  left_ramp_complete: infected_objective1_complete
+  newton_complete: infected_objective2_complete
+  infected_objective_complete: infected_objective1_complete, infected_objective2_complete
+  infected_timer_expired: infected_complete

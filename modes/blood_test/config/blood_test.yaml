@@ -1,11 +1,11 @@
 #config_version=6
 
 mode:
-  start_events: mode_blood_test_start
-  stop_events: mode_blood_test_complete
+  start_events: start_blood_test
+  stop_events: blood_test_complete
   priority: 300
   code: blood_test.BloodTest
-  
+
 slide_player:
   mode_blood_test_started:
     blood_test_started:
@@ -16,14 +16,24 @@ slide_player:
           y: center-100
           color: red
           expire: 2s
-          
+
   newton_shot_made:
     blood_test_progress:
       widgets:
         - type: text
-          text: "NEWTON SHOTS: (player|newton_shots) / 3"
+          text: "NEWTON HITS: (player|newton_shots) / 3"
           font_size: 30
           y: center
+          color: white
+          expire: 1s
+
+  blood_target_hit:
+    blood_test_progress:
+      widgets:
+        - type: text
+          text: "BLOOD TARGET HITS: (player|blood_target_hits) / 4"
+          font_size: 30
+          y: center+50
           color: white
           expire: 1s
 
@@ -31,10 +41,14 @@ variable_player:
   s_newton_opto_made_active:
     newton_shots: 1
     score: 15000
-  
+
+  s_blood_target_active:
+    blood_target_hits: 1
+    score: 15000
+
   blood_test_complete:
     score: 200000
-    
+
 counters:
   newton_shot_counter:
     count_events: s_newton_opto_made_active
@@ -43,10 +57,18 @@ counters:
     count_complete_value: 3
     events_when_complete: newton_shots_complete
     persist_state: False
-    
+
+  blood_test_blood_target_counter:
+    count_events: s_blood_target_active
+    events_when_hit: blood_target_hit
+    starting_count: 0
+    count_complete_value: 4
+    events_when_complete: blood_target_hits_complete
+    persist_state: False
+
 timers:
   blood_test_timer:
-    start_value: 60
+    start_value: 180
     end_value: 0
     direction: down
     control_events:
@@ -54,14 +76,10 @@ timers:
         action: start
       - event: blood_test_complete
         action: stop
-    events_when_complete: blood_test_timer_expired
-    
+    events_when_complete: blood_test_complete
+
 event_player:
-  newton_shots_complete: blood_test_objective_complete
-  blood_test_timer_expired: blood_test_failed
-  blood_test_objective_complete: mode_complete_light_blood_test
-  blood_test_phase_2_complete: blood_test_complete
-  mode_blood_test_complete: update_player_var
-  
-  # Conditional event with quotes
-  "left_ramp_hit{current_player.current_game_mode=='blood_test' and current_player.phase1_complete==true}": blood_test_phase_2_advance
+  newton_shots_complete: phase1_blood_test_complete
+  blood_target_hits_complete: phase2_blood_test_complete
+  phase2_blood_test_ready_for_ramp: show_phase2_ready_slide
+  blood_test_timer_expired: blood_test_complete

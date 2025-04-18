@@ -1,0 +1,169 @@
+2025-04-18 10:21:06,830 : INFO : root : Loading config.
+2025-04-18 10:21:06,840 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-18 10:21:06,840 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\1ab83842b7c8ed7e1902272067ddcd2b.mpf_cache
+2025-04-18 10:21:06,940 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\163fd46608d3c9469758c6512b5a030d.mpf_cache
+2025-04-18 10:21:06,940 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\93e42568b1004e720dbdafbb285adaaa.mpf_cache
+2025-04-18 10:21:06,940 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\5ffb3999d6de3e1d452090655c82bf2a.mpf_cache
+2025-04-18 10:21:06,950 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\163fd46608d3c9469758c6512b5a030d.mpf_cache
+2025-04-18 10:21:06,950 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\93e42568b1004e720dbdafbb285adaaa.mpf_cache
+2025-04-18 10:21:06,950 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8c668df6a84f4edcfda2189b877084c6.mpf_cache
+2025-04-18 10:21:06,950 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\81d0f34cbd4c6d61cd4dad95e5100b6a.mpf_cache
+2025-04-18 10:21:06,950 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\a714899e94406dd1f47e6e9bddbe0fef.mpf_cache
+2025-04-18 10:21:06,950 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\fda2b21e4ff4c8a0b48d4f712bf7675f.mpf_cache
+2025-04-18 10:21:06,950 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\modes\dog_hunt\config\dog_hunt.yaml
+2025-04-18 10:21:06,955 : INFO : ConfigProcessor : Loading config from file C:\Users\homebrew\Documents\GitHub\Thing_Pinball\modes\dog_hunt\config\dog_hunt.yaml.
+2025-04-18 10:21:06,957 : INFO : ConfigProcessor : Loading config: C:\Users\homebrew\Documents\GitHub\Thing_Pinball\modes\dog_hunt\config\dog_hunt.yaml
+2025-04-18 10:21:06,957 : INFO : ConfigProcessor : Config file cache created: C:\Users\homebrew\AppData\Local\Temp\49c1bb27bb76c6488cf72d0e1887aaaa.mpf_cache
+2025-04-18 10:21:06,957 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\eb740da6f3772dcfe6d89e142f4972f9.mpf_cache
+2025-04-18 10:21:06,957 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\8e53cff45209557b74353625b1fb9c7d.mpf_cache
+2025-04-18 10:21:06,957 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\75ead186cfb0eee4579e59d5d273b950.mpf_cache
+2025-04-18 10:21:06,957 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\46ee3106793b7c66df6b24732de735de.mpf_cache
+2025-04-18 10:21:06,957 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\a6f0737b5bca2a955dd9d538ee17b581.mpf_cache
+2025-04-18 10:21:06,957 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\72ccc58689b118af298151666e9c5198.mpf_cache
+2025-04-18 10:21:06,957 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\082c9c49689a7facf0c58e67d77b7f58.mpf_cache
+2025-04-18 10:21:06,957 : INFO : ConfigProcessor : Loading config from cache: C:\Users\homebrew\AppData\Local\Temp\2434cc9ce8e8591814d01ea8cfde3595.mpf_cache
+2025-04-18 10:21:06,957 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-04-18 10:21:06,957 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-04-18-10-21-06-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\homebrew\\Documents\\GitHub\\Thing_Pinball\\logs\\2025-04-18-10-21-06-mpf-mpf.log'}
+2025-04-18 10:21:06,957 : INFO : Machine : MPF path: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-04-18 10:21:06,957 : INFO : Machine : Machine path: C:\Users\homebrew\Documents\GitHub\Thing_Pinball
+2025-04-18 10:21:06,957 : INFO : Machine : Platform: win32
+2025-04-18 10:21:06,957 : INFO : Machine : Python executable location: C:\Users\homebrew\AppData\Local\Programs\Python\Python312\python.exe
+2025-04-18 10:21:06,957 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2025-04-18 10:21:06,957 : INFO : Machine : Initializing MPF...
+2025-04-18 10:21:07,075 : INFO : FAST [NET] : Trying to connect to com4 at 921600bps
+2025-04-18 10:21:07,085 : INFO : FAST [NET] : Connected to com4 at 921600bps
+2025-04-18 10:21:07,100 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.21
+2025-04-18 10:21:07,132 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2025-04-18 10:21:07,148 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-04-18 10:21:07,164 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-04-18 10:21:07,180 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-04-18 10:21:07,180 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,211 : INFO : EventManager : Event: ======'machine_var_game_mode_ball_lock_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,211 : INFO : EventManager : Event: ======'machine_var_game_mode_blood_test_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,211 : INFO : EventManager : Event: ======'machine_var_game_mode_discovery_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,211 : INFO : EventManager : Event: ======'machine_var_game_mode_dog_hunt_complete'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,211 : INFO : EventManager : Event: ======'machine_var_game_mode_infected_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,211 : INFO : EventManager : Event: ======'machine_var_game_mode_multiball_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,211 : INFO : EventManager : Event: ======'machine_var_game_mode_spider_head_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,211 : INFO : EventManager : Event: ======'machine_var_game_mode_wizard_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,211 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,211 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,211 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,211 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,369 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,369 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,369 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,369 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,369 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,369 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\homebrew\\Documents\\GitHub\\Thing_Pinball\\logs\\2025-04-18-10-21-06-mpf-mpf.log', 'prev_value': None, 'change': True}
+2025-04-18 10:21:07,369 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-04-18 10:21:07,457 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_diverter:pwm_on_ms" is not a valid setting name.
+2025-04-18 10:21:07,457 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_diverter:pwm_off_ms" is not a valid setting name.
+2025-04-18 10:21:07,457 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_up_post:pwm_on_ms" is not a valid setting name.
+2025-04-18 10:21:07,457 : WARNING : ConfigValidator : Unrecognized config setting. "fast_coils:c_up_post:pwm_off_ms" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "ball_holds:mode_vuk_hold:release_all_on_stop" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "timed_switches:mode_vuk_delayed_eject:state_when_released" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:multiball_jackpot_timer:events_when_complete" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:multiball:timers:right_ramp_validity_timer:events_when_complete" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:discovery:timers:discovery_timer:events_when_complete" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:spider_head:timers:spider_head_timer:events_when_complete" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:wizard:timers:wizard_timer:events_when_complete" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:blood_test:timers:blood_test_timer:events_when_complete" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:ball_lock:multiball_locks:ball_lock:full_event" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:ball_lock:multiball_locks:ball_lock:replace_balls_in_play" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:main_gameplay:shots:dog_hunt_qualify:sequence" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:main_gameplay:shots:dog_hunt_qualify:events_when_hit" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:main_gameplay:shots:spider_head_qualify:sequence" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:main_gameplay:shots:spider_head_qualify:events_when_hit" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:main_gameplay:shots:infected_qualify:sequence" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:main_gameplay:shots:infected_qualify:events_when_hit" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:main_gameplay:shots:blood_test_qualify:sequence" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:main_gameplay:shots:blood_test_qualify:events_when_hit" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:main_gameplay:shots:discovery_qualify:sequence" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:main_gameplay:shots:discovery_qualify:events_when_hit" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:main_gameplay:shots:wizard_qualify:sequence" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:main_gameplay:shots:wizard_qualify:events_when_hit" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:infected:timers:infected_timer:events_when_complete" is not a valid setting name.
+2025-04-18 10:21:07,465 : WARNING : ConfigValidator : Unrecognized config setting. "mode:dog_hunt:timers:dog_hunt_timer:events_when_complete" is not a valid setting name.
+2025-04-18 10:21:07,480 : INFO : EventManager : Event: ======'drop_target_bank_vuk_bank_up'====== Args={}
+2025-04-18 10:21:07,480 : INFO : EventManager : Event: ======'logicblock_spinner_value_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-18 10:21:07,480 : INFO : EventManager : Event: ======'logicblock_newton_hit_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-18 10:21:07,480 : INFO : EventManager : Event: ======'logicblock_diverter_pattern_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-18 10:21:07,480 : INFO : EventManager : Event: ======'logicblock_blood_target_counter_updated'====== Args={'value': 0, 'enabled': False}
+2025-04-18 10:21:09,561 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2025-04-18 10:21:09,561 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2025-04-18 10:21:09,561 : INFO : SwitchController : <<<<<<< 's_trough_ball' active >>>>>>>
+2025-04-18 10:21:09,561 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-04-18 10:21:09,564 : WARNING : ConfigValidator : Unrecognized config setting. "coil_player:enable_ms" is not a valid setting name.
+2025-04-18 10:21:09,564 : WARNING : ConfigValidator : Unrecognized config setting. "coil_player:enable_ms" is not a valid setting name.
+2025-04-18 10:21:09,570 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-04-18 10:21:09,570 : INFO : SwitchController : Found active switch: (37, [FAST Platform Interface]) <switch.s_trough_6>
+2025-04-18 10:21:09,570 : INFO : SwitchController : Found active switch: (38, [FAST Platform Interface]) <switch.s_trough_7>
+2025-04-18 10:21:09,570 : INFO : SwitchController : Found active switch: (51, [FAST Platform Interface]) <switch.s_trough_ball>
+2025-04-18 10:21:09,570 : INFO : SwitchController : Found active switch: (10, [FAST Platform Interface]) <switch.s_start_button>
+2025-04-18 10:21:09,576 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...ype: 'dict'")>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...ype: 'dict'")>)>
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\event_player.py", line 75, in validate_config_entry
+    config = super().validate_config_entry(settings, name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\flat_config_player.py", line 17, in validate_config_entry
+    config = self._parse_config(settings, name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_player.py", line 138, in _parse_config
+    config = self.get_list_config(config)   # pylint: disable-msg=assignment-from-no-return
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\event_player.py", line 114, in get_list_config
+    result[event] = {}
+    ~~~~~~^^^^^^^
+TypeError: unhashable type: 'dict'
+2025-04-18 10:21:09,576 : INFO : Machine : Starting the main run loop with active modes: []
+2025-04-18 10:21:09,576 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-04-18 10:21:09,576 : INFO : Machine : Shutting down...
+2025-04-18 10:21:09,576 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-04-18 10:21:10,679 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\machine.py", line 808, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\event_player.py", line 75, in validate_config_entry
+    config = super().validate_config_entry(settings, name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\flat_config_player.py", line 17, in validate_config_entry
+    config = self._parse_config(settings, name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\core\config_player.py", line 138, in _parse_config
+    config = self.get_list_config(config)   # pylint: disable-msg=assignment-from-no-return
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homebrew\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\config_players\event_player.py", line 114, in get_list_config
+    result[event] = {}
+    ~~~~~~^^^^^^^
+TypeError: unhashable type: 'dict'
+2025-04-18 10:21:10,683 : INFO : root : MPF run loop ended.

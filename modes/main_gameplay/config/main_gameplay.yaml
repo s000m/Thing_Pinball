@@ -6,14 +6,136 @@ mode:
 
 # Handle events that happen when shots are completed or when modes should start
 event_player:
+  # When a ball is held in the VUK, check for qualified modes
+  ball_hold_mode_vuk_hold_held_ball:
+    - log.info("Ball held in VUK. Starting mode check")
+    - check_start_modes
 
-# Enable the ball hold when any mode is started
+  # Check which mode to start, with priority order
+  check_start_modes:
+    - check_start_dog_hunt
+    - check_start_spider_head
+    - check_start_infected
+    - check_start_discovery
+    - check_start_blood_test
+    - check_start_wizard
+
+  # Individual checks for each mode with priority order
+  # Dog Hunt has highest priority
+  "check_start_dog_hunt{current_player.dog_hunt_qualified == 1 and current_player.dog_hunt_complete == 0}":
+    - log.info("Starting Dog Hunt mode")
+    - start_dog_hunt
+    - reset_non_completed_modes
+
+  # Spider Head has second priority
+  "check_start_spider_head{current_player.spider_head_qualified == 1 and current_player.spider_head_complete == 0 and current_player.dog_hunt_active == 0}":
+    - log.info("Starting Spider Head mode")
+    - start_spider_head
+    - reset_non_completed_modes
+
+  # Infected has third priority
+  "check_start_infected{current_player.infected_qualified == 1 and current_player.infected_complete == 0 and current_player.dog_hunt_active == 0 and current_player.spider_head_active == 0}":
+    - log.info("Starting Infected mode")
+    - start_infected
+    - reset_non_completed_modes
+
+  # Discovery has fourth priority
+  "check_start_discovery{current_player.discovery_qualified == 1 and current_player.discovery_complete == 0 and current_player.dog_hunt_active == 0 and current_player.spider_head_active == 0 and current_player.infected_active == 0}":
+    - log.info("Starting Discovery mode")
+    - start_discovery
+    - reset_non_completed_modes
+
+  # Blood Test has fifth priority
+  "check_start_blood_test{current_player.blood_test_qualified == 1 and current_player.blood_test_complete == 0 and current_player.dog_hunt_active == 0 and current_player.spider_head_active == 0 and current_player.infected_active == 0 and current_player.discovery_active == 0}":
+    - log.info("Starting Blood Test mode")
+    - start_blood_test
+    - reset_non_completed_modes
+
+  # Wizard has lowest priority
+  "check_start_wizard{current_player.wizard_qualified == 1 and current_player.wizard_complete == 0 and current_player.dog_hunt_active == 0 and current_player.spider_head_active == 0 and current_player.infected_active == 0 and current_player.discovery_active == 0 and current_player.blood_test_active == 0}":
+    - log.info("Starting Wizard mode")
+    - start_wizard
+    - reset_non_completed_modes
+
+  # Reset qualifications for non-completed modes
+  reset_non_completed_modes:
+    - check_reset_dog_hunt
+    - check_reset_spider_head
+    - check_reset_infected
+    - check_reset_discovery
+    - check_reset_blood_test
+    - check_reset_wizard
+
+  # Only reset if mode is not complete
+  "check_reset_dog_hunt{current_player.dog_hunt_complete == 0}":
+    - reset_dog_hunt_qualification
+
+  "check_reset_spider_head{current_player.spider_head_complete == 0}":
+    - reset_spider_head_qualification
+  
+  "check_reset_infected{current_player.infected_complete == 0}":
+    - reset_infected_qualification
+  
+  "check_reset_discovery{current_player.discovery_complete == 0}":
+    - reset_discovery_qualification
+  
+  "check_reset_blood_test{current_player.blood_test_complete == 0}":
+    - reset_blood_test_qualification
+  
+  "check_reset_wizard{current_player.wizard_complete == 0}":
+    - reset_wizard_qualification
+
+  # Track when modes start and end
+  mode_dog_hunt_started:
+    - set_dog_hunt_active
+    - enable_ball_hold_mode_vuk_hold
+  
+  mode_spider_head_started:
+    - set_spider_head_active
+    - enable_ball_hold_mode_vuk_hold
+  
+  mode_infected_started:
+    - set_infected_active
+    - enable_ball_hold_mode_vuk_hold
+  
+  mode_discovery_started:
+    - set_discovery_active
+    - enable_ball_hold_mode_vuk_hold
+  
+  mode_blood_test_started:
+    - set_blood_test_active
+    - enable_ball_hold_mode_vuk_hold
+  
+  mode_wizard_started:
+    - set_wizard_active
+    - enable_ball_hold_mode_vuk_hold
+
+  # Reset active flags when modes end
+  mode_dog_hunt_stopped:
+    - reset_dog_hunt_active
+  
+  mode_spider_head_stopped:
+    - reset_spider_head_active
+  
+  mode_infected_stopped:
+    - reset_infected_active
+  
+  mode_discovery_stopped:
+    - reset_discovery_active
+  
+  mode_blood_test_stopped:
+    - reset_blood_test_active
+  
+  mode_wizard_stopped:
+    - reset_wizard_active
+
+  # Enable ball device mode for qualifications
   dog_hunt_qualify_lit_hit:
     - enable_bd_mode
     - balldevice_bd_mode_expected_ball
     - enable_ball_hold_mode_vuk_hold
 
-  discovery_qualify_lit_hit:
+  spider_head_qualify_lit_hit:
     - enable_bd_mode
     - balldevice_bd_mode_expected_ball
     - enable_ball_hold_mode_vuk_hold
@@ -28,28 +150,44 @@ event_player:
     - balldevice_bd_mode_expected_ball
     - enable_ball_hold_mode_vuk_hold
 
-  spider_head_qualify_lit_hit:
+  discovery_qualify_lit_hit:
     - enable_bd_mode
     - balldevice_bd_mode_expected_ball
     - enable_ball_hold_mode_vuk_hold
 
-  # Only start modes that are qualified!
-  "balldevice_bd_mode_ball_entered{player.dog_hunt_qualified > 0 and player.dog_hunt_complete == 0}":
-    - log.info("Ball entered mode VUK with dog hunt qualified")
-    - start_dog_hunt
+  wizard_qualify_lit_hit:
+    - enable_bd_mode
+    - balldevice_bd_mode_expected_ball
+    - enable_ball_hold_mode_vuk_hold
+    
+  # Added these reset events
+  reset_dog_hunt_qualification: reset_dog_hunt_qualified
+  reset_spider_head_qualification: reset_spider_head_qualified
+  reset_infected_qualification: reset_infected_qualified
+  reset_discovery_qualification: reset_discovery_qualified
+  reset_blood_test_qualification: reset_blood_test_qualified
+  reset_wizard_qualification: reset_wizard_qualified
+  
+  set_dog_hunt_active: set_dog_hunt_active_var
+  set_spider_head_active: set_spider_head_active_var
+  set_infected_active: set_infected_active_var
+  set_discovery_active: set_discovery_active_var
+  set_blood_test_active: set_blood_test_active_var
+  set_wizard_active: set_wizard_active_var
+  
+  reset_dog_hunt_active: reset_dog_hunt_active_var
+  reset_spider_head_active: reset_spider_head_active_var
+  reset_infected_active: reset_infected_active_var
+  reset_discovery_active: reset_discovery_active_var
+  reset_blood_test_active: reset_blood_test_active_var
+  reset_wizard_active: reset_wizard_active_var
 
-
-  #"s_mode_opto_active{player.spider_head_qualified > 0 and player.spider_head_complete == 0}": start_spider_head
-  #"s_mode_opto_active{player.infected_qualified > 0 and player.infected_complete == 0}": start_infected
-  #"s_mode_opto_active{player.discovery_qualified > 0 and player.discovery_complete == 0}": start_discovery
-  #"s_mode_opto_active{player.blood_test_qualified > 0 and player.blood_test_complete == 0}": start_blood_test
-
-# Update player variables when shots are completed
+# Update player variables when shots are completed and for active modes
 variable_player:
   dog_hunt_qualify_lit_hit:
     dog_hunt_qualified:
       int: 1
-      action: set  # Use 'set' instead of incrementing
+      action: set
 
   spider_head_qualify_lit_hit:
     spider_head_qualified:
@@ -74,6 +212,96 @@ variable_player:
   wizard_qualify_lit_hit:
     wizard_qualified:
       int: 1
+      action: set
+
+  reset_dog_hunt_qualified:
+    dog_hunt_qualified:
+      int: 0
+      action: set
+  
+  reset_spider_head_qualified:
+    spider_head_qualified:
+      int: 0
+      action: set
+  
+  reset_infected_qualified:
+    infected_qualified:
+      int: 0
+      action: set
+  
+  reset_discovery_qualified:
+    discovery_qualified:
+      int: 0
+      action: set
+  
+  reset_blood_test_qualified:
+    blood_test_qualified:
+      int: 0
+      action: set
+  
+  reset_wizard_qualified:
+    wizard_qualified:
+      int: 0
+      action: set
+  
+  set_dog_hunt_active_var:
+    dog_hunt_active:
+      int: 1
+      action: set
+  
+  set_spider_head_active_var:
+    spider_head_active:
+      int: 1
+      action: set
+  
+  set_infected_active_var:
+    infected_active:
+      int: 1
+      action: set
+  
+  set_discovery_active_var:
+    discovery_active:
+      int: 1
+      action: set
+  
+  set_blood_test_active_var:
+    blood_test_active:
+      int: 1
+      action: set
+  
+  set_wizard_active_var:
+    wizard_active:
+      int: 1
+      action: set
+  
+  reset_dog_hunt_active_var:
+    dog_hunt_active:
+      int: 0
+      action: set
+  
+  reset_spider_head_active_var:
+    spider_head_active:
+      int: 0
+      action: set
+  
+  reset_infected_active_var:
+    infected_active:
+      int: 0
+      action: set
+  
+  reset_discovery_active_var:
+    discovery_active:
+      int: 0
+      action: set
+  
+  reset_blood_test_active_var:
+    blood_test_active:
+      int: 0
+      action: set
+  
+  reset_wizard_active_var:
+    wizard_active:
+      int: 0
       action: set
 
 # Define the shots needed to qualify each mode

@@ -1,11 +1,11 @@
 #config_version=6
 
 mode:
-  start_events: mode_spider_head_start
-  stop_events: mode_spider_head_complete
+  start_events: spider_head_start
+  stop_events: spider_head_complete
   priority: 300
   code: spider_head.SpiderHead
-  
+
 slide_player:
   mode_spider_head_started:
     spider_head_started:
@@ -16,7 +16,7 @@ slide_player:
           y: center-100
           color: purple
           expire: 2s
-          
+
   spinner_hit_spider:
     spider_head_progress:
       widgets:
@@ -31,10 +31,10 @@ variable_player:
   s_spinner_active:
     spinner_hits: 1
     score: 2000
-  
+
   spider_head_complete:
     score: 250000
-    
+
 counters:
   spinner_counter_spider:
     count_events: s_spinner_active
@@ -43,7 +43,7 @@ counters:
     count_complete_value: 50
     events_when_complete: spinner_complete_spider
     persist_state: False
-    
+
 timers:
   spider_head_timer:
     start_value: 60
@@ -54,14 +54,9 @@ timers:
         action: start
       - event: spider_head_complete
         action: stop
-    events_when_complete: spider_head_timer_expired
-    
+    events_when_complete: spider_head_complete
+
 event_player:
   spinner_complete_spider: spider_head_objective_complete
-  spider_head_timer_expired: spider_head_failed
+  spider_head_timer_expired: spider_head_complete
   spider_head_objective_complete: mode_complete_light_spider_head
-  spider_head_phase_2_complete: spider_head_complete
-  mode_spider_head_complete: update_player_var
-  
-  # Conditional event with quotes
-  "left_ramp_hit{current_player.current_game_mode=='spider_head' and current_player.phase1_complete==true}": spider_head_phase_2_advance

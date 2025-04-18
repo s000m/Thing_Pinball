@@ -77,3 +77,43 @@ player_vars:
   right_ramp_valid:
     initial_value: 0
     value_type: int
+  
+  # Mode qualification tracking
+  dog_hunt_qualified:
+    initial_value: 0
+    value_type: int
+  spider_head_qualified:
+    initial_value: 0
+    value_type: int
+  infected_qualified:
+    initial_value: 0
+    value_type: int
+  discovery_qualified:
+    initial_value: 0
+    value_type: int
+  blood_test_qualified:
+    initial_value: 0
+    value_type: int
+  wizard_qualified:
+    initial_value: 0
+    value_type: int
+
+  # Mode active tracking
+  dog_hunt_active:
+    initial_value: 0
+    value_type: int
+  spider_head_active:
+    initial_value: 0
+    value_type: int
+  infected_active:
+    initial_value: 0
+    value_type: int
+  discovery_active:
+    initial_value: 0
+    value_type: int
+  blood_test_active:
+    initial_value: 0
+    value_type: int
+  wizard_active:
+    initial_value: 0
+    value_type: int

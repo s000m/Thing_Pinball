@@ -7,7 +7,7 @@ mode:
   code: dog_hunt.DogHunt
   
 slide_player:
-  mode_dog_hunt_started:  # CHANGED from mode_dog_hunt_start to mode_dog_hunt_started
+  mode_dog_hunt_started:
     base_slide:
       action: remove
     dog_hunt:
@@ -18,7 +18,7 @@ variable_player:
   
   dog_hunt_complete:
     score: 50000
-    
+
 counters:
   spinner_counter:
     count_events: s_spinner_active
@@ -27,21 +27,19 @@ counters:
     count_complete_value: 100
     events_when_complete: spinner_value_complete
     persist_state: False
-    
+
 timers:
   dog_hunt_timer:
     start_value: 60
     end_value: 0
     direction: down
     control_events:
-      - event: mode_dog_hunt_started  # This should also be changed to mode_dog_hunt_started
+      - event: mode_dog_hunt_started
         action: start
-      - event: mode_dog_hunt_complete
+      - event: dog_hunt_complete
         action: stop
-    events_when_complete: dog_hunt_timer_expired
-    
+    events_when_complete: dog_hunt_complete
+
 event_player:
-  spinner_value_complete: dog_hunt_objective_complete
-  dog_hunt_objective_complete: dog_hunt_mode_complete_light
-  dog_hunt_timer_expired: dog_hunt_failed
-  mode_dog_hunt_complete: update_player_var
+  spinner_value_complete: dog_hunt_complete
+  timer_dog_hunt_timer_complete: dog_hunt_complete
